@@ -1,0 +1,158 @@
+{
+  "id": "unit-1",
+  "unitNumber": 1,
+  "category": "Grammar",
+  "title": "Present time",
+  "description": "Learn how English present tenses are formed and used.",
+  "previousLessonId": null,
+  "nextLessonId": null,
+  "topics": [
+    {
+      "id": "present-simple",
+      "number": 1,
+      "title": "Present simple",
+      "status": "available",
+      "description": "Used for habits, permanent situations, and general truths.",
+      "formula": null,
+      "forms": {
+        "columns": ["I / you / we / they", "He / she / it"],
+        "rows": [
+          {
+            "label": "Statement",
+            "cells": ["I/You/We/They travel ...", "He/She/It travels ..."]
+          },
+          {
+            "label": "Negative",
+            "cells": ["I/You/We/They don't travel ...", "He/She/It doesn't travel ..."]
+          },
+          {
+            "label": "Question",
+            "cells": ["Do I/you/we/they travel ...?", "Does he/she/it travel ...?"]
+          }
+        ]
+      },
+      "uses": [
+        { "usage": "Current habits", "example": "Toby walks to work." },
+        { "usage": "Talking about how often things happen", "example": "Angela doesn't visit us very often." },
+        { "usage": "Permanent situations", "example": "Carlo works in a travel agent's." },
+        { "usage": "States", "example": "Do you have an up-to-date passport?" },
+        { "usage": "General truths and facts", "example": "Poland is in the European Union." }
+      ],
+      "notes": [
+        {
+          "type": "watch-out",
+          "content": "We can also use do or does in an affirmative present simple sentence to add emphasis.",
+          "examples": [
+            "“You don't like going by bus, do you?”",
+            "“Actually, I do like going by bus for short distances.”",
+            "The bus isn't quicker than the train, but it does stop right outside the factory."
+          ],
+          "highlightWords": ["do", "does"]
+        }
+      ]
+    },
+    {
+      "id": "present-continuous",
+      "number": 2,
+      "title": "Present continuous",
+      "status": "available",
+      "description": "Used for actions happening now and for temporary or changing situations.",
+      "formula": null,
+      "forms": {
+        "columns": ["Structure"],
+        "rows": [
+          {
+            "label": "Statement",
+            "cells": [["I am driving ...", "You, we, they are driving ...", "He, she, it is driving ..."]]
+          },
+          {
+            "label": "Negative",
+            "cells": [["I'm not driving ...", "You, we, they aren't driving ...", "He, she, it isn't driving ..."]]
+          },
+          {
+            "label": "Question",
+            "cells": [["Am I driving ...?", "Are you, we, they driving ...?", "Is he, she, it driving ...?"]]
+          }
+        ]
+      },
+      "uses": [
+        { "usage": "Actions happening now", "example": "Mike is driving to work at the moment." },
+        { "usage": "Temporary series of actions", "example": "Taxi drivers aren't stopping at the train station because of the roadworks." },
+        { "usage": "Temporary situations", "example": "Are they staying in a hotel near the Olympic stadium?" },
+        { "usage": "Changing and developing situations", "example": "Holidays abroad are becoming increasingly popular." },
+        {
+          "usage": "Annoying habits, usually with always",
+          "example": "Dad is always cleaning the car when I want to use it!",
+          "highlightWords": ["always"]
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "present-perfect-simple",
+      "number": 3,
+      "title": "Present perfect simple",
+      "status": "available",
+      "description": "Used for past actions or states that are connected to the present.",
+      "formula": "have/has + past participle",
+      "forms": {
+        "columns": ["I / you / we / they", "He / she / it"],
+        "rows": [
+          {
+            "label": "Statement",
+            "cells": ["I/You/We/They have flown ...", "He/She/It has flown ..."]
+          },
+          {
+            "label": "Negative",
+            "cells": ["I/You/We/They haven't flown ...", "He/She/It hasn't flown ..."]
+          },
+          {
+            "label": "Question",
+            "cells": ["Have I/you/we/they flown ...?", "Has he/she/it flown ...?"]
+          }
+        ]
+      },
+      "uses": [
+        {
+          "usage": "Situations and states that started in the past and are still true",
+          "example": "She's had her motorbike for over six years."
+        },
+        {
+          "usage": "A series of actions continuing up to now",
+          "example": "We've travelled by taxi, bus, plane and train – all in the last twenty-four hours!"
+        },
+        {
+          "usage": "Completed actions at an unspecified time in the past",
+          "example": "Have you ever flown in a helicopter?"
+        },
+        {
+          "usage": "Completed actions where the present result is important",
+          "example": "I've booked the coach tickets."
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "present-perfect-continuous",
+      "number": 4,
+      "title": "Present perfect continuous",
+      "status": "coming-soon",
+      "description": null,
+      "formula": null,
+      "forms": { "columns": [], "rows": [] },
+      "uses": [],
+      "notes": []
+    },
+    {
+      "id": "stative-verbs",
+      "number": 5,
+      "title": "Stative verbs",
+      "status": "coming-soon",
+      "description": null,
+      "formula": null,
+      "forms": { "columns": [], "rows": [] },
+      "uses": [],
+      "notes": []
+    }
+  ]
+}

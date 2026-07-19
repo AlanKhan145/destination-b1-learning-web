@@ -1,0 +1,42 @@
+{
+  "app": {
+    "name": "Học tiếng Anh",
+    "footer": "Luyện ngữ pháp tiếng Anh, từng bài một."
+  },
+  "lesson": {
+    "unit": "Bài",
+    "grammar": "Ngữ pháp",
+    "tableOfContents": "Mục lục",
+    "topicsInLesson": "Các chủ điểm trong bài",
+    "form": "Cấu trúc",
+    "uses": "Cách sử dụng",
+    "type": "Dạng",
+    "structure": "Cấu trúc",
+    "usage": "Cách sử dụng",
+    "example": "Ví dụ",
+    "formula": "Công thức",
+    "watchOut": "Lưu ý!",
+    "comingSoon": "Sắp cập nhật"
+  },
+  "navigation": {
+    "previousLesson": "Bài trước",
+    "nextLesson": "Bài tiếp theo",
+    "backToTop": "Quay lại đầu trang",
+    "readingProgress": "Tiến độ đọc bài",
+    "paginationLabel": "Điều hướng bài học"
+  },
+  "language": {
+    "label": "Ngôn ngữ",
+    "english": "Tiếng Anh",
+    "vietnamese": "Tiếng Việt"
+  },
+  "status": {
+    "available": "Đã có nội dung",
+    "comingSoon": "Sắp cập nhật"
+  },
+  "errors": {
+    "lessonNotFound": "Không tìm thấy bài học.",
+    "localeNotFound": "Không thể tải dữ liệu ngôn ngữ.",
+    "unexpectedError": "Đã xảy ra lỗi không mong muốn."
+  }
+}

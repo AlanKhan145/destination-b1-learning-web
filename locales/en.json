@@ -1,0 +1,42 @@
+{
+  "app": {
+    "name": "English Learning",
+    "footer": "Practice English grammar, one unit at a time."
+  },
+  "lesson": {
+    "unit": "Unit",
+    "grammar": "Grammar",
+    "tableOfContents": "Table of contents",
+    "topicsInLesson": "Topics in this lesson",
+    "form": "Form",
+    "uses": "Uses",
+    "type": "Type",
+    "structure": "Structure",
+    "usage": "Usage",
+    "example": "Example",
+    "formula": "Formula",
+    "watchOut": "Watch out!",
+    "comingSoon": "Coming soon"
+  },
+  "navigation": {
+    "previousLesson": "Previous lesson",
+    "nextLesson": "Next lesson",
+    "backToTop": "Back to top",
+    "readingProgress": "Reading progress",
+    "paginationLabel": "Lesson navigation"
+  },
+  "language": {
+    "label": "Language",
+    "english": "English",
+    "vietnamese": "Vietnamese"
+  },
+  "status": {
+    "available": "Available",
+    "comingSoon": "Coming soon"
+  },
+  "errors": {
+    "lessonNotFound": "Lesson not found.",
+    "localeNotFound": "Language file could not be loaded.",
+    "unexpectedError": "An unexpected error occurred."
+  }
+}
