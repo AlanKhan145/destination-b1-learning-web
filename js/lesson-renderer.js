@@ -347,7 +347,33 @@ function renderTopic(topic) {
   const notesEl = renderNotes(topic.notes);
   if (notesEl) section.appendChild(notesEl);
 
+  const practiceButton = renderPracticeTopicButton(topic);
+  if (practiceButton) section.appendChild(practiceButton);
+
   return section;
+}
+
+/**
+ * "Practice this topic" button (spec section 18). Only rendered when the topic
+ * opts in via topic.review.enabled — review-panel.js listens for clicks on
+ * [data-practice-topic] via event delegation, so no direct coupling is needed here.
+ */
+function renderPracticeTopicButton(topic) {
+  if (!topic.review?.enabled) return null;
+
+  const filter = topic.review.questionFilter || {};
+  const button = createElement("button", {
+    className: "practice-topic-button",
+    text: t("review.practiceTopic"),
+    attrs: {
+      type: "button",
+      "data-practice-topic": "true",
+      "data-unit-id": filter.unitId || "",
+      "data-topic-id": filter.topicIds?.[0] || topic.id
+    }
+  });
+
+  return button;
 }
 
 /**
@@ -423,5 +449,6 @@ export {
   renderUsesTable,
   renderNotes,
   renderComingSoonTopic,
-  renderLessonNavigation
+  renderLessonNavigation,
+  renderPracticeTopicButton
 };

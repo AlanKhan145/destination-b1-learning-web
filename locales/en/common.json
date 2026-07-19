@@ -3,21 +3,6 @@
     "name": "English Learning",
     "footer": "Practice English grammar, one unit at a time."
   },
-  "lesson": {
-    "unit": "Unit",
-    "grammar": "Grammar",
-    "tableOfContents": "Table of contents",
-    "topicsInLesson": "Topics in this lesson",
-    "form": "Form",
-    "uses": "Uses",
-    "type": "Type",
-    "structure": "Structure",
-    "usage": "Usage",
-    "example": "Example",
-    "formula": "Formula",
-    "watchOut": "Watch out!",
-    "comingSoon": "Coming soon"
-  },
   "navigation": {
     "previousLesson": "Previous lesson",
     "nextLesson": "Next lesson",

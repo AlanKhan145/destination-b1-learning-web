@@ -1,0 +1,39 @@
+{
+  "id": "unit-1-present-continuous-short-0003",
+  "type": "short-answer",
+  "unitId": "unit-1",
+  "topicId": "present-continuous",
+  "contentLocale": "en",
+  "difficulty": "easy",
+  "prompt": "I ___ (not / work) today; it's a holiday.",
+  "acceptedAnswers": [
+    "'m not working",
+    "am not working",
+    "I'm not working",
+    "I am not working"
+  ],
+  "answerValidation": {
+    "caseSensitive": false,
+    "trimWhitespace": true,
+    "collapseWhitespace": true,
+    "ignoreEndingPunctuation": true,
+    "matchMode": "normalized"
+  },
+  "explanation": "Negative present continuous with I uses am not + verb-ing.",
+  "tags": [
+    "negative",
+    "temporary-situation"
+  ],
+  "skills": [
+    "grammar",
+    "writing"
+  ],
+  "source": {
+    "type": "original",
+    "reference": null
+  },
+  "status": "published",
+  "version": 1,
+  "createdAt": "2026-07-19T00:00:00.000Z",
+  "updatedAt": "2026-07-19T00:00:00.000Z"
+}

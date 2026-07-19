@@ -1,0 +1,25 @@
+{
+  "id": "unit-1-present-continuous-tf-0002",
+  "type": "true-false",
+  "unitId": "unit-1",
+  "topicId": "present-continuous",
+  "contentLocale": "en",
+  "difficulty": "easy",
+  "prompt": "The present continuous is only ever used for actions happening at the moment of speaking.",
+  "correctAnswer": false,
+  "explanation": "It is also used for temporary situations and annoying habits, not only actions happening right now.",
+  "tags": [
+    "grammar-rule"
+  ],
+  "skills": [
+    "grammar"
+  ],
+  "source": {
+    "type": "original",
+    "reference": null
+  },
+  "status": "published",
+  "version": 1,
+  "createdAt": "2026-07-19T00:00:00.000Z",
+  "updatedAt": "2026-07-19T00:00:00.000Z"
+}

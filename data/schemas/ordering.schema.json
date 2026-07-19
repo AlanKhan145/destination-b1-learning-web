@@ -1,0 +1,33 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "ordering.schema.json",
+  "title": "Ordering question",
+  "allOf": [
+    { "$ref": "question-base.schema.json" },
+    {
+      "type": "object",
+      "required": ["items", "correctOrder"],
+      "properties": {
+        "type": { "const": "ordering" },
+        "items": {
+          "type": "array",
+          "minItems": 2,
+          "items": {
+            "type": "object",
+            "required": ["id", "text"],
+            "properties": {
+              "id": { "type": "string", "minLength": 1 },
+              "text": { "type": "string", "minLength": 1 }
+            }
+          }
+        },
+        "correctOrder": {
+          "type": "array",
+          "minItems": 2,
+          "items": { "type": "string" }
+        },
+        "endingPunctuation": { "type": ["string", "null"] }
+      }
+    }
+  ]
+}

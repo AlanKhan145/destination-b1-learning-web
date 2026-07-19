@@ -1,0 +1,36 @@
+{
+  "id": "unit-1-present-simple-short-0001",
+  "type": "short-answer",
+  "unitId": "unit-1",
+  "topicId": "present-simple",
+  "contentLocale": "en",
+  "difficulty": "easy",
+  "prompt": "My father ___ (work) in a bank.",
+  "acceptedAnswers": [
+    "works"
+  ],
+  "answerValidation": {
+    "caseSensitive": false,
+    "trimWhitespace": true,
+    "collapseWhitespace": true,
+    "ignoreEndingPunctuation": true,
+    "matchMode": "normalized"
+  },
+  "explanation": "Third-person singular subjects take -s in the present simple.",
+  "tags": [
+    "third-person-singular",
+    "verb-form"
+  ],
+  "skills": [
+    "grammar",
+    "writing"
+  ],
+  "source": {
+    "type": "original",
+    "reference": null
+  },
+  "status": "published",
+  "version": 1,
+  "createdAt": "2026-07-19T00:00:00.000Z",
+  "updatedAt": "2026-07-19T00:00:00.000Z"
+}

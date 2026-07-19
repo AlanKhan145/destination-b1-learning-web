@@ -1,0 +1,16 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "true-false.schema.json",
+  "title": "True/false question",
+  "allOf": [
+    { "$ref": "question-base.schema.json" },
+    {
+      "type": "object",
+      "required": ["correctAnswer"],
+      "properties": {
+        "type": { "const": "true-false" },
+        "correctAnswer": { "type": "boolean" }
+      }
+    }
+  ]
+}

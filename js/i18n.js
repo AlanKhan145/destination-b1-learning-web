@@ -6,6 +6,9 @@
 const SUPPORTED_LANGUAGES = ["en", "vi"];
 const DEFAULT_LANGUAGE = "en";
 const STORAGE_KEY = "preferredLanguage";
+// Each namespace is its own file (locales/<lang>/<namespace>.json) so translators
+// and future question types don't have to touch one giant locale file.
+const NAMESPACES = ["common", "lesson", "review", "question-types", "result"];
 
 let currentLanguage = DEFAULT_LANGUAGE;
 let translations = {};
@@ -17,22 +20,34 @@ function getStoredLanguage() {
 }
 
 async function loadLocale(language) {
-  const response = await fetch(`./locales/${language}.json`);
-  if (!response.ok) {
+  const responses = await Promise.all(
+    NAMESPACES.map((namespace) => fetch(`./locales/${language}/${namespace}.json`))
+  );
+
+  if (responses.some((response) => !response.ok)) {
     throw new Error("locale-not-found");
   }
-  return response.json();
+
+  const parts = await Promise.all(responses.map((response) => response.json()));
+  return Object.assign({}, ...parts);
 }
 
 function getCurrentLanguage() {
   return currentLanguage;
 }
 
-function translate(key) {
+/** Looks up a dotted key (e.g. "review.questionOf") and substitutes {param} placeholders. */
+function translate(key, params) {
   const value = key
     .split(".")
     .reduce((node, part) => (node && typeof node === "object" ? node[part] : undefined), translations);
-  return typeof value === "string" ? value : key;
+
+  if (typeof value !== "string") return key;
+  if (!params) return value;
+
+  return value.replace(/\{(\w+)\}/g, (match, paramName) =>
+    Object.prototype.hasOwnProperty.call(params, paramName) ? String(params[paramName]) : match
+  );
 }
 
 function applyTranslations(root = document) {
@@ -69,8 +84,8 @@ async function initI18n() {
   applyTranslations();
 }
 
-function t(key) {
-  return translate(key);
+function t(key, params) {
+  return translate(key, params);
 }
 
 export {

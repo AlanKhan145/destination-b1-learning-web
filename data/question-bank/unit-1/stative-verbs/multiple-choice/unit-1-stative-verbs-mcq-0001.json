@@ -1,0 +1,47 @@
+{
+  "id": "unit-1-stative-verbs-mcq-0001",
+  "type": "multiple-choice",
+  "unitId": "unit-1",
+  "topicId": "stative-verbs",
+  "contentLocale": "en",
+  "difficulty": "easy",
+  "prompt": "I ___ this song.",
+  "options": [
+    {
+      "id": "a",
+      "text": "like"
+    },
+    {
+      "id": "b",
+      "text": "am liking"
+    },
+    {
+      "id": "c",
+      "text": "liking"
+    },
+    {
+      "id": "d",
+      "text": "likes"
+    }
+  ],
+  "correctOptionIds": [
+    "a"
+  ],
+  "selectionMode": "single",
+  "shuffleOptions": true,
+  "explanation": "Like is a stative verb and is not normally used in continuous tenses.",
+  "tags": [
+    "stative-verb"
+  ],
+  "skills": [
+    "grammar"
+  ],
+  "source": {
+    "type": "original",
+    "reference": null
+  },
+  "status": "published",
+  "version": 1,
+  "createdAt": "2026-07-19T00:00:00.000Z",
+  "updatedAt": "2026-07-19T00:00:00.000Z"
+}

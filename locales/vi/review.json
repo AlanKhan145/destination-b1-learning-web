@@ -1,0 +1,23 @@
+{
+  "review": {
+    "panelTitle": "Ôn tập",
+    "openPanel": "Mở phần ôn tập",
+    "closePanel": "Thu gọn phần ôn tập",
+    "start": "Bắt đầu ôn tập",
+    "submit": "Kiểm tra đáp án",
+    "next": "Câu tiếp theo",
+    "previous": "Câu trước",
+    "retry": "Làm lại",
+    "viewResult": "Xem kết quả",
+    "passed": "Bạn đã hoàn thành",
+    "failed": "Bạn chưa đạt yêu cầu",
+    "true": "Đúng",
+    "false": "Sai",
+    "questionOf": "Câu {current}/{total}",
+    "practiceTopic": "Luyện tập chủ điểm này",
+    "emptyState": "Chưa có câu hỏi nào cho phần ôn tập này.",
+    "questionLoadError": "Một số câu hỏi không tải được và đã bị bỏ qua.",
+    "unansweredHint": "Hãy chọn hoặc nhập câu trả lời trước khi kiểm tra.",
+    "allQuestionsAnswered": "Đã trả lời hết các câu hỏi. Xem kết quả ngay?"
+  }
+}

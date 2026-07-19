@@ -1,0 +1,23 @@
+{
+  "review": {
+    "panelTitle": "Review",
+    "openPanel": "Open review panel",
+    "closePanel": "Collapse review panel",
+    "start": "Start review",
+    "submit": "Check answer",
+    "next": "Next question",
+    "previous": "Previous question",
+    "retry": "Try again",
+    "viewResult": "View result",
+    "passed": "You passed",
+    "failed": "You have not passed yet",
+    "true": "True",
+    "false": "False",
+    "questionOf": "Question {current} of {total}",
+    "practiceTopic": "Practice this topic",
+    "emptyState": "No questions are available for this review yet.",
+    "questionLoadError": "Some questions could not be loaded and were skipped.",
+    "unansweredHint": "Select or type an answer before checking.",
+    "allQuestionsAnswered": "All questions answered. Ready to see your result?"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "id": "unit-1-stative-verbs-tf-0001",
+  "type": "true-false",
+  "unitId": "unit-1",
+  "topicId": "stative-verbs",
+  "contentLocale": "en",
+  "difficulty": "easy",
+  "prompt": "Stative verbs are not normally used in continuous tenses.",
+  "correctAnswer": true,
+  "explanation": "Stative verbs describe states such as feelings and thoughts rather than actions, so they usually avoid continuous forms.",
+  "tags": [
+    "grammar-rule"
+  ],
+  "skills": [
+    "grammar"
+  ],
+  "source": {
+    "type": "original",
+    "reference": null
+  },
+  "status": "published",
+  "version": 1,
+  "createdAt": "2026-07-19T00:00:00.000Z",
+  "updatedAt": "2026-07-19T00:00:00.000Z"
+}

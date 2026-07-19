@@ -1,0 +1,48 @@
+{
+  "id": "unit-1-present-simple-mcq-0002",
+  "type": "multiple-choice",
+  "unitId": "unit-1",
+  "topicId": "present-simple",
+  "contentLocale": "en",
+  "difficulty": "easy",
+  "prompt": "___ Dan work at the cinema?",
+  "options": [
+    {
+      "id": "a",
+      "text": "Does"
+    },
+    {
+      "id": "b",
+      "text": "Do"
+    },
+    {
+      "id": "c",
+      "text": "Is"
+    },
+    {
+      "id": "d",
+      "text": "Are"
+    }
+  ],
+  "correctOptionIds": [
+    "a"
+  ],
+  "selectionMode": "single",
+  "shuffleOptions": true,
+  "explanation": "Questions about permanent situations in the present simple use Does with he/she/it.",
+  "tags": [
+    "question-form",
+    "permanent-situation"
+  ],
+  "skills": [
+    "grammar"
+  ],
+  "source": {
+    "type": "original",
+    "reference": null
+  },
+  "status": "published",
+  "version": 1,
+  "createdAt": "2026-07-19T00:00:00.000Z",
+  "updatedAt": "2026-07-19T00:00:00.000Z"
+}

@@ -6,6 +6,7 @@ import { initI18n, setLanguage, getCurrentLanguage, t, onLanguageChange } from "
 import { loadLesson, isValidLessonId } from "./lesson-loader.js";
 import { renderLesson } from "./lesson-renderer.js";
 import { initNavigation, initScrollSpy } from "./navigation.js";
+import { initReviewPanel, refreshReviewPanelLocale } from "./review-panel.js";
 
 const DEFAULT_LESSON_ID = "unit-1";
 const LANGUAGE_OPTIONS = [
@@ -103,6 +104,7 @@ async function renderCurrentLesson() {
   if (!currentLesson) return;
   renderLesson(currentLesson);
   initScrollSpy();
+  initReviewPanel(currentLesson);
 }
 
 async function bootstrap() {
@@ -132,7 +134,11 @@ async function bootstrap() {
 
   onLanguageChange(async () => {
     renderChrome();
-    await renderCurrentLesson();
+    // Re-render lesson content (English/Vietnamese labels) but keep any in-progress
+    // review attempt alive — only its UI strings need to change, not its state.
+    renderLesson(currentLesson);
+    initScrollSpy();
+    refreshReviewPanelLocale();
   });
 }
 

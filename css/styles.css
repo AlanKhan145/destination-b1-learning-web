@@ -36,6 +36,8 @@
 
   --font-family-base: "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   --max-content-width: 860px;
+  --max-content-width-workspace: 1180px;
+  --review-panel-width: 360px;
 
   --shadow-small: 0 1px 3px rgba(15, 23, 42, 0.08);
   --shadow-medium: 0 8px 24px rgba(15, 23, 42, 0.1);
@@ -185,12 +187,317 @@ button:focus-visible {
    Main layout
    ========================================================================== */
 .page-container {
-  max-width: var(--max-content-width);
-  margin: 0 auto;
   padding: var(--space-lg);
   display: flex;
   flex-direction: column;
   gap: var(--space-lg);
+}
+
+/* ==========================================================================
+   Workspace: lesson pane + review panel side by side (see also responsive block)
+   ========================================================================== */
+.workspace {
+  max-width: var(--max-content-width-workspace);
+  margin: 0 auto;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: var(--space-xl);
+}
+
+.lesson-pane {
+  flex: 1 1 0%;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-lg);
+}
+
+.workspace--no-review .lesson-pane {
+  max-width: var(--max-content-width);
+  margin: 0 auto;
+  width: 100%;
+}
+
+.workspace-tabs {
+  display: none;
+  max-width: var(--max-content-width-workspace);
+  margin: 0 auto;
+  width: 100%;
+  gap: var(--space-sm);
+}
+
+.workspace-tab {
+  flex: 1 1 0%;
+  padding: var(--space-sm) var(--space-md);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-small);
+  background: var(--color-surface);
+  color: var(--color-text-muted);
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.workspace-tab.is-active {
+  background: var(--color-primary);
+  border-color: var(--color-primary);
+  color: #fff;
+}
+
+/* ==========================================================================
+   Practice-this-topic button (rendered inline by lesson-renderer.js)
+   ========================================================================== */
+.practice-topic-button {
+  margin-top: var(--space-md);
+  padding: var(--space-sm) var(--space-md);
+  border: 1px solid var(--color-primary);
+  border-radius: var(--radius-small);
+  background: var(--color-primary-light);
+  color: var(--color-primary-dark);
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.practice-topic-button:hover {
+  background: var(--color-primary);
+  color: #fff;
+}
+
+/* ==========================================================================
+   Review panel: chrome (header + collapsible body)
+   ========================================================================== */
+.review-panel {
+  flex: 0 0 var(--review-panel-width);
+  width: var(--review-panel-width);
+  position: sticky;
+  top: var(--space-lg);
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-medium);
+  box-shadow: var(--shadow-small);
+  overflow: hidden;
+}
+
+.review-panel-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-sm);
+  padding: var(--space-md);
+  border-bottom: 1px solid var(--color-border);
+}
+
+.review-panel-title {
+  margin: 0;
+  font-size: 1.05rem;
+}
+
+.review-panel-toggle {
+  padding: var(--space-xs) var(--space-sm);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-small);
+  background: var(--color-surface);
+  color: var(--color-primary);
+  font-size: 0.85rem;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.review-panel-body {
+  padding: var(--space-md);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-md);
+}
+
+.review-panel.is-collapsed .review-panel-body {
+  display: none;
+}
+
+/* ==========================================================================
+   Review panel: start / empty / loading states
+   ========================================================================== */
+.review-description {
+  color: var(--color-text-muted);
+}
+
+.review-empty-state,
+.review-loading {
+  color: var(--color-text-muted);
+  font-style: italic;
+}
+
+.review-warning {
+  padding: var(--space-sm);
+  border-radius: var(--radius-small);
+  background: var(--color-warning-light);
+  color: var(--color-warning);
+  font-size: 0.9rem;
+}
+
+.review-primary-button,
+.review-secondary-button {
+  padding: var(--space-sm) var(--space-md);
+  border-radius: var(--radius-small);
+  font-weight: 600;
+  cursor: pointer;
+  border: 1px solid transparent;
+}
+
+.review-primary-button {
+  background: var(--color-primary);
+  border-color: var(--color-primary);
+  color: #fff;
+}
+
+.review-primary-button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.review-secondary-button {
+  background: var(--color-surface);
+  border-color: var(--color-border);
+  color: var(--color-text);
+}
+
+.review-secondary-button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+/* ==========================================================================
+   Review panel: progress + question
+   ========================================================================== */
+.review-progress-label {
+  display: block;
+  margin-bottom: var(--space-xs);
+  font-size: 0.85rem;
+  color: var(--color-text-muted);
+}
+
+.review-progress-track {
+  height: 6px;
+  border-radius: 999px;
+  background: var(--color-pending-light);
+  overflow: hidden;
+}
+
+.review-progress-bar {
+  height: 100%;
+  background: var(--color-primary);
+  transition: width 0.2s ease;
+}
+
+.review-question-prompt {
+  font-weight: 600;
+  color: var(--color-text);
+}
+
+.review-explanation {
+  padding: var(--space-sm);
+  border-radius: var(--radius-small);
+  background: var(--color-primary-light);
+  color: var(--color-primary-dark);
+  font-size: 0.9rem;
+}
+
+.review-unsupported-type {
+  color: var(--color-warning);
+  font-style: italic;
+}
+
+.review-controls {
+  display: flex;
+  justify-content: space-between;
+  gap: var(--space-sm);
+  margin-top: var(--space-sm);
+}
+
+/* ==========================================================================
+   Review panel: multiple-choice / true-false option lists
+   ========================================================================== */
+.mc-options,
+.tf-options {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-xs);
+}
+
+.mc-option-label,
+.tf-option-label {
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+  padding: var(--space-sm);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-small);
+  cursor: pointer;
+}
+
+.mc-option.is-correct .mc-option-label,
+.tf-option.is-correct .tf-option-label {
+  border-color: var(--color-success);
+  background: var(--color-success-light);
+}
+
+.mc-option.is-incorrect .mc-option-label,
+.tf-option.is-incorrect .tf-option-label {
+  border-color: var(--color-warning);
+  background: var(--color-warning-light);
+}
+
+/* ==========================================================================
+   Review panel: short answer input
+   ========================================================================== */
+.short-answer-input {
+  width: 100%;
+  padding: var(--space-sm);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-small);
+  font-family: inherit;
+  font-size: 1rem;
+}
+
+.short-answer-input.is-correct {
+  border-color: var(--color-success);
+  background: var(--color-success-light);
+}
+
+.short-answer-input.is-incorrect {
+  border-color: var(--color-warning);
+  background: var(--color-warning-light);
+}
+
+/* ==========================================================================
+   Review panel: result screen
+   ========================================================================== */
+.review-result-status {
+  font-weight: 700;
+}
+
+.review-result-status.is-passed {
+  color: var(--color-success);
+}
+
+.review-result-status.is-failed {
+  color: var(--color-warning);
+}
+
+.review-score-breakdown-title {
+  margin: var(--space-sm) 0 var(--space-xs);
+  font-size: 0.95rem;
+}
+
+.review-score-breakdown-list {
+  margin: 0;
+  padding-left: var(--space-lg);
+  font-size: 0.9rem;
+  color: var(--color-text-muted);
 }
 
 /* ==========================================================================
@@ -660,6 +967,40 @@ button:focus-visible {
 
   .main-nav {
     padding: 0 var(--space-md);
+  }
+
+  /* Below the desktop breakpoint the workspace stacks: only one of
+     #lesson-pane / #review-panel is visible at a time, switched by the
+     Lesson/Review tab bar (js/navigation.js: setWorkspaceTabsEnabled). */
+  .workspace-tabs:not([hidden]) {
+    display: flex;
+  }
+
+  .workspace {
+    flex-direction: column;
+  }
+
+  .review-panel {
+    width: 100%;
+    flex-basis: auto;
+    position: static;
+  }
+
+  .workspace[data-active-pane="review"] .lesson-pane {
+    display: none;
+  }
+
+  .workspace[data-active-pane="lesson"] .review-panel {
+    display: none;
+  }
+
+  /* Tabs already control which pane shows, so the collapse toggle is redundant on mobile. */
+  .review-panel-toggle {
+    display: none;
+  }
+
+  .review-panel.is-collapsed .review-panel-body {
+    display: flex;
   }
 }
 

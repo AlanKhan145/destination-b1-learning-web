@@ -1,0 +1,35 @@
+{
+  "id": "unit-1-stative-verbs-short-0002",
+  "type": "short-answer",
+  "unitId": "unit-1",
+  "topicId": "stative-verbs",
+  "contentLocale": "en",
+  "difficulty": "easy",
+  "prompt": "She ___ (believe) in ghosts.",
+  "acceptedAnswers": [
+    "believes"
+  ],
+  "answerValidation": {
+    "caseSensitive": false,
+    "trimWhitespace": true,
+    "collapseWhitespace": true,
+    "ignoreEndingPunctuation": true,
+    "matchMode": "normalized"
+  },
+  "explanation": "Believe is a stative verb describing a mental state, used in the present simple.",
+  "tags": [
+    "stative-verb"
+  ],
+  "skills": [
+    "grammar",
+    "writing"
+  ],
+  "source": {
+    "type": "original",
+    "reference": null
+  },
+  "status": "published",
+  "version": 1,
+  "createdAt": "2026-07-19T00:00:00.000Z",
+  "updatedAt": "2026-07-19T00:00:00.000Z"
+}

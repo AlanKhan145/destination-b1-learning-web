@@ -1,0 +1,48 @@
+{
+  "id": "unit-1-stative-verbs-mcq-0004",
+  "type": "multiple-choice",
+  "unitId": "unit-1",
+  "topicId": "stative-verbs",
+  "contentLocale": "en",
+  "difficulty": "easy",
+  "prompt": "What ___ you ___ about his new song?",
+  "options": [
+    {
+      "id": "a",
+      "text": "do / think"
+    },
+    {
+      "id": "b",
+      "text": "are / thinking"
+    },
+    {
+      "id": "c",
+      "text": "does / think"
+    },
+    {
+      "id": "d",
+      "text": "is / think"
+    }
+  ],
+  "correctOptionIds": [
+    "a"
+  ],
+  "selectionMode": "single",
+  "shuffleOptions": true,
+  "explanation": "Think meaning 'have an opinion' is stative, so it uses the present simple: do you think.",
+  "tags": [
+    "stative-verb",
+    "opinion"
+  ],
+  "skills": [
+    "grammar"
+  ],
+  "source": {
+    "type": "original",
+    "reference": null
+  },
+  "status": "published",
+  "version": 1,
+  "createdAt": "2026-07-19T00:00:00.000Z",
+  "updatedAt": "2026-07-19T00:00:00.000Z"
+}

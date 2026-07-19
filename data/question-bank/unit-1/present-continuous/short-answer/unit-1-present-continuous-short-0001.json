@@ -1,0 +1,37 @@
+{
+  "id": "unit-1-present-continuous-short-0001",
+  "type": "short-answer",
+  "unitId": "unit-1",
+  "topicId": "present-continuous",
+  "contentLocale": "en",
+  "difficulty": "easy",
+  "prompt": "Gordon ___ a letter at the moment. (write)",
+  "acceptedAnswers": [
+    "is writing",
+    "Gordon is writing"
+  ],
+  "answerValidation": {
+    "caseSensitive": false,
+    "trimWhitespace": true,
+    "collapseWhitespace": true,
+    "ignoreEndingPunctuation": true,
+    "matchMode": "normalized"
+  },
+  "explanation": "At the moment indicates an action happening now.",
+  "tags": [
+    "action-now",
+    "verb-form"
+  ],
+  "skills": [
+    "grammar",
+    "writing"
+  ],
+  "source": {
+    "type": "original",
+    "reference": null
+  },
+  "status": "published",
+  "version": 1,
+  "createdAt": "2026-07-19T00:00:00.000Z",
+  "updatedAt": "2026-07-19T00:00:00.000Z"
+}

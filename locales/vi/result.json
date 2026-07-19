@@ -1,0 +1,12 @@
+{
+  "result": {
+    "title": "Kết quả của bạn",
+    "scoreLabel": "Điểm số",
+    "correctLabel": "Số câu đúng",
+    "answeredLabel": "Đã trả lời",
+    "byTopic": "Theo chủ điểm",
+    "byType": "Theo dạng câu hỏi",
+    "retry": "Làm lại",
+    "close": "Đóng"
+  }
+}

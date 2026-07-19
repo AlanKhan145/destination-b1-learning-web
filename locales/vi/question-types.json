@@ -1,0 +1,12 @@
+{
+  "questionTypes": {
+    "multipleChoice": "Trắc nghiệm",
+    "shortAnswer": "Trả lời ngắn",
+    "trueFalse": "Đúng/Sai",
+    "fillInTheBlanks": "Điền vào chỗ trống",
+    "matching": "Ghép cặp",
+    "ordering": "Sắp xếp câu",
+    "errorIdentification": "Tìm lỗi sai",
+    "mixed": "Tổng hợp"
+  }
+}

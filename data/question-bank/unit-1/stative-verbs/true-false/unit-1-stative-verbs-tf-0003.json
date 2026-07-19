@@ -1,0 +1,25 @@
+{
+  "id": "unit-1-stative-verbs-tf-0003",
+  "type": "true-false",
+  "unitId": "unit-1",
+  "topicId": "stative-verbs",
+  "contentLocale": "en",
+  "difficulty": "easy",
+  "prompt": "Verbs like 'know', 'like', and 'believe' describe states rather than actions.",
+  "correctAnswer": true,
+  "explanation": "These are classic examples of stative verbs, describing feelings, thoughts, or states.",
+  "tags": [
+    "stative-verb"
+  ],
+  "skills": [
+    "grammar"
+  ],
+  "source": {
+    "type": "original",
+    "reference": null
+  },
+  "status": "published",
+  "version": 1,
+  "createdAt": "2026-07-19T00:00:00.000Z",
+  "updatedAt": "2026-07-19T00:00:00.000Z"
+}

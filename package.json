@@ -1,0 +1,13 @@
+{
+  "name": "destination-b1-learning-web",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Static HTML/CSS/JS site: Destination B1 grammar lessons + question bank review.",
+  "type": "module",
+  "scripts": {
+    "validate:questions": "node scripts/validate-question-bank.js",
+    "build:question-index": "node scripts/build-question-index.js",
+    "build:data": "npm run validate:questions && npm run build:question-index",
+    "test": "node --test"
+  }
+}

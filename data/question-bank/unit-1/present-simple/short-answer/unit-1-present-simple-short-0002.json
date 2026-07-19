@@ -1,0 +1,37 @@
+{
+  "id": "unit-1-present-simple-short-0002",
+  "type": "short-answer",
+  "unitId": "unit-1",
+  "topicId": "present-simple",
+  "contentLocale": "en",
+  "difficulty": "easy",
+  "prompt": "We ___ (not / play) football on Sundays.",
+  "acceptedAnswers": [
+    "don't play",
+    "do not play"
+  ],
+  "answerValidation": {
+    "caseSensitive": false,
+    "trimWhitespace": true,
+    "collapseWhitespace": true,
+    "ignoreEndingPunctuation": true,
+    "matchMode": "normalized"
+  },
+  "explanation": "Negative present simple with I/we/you/they uses don't + base form.",
+  "tags": [
+    "negative",
+    "verb-form"
+  ],
+  "skills": [
+    "grammar",
+    "writing"
+  ],
+  "source": {
+    "type": "original",
+    "reference": null
+  },
+  "status": "published",
+  "version": 1,
+  "createdAt": "2026-07-19T00:00:00.000Z",
+  "updatedAt": "2026-07-19T00:00:00.000Z"
+}

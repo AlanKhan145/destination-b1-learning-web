@@ -1,0 +1,47 @@
+{
+  "id": "unit-1-present-continuous-mcq-0002",
+  "type": "multiple-choice",
+  "unitId": "unit-1",
+  "topicId": "present-continuous",
+  "contentLocale": "en",
+  "difficulty": "easy",
+  "prompt": "Jan ___ a DVD upstairs right now.",
+  "options": [
+    {
+      "id": "a",
+      "text": "watches"
+    },
+    {
+      "id": "b",
+      "text": "watch"
+    },
+    {
+      "id": "c",
+      "text": "is watching"
+    },
+    {
+      "id": "d",
+      "text": "watched"
+    }
+  ],
+  "correctOptionIds": [
+    "c"
+  ],
+  "selectionMode": "single",
+  "shuffleOptions": true,
+  "explanation": "Right now signals an action in progress at the moment of speaking.",
+  "tags": [
+    "action-now"
+  ],
+  "skills": [
+    "grammar"
+  ],
+  "source": {
+    "type": "original",
+    "reference": null
+  },
+  "status": "published",
+  "version": 1,
+  "createdAt": "2026-07-19T00:00:00.000Z",
+  "updatedAt": "2026-07-19T00:00:00.000Z"
+}

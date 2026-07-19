@@ -1,0 +1,47 @@
+{
+  "id": "unit-1-present-continuous-mcq-0004",
+  "type": "multiple-choice",
+  "unitId": "unit-1",
+  "topicId": "present-continuous",
+  "contentLocale": "en",
+  "difficulty": "easy",
+  "prompt": "She ___ at the museum until the end of the month.",
+  "options": [
+    {
+      "id": "a",
+      "text": "work"
+    },
+    {
+      "id": "b",
+      "text": "works"
+    },
+    {
+      "id": "c",
+      "text": "is working"
+    },
+    {
+      "id": "d",
+      "text": "worked"
+    }
+  ],
+  "correctOptionIds": [
+    "c"
+  ],
+  "selectionMode": "single",
+  "shuffleOptions": true,
+  "explanation": "Use the present continuous for temporary situations with a known end point.",
+  "tags": [
+    "temporary-situation"
+  ],
+  "skills": [
+    "grammar"
+  ],
+  "source": {
+    "type": "original",
+    "reference": null
+  },
+  "status": "published",
+  "version": 1,
+  "createdAt": "2026-07-19T00:00:00.000Z",
+  "updatedAt": "2026-07-19T00:00:00.000Z"
+}

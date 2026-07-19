@@ -1,0 +1,48 @@
+{
+  "id": "unit-1-present-simple-mcq-0001",
+  "type": "multiple-choice",
+  "unitId": "unit-1",
+  "topicId": "present-simple",
+  "contentLocale": "en",
+  "difficulty": "easy",
+  "prompt": "Every day, Helen ___ up at half past seven.",
+  "options": [
+    {
+      "id": "a",
+      "text": "get"
+    },
+    {
+      "id": "b",
+      "text": "gets"
+    },
+    {
+      "id": "c",
+      "text": "is getting"
+    },
+    {
+      "id": "d",
+      "text": "getting"
+    }
+  ],
+  "correctOptionIds": [
+    "b"
+  ],
+  "selectionMode": "single",
+  "shuffleOptions": true,
+  "explanation": "Use the present simple for a regular habit. Helen is third-person singular, so the verb takes -s.",
+  "tags": [
+    "habit",
+    "third-person-singular"
+  ],
+  "skills": [
+    "grammar"
+  ],
+  "source": {
+    "type": "original",
+    "reference": null
+  },
+  "status": "published",
+  "version": 1,
+  "createdAt": "2026-07-19T00:00:00.000Z",
+  "updatedAt": "2026-07-19T00:00:00.000Z"
+}

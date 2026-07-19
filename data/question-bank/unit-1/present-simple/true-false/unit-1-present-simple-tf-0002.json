@@ -1,0 +1,25 @@
+{
+  "id": "unit-1-present-simple-tf-0002",
+  "type": "true-false",
+  "unitId": "unit-1",
+  "topicId": "present-simple",
+  "contentLocale": "en",
+  "difficulty": "easy",
+  "prompt": "The present simple is used to describe an action happening right now.",
+  "correctAnswer": false,
+  "explanation": "Actions happening right now use the present continuous, not the present simple.",
+  "tags": [
+    "grammar-rule"
+  ],
+  "skills": [
+    "grammar"
+  ],
+  "source": {
+    "type": "original",
+    "reference": null
+  },
+  "status": "published",
+  "version": 1,
+  "createdAt": "2026-07-19T00:00:00.000Z",
+  "updatedAt": "2026-07-19T00:00:00.000Z"
+}

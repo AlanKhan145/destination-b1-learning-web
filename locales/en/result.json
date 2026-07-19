@@ -1,0 +1,12 @@
+{
+  "result": {
+    "title": "Your result",
+    "scoreLabel": "Score",
+    "correctLabel": "Correct answers",
+    "answeredLabel": "Answered",
+    "byTopic": "By topic",
+    "byType": "By question type",
+    "retry": "Try again",
+    "close": "Close"
+  }
+}

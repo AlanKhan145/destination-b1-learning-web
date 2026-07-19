@@ -24,13 +24,21 @@
   <header id="site-header" class="site-header"></header>
 
   <main class="page-container">
-    <section id="lesson-header" class="lesson-header"></section>
+    <nav id="workspace-tabs" class="workspace-tabs" hidden></nav>
 
-    <nav id="table-of-contents" class="table-of-contents"></nav>
+    <div id="workspace" class="workspace">
+      <div id="lesson-pane" class="lesson-pane">
+        <section id="lesson-header" class="lesson-header"></section>
 
-    <section id="lesson-content" class="lesson-content"></section>
+        <nav id="table-of-contents" class="table-of-contents"></nav>
 
-    <nav id="lesson-pagination" class="lesson-pagination"></nav>
+        <section id="lesson-content" class="lesson-content"></section>
+
+        <nav id="lesson-pagination" class="lesson-pagination"></nav>
+      </div>
+
+      <aside id="review-panel" class="review-panel" hidden></aside>
+    </div>
   </main>
 
   <button

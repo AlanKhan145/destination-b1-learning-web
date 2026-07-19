@@ -1,0 +1,12 @@
+{
+  "questionTypes": {
+    "multipleChoice": "Multiple choice",
+    "shortAnswer": "Short answer",
+    "trueFalse": "True/False",
+    "fillInTheBlanks": "Fill in the blanks",
+    "matching": "Matching",
+    "ordering": "Ordering",
+    "errorIdentification": "Error identification",
+    "mixed": "Mixed"
+  }
+}

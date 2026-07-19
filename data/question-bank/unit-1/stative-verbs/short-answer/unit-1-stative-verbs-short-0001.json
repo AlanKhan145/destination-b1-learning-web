@@ -1,0 +1,37 @@
+{
+  "id": "unit-1-stative-verbs-short-0001",
+  "type": "short-answer",
+  "unitId": "unit-1",
+  "topicId": "stative-verbs",
+  "contentLocale": "en",
+  "difficulty": "easy",
+  "prompt": "I ___ (not / understand) this question.",
+  "acceptedAnswers": [
+    "don't understand",
+    "do not understand"
+  ],
+  "answerValidation": {
+    "caseSensitive": false,
+    "trimWhitespace": true,
+    "collapseWhitespace": true,
+    "ignoreEndingPunctuation": true,
+    "matchMode": "normalized"
+  },
+  "explanation": "Understand is stative, so its negative uses don't + base form, not the continuous.",
+  "tags": [
+    "stative-verb",
+    "negative"
+  ],
+  "skills": [
+    "grammar",
+    "writing"
+  ],
+  "source": {
+    "type": "original",
+    "reference": null
+  },
+  "status": "published",
+  "version": 1,
+  "createdAt": "2026-07-19T00:00:00.000Z",
+  "updatedAt": "2026-07-19T00:00:00.000Z"
+}

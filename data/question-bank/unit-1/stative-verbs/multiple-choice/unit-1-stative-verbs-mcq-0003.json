@@ -1,0 +1,47 @@
+{
+  "id": "unit-1-stative-verbs-mcq-0003",
+  "type": "multiple-choice",
+  "unitId": "unit-1",
+  "topicId": "stative-verbs",
+  "contentLocale": "en",
+  "difficulty": "easy",
+  "prompt": "This soup ___ delicious!",
+  "options": [
+    {
+      "id": "a",
+      "text": "tastes"
+    },
+    {
+      "id": "b",
+      "text": "is tasting"
+    },
+    {
+      "id": "c",
+      "text": "taste"
+    },
+    {
+      "id": "d",
+      "text": "tasted"
+    }
+  ],
+  "correctOptionIds": [
+    "a"
+  ],
+  "selectionMode": "single",
+  "shuffleOptions": true,
+  "explanation": "Taste used to describe a quality (not the action of tasting something) is stative.",
+  "tags": [
+    "stative-verb"
+  ],
+  "skills": [
+    "grammar"
+  ],
+  "source": {
+    "type": "original",
+    "reference": null
+  },
+  "status": "published",
+  "version": 1,
+  "createdAt": "2026-07-19T00:00:00.000Z",
+  "updatedAt": "2026-07-19T00:00:00.000Z"
+}

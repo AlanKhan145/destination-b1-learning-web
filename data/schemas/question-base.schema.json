@@ -1,0 +1,65 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "question-base.schema.json",
+  "title": "Question base",
+  "description": "Fields every question in the bank must have, regardless of type. Type-specific schemas extend this with `allOf`.",
+  "type": "object",
+  "required": [
+    "id",
+    "type",
+    "unitId",
+    "topicId",
+    "contentLocale",
+    "difficulty",
+    "prompt",
+    "status",
+    "version"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Unique across the whole bank. Format: unit-{n}-{topicId}-{questionType}-{0001}.",
+      "pattern": "^unit-[0-9]+-[a-z0-9-]+-[a-z]+-[0-9]{4}$"
+    },
+    "type": {
+      "type": "string",
+      "enum": [
+        "multiple-choice",
+        "short-answer",
+        "true-false",
+        "fill-in-the-blanks",
+        "matching",
+        "ordering",
+        "error-identification"
+      ]
+    },
+    "unitId": { "type": "string", "pattern": "^unit-[0-9]+$" },
+    "topicId": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+    "contentLocale": { "type": "string", "enum": ["en", "vi"] },
+    "difficulty": { "type": "string", "enum": ["easy", "medium", "hard"] },
+    "prompt": { "type": "string", "minLength": 1 },
+    "explanation": { "type": ["string", "null"] },
+    "tags": { "type": "array", "items": { "type": "string" }, "default": [] },
+    "skills": { "type": "array", "items": { "type": "string" }, "default": [] },
+    "media": {
+      "type": ["object", "null"],
+      "properties": {
+        "image": { "type": ["string", "null"] },
+        "audio": { "type": ["string", "null"] },
+        "video": { "type": ["string", "null"] },
+        "alt": { "type": ["string", "null"] }
+      }
+    },
+    "source": {
+      "type": "object",
+      "properties": {
+        "type": { "type": "string" },
+        "reference": { "type": ["string", "null"] }
+      }
+    },
+    "status": { "type": "string", "enum": ["draft", "published", "archived"] },
+    "version": { "type": "integer", "minimum": 1 },
+    "createdAt": { "type": "string", "format": "date-time" },
+    "updatedAt": { "type": "string", "format": "date-time" }
+  }
+}

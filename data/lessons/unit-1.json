@@ -2,52 +2,124 @@
   "id": "unit-1",
   "unitNumber": 1,
   "category": "Grammar",
-  "title": "Present time",
-  "description": "Learn how English present tenses are formed and used.",
+  "title": "Present simple, present continuous, stative verbs",
+  "description": "Learn how to use the present simple, present continuous, and stative verbs.",
   "previousLessonId": null,
   "nextLessonId": null,
+  "review": {
+    "reviewId": "unit-1-review",
+    "enabled": true,
+    "displayMode": "side-panel",
+    "position": "right",
+    "defaultOpen": false
+  },
   "topics": [
     {
       "id": "present-simple",
       "number": 1,
       "title": "Present simple",
       "status": "available",
-      "description": "Used for habits, permanent situations, and general truths.",
+      "review": {
+        "enabled": true,
+        "questionFilter": {
+          "unitId": "unit-1",
+          "topicIds": ["present-simple"],
+          "status": ["published"]
+        }
+      },
+      "description": "Used for present habits, permanent situations, states, and general truths.",
       "formula": null,
       "forms": {
-        "columns": ["I / you / we / they", "He / she / it"],
+        "columns": [
+          "I / you / we / they",
+          "He / she / it"
+        ],
         "rows": [
           {
             "label": "Statement",
-            "cells": ["I/You/We/They travel ...", "He/She/It travels ..."]
+            "cells": [
+              "I/You/We/They play ...",
+              "He/She/It plays ..."
+            ]
           },
           {
             "label": "Negative",
-            "cells": ["I/You/We/They don't travel ...", "He/She/It doesn't travel ..."]
+            "cells": [
+              "I/You/We/They do not (don't) play ...",
+              "He/She/It does not (doesn't) play ..."
+            ]
           },
           {
             "label": "Question",
-            "cells": ["Do I/you/we/they travel ...?", "Does he/she/it travel ...?"]
+            "cells": [
+              "Do I/you/we/they play ...?",
+              "Does he/she/it play ...?"
+            ]
           }
         ]
       },
       "uses": [
-        { "usage": "Current habits", "example": "Toby walks to work." },
-        { "usage": "Talking about how often things happen", "example": "Angela doesn't visit us very often." },
-        { "usage": "Permanent situations", "example": "Carlo works in a travel agent's." },
-        { "usage": "States", "example": "Do you have an up-to-date passport?" },
-        { "usage": "General truths and facts", "example": "Poland is in the European Union." }
+        {
+          "usage": "Present habits",
+          "example": "Marsha goes to dance lessons every Saturday."
+        },
+        {
+          "usage": "Permanent situations",
+          "example": "Does Dan work at the cinema?"
+        },
+        {
+          "usage": "States",
+          "example": "I like the new James Bond film."
+        },
+        {
+          "usage": "General truths",
+          "example": "You play chess with 32 pieces."
+        }
       ],
       "notes": [
         {
-          "type": "watch-out",
-          "content": "We can also use do or does in an affirmative present simple sentence to add emphasis.",
+          "type": "helpful-hint",
+          "content": "The present simple is often used with the following words and phrases.",
           "examples": [
-            "“You don't like going by bus, do you?”",
-            "“Actually, I do like going by bus for short distances.”",
-            "The bus isn't quicker than the train, but it does stop right outside the factory."
+            "Adverbs: always, usually, often, sometimes, rarely, never",
+            "Phrases: every Monday/week/etc",
+            "Phrases: each Monday/week/etc",
+            "Phrases: once/twice a week/month/etc",
+            "Phrases: three times a week/month/etc"
           ],
-          "highlightWords": ["do", "does"]
+          "highlightWords": [
+            "always",
+            "usually",
+            "often",
+            "sometimes",
+            "rarely",
+            "never",
+            "every",
+            "each",
+            "once",
+            "twice"
+          ]
+        },
+        {
+          "type": "helpful-hint",
+          "content": "These adverbs usually go before the verb, but after the verb be.",
+          "examples": [
+            "I often play football with my friends.",
+            "I am often late for my piano lessons."
+          ],
+          "highlightWords": [
+            "often play",
+            "am often"
+          ]
+        },
+        {
+          "type": "watch-out",
+          "content": "The verbs be and have have irregular present forms. See page 182.",
+          "examples": [],
+          "highlightWords": [
+            "be",
+            "have"
+          ]
         }
       ]
     },
@@ -56,103 +128,141 @@
       "number": 2,
       "title": "Present continuous",
       "status": "available",
-      "description": "Used for actions happening now and for temporary or changing situations.",
-      "formula": null,
+      "review": {
+        "enabled": true,
+        "questionFilter": {
+          "unitId": "unit-1",
+          "topicIds": ["present-continuous"],
+          "status": ["published"]
+        }
+      },
+      "description": "Used for actions happening now, temporary situations, and annoying habits.",
+      "formula": "am/is/are + verb-ing",
       "forms": {
-        "columns": ["Structure"],
+        "columns": [
+          "I",
+          "He / she / it",
+          "You / we / they"
+        ],
         "rows": [
           {
             "label": "Statement",
-            "cells": [["I am driving ...", "You, we, they are driving ...", "He, she, it is driving ..."]]
+            "cells": [
+              "I am ('m) playing ...",
+              "He/She/It is ('s) playing ...",
+              "You/We/They are ('re) playing ..."
+            ]
           },
           {
             "label": "Negative",
-            "cells": [["I'm not driving ...", "You, we, they aren't driving ...", "He, she, it isn't driving ..."]]
+            "cells": [
+              "I am not ('m not) playing ...",
+              "He/She/It is not (isn't / 's not) playing ...",
+              "You/We/They are not (aren't / 're not) playing ..."
+            ]
           },
           {
             "label": "Question",
-            "cells": [["Am I driving ...?", "Are you, we, they driving ...?", "Is he, she, it driving ...?"]]
+            "cells": [
+              "Am I playing ...?",
+              "Is he/she/it playing ...?",
+              "Are you/we/they playing ...?"
+            ]
           }
         ]
       },
       "uses": [
-        { "usage": "Actions happening now", "example": "Mike is driving to work at the moment." },
-        { "usage": "Temporary series of actions", "example": "Taxi drivers aren't stopping at the train station because of the roadworks." },
-        { "usage": "Temporary situations", "example": "Are they staying in a hotel near the Olympic stadium?" },
-        { "usage": "Changing and developing situations", "example": "Holidays abroad are becoming increasingly popular." },
+        {
+          "usage": "Actions happening now",
+          "example": "Jan is watching a DVD upstairs."
+        },
+        {
+          "usage": "Temporary situations",
+          "example": "She is working at the museum until the end of the month."
+        },
         {
           "usage": "Annoying habits, usually with always",
-          "example": "Dad is always cleaning the car when I want to use it!",
-          "highlightWords": ["always"]
+          "example": "My brother is always borrowing my CDs without asking!",
+          "highlightWords": [
+            "always"
+          ]
         }
       ],
-      "notes": []
-    },
-    {
-      "id": "present-perfect-simple",
-      "number": 3,
-      "title": "Present perfect simple",
-      "status": "available",
-      "description": "Used for past actions or states that are connected to the present.",
-      "formula": "have/has + past participle",
-      "forms": {
-        "columns": ["I / you / we / they", "He / she / it"],
-        "rows": [
-          {
-            "label": "Statement",
-            "cells": ["I/You/We/They have flown ...", "He/She/It has flown ..."]
-          },
-          {
-            "label": "Negative",
-            "cells": ["I/You/We/They haven't flown ...", "He/She/It hasn't flown ..."]
-          },
-          {
-            "label": "Question",
-            "cells": ["Have I/you/we/they flown ...?", "Has he/she/it flown ...?"]
-          }
-        ]
-      },
-      "uses": [
+      "notes": [
         {
-          "usage": "Situations and states that started in the past and are still true",
-          "example": "She's had her motorbike for over six years."
-        },
-        {
-          "usage": "A series of actions continuing up to now",
-          "example": "We've travelled by taxi, bus, plane and train – all in the last twenty-four hours!"
-        },
-        {
-          "usage": "Completed actions at an unspecified time in the past",
-          "example": "Have you ever flown in a helicopter?"
-        },
-        {
-          "usage": "Completed actions where the present result is important",
-          "example": "I've booked the coach tickets."
+          "type": "helpful-hint",
+          "content": "The present continuous is often used with the following words and phrases.",
+          "examples": [
+            "now",
+            "right now",
+            "at the moment",
+            "today",
+            "this week/month/etc"
+          ],
+          "highlightWords": [
+            "now",
+            "right now",
+            "at the moment",
+            "today",
+            "this week",
+            "this month"
+          ]
         }
-      ],
-      "notes": []
-    },
-    {
-      "id": "present-perfect-continuous",
-      "number": 4,
-      "title": "Present perfect continuous",
-      "status": "coming-soon",
-      "description": null,
-      "formula": null,
-      "forms": { "columns": [], "rows": [] },
-      "uses": [],
-      "notes": []
+      ]
     },
     {
       "id": "stative-verbs",
-      "number": 5,
+      "number": 3,
       "title": "Stative verbs",
-      "status": "coming-soon",
-      "description": null,
+      "status": "available",
+      "review": {
+        "enabled": true,
+        "questionFilter": {
+          "unitId": "unit-1",
+          "topicIds": ["stative-verbs"],
+          "status": ["published"]
+        }
+      },
+      "description": "Stative verbs describe states such as feelings and thoughts rather than actions.",
       "formula": null,
-      "forms": { "columns": [], "rows": [] },
-      "uses": [],
-      "notes": []
+      "forms": {
+        "columns": [],
+        "rows": []
+      },
+      "uses": [
+        {
+          "usage": "Some common stative verbs",
+          "example": "appear, be, believe, belong to, hate, have, include, know, like, love, need, prefer, see, seem, taste, think, understand, want"
+        }
+      ],
+      "notes": [
+        {
+          "type": "rule",
+          "content": "Stative verbs do not usually describe actions. They describe states such as feelings and thoughts. They are not normally used in continuous tenses.",
+          "examples": [
+            "Correct: I like reading books in my free time.",
+            "Incorrect: I am liking reading books in my free time."
+          ],
+          "highlightWords": [
+            "like",
+            "am liking"
+          ]
+        },
+        {
+          "type": "watch-out",
+          "content": "Some of these verbs, such as be, have and think, are used in continuous tenses when they describe actions.",
+          "examples": [
+            "What do you think about his new song?",
+            "I'm thinking about last night's match."
+          ],
+          "highlightWords": [
+            "be",
+            "have",
+            "think",
+            "I'm thinking"
+          ]
+        }
+      ]
     }
   ]
 }

@@ -1,0 +1,26 @@
+{
+  "id": "unit-1-present-continuous-tf-0003",
+  "type": "true-false",
+  "unitId": "unit-1",
+  "topicId": "present-continuous",
+  "contentLocale": "en",
+  "difficulty": "easy",
+  "prompt": "We form the present continuous with am/is/are + verb-ing.",
+  "correctAnswer": true,
+  "explanation": "The present continuous is formed with am/is/are followed by the -ing form of the verb.",
+  "tags": [
+    "grammar-rule",
+    "verb-form"
+  ],
+  "skills": [
+    "grammar"
+  ],
+  "source": {
+    "type": "original",
+    "reference": null
+  },
+  "status": "published",
+  "version": 1,
+  "createdAt": "2026-07-19T00:00:00.000Z",
+  "updatedAt": "2026-07-19T00:00:00.000Z"
+}

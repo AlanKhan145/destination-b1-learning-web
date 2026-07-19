@@ -1,0 +1,47 @@
+{
+  "id": "unit-1-present-continuous-mcq-0001",
+  "type": "multiple-choice",
+  "unitId": "unit-1",
+  "topicId": "present-continuous",
+  "contentLocale": "en",
+  "difficulty": "easy",
+  "prompt": "Look! It ___ outside.",
+  "options": [
+    {
+      "id": "a",
+      "text": "rain"
+    },
+    {
+      "id": "b",
+      "text": "rains"
+    },
+    {
+      "id": "c",
+      "text": "is raining"
+    },
+    {
+      "id": "d",
+      "text": "raining"
+    }
+  ],
+  "correctOptionIds": [
+    "c"
+  ],
+  "selectionMode": "single",
+  "shuffleOptions": true,
+  "explanation": "Use the present continuous for an action happening right now, often signalled by Look! or Listen!.",
+  "tags": [
+    "action-now"
+  ],
+  "skills": [
+    "grammar"
+  ],
+  "source": {
+    "type": "original",
+    "reference": null
+  },
+  "status": "published",
+  "version": 1,
+  "createdAt": "2026-07-19T00:00:00.000Z",
+  "updatedAt": "2026-07-19T00:00:00.000Z"
+}

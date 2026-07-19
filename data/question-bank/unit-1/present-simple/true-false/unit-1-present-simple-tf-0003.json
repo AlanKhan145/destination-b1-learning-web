@@ -1,0 +1,26 @@
+{
+  "id": "unit-1-present-simple-tf-0003",
+  "type": "true-false",
+  "unitId": "unit-1",
+  "topicId": "present-simple",
+  "contentLocale": "en",
+  "difficulty": "easy",
+  "prompt": "We add -s or -es to the verb after he, she, or it in the present simple.",
+  "correctAnswer": true,
+  "explanation": "Third-person singular subjects (he/she/it) take -s or -es in the present simple.",
+  "tags": [
+    "grammar-rule",
+    "third-person-singular"
+  ],
+  "skills": [
+    "grammar"
+  ],
+  "source": {
+    "type": "original",
+    "reference": null
+  },
+  "status": "published",
+  "version": 1,
+  "createdAt": "2026-07-19T00:00:00.000Z",
+  "updatedAt": "2026-07-19T00:00:00.000Z"
+}

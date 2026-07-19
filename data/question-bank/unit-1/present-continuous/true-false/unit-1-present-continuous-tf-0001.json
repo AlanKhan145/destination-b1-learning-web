@@ -1,0 +1,25 @@
+{
+  "id": "unit-1-present-continuous-tf-0001",
+  "type": "true-false",
+  "unitId": "unit-1",
+  "topicId": "present-continuous",
+  "contentLocale": "en",
+  "difficulty": "easy",
+  "prompt": "The present continuous is often used with the word 'now'.",
+  "correctAnswer": true,
+  "explanation": "Words like now, right now, and at the moment commonly signal the present continuous.",
+  "tags": [
+    "grammar-rule"
+  ],
+  "skills": [
+    "grammar"
+  ],
+  "source": {
+    "type": "original",
+    "reference": null
+  },
+  "status": "published",
+  "version": 1,
+  "createdAt": "2026-07-19T00:00:00.000Z",
+  "updatedAt": "2026-07-19T00:00:00.000Z"
+}

@@ -1,0 +1,47 @@
+{
+  "id": "unit-1-present-continuous-mcq-0003",
+  "type": "multiple-choice",
+  "unitId": "unit-1",
+  "topicId": "present-continuous",
+  "contentLocale": "en",
+  "difficulty": "easy",
+  "prompt": "My brother ___ always borrowing my CDs without asking!",
+  "options": [
+    {
+      "id": "a",
+      "text": "is"
+    },
+    {
+      "id": "b",
+      "text": "are"
+    },
+    {
+      "id": "c",
+      "text": "was"
+    },
+    {
+      "id": "d",
+      "text": "be"
+    }
+  ],
+  "correctOptionIds": [
+    "a"
+  ],
+  "selectionMode": "single",
+  "shuffleOptions": true,
+  "explanation": "The present continuous with always describes an annoying, repeated habit.",
+  "tags": [
+    "annoying-habit"
+  ],
+  "skills": [
+    "grammar"
+  ],
+  "source": {
+    "type": "original",
+    "reference": null
+  },
+  "status": "published",
+  "version": 1,
+  "createdAt": "2026-07-19T00:00:00.000Z",
+  "updatedAt": "2026-07-19T00:00:00.000Z"
+}

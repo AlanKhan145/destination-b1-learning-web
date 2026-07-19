@@ -1,0 +1,84 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "review.schema.json",
+  "title": "Review configuration",
+  "description": "A review never embeds question content — sections reference questions by id (fixed) or by filter (random).",
+  "type": "object",
+  "required": ["id", "unitId", "title", "sections"],
+  "properties": {
+    "id": { "type": "string", "minLength": 1 },
+    "unitId": { "type": "string", "pattern": "^unit-[0-9]+$" },
+    "title": { "type": "string", "minLength": 1 },
+    "description": { "type": ["string", "null"] },
+    "passingScore": { "type": "number", "minimum": 0, "maximum": 100 },
+    "contentLocale": { "type": "string", "enum": ["en", "vi"] },
+    "attemptSettings": {
+      "type": "object",
+      "properties": {
+        "allowRetry": { "type": "boolean" },
+        "showCorrectAnswer": { "type": "string", "enum": ["after-submit", "after-each", "never"] },
+        "showExplanation": { "type": "string", "enum": ["after-submit", "after-each", "never"] },
+        "saveProgress": { "type": "boolean" }
+      }
+    },
+    "sections": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["id", "type", "title", "selectionMode"],
+        "properties": {
+          "id": { "type": "string", "minLength": 1 },
+          "type": {
+            "type": "string",
+            "enum": [
+              "multiple-choice",
+              "short-answer",
+              "true-false",
+              "fill-in-the-blanks",
+              "matching",
+              "ordering",
+              "error-identification",
+              "mixed"
+            ]
+          },
+          "title": { "type": "string" },
+          "instructions": { "type": ["string", "null"] },
+          "selectionMode": { "type": "string", "enum": ["fixed", "random"] },
+          "shuffleQuestions": { "type": "boolean" },
+          "shuffleOptions": { "type": "boolean" },
+          "questionIds": {
+            "type": "array",
+            "items": { "type": "string" }
+          },
+          "questionCount": { "type": "integer", "minimum": 1 },
+          "questionFilter": {
+            "type": "object",
+            "properties": {
+              "unitIds": { "type": "array", "items": { "type": "string" } },
+              "topicIds": { "type": "array", "items": { "type": "string" } },
+              "types": { "type": "array", "items": { "type": "string" } },
+              "difficulties": { "type": "array", "items": { "type": "string" } },
+              "status": { "type": "array", "items": { "type": "string" } }
+            }
+          },
+          "distribution": {
+            "type": "object",
+            "additionalProperties": { "type": "integer", "minimum": 0 }
+          },
+          "avoidRecentlyAnswered": { "type": "boolean" }
+        },
+        "allOf": [
+          {
+            "if": { "properties": { "selectionMode": { "const": "fixed" } } },
+            "then": { "required": ["questionIds"] }
+          },
+          {
+            "if": { "properties": { "selectionMode": { "const": "random" } } },
+            "then": { "required": ["questionCount", "questionFilter"] }
+          }
+        ]
+      }
+    }
+  }
+}

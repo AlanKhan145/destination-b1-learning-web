@@ -1,0 +1,48 @@
+{
+  "id": "unit-1-present-simple-mcq-0003",
+  "type": "multiple-choice",
+  "unitId": "unit-1",
+  "topicId": "present-simple",
+  "contentLocale": "en",
+  "difficulty": "easy",
+  "prompt": "My sister ___ meat.",
+  "options": [
+    {
+      "id": "a",
+      "text": "don't eat"
+    },
+    {
+      "id": "b",
+      "text": "doesn't eat"
+    },
+    {
+      "id": "c",
+      "text": "not eats"
+    },
+    {
+      "id": "d",
+      "text": "isn't eating"
+    }
+  ],
+  "correctOptionIds": [
+    "b"
+  ],
+  "selectionMode": "single",
+  "shuffleOptions": true,
+  "explanation": "Negative present simple for he/she/it uses doesn't + base form.",
+  "tags": [
+    "negative",
+    "third-person-singular"
+  ],
+  "skills": [
+    "grammar"
+  ],
+  "source": {
+    "type": "original",
+    "reference": null
+  },
+  "status": "published",
+  "version": 1,
+  "createdAt": "2026-07-19T00:00:00.000Z",
+  "updatedAt": "2026-07-19T00:00:00.000Z"
+}

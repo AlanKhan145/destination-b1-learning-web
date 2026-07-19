@@ -1,0 +1,90 @@
+{
+  "id": "unit-1-review",
+  "unitId": "unit-1",
+  "title": "Unit 1 Review",
+  "description": "Review the present simple, present continuous, and stative verbs.",
+  "passingScore": 70,
+  "contentLocale": "en",
+  "attemptSettings": {
+    "allowRetry": true,
+    "showCorrectAnswer": "after-submit",
+    "showExplanation": "after-submit",
+    "saveProgress": true
+  },
+  "sections": [
+    {
+      "id": "multiple-choice",
+      "type": "multiple-choice",
+      "title": "Multiple choice",
+      "instructions": "Choose the correct answer.",
+      "selectionMode": "fixed",
+      "shuffleQuestions": true,
+      "shuffleOptions": true,
+      "questionIds": [
+        "unit-1-present-simple-mcq-0001",
+        "unit-1-present-simple-mcq-0002",
+        "unit-1-present-simple-mcq-0003",
+        "unit-1-present-continuous-mcq-0001",
+        "unit-1-present-continuous-mcq-0002",
+        "unit-1-present-continuous-mcq-0003",
+        "unit-1-stative-verbs-mcq-0001",
+        "unit-1-stative-verbs-mcq-0002",
+        "unit-1-stative-verbs-mcq-0003"
+      ]
+    },
+    {
+      "id": "short-answer",
+      "type": "short-answer",
+      "title": "Short answer",
+      "instructions": "Complete each sentence with the correct form of the verb in brackets.",
+      "selectionMode": "fixed",
+      "shuffleQuestions": true,
+      "questionIds": [
+        "unit-1-present-simple-short-0001",
+        "unit-1-present-simple-short-0002",
+        "unit-1-present-continuous-short-0001",
+        "unit-1-present-continuous-short-0002",
+        "unit-1-stative-verbs-short-0001",
+        "unit-1-stative-verbs-short-0002"
+      ]
+    },
+    {
+      "id": "true-false",
+      "type": "true-false",
+      "title": "True or false",
+      "instructions": "Decide whether each statement is true or false.",
+      "selectionMode": "fixed",
+      "shuffleQuestions": true,
+      "questionIds": [
+        "unit-1-present-simple-tf-0001",
+        "unit-1-present-simple-tf-0002",
+        "unit-1-present-continuous-tf-0001",
+        "unit-1-present-continuous-tf-0002",
+        "unit-1-stative-verbs-tf-0001",
+        "unit-1-stative-verbs-tf-0002"
+      ]
+    },
+    {
+      "id": "mixed-practice",
+      "type": "mixed",
+      "title": "Mixed practice",
+      "instructions": "Complete all questions.",
+      "selectionMode": "random",
+      "questionCount": 9,
+      "questionFilter": {
+        "unitIds": ["unit-1"],
+        "topicIds": ["present-simple", "present-continuous", "stative-verbs"],
+        "types": ["multiple-choice", "short-answer", "true-false"],
+        "difficulties": ["easy", "medium"],
+        "status": ["published"]
+      },
+      "distribution": {
+        "multiple-choice": 3,
+        "short-answer": 3,
+        "true-false": 3
+      },
+      "shuffleQuestions": true,
+      "avoidRecentlyAnswered": true
+    }
+  ]
+}

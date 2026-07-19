@@ -1,0 +1,26 @@
+{
+  "id": "unit-1-present-simple-tf-0001",
+  "type": "true-false",
+  "unitId": "unit-1",
+  "topicId": "present-simple",
+  "contentLocale": "en",
+  "difficulty": "easy",
+  "prompt": "The present simple can be used to describe regular habits.",
+  "correctAnswer": true,
+  "explanation": "Regular and repeated habits are one of the main uses of the present simple.",
+  "tags": [
+    "grammar-rule",
+    "habit"
+  ],
+  "skills": [
+    "grammar"
+  ],
+  "source": {
+    "type": "original",
+    "reference": null
+  },
+  "status": "published",
+  "version": 1,
+  "createdAt": "2026-07-19T00:00:00.000Z",
+  "updatedAt": "2026-07-19T00:00:00.000Z"
+}

@@ -1,0 +1,36 @@
+{
+  "id": "unit-1-present-simple-short-0003",
+  "type": "short-answer",
+  "unitId": "unit-1",
+  "topicId": "present-simple",
+  "contentLocale": "en",
+  "difficulty": "easy",
+  "prompt": "The train ___ (leave) at 9 a.m. every day.",
+  "acceptedAnswers": [
+    "leaves"
+  ],
+  "answerValidation": {
+    "caseSensitive": false,
+    "trimWhitespace": true,
+    "collapseWhitespace": true,
+    "ignoreEndingPunctuation": true,
+    "matchMode": "normalized"
+  },
+  "explanation": "Use the present simple for a scheduled, repeated event.",
+  "tags": [
+    "schedule",
+    "third-person-singular"
+  ],
+  "skills": [
+    "grammar",
+    "writing"
+  ],
+  "source": {
+    "type": "original",
+    "reference": null
+  },
+  "status": "published",
+  "version": 1,
+  "createdAt": "2026-07-19T00:00:00.000Z",
+  "updatedAt": "2026-07-19T00:00:00.000Z"
+}

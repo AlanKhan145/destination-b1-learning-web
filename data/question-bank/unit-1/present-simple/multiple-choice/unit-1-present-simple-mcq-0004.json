@@ -1,0 +1,47 @@
+{
+  "id": "unit-1-present-simple-mcq-0004",
+  "type": "multiple-choice",
+  "unitId": "unit-1",
+  "topicId": "present-simple",
+  "contentLocale": "en",
+  "difficulty": "easy",
+  "prompt": "Water ___ at 100 degrees Celsius.",
+  "options": [
+    {
+      "id": "a",
+      "text": "boil"
+    },
+    {
+      "id": "b",
+      "text": "boils"
+    },
+    {
+      "id": "c",
+      "text": "is boiling"
+    },
+    {
+      "id": "d",
+      "text": "boiled"
+    }
+  ],
+  "correctOptionIds": [
+    "b"
+  ],
+  "selectionMode": "single",
+  "shuffleOptions": true,
+  "explanation": "General truths and scientific facts use the present simple.",
+  "tags": [
+    "general-truth"
+  ],
+  "skills": [
+    "grammar"
+  ],
+  "source": {
+    "type": "original",
+    "reference": null
+  },
+  "status": "published",
+  "version": 1,
+  "createdAt": "2026-07-19T00:00:00.000Z",
+  "updatedAt": "2026-07-19T00:00:00.000Z"
+}

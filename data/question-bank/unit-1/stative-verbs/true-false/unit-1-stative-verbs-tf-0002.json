@@ -1,0 +1,26 @@
+{
+  "id": "unit-1-stative-verbs-tf-0002",
+  "type": "true-false",
+  "unitId": "unit-1",
+  "topicId": "stative-verbs",
+  "contentLocale": "en",
+  "difficulty": "easy",
+  "prompt": "The verb 'have' is always stative and never used in continuous tenses.",
+  "correctAnswer": false,
+  "explanation": "Have can be used in continuous tenses when it describes an action, e.g. 'I'm having lunch.'",
+  "tags": [
+    "grammar-rule",
+    "watch-out"
+  ],
+  "skills": [
+    "grammar"
+  ],
+  "source": {
+    "type": "original",
+    "reference": null
+  },
+  "status": "published",
+  "version": 1,
+  "createdAt": "2026-07-19T00:00:00.000Z",
+  "updatedAt": "2026-07-19T00:00:00.000Z"
+}

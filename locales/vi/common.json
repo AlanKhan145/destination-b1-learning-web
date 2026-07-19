@@ -3,21 +3,6 @@
     "name": "Học tiếng Anh",
     "footer": "Luyện ngữ pháp tiếng Anh, từng bài một."
   },
-  "lesson": {
-    "unit": "Bài",
-    "grammar": "Ngữ pháp",
-    "tableOfContents": "Mục lục",
-    "topicsInLesson": "Các chủ điểm trong bài",
-    "form": "Cấu trúc",
-    "uses": "Cách sử dụng",
-    "type": "Dạng",
-    "structure": "Cấu trúc",
-    "usage": "Cách sử dụng",
-    "example": "Ví dụ",
-    "formula": "Công thức",
-    "watchOut": "Lưu ý!",
-    "comingSoon": "Sắp cập nhật"
-  },
   "navigation": {
     "previousLesson": "Bài trước",
     "nextLesson": "Bài tiếp theo",
