@@ -1,0 +1,714 @@
+/* ==========================================================================
+   CSS Variables
+   ========================================================================== */
+:root {
+  --color-primary: #3157d5;
+  --color-primary-dark: #1e3aa8;
+  --color-primary-light: #eef2ff;
+
+  --color-text: #1f2937;
+  --color-text-muted: #64748b;
+  --color-background: #f8fafc;
+  --color-surface: #ffffff;
+  --color-border: #dbe3ee;
+
+  --color-warning: #d97706;
+  --color-warning-light: #fef3e2;
+
+  --color-success: #16a34a;
+  --color-success-light: #dcfce7;
+
+  --color-pending: #64748b;
+  --color-pending-light: #eef1f5;
+
+  --color-focus-ring: #93a9f5;
+
+  --radius-small: 8px;
+  --radius-medium: 12px;
+  --radius-large: 18px;
+
+  --spacing-xsmall: 4px;
+  --spacing-small: 8px;
+  --spacing-medium: 16px;
+  --spacing-large: 24px;
+  --spacing-xlarge: 40px;
+
+  --font-family-base: "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --max-content-width: 860px;
+
+  --shadow-small: 0 1px 3px rgba(15, 23, 42, 0.08);
+  --shadow-medium: 0 8px 24px rgba(15, 23, 42, 0.1);
+
+  --header-height: 64px;
+  --progress-height: 4px;
+}
+
+/* ==========================================================================
+   Reset & base
+   ========================================================================== */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-family-base);
+  color: var(--color-text);
+  background-color: var(--color-background);
+  line-height: 1.6;
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1,
+h2,
+h3,
+h4,
+p,
+ul,
+figure {
+  margin: 0;
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+/* Trạng thái focus rõ ràng cho điều hướng bằng bàn phím */
+a:focus-visible,
+button:focus-visible {
+  outline: 3px solid var(--color-focus-ring);
+  outline-offset: 2px;
+  border-radius: var(--radius-small);
+}
+
+/* ==========================================================================
+   Reading progress bar
+   ========================================================================== */
+.reading-progress {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: var(--progress-height);
+  width: 0%;
+  background-color: var(--color-primary);
+  z-index: 1100;
+  transition: width 0.1s ease-out;
+}
+
+/* ==========================================================================
+   Site header
+   ========================================================================== */
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background-color: var(--color-surface);
+  border-bottom: 1px solid var(--color-border);
+  margin-top: var(--progress-height);
+}
+
+.main-nav {
+  max-width: var(--max-content-width);
+  margin: 0 auto;
+  height: var(--header-height);
+  padding: 0 var(--spacing-large);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--spacing-medium);
+}
+
+.brand {
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: var(--color-primary-dark);
+}
+
+.level-badge {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--color-primary-dark);
+  background-color: var(--color-primary-light);
+  padding: var(--spacing-xsmall) var(--spacing-small);
+  border-radius: var(--radius-small);
+  white-space: nowrap;
+}
+
+/* ==========================================================================
+   Main layout
+   ========================================================================== */
+.main-content {
+  max-width: var(--max-content-width);
+  margin: 0 auto;
+  padding: var(--spacing-large);
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-large);
+}
+
+/* ==========================================================================
+   Lesson header
+   ========================================================================== */
+.lesson-header-content {
+  background-color: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-large);
+  padding: var(--spacing-large);
+  box-shadow: var(--shadow-small);
+}
+
+.lesson-meta {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-small);
+  margin-bottom: var(--spacing-small);
+}
+
+.lesson-unit-badge {
+  font-weight: 700;
+  color: var(--color-surface);
+  background-color: var(--color-primary);
+  padding: var(--spacing-xsmall) var(--spacing-medium);
+  border-radius: var(--radius-small);
+  font-size: 0.85rem;
+  letter-spacing: 0.02em;
+}
+
+.lesson-category {
+  font-weight: 600;
+  color: var(--color-text-muted);
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.lesson-title {
+  font-size: clamp(1.6rem, 4vw, 2.2rem);
+  font-weight: 800;
+  color: var(--color-text);
+  margin-bottom: var(--spacing-small);
+}
+
+.lesson-description {
+  color: var(--color-text-muted);
+  max-width: 62ch;
+  margin-bottom: var(--spacing-large);
+}
+
+.topics-intro {
+  font-weight: 700;
+  margin-bottom: var(--spacing-small);
+}
+
+.topics-overview-list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-small);
+}
+
+.topics-overview-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--spacing-medium);
+  padding: var(--spacing-small) var(--spacing-medium);
+  background-color: var(--color-background);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-medium);
+}
+
+.topics-overview-link,
+.topics-overview-text {
+  font-weight: 600;
+}
+
+.topics-overview-link {
+  color: var(--color-primary-dark);
+}
+
+.topics-overview-link:hover,
+.topics-overview-link:focus-visible {
+  text-decoration: underline;
+}
+
+.status-badge {
+  flex-shrink: 0;
+  font-size: 0.75rem;
+  font-weight: 700;
+  padding: 4px 10px;
+  border-radius: 999px;
+  white-space: nowrap;
+}
+
+.status-badge--available {
+  color: var(--color-success);
+  background-color: var(--color-success-light);
+}
+
+.status-badge--pending {
+  color: var(--color-pending);
+  background-color: var(--color-pending-light);
+}
+
+/* ==========================================================================
+   Topic quick navigation
+   ========================================================================== */
+.topic-navigation {
+  position: sticky;
+  top: calc(var(--header-height) + var(--progress-height));
+  z-index: 900;
+  background-color: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-medium);
+  padding: var(--spacing-small) var(--spacing-medium);
+  box-shadow: var(--shadow-small);
+}
+
+.topic-nav-inner {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-medium);
+  overflow-x: auto;
+}
+
+.topic-nav-label {
+  flex-shrink: 0;
+  font-weight: 700;
+  font-size: 0.85rem;
+  color: var(--color-text-muted);
+}
+
+.topic-nav-list {
+  display: flex;
+  gap: var(--spacing-small);
+  flex-wrap: nowrap;
+}
+
+.topic-nav-link {
+  display: inline-block;
+  white-space: nowrap;
+  padding: var(--spacing-xsmall) var(--spacing-medium);
+  border-radius: var(--radius-small);
+  font-weight: 600;
+  font-size: 0.9rem;
+  color: var(--color-text-muted);
+  border: 1px solid transparent;
+}
+
+.topic-nav-link:hover {
+  color: var(--color-primary-dark);
+  background-color: var(--color-primary-light);
+}
+
+.topic-nav-link.is-active {
+  color: var(--color-primary-dark);
+  background-color: var(--color-primary-light);
+  border-color: var(--color-primary);
+}
+
+/* ==========================================================================
+   Lesson content / grammar topic sections
+   ========================================================================== */
+.lesson-content {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-large);
+}
+
+.grammar-topic {
+  background-color: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-large);
+  padding: var(--spacing-large);
+  box-shadow: var(--shadow-small);
+  scroll-margin-top: calc(var(--header-height) + 60px);
+}
+
+.topic-title {
+  font-size: 1.4rem;
+  font-weight: 800;
+  margin-bottom: var(--spacing-small);
+}
+
+.topic-description {
+  color: var(--color-text-muted);
+  margin-bottom: var(--spacing-medium);
+}
+
+.subsection-title {
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: var(--color-primary-dark);
+  margin-top: var(--spacing-large);
+  margin-bottom: var(--spacing-small);
+}
+
+/* ==========================================================================
+   Formula box
+   ========================================================================== */
+.formula-box {
+  background-color: var(--color-primary-light);
+  border: 1px solid var(--color-primary);
+  border-radius: var(--radius-medium);
+  padding: var(--spacing-medium);
+  margin-top: var(--spacing-small);
+}
+
+.formula-text {
+  font-weight: 700;
+  font-size: 1.1rem;
+  color: var(--color-primary-dark);
+  font-family: "Consolas", "Courier New", monospace;
+}
+
+.formula-note {
+  margin-top: var(--spacing-xsmall);
+  color: var(--color-text-muted);
+  font-size: 0.9rem;
+}
+
+/* ==========================================================================
+   Tables
+   ========================================================================== */
+.table-wrapper {
+  overflow-x: auto;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-medium);
+}
+
+.data-table {
+  min-width: 480px;
+}
+
+.data-table th,
+.data-table td {
+  text-align: left;
+  padding: var(--spacing-medium);
+  border-bottom: 1px solid var(--color-border);
+  vertical-align: top;
+}
+
+.data-table thead th {
+  background-color: var(--color-primary);
+  color: var(--color-surface);
+  font-weight: 700;
+  font-size: 0.9rem;
+  white-space: nowrap;
+}
+
+.data-table tbody tr {
+  background-color: var(--color-surface);
+}
+
+.data-table tbody tr:nth-child(even) {
+  background-color: var(--color-background);
+}
+
+.data-table tbody tr:last-child th,
+.data-table tbody tr:last-child td {
+  border-bottom: none;
+}
+
+.data-table tbody th[scope="row"] {
+  background-color: var(--color-primary-light);
+  color: var(--color-primary-dark);
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.cell-line {
+  display: block;
+}
+
+.cell-line + .cell-line {
+  margin-top: var(--spacing-xsmall);
+}
+
+.use-description {
+  color: var(--color-text-muted);
+}
+
+.use-example {
+  color: var(--color-text);
+  font-weight: 600;
+  font-family: "Consolas", "Courier New", monospace;
+}
+
+.highlight-word {
+  background-color: var(--color-warning-light);
+  color: var(--color-warning);
+  font-weight: 800;
+  padding: 0 3px;
+  border-radius: 4px;
+}
+
+/* ==========================================================================
+   Notes / Watch out box
+   ========================================================================== */
+.notes-container {
+  margin-top: var(--spacing-large);
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-medium);
+}
+
+.note-box {
+  background-color: var(--color-warning-light);
+  border: 1px solid var(--color-warning);
+  border-left: 5px solid var(--color-warning);
+  border-radius: var(--radius-medium);
+  padding: var(--spacing-medium);
+}
+
+.note-title {
+  font-weight: 800;
+  color: var(--color-warning);
+  margin-bottom: var(--spacing-small);
+}
+
+.note-paragraph {
+  margin-bottom: var(--spacing-small);
+}
+
+.note-example {
+  font-family: "Consolas", "Courier New", monospace;
+  font-weight: 600;
+  margin-top: var(--spacing-xsmall);
+}
+
+/* ==========================================================================
+   Coming soon topic
+   ========================================================================== */
+.grammar-topic--coming-soon {
+  opacity: 0.85;
+}
+
+.topic-title-row {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-medium);
+  margin-bottom: var(--spacing-small);
+}
+
+.coming-soon-text {
+  color: var(--color-text-muted);
+}
+
+/* ==========================================================================
+   Lesson pagination
+   ========================================================================== */
+.lesson-pagination {
+  display: flex;
+  justify-content: space-between;
+  gap: var(--spacing-medium);
+}
+
+.pagination-button {
+  flex: 1;
+  padding: var(--spacing-medium);
+  border-radius: var(--radius-medium);
+  border: 1px solid var(--color-border);
+  background-color: var(--color-surface);
+  font-weight: 700;
+  color: var(--color-text);
+  box-shadow: var(--shadow-small);
+}
+
+.pagination-button:not(:disabled):hover {
+  background-color: var(--color-primary-light);
+  border-color: var(--color-primary);
+}
+
+.pagination-button:disabled {
+  color: var(--color-text-muted);
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+
+.pagination-button--next {
+  text-align: right;
+}
+
+/* ==========================================================================
+   Back to top button
+   ========================================================================== */
+.back-to-top {
+  position: fixed;
+  right: var(--spacing-large);
+  bottom: var(--spacing-large);
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  border: none;
+  background-color: var(--color-primary);
+  color: var(--color-surface);
+  font-size: 1.2rem;
+  box-shadow: var(--shadow-medium);
+  z-index: 1000;
+}
+
+.back-to-top:hover {
+  background-color: var(--color-primary-dark);
+}
+
+.back-to-top[hidden] {
+  display: none;
+}
+
+/* ==========================================================================
+   Site footer
+   ========================================================================== */
+.site-footer {
+  border-top: 1px solid var(--color-border);
+  margin-top: var(--spacing-xlarge);
+}
+
+.footer-inner {
+  max-width: var(--max-content-width);
+  margin: 0 auto;
+  padding: var(--spacing-large);
+}
+
+.footer-text {
+  color: var(--color-text-muted);
+  font-size: 0.85rem;
+  text-align: center;
+}
+
+/* ==========================================================================
+   Responsive: tablet and below (<= 768px)
+   ========================================================================== */
+@media (max-width: 768px) {
+  .main-content {
+    padding: var(--spacing-medium);
+    gap: var(--spacing-medium);
+  }
+
+  .lesson-header-content,
+  .grammar-topic {
+    padding: var(--spacing-medium);
+  }
+
+  .main-nav {
+    padding: 0 var(--spacing-medium);
+  }
+}
+
+/* ==========================================================================
+   Responsive: small phones (<= 600px) — tables become stacked cards
+   ========================================================================== */
+@media (max-width: 600px) {
+  .topics-overview-item {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: var(--spacing-xsmall);
+  }
+
+  .table-wrapper {
+    border: none;
+    overflow-x: visible;
+  }
+
+  .data-table {
+    min-width: 0;
+  }
+
+  .data-table thead {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    white-space: nowrap;
+  }
+
+  .data-table,
+  .data-table tbody,
+  .data-table tr,
+  .data-table th,
+  .data-table td {
+    display: block;
+    width: 100%;
+  }
+
+  .data-table tr {
+    margin-bottom: var(--spacing-medium);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-medium);
+    overflow: hidden;
+  }
+
+  .data-table tbody tr:nth-child(even) {
+    background-color: var(--color-surface);
+  }
+
+  .data-table th,
+  .data-table td {
+    border-bottom: 1px solid var(--color-border);
+  }
+
+  .data-table tbody th[scope="row"] {
+    border-bottom: 1px solid var(--color-border);
+  }
+
+  .data-table td[data-label]::before {
+    content: attr(data-label);
+    display: block;
+    font-size: 0.75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    color: var(--color-text-muted);
+    margin-bottom: var(--spacing-xsmall);
+  }
+
+  .lesson-pagination {
+    flex-direction: column;
+  }
+
+  .pagination-button--next {
+    text-align: left;
+  }
+}
+
+/* ==========================================================================
+   Responsive: very small phones (>= 360px baseline)
+   ========================================================================== */
+@media (max-width: 360px) {
+  .lesson-title {
+    font-size: 1.4rem;
+  }
+
+  .back-to-top {
+    right: var(--spacing-medium);
+    bottom: var(--spacing-medium);
+  }
+}
