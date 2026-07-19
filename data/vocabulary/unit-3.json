@@ -1,0 +1,789 @@
+{
+  "version": 1,
+  "unitId": "unit-3",
+  "title": "Fun and Games",
+  "description": "Vocabulary for talking about games, sport, music and free-time activities.",
+  "sourceNote": "See page 184 for definitions.",
+  "sections": {
+    "topicVocabulary": [
+      {
+        "id": "vocab-unit-3-beat",
+        "type": "word",
+        "word": "beat",
+        "image": "./assets/vocabulary/unit-3/fun-and-games/01_beat.png",
+        "imageAlt": "One player beating another in a game",
+        "phonetic": "/biːt/",
+        "partOfSpeech": ["verb"],
+        "meaningVi": "đánh bại",
+        "definitionEn": "to defeat someone in a game or competition",
+        "example": { "en": "Our team beat the champions in the final.", "vi": "Đội của chúng tôi đã đánh bại nhà vô địch trong trận chung kết." }
+      },
+      {
+        "id": "vocab-unit-3-board-game",
+        "type": "word",
+        "word": "board game",
+        "image": "./assets/vocabulary/unit-3/fun-and-games/02_board_game.png",
+        "imageAlt": "A board game with pieces on a table",
+        "phonetic": "/bɔːd ɡeɪm/",
+        "partOfSpeech": ["noun-phrase"],
+        "meaningVi": "trò chơi cờ bàn",
+        "definitionEn": "a game played on a board with pieces or counters, such as chess or Monopoly",
+        "example": { "en": "We played a board game together on Sunday afternoon.", "vi": "Chúng tôi đã chơi một trò chơi cờ bàn cùng nhau vào chiều Chủ nhật." }
+      },
+      {
+        "id": "vocab-unit-3-captain",
+        "type": "word",
+        "word": "captain",
+        "image": "./assets/vocabulary/unit-3/fun-and-games/03_captain.png",
+        "imageAlt": "The captain of a sports team wearing an armband",
+        "phonetic": "/ˈkæptɪn/",
+        "partOfSpeech": ["noun"],
+        "meaningVi": "đội trưởng",
+        "definitionEn": "the leader of a sports team",
+        "example": { "en": "She was chosen as the captain of the school football team.", "vi": "Cô ấy được chọn làm đội trưởng đội bóng đá của trường." }
+      },
+      {
+        "id": "vocab-unit-3-challenge",
+        "type": "word",
+        "word": "challenge",
+        "image": "./assets/vocabulary/unit-3/fun-and-games/04_challenge.png",
+        "imageAlt": "Two people facing each other, one challenging the other to a game",
+        "phonetic": "/ˈtʃælɪndʒ/",
+        "partOfSpeech": ["verb", "noun"],
+        "meaningVi": "thách thức",
+        "definitionEn": "to invite someone to compete against you; a difficult task that tests someone's ability",
+        "example": { "en": "He challenged his brother to a game of chess.", "vi": "Anh ấy đã thách đấu em trai mình một ván cờ vua." }
+      },
+      {
+        "id": "vocab-unit-3-champion",
+        "type": "word",
+        "word": "champion",
+        "image": "./assets/vocabulary/unit-3/fun-and-games/05_champion.png",
+        "imageAlt": "An athlete holding a winner's trophy",
+        "phonetic": "/ˈtʃæmpiən/",
+        "partOfSpeech": ["noun"],
+        "meaningVi": "nhà vô địch",
+        "definitionEn": "the winner of a competition",
+        "example": { "en": "She became the national swimming champion at the age of sixteen.", "vi": "Cô ấy trở thành nhà vô địch bơi lội quốc gia ở tuổi mười sáu." }
+      },
+      {
+        "id": "vocab-unit-3-cheat",
+        "type": "word",
+        "word": "cheat",
+        "image": "./assets/vocabulary/unit-3/fun-and-games/06_cheat.png",
+        "imageAlt": "A player secretly breaking the rules of a game",
+        "phonetic": "/tʃiːt/",
+        "partOfSpeech": ["verb"],
+        "meaningVi": "gian lận",
+        "definitionEn": "to act dishonestly in order to win or gain an advantage",
+        "example": { "en": "The player was disqualified for cheating during the match.", "vi": "Người chơi đã bị loại vì gian lận trong trận đấu." }
+      },
+      {
+        "id": "vocab-unit-3-classical-music",
+        "type": "word",
+        "word": "classical music",
+        "image": "./assets/vocabulary/unit-3/fun-and-games/07_classical_music.png",
+        "imageAlt": "An orchestra performing classical music",
+        "phonetic": "/ˌklæsɪkl ˈmjuːzɪk/",
+        "partOfSpeech": ["noun-phrase"],
+        "meaningVi": "nhạc cổ điển",
+        "definitionEn": "serious traditional music, such as symphonies or opera",
+        "example": { "en": "My grandfather listens to classical music every evening.", "vi": "Ông tôi nghe nhạc cổ điển mỗi tối." }
+      },
+      {
+        "id": "vocab-unit-3-club",
+        "type": "word",
+        "word": "club",
+        "image": "./assets/vocabulary/unit-3/fun-and-games/08_club.png",
+        "imageAlt": "Members meeting together at a club",
+        "phonetic": "/klʌb/",
+        "partOfSpeech": ["noun"],
+        "meaningVi": "câu lạc bộ",
+        "definitionEn": "an organisation for people who share an interest, or the place where they meet",
+        "example": { "en": "I joined a chess club at university.", "vi": "Tôi đã tham gia một câu lạc bộ cờ vua ở trường đại học." }
+      },
+      {
+        "id": "vocab-unit-3-coach",
+        "type": "word",
+        "word": "coach",
+        "image": "./assets/vocabulary/unit-3/fun-and-games/09_coach.png",
+        "imageAlt": "A coach giving instructions to a sports team",
+        "phonetic": "/koʊtʃ/",
+        "partOfSpeech": ["noun"],
+        "meaningVi": "huấn luyện viên",
+        "definitionEn": "a person who trains a sports team or player",
+        "example": { "en": "The new coach has improved the team's performance a lot.", "vi": "Huấn luyện viên mới đã cải thiện phong độ của đội rất nhiều." }
+      },
+      {
+        "id": "vocab-unit-3-competition",
+        "type": "word",
+        "word": "competition",
+        "image": "./assets/vocabulary/unit-3/fun-and-games/10_competition.png",
+        "imageAlt": "Athletes taking part in a competition",
+        "phonetic": "/ˌkɒmpəˈtɪʃn/",
+        "partOfSpeech": ["noun"],
+        "meaningVi": "cuộc thi đấu",
+        "definitionEn": "an organised event in which people try to win",
+        "example": { "en": "Thousands of athletes took part in the competition.", "vi": "Hàng nghìn vận động viên đã tham gia cuộc thi đấu." }
+      },
+      {
+        "id": "vocab-unit-3-concert",
+        "type": "word",
+        "word": "concert",
+        "image": "./assets/vocabulary/unit-3/fun-and-games/11_concert.png",
+        "imageAlt": "A band performing at a concert",
+        "phonetic": "/ˈkɒnsət/",
+        "partOfSpeech": ["noun"],
+        "meaningVi": "buổi hòa nhạc",
+        "definitionEn": "a live performance of music",
+        "example": { "en": "We went to a rock concert last weekend.", "vi": "Chúng tôi đã đi xem một buổi hòa nhạc rock vào cuối tuần trước." }
+      },
+      {
+        "id": "vocab-unit-3-defeat",
+        "type": "word",
+        "word": "defeat",
+        "image": "./assets/vocabulary/unit-3/fun-and-games/12_defeat.png",
+        "imageAlt": "A disappointed team after a defeat",
+        "phonetic": "/dɪˈfiːt/",
+        "partOfSpeech": ["verb", "noun"],
+        "meaningVi": "đánh bại; thất bại",
+        "definitionEn": "to beat someone in a competition; a loss in a competition",
+        "example": { "en": "The team suffered a heavy defeat in the last round.", "vi": "Đội đã chịu một thất bại nặng nề ở vòng cuối." }
+      },
+      {
+        "id": "vocab-unit-3-entertaining",
+        "type": "word",
+        "word": "entertaining",
+        "image": "./assets/vocabulary/unit-3/fun-and-games/13_entertaining.png",
+        "imageAlt": "An audience enjoying an entertaining show",
+        "phonetic": "/ˌentəˈteɪnɪŋ/",
+        "partOfSpeech": ["adjective"],
+        "meaningVi": "thú vị, hấp dẫn",
+        "definitionEn": "enjoyable and interesting to watch or listen to",
+        "example": { "en": "The show was really entertaining from start to finish.", "vi": "Buổi biểu diễn thực sự hấp dẫn từ đầu đến cuối." }
+      },
+      {
+        "id": "vocab-unit-3-folk-music",
+        "type": "word",
+        "word": "folk music",
+        "image": "./assets/vocabulary/unit-3/fun-and-games/14_folk_music.png",
+        "imageAlt": "Musicians performing traditional folk music",
+        "phonetic": "/foʊk ˈmjuːzɪk/",
+        "partOfSpeech": ["noun-phrase"],
+        "meaningVi": "nhạc dân gian",
+        "definitionEn": "traditional music passed down within a community",
+        "example": { "en": "The festival featured folk music from different regions.", "vi": "Lễ hội có sự góp mặt của nhạc dân gian từ nhiều vùng miền khác nhau." }
+      },
+      {
+        "id": "vocab-unit-3-group",
+        "type": "word",
+        "word": "group",
+        "image": "./assets/vocabulary/unit-3/fun-and-games/15_group.png",
+        "imageAlt": "A group of people practising together",
+        "phonetic": "/ɡruːp/",
+        "partOfSpeech": ["noun"],
+        "meaningVi": "nhóm",
+        "definitionEn": "a number of people or things together",
+        "example": { "en": "Our group practises together every Friday.", "vi": "Nhóm của chúng tôi luyện tập cùng nhau vào mỗi thứ Sáu." }
+      },
+      {
+        "id": "vocab-unit-3-gym",
+        "type": "word",
+        "word": "gym",
+        "image": "./assets/vocabulary/unit-3/fun-and-games/16_gym.png",
+        "imageAlt": "People exercising in a gym",
+        "phonetic": "/dʒɪm/",
+        "partOfSpeech": ["noun"],
+        "meaningVi": "phòng tập thể hình",
+        "definitionEn": "a place with equipment for physical exercise",
+        "example": { "en": "He goes to the gym three times a week.", "vi": "Anh ấy đến phòng tập thể hình ba lần một tuần." }
+      },
+      {
+        "id": "vocab-unit-3-have-fun",
+        "type": "word",
+        "word": "have fun",
+        "image": "./assets/vocabulary/unit-3/fun-and-games/17_have_fun.png",
+        "imageAlt": "Children having fun playing outside",
+        "phonetic": "/hæv fʌn/",
+        "partOfSpeech": ["verb-phrase"],
+        "meaningVi": "vui chơi, giải trí",
+        "definitionEn": "to enjoy yourself",
+        "example": { "en": "The children had fun playing in the park.", "vi": "Bọn trẻ đã vui chơi thỏa thích ở công viên." }
+      },
+      {
+        "id": "vocab-unit-3-interest",
+        "type": "word",
+        "word": "interest",
+        "image": "./assets/vocabulary/unit-3/fun-and-games/18_interest.png",
+        "imageAlt": "A person showing interest in a hobby",
+        "phonetic": "/ˈɪntrəst/",
+        "partOfSpeech": ["verb", "noun"],
+        "meaningVi": "hứng thú; sự quan tâm",
+        "definitionEn": "to make someone want to know more about something; a feeling of wanting to know more about something",
+        "example": { "en": "History has always interested me.", "vi": "Lịch sử luôn khiến tôi hứng thú." }
+      },
+      {
+        "id": "vocab-unit-3-member",
+        "type": "word",
+        "word": "member",
+        "image": "./assets/vocabulary/unit-3/fun-and-games/19_member.png",
+        "imageAlt": "A new member joining a club",
+        "phonetic": "/ˈmembə/",
+        "partOfSpeech": ["noun"],
+        "meaningVi": "thành viên",
+        "definitionEn": "a person who belongs to a group or club",
+        "example": { "en": "She has been a member of the drama club for two years.", "vi": "Cô ấy đã là thành viên của câu lạc bộ kịch được hai năm." }
+      },
+      {
+        "id": "vocab-unit-3-opponent",
+        "type": "word",
+        "word": "opponent",
+        "image": "./assets/vocabulary/unit-3/fun-and-games/20_opponent.png",
+        "imageAlt": "Two opponents shaking hands after a match",
+        "phonetic": "/əˈpoʊnənt/",
+        "partOfSpeech": ["noun"],
+        "meaningVi": "đối thủ",
+        "definitionEn": "a person you compete against in a game or competition",
+        "example": { "en": "He shook hands with his opponent after the match.", "vi": "Anh ấy đã bắt tay đối thủ sau trận đấu." }
+      },
+      {
+        "id": "vocab-unit-3-organise",
+        "type": "word",
+        "word": "organise",
+        "image": "./assets/vocabulary/unit-3/fun-and-games/21_organise.png",
+        "imageAlt": "People organising an event",
+        "phonetic": "/ˈɔːɡənaɪz/",
+        "partOfSpeech": ["verb"],
+        "meaningVi": "tổ chức",
+        "definitionEn": "to plan and arrange an event",
+        "example": { "en": "Our school organises a sports day every June.", "vi": "Trường chúng tôi tổ chức một ngày hội thể thao vào mỗi tháng Sáu." }
+      },
+      {
+        "id": "vocab-unit-3-pleasure",
+        "type": "word",
+        "word": "pleasure",
+        "image": "./assets/vocabulary/unit-3/fun-and-games/22_pleasure.png",
+        "imageAlt": "A person smiling with pleasure",
+        "phonetic": "/ˈpleʒə/",
+        "partOfSpeech": ["noun"],
+        "meaningVi": "niềm vui, sự thích thú",
+        "definitionEn": "a feeling of happiness or satisfaction",
+        "example": { "en": "Reading gives her great pleasure.", "vi": "Đọc sách mang lại cho cô ấy niềm vui lớn." }
+      },
+      {
+        "id": "vocab-unit-3-referee",
+        "type": "word",
+        "word": "referee",
+        "image": "./assets/vocabulary/unit-3/fun-and-games/23_referee.png",
+        "imageAlt": "A referee blowing a whistle during a match",
+        "phonetic": "/ˌrefəˈriː/",
+        "partOfSpeech": ["noun"],
+        "meaningVi": "trọng tài",
+        "definitionEn": "a person who makes sure players follow the rules in a game",
+        "example": { "en": "The referee stopped the match because of the rain.", "vi": "Trọng tài đã dừng trận đấu vì trời mưa." }
+      },
+      {
+        "id": "vocab-unit-3-rhythm",
+        "type": "word",
+        "word": "rhythm",
+        "image": "./assets/vocabulary/unit-3/fun-and-games/24_rhythm.png",
+        "imageAlt": "Musicians keeping the rhythm together",
+        "phonetic": "/ˈrɪðəm/",
+        "partOfSpeech": ["noun"],
+        "meaningVi": "nhịp điệu",
+        "definitionEn": "a regular repeated pattern of sound in music",
+        "example": { "en": "It's hard to dance without a sense of rhythm.", "vi": "Thật khó để nhảy nếu không có cảm giác về nhịp điệu." }
+      },
+      {
+        "id": "vocab-unit-3-risk",
+        "type": "word",
+        "word": "risk",
+        "image": "./assets/vocabulary/unit-3/fun-and-games/25_risk.png",
+        "imageAlt": "A player taking a risk during a game",
+        "phonetic": "/rɪsk/",
+        "partOfSpeech": ["verb", "noun"],
+        "meaningVi": "liều lĩnh; rủi ro",
+        "definitionEn": "to do something that might cause harm or loss; the possibility of danger or loss",
+        "example": { "en": "She risked injury by continuing to play.", "vi": "Cô ấy đã liều lĩnh chấp nhận nguy cơ chấn thương khi tiếp tục chơi." }
+      },
+      {
+        "id": "vocab-unit-3-score",
+        "type": "word",
+        "word": "score",
+        "image": "./assets/vocabulary/unit-3/fun-and-games/26_score.png",
+        "imageAlt": "A player scoring a goal",
+        "phonetic": "/skɔː/",
+        "partOfSpeech": ["verb", "noun"],
+        "meaningVi": "ghi điểm; tỉ số",
+        "definitionEn": "to get a point in a game; the number of points gained in a game",
+        "example": { "en": "He scored the winning goal in the last minute.", "vi": "Anh ấy đã ghi bàn thắng quyết định ở phút cuối." }
+      },
+      {
+        "id": "vocab-unit-3-support",
+        "type": "word",
+        "word": "support",
+        "image": "./assets/vocabulary/unit-3/fun-and-games/27_support.png",
+        "imageAlt": "Fans supporting their team",
+        "phonetic": "/səˈpɔːt/",
+        "partOfSpeech": ["verb", "noun"],
+        "meaningVi": "ủng hộ; sự hỗ trợ",
+        "definitionEn": "to encourage or help a team or person; help or encouragement",
+        "example": { "en": "Thousands of fans came to support their team.", "vi": "Hàng nghìn người hâm mộ đã đến để ủng hộ đội của họ." }
+      },
+      {
+        "id": "vocab-unit-3-team",
+        "type": "word",
+        "word": "team",
+        "image": "./assets/vocabulary/unit-3/fun-and-games/28_team.png",
+        "imageAlt": "A team celebrating together",
+        "phonetic": "/tiːm/",
+        "partOfSpeech": ["noun"],
+        "meaningVi": "đội, nhóm",
+        "definitionEn": "a group of people who play or work together",
+        "example": { "en": "Our team won the championship this year.", "vi": "Đội của chúng tôi đã giành chức vô địch năm nay." }
+      },
+      {
+        "id": "vocab-unit-3-train",
+        "type": "word",
+        "word": "train",
+        "image": "./assets/vocabulary/unit-3/fun-and-games/29_train.png",
+        "imageAlt": "An athlete training",
+        "phonetic": "/treɪn/",
+        "partOfSpeech": ["verb"],
+        "meaningVi": "luyện tập",
+        "definitionEn": "to prepare for a sport or activity by practising regularly",
+        "example": { "en": "Athletes train for years before the Olympics.", "vi": "Các vận động viên luyện tập nhiều năm trước khi tham dự Olympic." }
+      },
+      {
+        "id": "vocab-unit-3-video-game",
+        "type": "word",
+        "word": "video game",
+        "image": "./assets/vocabulary/unit-3/fun-and-games/30_video_game.png",
+        "imageAlt": "A person playing a video game",
+        "phonetic": "/ˈvɪdiəʊ ɡeɪm/",
+        "partOfSpeech": ["noun-phrase"],
+        "meaningVi": "trò chơi điện tử",
+        "definitionEn": "an electronic game played on a screen",
+        "example": { "en": "My brother plays video games every evening.", "vi": "Em trai tôi chơi trò chơi điện tử mỗi tối." }
+      }
+    ],
+    "phrasalVerbs": [
+      {
+        "id": "vocab-unit-3-carry-on",
+        "type": "phrasal-verb",
+        "word": "carry on",
+        "image": "./assets/vocabulary/unit-3/fun-and-games/01_carry_on.png",
+        "imageAlt": "Someone continuing an activity",
+        "meaningVi": "tiếp tục",
+        "definitionEn": "continue",
+        "example": { "en": "Please carry on with your work.", "vi": "Hãy tiếp tục công việc của bạn." }
+      },
+      {
+        "id": "vocab-unit-3-eat-out",
+        "type": "phrasal-verb",
+        "word": "eat out",
+        "image": "./assets/vocabulary/unit-3/fun-and-games/02_eat_out.png",
+        "imageAlt": "People eating at a restaurant",
+        "meaningVi": "ăn ở ngoài (nhà hàng)",
+        "definitionEn": "eat at a restaurant",
+        "example": { "en": "We usually eat out on Friday nights.", "vi": "Chúng tôi thường ăn ở ngoài vào tối thứ Sáu." }
+      },
+      {
+        "id": "vocab-unit-3-give-up",
+        "type": "phrasal-verb",
+        "word": "give up",
+        "image": "./assets/vocabulary/unit-3/fun-and-games/03_give_up.png",
+        "imageAlt": "Someone quitting a regular activity",
+        "meaningVi": "từ bỏ",
+        "definitionEn": "stop doing something you do regularly",
+        "example": { "en": "He gave up playing tennis after his injury.", "vi": "Anh ấy đã từ bỏ chơi quần vợt sau chấn thương." }
+      },
+      {
+        "id": "vocab-unit-3-join-in",
+        "type": "phrasal-verb",
+        "word": "join in",
+        "image": "./assets/vocabulary/unit-3/fun-and-games/04_join_in.png",
+        "imageAlt": "Someone joining in a group game",
+        "meaningVi": "tham gia (vào)",
+        "definitionEn": "participate, take part",
+        "example": { "en": "Everyone joined in the game happily.", "vi": "Mọi người vui vẻ tham gia vào trò chơi." }
+      },
+      {
+        "id": "vocab-unit-3-send-off",
+        "type": "phrasal-verb",
+        "word": "send off",
+        "image": "./assets/vocabulary/unit-3/fun-and-games/05_send_off.png",
+        "imageAlt": "A referee sending a football player off",
+        "meaningVi": "đuổi khỏi sân (trong bóng đá, v.v.)",
+        "definitionEn": "make a player leave a game, for example football",
+        "example": { "en": "The player was sent off for a dangerous tackle.", "vi": "Cầu thủ đã bị đuổi khỏi sân vì một pha vào bóng nguy hiểm." }
+      },
+      {
+        "id": "vocab-unit-3-take-up",
+        "type": "phrasal-verb",
+        "word": "take up",
+        "image": "./assets/vocabulary/unit-3/fun-and-games/06_take_up.png",
+        "imageAlt": "Someone starting a new hobby",
+        "meaningVi": "bắt đầu (một môn thể thao, sở thích)",
+        "definitionEn": "start a hobby, sport, etc.",
+        "example": { "en": "She took up swimming last year.", "vi": "Cô ấy đã bắt đầu học bơi vào năm ngoái." }
+      },
+      {
+        "id": "vocab-unit-3-turn-down",
+        "type": "phrasal-verb",
+        "word": "turn down",
+        "image": "./assets/vocabulary/unit-3/fun-and-games/07_turn_down.png",
+        "imageAlt": "Someone lowering the volume on a stereo",
+        "meaningVi": "vặn nhỏ (âm lượng)",
+        "definitionEn": "lower the volume of",
+        "example": { "en": "Can you turn down the music, please?", "vi": "Bạn có thể vặn nhỏ nhạc lại được không?" }
+      },
+      {
+        "id": "vocab-unit-3-turn-up",
+        "type": "phrasal-verb",
+        "word": "turn up",
+        "image": "./assets/vocabulary/unit-3/fun-and-games/08_turn_up.png",
+        "imageAlt": "Someone increasing the volume on a stereo",
+        "meaningVi": "vặn to (âm lượng)",
+        "definitionEn": "increase the volume of",
+        "example": { "en": "He turned up the volume so everyone could hear.", "vi": "Anh ấy đã vặn to âm lượng để mọi người có thể nghe thấy." }
+      }
+    ],
+    "prepositionalPhrases": [
+      {
+        "id": "vocab-unit-3-for-a-long-time",
+        "type": "prepositional-phrase",
+        "word": "for a long time",
+        "image": "./assets/vocabulary/unit-3/fun-and-games/09_for_a_long_time.png",
+        "imageAlt": "Friends who have played together for a long time",
+        "meaningVi": "trong một thời gian dài",
+        "usageEn": "used to talk about a period of time that continues up to now or up to a point in the past",
+        "example": { "en": "They have been playing together for a long time.", "vi": "Họ đã chơi cùng nhau trong một thời gian dài." }
+      },
+      {
+        "id": "vocab-unit-3-for-fun",
+        "type": "prepositional-phrase",
+        "word": "for fun",
+        "image": "./assets/vocabulary/unit-3/fun-and-games/10_for_fun.png",
+        "imageAlt": "Friends playing a sport just for fun",
+        "meaningVi": "để giải trí, cho vui",
+        "usageEn": "used to say that something is done for enjoyment, not for a serious reason",
+        "example": { "en": "We play football for fun, not to compete.", "vi": "Chúng tôi chơi bóng đá để giải trí, không phải để thi đấu." }
+      },
+      {
+        "id": "vocab-unit-3-in-the-middle-of",
+        "type": "prepositional-phrase",
+        "word": "in the middle of",
+        "variants": ["in the middle", "in the middle of"],
+        "image": "./assets/vocabulary/unit-3/fun-and-games/11_in_the_middle_of.png",
+        "imageAlt": "A game interrupted in the middle of play",
+        "meaningVi": "ở giữa (khoảng thời gian hoặc sự việc nào đó)",
+        "usageEn": "used before a noun/V-ing to say something happens while another action is still going on; used alone (\"in the middle\") when the context is already clear",
+        "example": { "en": "We were in the middle of the game when it started to rain.", "vi": "Chúng tôi đang ở giữa trận đấu thì trời bắt đầu mưa." }
+      },
+      {
+        "id": "vocab-unit-3-in-time-for",
+        "type": "prepositional-phrase",
+        "word": "in time for",
+        "image": "./assets/vocabulary/unit-3/fun-and-games/12_in_time_for.png",
+        "imageAlt": "People arriving just in time for a concert",
+        "meaningVi": "kịp giờ cho (việc gì đó)",
+        "usageEn": "used to say something happens early enough for a following event",
+        "example": { "en": "We arrived just in time for the concert.", "vi": "Chúng tôi đã đến vừa kịp giờ cho buổi hòa nhạc." }
+      },
+      {
+        "id": "vocab-unit-3-on-cd-dvd-video",
+        "type": "prepositional-phrase",
+        "word": "on CD/DVD/video",
+        "image": "./assets/vocabulary/unit-3/fun-and-games/13_on_CD_DVD_video.png",
+        "imageAlt": "A stack of CDs and DVDs",
+        "meaningVi": "trên đĩa CD/DVD/video",
+        "usageEn": "used to say a recording is available in that format",
+        "example": { "en": "You can watch the match again on video.", "vi": "Bạn có thể xem lại trận đấu trên video." }
+      },
+      {
+        "id": "vocab-unit-3-on-stage",
+        "type": "prepositional-phrase",
+        "word": "on stage",
+        "image": "./assets/vocabulary/unit-3/fun-and-games/14_on_stage.png",
+        "imageAlt": "A band performing on stage",
+        "meaningVi": "trên sân khấu",
+        "usageEn": "used to say a performance happens in front of an audience",
+        "example": { "en": "The band performed on stage for two hours.", "vi": "Ban nhạc đã biểu diễn trên sân khấu trong hai giờ." }
+      }
+    ],
+    "wordFormation": {
+      "families": [
+        {
+          "id": "vocab-unit-3-family-act",
+          "type": "word-family",
+          "root": "act",
+          "image": "./assets/vocabulary/unit-3/fun-and-games/15_act.png",
+          "imageAlt": "An actor performing an action on stage",
+          "forms": [
+            { "word": "action", "partOfSpeech": "noun", "meaningVi": "hành động" },
+            { "word": "active", "partOfSpeech": "adjective", "meaningVi": "năng động, tích cực" },
+            { "word": "inactive", "partOfSpeech": "adjective", "meaningVi": "không hoạt động, thụ động" },
+            { "word": "actor", "partOfSpeech": "noun", "meaningVi": "diễn viên" }
+          ]
+        },
+        {
+          "id": "vocab-unit-3-family-athlete",
+          "type": "word-family",
+          "root": "athlete",
+          "image": "./assets/vocabulary/unit-3/fun-and-games/16_athlete.png",
+          "imageAlt": "An athlete competing in athletics",
+          "forms": [
+            { "word": "athletic", "partOfSpeech": "adjective", "meaningVi": "có thể chất tốt, thuộc về thể thao" },
+            { "word": "athletics", "partOfSpeech": "noun", "meaningVi": "môn điền kinh" }
+          ]
+        },
+        {
+          "id": "vocab-unit-3-family-child",
+          "type": "word-family",
+          "root": "child",
+          "image": "./assets/vocabulary/unit-3/fun-and-games/17_child.png",
+          "imageAlt": "Children playing together",
+          "forms": [
+            { "word": "children", "partOfSpeech": "noun (plural)", "meaningVi": "trẻ em (số nhiều)" },
+            { "word": "childhood", "partOfSpeech": "noun", "meaningVi": "thời thơ ấu" }
+          ]
+        },
+        {
+          "id": "vocab-unit-3-family-collect",
+          "type": "word-family",
+          "root": "collect",
+          "image": "./assets/vocabulary/unit-3/fun-and-games/18_collect.png",
+          "imageAlt": "Someone showing a collection of items",
+          "forms": [
+            { "word": "collection", "partOfSpeech": "noun", "meaningVi": "bộ sưu tập" },
+            { "word": "collector", "partOfSpeech": "noun", "meaningVi": "người sưu tầm" }
+          ]
+        },
+        {
+          "id": "vocab-unit-3-family-entertain",
+          "type": "word-family",
+          "root": "entertain",
+          "image": "./assets/vocabulary/unit-3/fun-and-games/19_entertain.png",
+          "imageAlt": "A crowd being entertained by a performance",
+          "forms": [
+            { "word": "entertainment", "partOfSpeech": "noun", "meaningVi": "sự giải trí" }
+          ]
+        },
+        {
+          "id": "vocab-unit-3-family-hero",
+          "type": "word-family",
+          "root": "hero",
+          "image": "./assets/vocabulary/unit-3/fun-and-games/20_hero.png",
+          "imageAlt": "A sports hero celebrating a win",
+          "forms": [
+            { "word": "heroic", "partOfSpeech": "adjective", "meaningVi": "anh hùng, dũng cảm" },
+            { "word": "heroine", "partOfSpeech": "noun", "meaningVi": "nữ anh hùng" }
+          ]
+        },
+        {
+          "id": "vocab-unit-3-family-music",
+          "type": "word-family",
+          "root": "music",
+          "image": "./assets/vocabulary/unit-3/fun-and-games/21_music.png",
+          "imageAlt": "A musician playing music",
+          "forms": [
+            { "word": "musical", "partOfSpeech": "adjective", "meaningVi": "thuộc về âm nhạc" },
+            { "word": "musician", "partOfSpeech": "noun", "meaningVi": "nhạc sĩ, nhạc công" }
+          ]
+        },
+        {
+          "id": "vocab-unit-3-family-play",
+          "type": "word-family",
+          "root": "play",
+          "image": "./assets/vocabulary/unit-3/fun-and-games/22_play.png",
+          "imageAlt": "Players playing a playful game",
+          "forms": [
+            { "word": "player", "partOfSpeech": "noun", "meaningVi": "người chơi" },
+            { "word": "playful", "partOfSpeech": "adjective", "meaningVi": "tinh nghịch, vui đùa" }
+          ]
+        },
+        {
+          "id": "vocab-unit-3-family-sail",
+          "type": "word-family",
+          "root": "sail",
+          "image": "./assets/vocabulary/unit-3/fun-and-games/23_sail.png",
+          "imageAlt": "A sailor sailing a boat",
+          "forms": [
+            { "word": "sailing", "partOfSpeech": "noun", "meaningVi": "môn đua thuyền buồm, việc đi thuyền" },
+            { "word": "sailor", "partOfSpeech": "noun", "meaningVi": "thủy thủ" }
+          ]
+        },
+        {
+          "id": "vocab-unit-3-family-sing",
+          "type": "word-family",
+          "root": "sing",
+          "image": "./assets/vocabulary/unit-3/fun-and-games/24_sing.png",
+          "imageAlt": "A singer singing a song",
+          "forms": [
+            { "word": "sang", "partOfSpeech": "verb (past simple)", "meaningVi": "(quá khứ của sing)" },
+            { "word": "sung", "partOfSpeech": "verb (past participle)", "meaningVi": "(phân từ hai của sing)" },
+            { "word": "song", "partOfSpeech": "noun", "meaningVi": "bài hát" },
+            { "word": "singer", "partOfSpeech": "noun", "meaningVi": "ca sĩ" },
+            { "word": "singing", "partOfSpeech": "noun / gerund", "meaningVi": "việc ca hát" }
+          ]
+        }
+      ]
+    },
+    "wordPatterns": {
+      "adjectivePreposition": [
+        {
+          "id": "vocab-unit-3-pattern-bored-with",
+          "type": "word-pattern",
+          "patternGroup": "adjective",
+          "headword": "bored",
+          "prepositions": ["with"],
+          "structure": "bored with + noun / V-ing",
+          "image": "./assets/vocabulary/unit-3/fun-and-games/25_bored_with.png",
+          "imageAlt": "Someone looking bored with a game",
+          "meaningVi": "chán với (điều gì)",
+          "example": { "en": "I'm bored with playing the same game every day.", "vi": "Tôi chán chơi trò chơi giống nhau mỗi ngày." }
+        },
+        {
+          "id": "vocab-unit-3-pattern-crazy-about",
+          "type": "word-pattern",
+          "patternGroup": "adjective",
+          "headword": "crazy",
+          "prepositions": ["about"],
+          "structure": "crazy about + noun / V-ing",
+          "image": "./assets/vocabulary/unit-3/fun-and-games/26_crazy_about.png",
+          "imageAlt": "Someone very excited and crazy about a hobby",
+          "meaningVi": "đam mê, cuồng nhiệt với (điều gì)",
+          "example": { "en": "My brother is crazy about video games.", "vi": "Em trai tôi rất đam mê trò chơi điện tử." }
+        },
+        {
+          "id": "vocab-unit-3-pattern-good-at",
+          "type": "word-pattern",
+          "patternGroup": "adjective",
+          "headword": "good",
+          "prepositions": ["at"],
+          "structure": "good at + noun / V-ing",
+          "image": "./assets/vocabulary/unit-3/fun-and-games/27_good_at.png",
+          "imageAlt": "Someone who is good at playing chess",
+          "meaningVi": "giỏi về (điều gì)",
+          "example": { "en": "She is good at playing chess.", "vi": "Cô ấy chơi cờ rất giỏi." },
+          "commonMistake": "Not \"good in\" — the correct preposition is always \"good at\"."
+        },
+        {
+          "id": "vocab-unit-3-pattern-interested-in",
+          "type": "word-pattern",
+          "patternGroup": "adjective",
+          "headword": "interested",
+          "prepositions": ["in"],
+          "structure": "interested in + noun / V-ing",
+          "image": "./assets/vocabulary/unit-3/fun-and-games/28_interested_in.png",
+          "imageAlt": "Someone interested in learning an instrument",
+          "meaningVi": "quan tâm, hứng thú với (điều gì)",
+          "example": { "en": "He's interested in learning the guitar.", "vi": "Anh ấy hứng thú với việc học đàn guitar." },
+          "commonMistake": "Don't confuse \"interested in\" (how a person feels) with \"interesting\" (a quality of the thing itself)."
+        },
+        {
+          "id": "vocab-unit-3-pattern-keen-on",
+          "type": "word-pattern",
+          "patternGroup": "adjective",
+          "headword": "keen",
+          "prepositions": ["on"],
+          "structure": "keen on + noun / V-ing",
+          "image": "./assets/vocabulary/unit-3/fun-and-games/29_keen_on.png",
+          "imageAlt": "Someone keen on board games",
+          "meaningVi": "thích, hào hứng với (điều gì)",
+          "example": { "en": "I'm not very keen on board games.", "vi": "Tôi không thích lắm các trò chơi cờ bàn." }
+        },
+        {
+          "id": "vocab-unit-3-pattern-popular-with",
+          "type": "word-pattern",
+          "patternGroup": "adjective",
+          "headword": "popular",
+          "prepositions": ["with"],
+          "structure": "popular with + somebody",
+          "image": "./assets/vocabulary/unit-3/fun-and-games/30_popular_with.png",
+          "imageAlt": "A game that is popular with teenagers",
+          "meaningVi": "được yêu thích bởi (ai đó)",
+          "example": { "en": "This game is very popular with teenagers.", "vi": "Trò chơi này rất được giới trẻ yêu thích." }
+        }
+      ],
+      "verbPreposition": [
+        {
+          "id": "vocab-unit-3-pattern-feel-like",
+          "type": "word-pattern",
+          "patternGroup": "verb",
+          "headword": "feel",
+          "prepositions": ["like"],
+          "structure": "feel like + noun / V-ing",
+          "image": "./assets/vocabulary/unit-3/fun-and-games/31_feel_like.png",
+          "imageAlt": "Someone deciding what they feel like doing",
+          "meaningVi": "cảm thấy muốn (làm gì)",
+          "example": { "en": "I don't feel like playing today.", "vi": "Hôm nay tôi không cảm thấy muốn chơi." }
+        },
+        {
+          "id": "vocab-unit-3-pattern-listen-to",
+          "type": "word-pattern",
+          "patternGroup": "verb",
+          "headword": "listen",
+          "prepositions": ["to"],
+          "structure": "listen to + noun",
+          "image": "./assets/vocabulary/unit-3/fun-and-games/32_listen_to.png",
+          "imageAlt": "Someone listening to music",
+          "meaningVi": "nghe (cái gì)",
+          "example": { "en": "She likes to listen to music while training.", "vi": "Cô ấy thích nghe nhạc trong khi luyện tập." },
+          "commonMistake": "\"Listen\" always needs \"to\" before an object: \"listen to music\", not \"listen music\"."
+        },
+        {
+          "id": "vocab-unit-3-pattern-take-part-in",
+          "type": "word-pattern",
+          "patternGroup": "verb",
+          "headword": "take part",
+          "prepositions": ["in"],
+          "structure": "take part in + noun",
+          "image": "./assets/vocabulary/unit-3/fun-and-games/33_take_part_in.png",
+          "imageAlt": "Schools taking part in a competition",
+          "meaningVi": "tham gia vào (cái gì)",
+          "example": { "en": "More than fifty schools took part in the competition.", "vi": "Hơn năm mươi trường đã tham gia vào cuộc thi." }
+        }
+      ],
+      "nounPreposition": [
+        {
+          "id": "vocab-unit-3-pattern-a-book-by-somebody-about-something",
+          "type": "word-pattern",
+          "patternGroup": "noun",
+          "headword": "book",
+          "prepositions": ["by", "about"],
+          "structure": "a book + by + author + about + topic",
+          "image": "./assets/vocabulary/unit-3/fun-and-games/34_a_book_by_somebody_about_something.png",
+          "imageAlt": "A book written by a former champion",
+          "meaningVi": "một cuốn sách của ai đó viết về điều gì",
+          "example": { "en": "It's a book by a former champion about her career.", "vi": "Đó là một cuốn sách của một cựu nhà vô địch viết về sự nghiệp của cô ấy." }
+        },
+        {
+          "id": "vocab-unit-3-pattern-a-fan-of",
+          "type": "word-pattern",
+          "patternGroup": "noun",
+          "headword": "fan",
+          "prepositions": ["of"],
+          "structure": "a fan of + noun",
+          "image": "./assets/vocabulary/unit-3/fun-and-games/35_a_fan_of.png",
+          "imageAlt": "A fan supporting their favourite team",
+          "meaningVi": "người hâm mộ của (ai đó/cái gì)",
+          "example": { "en": "He has been a fan of the team since he was a child.", "vi": "Anh ấy đã là người hâm mộ của đội bóng này từ khi còn nhỏ." }
+        },
+        {
+          "id": "vocab-unit-3-pattern-a-game-against",
+          "type": "word-pattern",
+          "patternGroup": "noun",
+          "headword": "game",
+          "prepositions": ["against"],
+          "structure": "a game against + opponent",
+          "image": "./assets/vocabulary/unit-3/fun-and-games/36_a_game_against.png",
+          "imageAlt": "Two teams playing a game against each other",
+          "meaningVi": "một trận đấu với (đối thủ)",
+          "example": { "en": "We have a game against our biggest rivals next week.", "vi": "Chúng tôi có một trận đấu với đối thủ lớn nhất vào tuần tới." }
+        }
+      ]
+    }
+  }
+}

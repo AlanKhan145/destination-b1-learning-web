@@ -3,23 +3,53 @@
 // dựng khung giao diện (header/footer/bộ chọn ngôn ngữ) và kết nối các module.
 
 import { initI18n, setLanguage, getCurrentLanguage, t, onLanguageChange } from "./i18n.js";
-import { loadLesson, isValidLessonId } from "./lesson-loader.js";
+import { loadLesson, loadLessonIndex, isValidLessonId } from "./lesson-loader.js";
 import { renderLesson } from "./lesson-renderer.js";
+import { renderHome } from "./home-renderer.js";
 import { initNavigation, initScrollSpy } from "./navigation.js";
 import { initReviewPanel, refreshReviewPanelLocale } from "./review-panel.js";
+import { loadVocabularySet } from "./vocabulary/vocabulary-data.js";
+import { renderVocabularyLesson } from "./vocabulary/vocabulary-lesson-renderer.js";
 
-const DEFAULT_LESSON_ID = "unit-1";
 const LANGUAGE_OPTIONS = [
   { code: "en", key: "language.english" },
   { code: "vi", key: "language.vietnamese" }
 ];
 
 let currentLesson = null;
+let currentLessonIndex = null;
+let currentVocabularySet = null;
 
+function isVocabularyLesson(lesson) {
+  return lesson?.category === "Vocabulary";
+}
+
+function renderLessonBody() {
+  if (isVocabularyLesson(currentLesson) && currentVocabularySet) {
+    renderVocabularyLesson(currentLesson, currentVocabularySet);
+  } else {
+    renderLesson(currentLesson);
+  }
+}
+
+/** Trả về id bài học từ ?lesson=, hoặc null khi không có (nghĩa là hiển thị trang chủ). */
 function getRequestedLessonId() {
   const params = new URLSearchParams(window.location.search);
-  const requested = params.get("lesson");
-  return requested && isValidLessonId(requested) ? requested : DEFAULT_LESSON_ID;
+  return params.get("lesson");
+}
+
+function showLessonWorkspace() {
+  const workspace = document.getElementById("workspace");
+  const lessonList = document.getElementById("lesson-list");
+  if (workspace) workspace.hidden = false;
+  if (lessonList) lessonList.hidden = true;
+}
+
+function showLessonList() {
+  const workspace = document.getElementById("workspace");
+  const lessonList = document.getElementById("lesson-list");
+  if (workspace) workspace.hidden = true;
+  if (lessonList) lessonList.hidden = false;
 }
 
 function handleLanguageChange(language) {
@@ -81,30 +111,54 @@ function renderSiteFooter() {
 function renderChrome() {
   renderSiteHeader();
   renderSiteFooter();
-  document.title = currentLesson ? `${currentLesson.title} – ${t("app.name")}` : t("app.name");
+  if (currentLesson) {
+    document.title = `${currentLesson.title} – ${t("app.name")}`;
+  } else if (currentLessonIndex) {
+    document.title = `${t("home.title")} – ${t("app.name")}`;
+  } else {
+    document.title = t("app.name");
+  }
 }
 
-function renderErrorMessage(messageKey) {
+function renderErrorMessage(messageKey, container) {
+  if (!container) return;
+  container.innerHTML = "";
+  const message = document.createElement("p");
+  message.className = "error-message";
+  message.textContent = t(messageKey);
+  container.appendChild(message);
+}
+
+function renderLessonErrorMessage(messageKey) {
   const contentContainer = document.getElementById("lesson-content");
-  if (!contentContainer) return;
 
   ["lesson-header", "table-of-contents", "lesson-pagination"].forEach((id) => {
     const el = document.getElementById(id);
     if (el) el.innerHTML = "";
   });
 
-  contentContainer.innerHTML = "";
-  const message = document.createElement("p");
-  message.className = "error-message";
-  message.textContent = t(messageKey);
-  contentContainer.appendChild(message);
+  renderErrorMessage(messageKey, contentContainer);
 }
 
 async function renderCurrentLesson() {
   if (!currentLesson) return;
-  renderLesson(currentLesson);
+  renderLessonBody();
   initScrollSpy();
   initReviewPanel(currentLesson);
+}
+
+/**
+ * Ré-render sau khi đổi ngôn ngữ: chỉ cập nhật nhãn giao diện, không gọi lại
+ * initReviewPanel() để không làm mất tiến trình ôn tập đang dang dở.
+ */
+function renderCurrentView() {
+  if (currentLesson) {
+    renderLessonBody();
+    initScrollSpy();
+    refreshReviewPanelLocale();
+  } else if (currentLessonIndex) {
+    renderHome(currentLessonIndex);
+  }
 }
 
 async function bootstrap() {
@@ -116,29 +170,54 @@ async function bootstrap() {
     return;
   }
 
-  const lessonId = getRequestedLessonId();
-
-  try {
-    currentLesson = await loadLesson(lessonId);
-  } catch (error) {
-    console.error(error);
-    renderChrome();
-    const messageKey = error.message === "lesson-not-found" ? "errors.lessonNotFound" : "errors.unexpectedError";
-    renderErrorMessage(messageKey);
-    return;
-  }
-
-  renderChrome();
-  await renderCurrentLesson();
   initNavigation();
 
-  onLanguageChange(async () => {
+  const requestedLessonId = getRequestedLessonId();
+
+  if (!requestedLessonId) {
+    showLessonList();
+    try {
+      currentLessonIndex = await loadLessonIndex();
+    } catch (error) {
+      console.error(error);
+      renderChrome();
+      renderErrorMessage("errors.unexpectedError", document.getElementById("lesson-list"));
+      return;
+    }
+
     renderChrome();
-    // Re-render lesson content (English/Vietnamese labels) but keep any in-progress
-    // review attempt alive — only its UI strings need to change, not its state.
-    renderLesson(currentLesson);
-    initScrollSpy();
-    refreshReviewPanelLocale();
+    renderHome(currentLessonIndex);
+  } else if (!isValidLessonId(requestedLessonId)) {
+    showLessonWorkspace();
+    renderChrome();
+    renderLessonErrorMessage("errors.lessonNotFound");
+    return;
+  } else {
+    showLessonWorkspace();
+
+    try {
+      currentLesson = await loadLesson(requestedLessonId);
+      if (isVocabularyLesson(currentLesson)) {
+        currentVocabularySet = await loadVocabularySet(requestedLessonId);
+      }
+    } catch (error) {
+      console.error(error);
+      renderChrome();
+      const messageKey =
+        error.message === "lesson-not-found" || error.message === "vocabulary-not-found"
+          ? "errors.lessonNotFound"
+          : "errors.unexpectedError";
+      renderLessonErrorMessage(messageKey);
+      return;
+    }
+
+    renderChrome();
+    await renderCurrentLesson();
+  }
+
+  onLanguageChange(() => {
+    renderChrome();
+    renderCurrentView();
   });
 }
 

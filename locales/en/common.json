@@ -3,7 +3,13 @@
     "name": "English Learning",
     "footer": "Practice English grammar, one unit at a time."
   },
+  "home": {
+    "title": "Lessons",
+    "subtitle": "Choose a unit to start learning.",
+    "startLesson": "Start lesson"
+  },
   "navigation": {
+    "backToLessons": "← All lessons",
     "previousLesson": "Previous lesson",
     "nextLesson": "Next lesson",
     "backToTop": "Back to top",

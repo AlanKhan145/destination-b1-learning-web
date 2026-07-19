@@ -2,6 +2,7 @@
   "lesson": {
     "unit": "Unit",
     "grammar": "Grammar",
+    "vocabulary": "Vocabulary",
     "tableOfContents": "Table of contents",
     "topicsInLesson": "Topics in this lesson",
     "form": "Form",
@@ -12,6 +13,8 @@
     "example": "Example",
     "formula": "Formula",
     "watchOut": "Watch out!",
+    "helpfulHint": "Helpful hint",
+    "rule": "Rule",
     "comingSoon": "Coming soon",
     "tabLesson": "Lesson",
     "tabReview": "Review"

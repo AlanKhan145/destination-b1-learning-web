@@ -206,6 +206,10 @@ button:focus-visible {
   gap: var(--space-xl);
 }
 
+.workspace[hidden] {
+  display: none;
+}
+
 .lesson-pane {
   flex: 1 1 0%;
   min-width: 0;
@@ -501,6 +505,168 @@ button:focus-visible {
 }
 
 /* ==========================================================================
+   Lesson list (home page)
+   ========================================================================== */
+.lesson-list {
+  max-width: var(--max-content-width);
+  margin: 0 auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-lg);
+}
+
+.lesson-list[hidden] {
+  display: none;
+}
+
+.lesson-list-header {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-xs);
+}
+
+.lesson-list-title {
+  font-size: clamp(1.6rem, 4vw, 2.2rem);
+  font-weight: 800;
+  color: var(--color-text);
+}
+
+.lesson-list-subtitle {
+  color: var(--color-text-muted);
+}
+
+.lesson-card-list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-md);
+}
+
+.lesson-card {
+  background-color: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-large);
+  padding: var(--space-lg);
+  box-shadow: var(--shadow-small);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-sm);
+}
+
+.lesson-card-meta {
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+}
+
+.lesson-card-title {
+  font-size: 1.3rem;
+  font-weight: 800;
+  color: var(--color-text);
+}
+
+.lesson-card-description {
+  color: var(--color-text-muted);
+  max-width: 62ch;
+}
+
+.lesson-card-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-md);
+  margin-top: var(--space-sm);
+}
+
+.lesson-card-link {
+  padding: var(--space-sm) var(--space-md);
+  border-radius: var(--radius-small);
+  background-color: var(--color-primary);
+  color: var(--color-surface);
+  font-weight: 700;
+}
+
+.lesson-card-link:hover,
+.lesson-card-link:focus-visible {
+  background-color: var(--color-primary-dark);
+}
+
+/* ==========================================================================
+   Home: "Vocabulary Review" widget section
+   ========================================================================== */
+.vocab-widget-section:empty {
+  display: none;
+}
+
+.vocab-widget-heading {
+  font-size: 1.3rem;
+  font-weight: 800;
+  margin-top: var(--space-lg);
+  margin-bottom: var(--space-md);
+}
+
+.vocab-widget-list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-md);
+}
+
+.vocab-widget-card {
+  background-color: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-large);
+  padding: var(--space-lg);
+  box-shadow: var(--shadow-small);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-sm);
+}
+
+.vocab-widget-title {
+  font-size: 1.2rem;
+  font-weight: 800;
+}
+
+.vocab-widget-counts {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-md);
+  font-size: 0.9rem;
+  color: var(--color-text-muted);
+}
+
+.vocab-widget-count--mastered {
+  color: var(--color-success);
+  font-weight: 600;
+}
+
+.vocab-widget-count--needs-review {
+  color: var(--color-warning);
+  font-weight: 600;
+}
+
+.vocab-widget-count--new {
+  color: var(--color-pending);
+  font-weight: 600;
+}
+
+.vocab-widget-progress-track {
+  margin: var(--space-xs) 0;
+}
+
+.vocab-widget-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-sm);
+  margin-top: var(--space-xs);
+}
+
+.vocab-widget-link {
+  padding: var(--space-sm) var(--space-md);
+  border-radius: var(--radius-small);
+}
+
+/* ==========================================================================
    Lesson header
    ========================================================================== */
 .lesson-header-content {
@@ -509,6 +675,20 @@ button:focus-visible {
   border-radius: var(--radius-large);
   padding: var(--space-lg);
   box-shadow: var(--shadow-small);
+}
+
+.back-to-lessons-link {
+  display: inline-block;
+  margin-bottom: var(--space-md);
+  font-weight: 600;
+  font-size: 0.9rem;
+  color: var(--color-text-muted);
+}
+
+.back-to-lessons-link:hover,
+.back-to-lessons-link:focus-visible {
+  color: var(--color-primary-dark);
+  text-decoration: underline;
 }
 
 .lesson-meta {
@@ -852,6 +1032,601 @@ button:focus-visible {
 }
 
 /* ==========================================================================
+   Vocabulary lesson (data/vocabulary/*.json — separate from Grammar topics)
+   ========================================================================== */
+.vocab-source-note {
+  font-style: italic;
+  color: var(--color-text-muted);
+  margin-bottom: var(--space-sm);
+}
+
+.vocab-section {
+  background-color: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-large);
+  padding: var(--space-lg);
+  box-shadow: var(--shadow-small);
+  scroll-margin-top: calc(var(--header-height) + 60px);
+}
+
+.vocab-section-title {
+  font-size: 1.4rem;
+  font-weight: 800;
+  margin-bottom: var(--space-md);
+}
+
+.vocab-card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: var(--space-md);
+}
+
+.vocab-card {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-medium);
+  overflow: hidden;
+  background-color: var(--color-background);
+}
+
+.vocab-card-image {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  object-position: center;
+  background-color: var(--color-primary-light);
+  display: block;
+}
+
+.vocab-card-body {
+  padding: var(--space-md);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-xs);
+}
+
+.vocab-word {
+  font-size: 1.1rem;
+  font-weight: 800;
+  color: var(--color-text);
+}
+
+.vocab-card-meta {
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+  flex-wrap: wrap;
+}
+
+.vocab-phonetic {
+  font-family: "Consolas", "Courier New", monospace;
+  color: var(--color-text-muted);
+  font-size: 0.9rem;
+}
+
+.vocab-pos {
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  color: var(--color-primary-dark);
+  background-color: var(--color-primary-light);
+  padding: 2px 8px;
+  border-radius: 999px;
+}
+
+.vocab-meaning-vi {
+  font-weight: 700;
+  color: var(--color-primary-dark);
+}
+
+.vocab-definition {
+  color: var(--color-text-muted);
+  font-size: 0.9rem;
+}
+
+.vocab-example {
+  margin-top: var(--space-xs);
+  padding: var(--space-sm);
+  background-color: var(--color-surface);
+  border-radius: var(--radius-small);
+  border: 1px solid var(--color-border);
+}
+
+.vocab-example-en {
+  font-weight: 600;
+  font-family: "Consolas", "Courier New", monospace;
+  font-size: 0.9rem;
+}
+
+.vocab-example-vi {
+  color: var(--color-text-muted);
+  font-size: 0.85rem;
+  margin-top: var(--space-xs);
+}
+
+.vocab-common-mistake {
+  margin-top: var(--space-xs);
+  padding: var(--space-sm);
+  background-color: var(--color-warning-light);
+  color: var(--color-warning);
+  border-radius: var(--radius-small);
+  font-size: 0.85rem;
+}
+
+/* Word-formation cards */
+.vocab-forms-list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-xs);
+}
+
+.vocab-form-item {
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+  flex-wrap: wrap;
+  padding: var(--space-xs) 0;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.vocab-form-item:last-child {
+  border-bottom: none;
+}
+
+.vocab-form-word {
+  font-weight: 700;
+}
+
+.vocab-form-meaning {
+  color: var(--color-text-muted);
+  font-size: 0.9rem;
+}
+
+.vocab-forms-details {
+  margin-top: var(--space-xs);
+}
+
+.vocab-forms-summary {
+  cursor: pointer;
+  font-weight: 700;
+  color: var(--color-primary-dark);
+  font-size: 0.9rem;
+  padding: var(--space-xs) 0;
+}
+
+.vocab-forms-summary::marker {
+  color: var(--color-primary);
+}
+
+.vocab-forms-details[open] .vocab-forms-summary {
+  margin-bottom: var(--space-xs);
+}
+
+/* Word-pattern cards */
+.vocab-pattern-structure {
+  font-weight: 700;
+  font-family: "Consolas", "Courier New", monospace;
+  color: var(--color-primary-dark);
+}
+
+/* Progress bar (mastered/total) */
+.vocab-progress {
+  margin-bottom: var(--space-md);
+}
+
+.vocab-progress-label {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--color-text-muted);
+  margin-bottom: var(--space-xs);
+}
+
+.vocab-progress-track {
+  height: 8px;
+  border-radius: 999px;
+  background: var(--color-pending-light);
+  overflow: hidden;
+}
+
+.vocab-progress-fill {
+  height: 100%;
+  background: var(--color-success);
+  transition: width 0.2s ease;
+}
+
+/* Toolbar: search + status filters + part-of-speech select */
+.vocab-toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--space-sm);
+  margin-bottom: var(--space-lg);
+}
+
+.vocab-search-input {
+  flex: 1 1 220px;
+  padding: var(--space-sm) var(--space-md);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-small);
+  font-family: inherit;
+  font-size: 0.95rem;
+}
+
+.vocab-status-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-xs);
+}
+
+.vocab-filter-button {
+  padding: var(--space-xs) var(--space-md);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-small);
+  background: var(--color-surface);
+  color: var(--color-text-muted);
+  font-weight: 600;
+  font-size: 0.85rem;
+}
+
+.vocab-filter-button:hover {
+  color: var(--color-primary-dark);
+  background-color: var(--color-primary-light);
+}
+
+.vocab-filter-button.is-active {
+  background-color: var(--color-primary);
+  border-color: var(--color-primary);
+  color: #fff;
+}
+
+.vocab-pos-select {
+  padding: var(--space-xs) var(--space-sm);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-small);
+  font-family: inherit;
+  font-size: 0.9rem;
+  background: var(--color-surface);
+}
+
+.vocab-sections {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-lg);
+}
+
+/* Per-card status badge + actions */
+.vocab-card-footer {
+  margin-top: var(--space-sm);
+  padding-top: var(--space-sm);
+  border-top: 1px solid var(--color-border);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-xs);
+}
+
+.vocab-status-badge {
+  align-self: flex-start;
+}
+
+.status-badge--new {
+  color: var(--color-pending);
+  background-color: var(--color-pending-light);
+}
+
+.status-badge--learning {
+  color: var(--color-primary-dark);
+  background-color: var(--color-primary-light);
+}
+
+.status-badge--needs-review {
+  color: var(--color-warning);
+  background-color: var(--color-warning-light);
+}
+
+.status-badge--mastered {
+  color: var(--color-success);
+  background-color: var(--color-success-light);
+}
+
+.vocab-card-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-xs);
+}
+
+.vocab-action-button {
+  flex: 1 1 auto;
+  padding: var(--space-xs) var(--space-sm);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-small);
+  background: var(--color-surface);
+  color: var(--color-text);
+  font-size: 0.8rem;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.vocab-action-button:hover {
+  border-color: var(--color-primary);
+  color: var(--color-primary-dark);
+}
+
+.vocab-action-known:hover {
+  border-color: var(--color-success);
+  color: var(--color-success);
+}
+
+.vocab-action-review:hover {
+  border-color: var(--color-warning);
+  color: var(--color-warning);
+}
+
+.vocab-quick-review-button {
+  margin-top: var(--space-md);
+}
+
+/* ==========================================================================
+   Vocabulary quick-review overlay
+   ========================================================================== */
+.vocab-review-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 1200;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--space-lg);
+  background: rgba(15, 23, 42, 0.5);
+}
+
+.vocab-review-overlay[hidden] {
+  display: none;
+}
+
+.vocab-review-panel {
+  width: 100%;
+  max-width: 560px;
+  max-height: 90vh;
+  overflow-y: auto;
+  background: var(--color-surface);
+  border-radius: var(--radius-large);
+  box-shadow: var(--shadow-medium);
+  padding: var(--space-lg);
+}
+
+.vocab-review-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-sm);
+  margin-bottom: var(--space-md);
+}
+
+.vocab-review-title {
+  font-size: 1.2rem;
+  font-weight: 800;
+}
+
+.vocab-review-close {
+  border: 1px solid var(--color-border);
+  background: var(--color-surface);
+  border-radius: var(--radius-small);
+  padding: var(--space-xs) var(--space-sm);
+  color: var(--color-text-muted);
+  font-weight: 600;
+}
+
+.vocab-review-close:hover {
+  color: var(--color-primary-dark);
+  border-color: var(--color-primary);
+}
+
+.vocab-review-subtitle {
+  color: var(--color-text-muted);
+  margin-bottom: var(--space-md);
+}
+
+.vocab-review-loading,
+.vocab-review-empty {
+  color: var(--color-text-muted);
+  font-style: italic;
+}
+
+.vocab-mode-list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-sm);
+  margin-bottom: var(--space-md);
+}
+
+.vocab-mode-button {
+  padding: var(--space-md);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-medium);
+  background: var(--color-background);
+  font-weight: 700;
+  color: var(--color-text);
+  text-align: left;
+}
+
+.vocab-mode-button:hover {
+  border-color: var(--color-primary);
+  background: var(--color-primary-light);
+  color: var(--color-primary-dark);
+}
+
+.vocab-review-progress {
+  font-size: 0.85rem;
+  color: var(--color-text-muted);
+  margin-bottom: var(--space-md);
+}
+
+.vocab-review-content {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-md);
+  margin-bottom: var(--space-md);
+}
+
+.vocab-review-prompt {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-sm);
+  text-align: center;
+}
+
+.vocab-review-prompt-image {
+  width: 100%;
+  max-width: 220px;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  object-position: center;
+  border-radius: var(--radius-medium);
+  background-color: var(--color-primary-light);
+}
+
+.vocab-review-prompt-word {
+  font-size: 1.3rem;
+  font-weight: 800;
+}
+
+.vocab-review-answer-area {
+  width: 100%;
+}
+
+.vocab-mcq-option-image {
+  width: 80px;
+  height: 80px;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  object-position: center;
+  border-radius: var(--radius-small);
+}
+
+.mc-option--image .mc-option-label {
+  justify-content: center;
+}
+
+.vocab-type-input {
+  width: 100%;
+}
+
+.vocab-review-feedback {
+  font-weight: 700;
+}
+
+.vocab-review-score {
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin-bottom: var(--space-md);
+}
+
+/* Flashcard */
+.vocab-flashcard-front,
+.vocab-flashcard-back {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-sm);
+  text-align: center;
+}
+
+.vocab-flashcard-back[hidden] {
+  display: none;
+}
+
+.vocab-flashcard-image {
+  width: 100%;
+  max-width: 240px;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  object-position: center;
+  border-radius: var(--radius-medium);
+  background-color: var(--color-primary-light);
+}
+
+.vocab-flashcard-word {
+  font-size: 1.4rem;
+  font-weight: 800;
+}
+
+.vocab-flashcard-back {
+  padding-top: var(--space-md);
+  border-top: 1px solid var(--color-border);
+}
+
+.vocab-grade-button {
+  flex: 1;
+}
+
+/* Matching */
+.vocab-matching-container {
+  margin-bottom: var(--space-md);
+}
+
+.matching-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--space-lg);
+}
+
+.matching-column {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-sm);
+}
+
+.matching-button {
+  width: 100%;
+  padding: var(--space-sm);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-small);
+  background: var(--color-surface);
+  font-weight: 600;
+  color: var(--color-text);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 48px;
+}
+
+.matching-button:hover:not(:disabled) {
+  border-color: var(--color-primary);
+}
+
+.matching-button.is-selected {
+  border-color: var(--color-primary);
+  background: var(--color-primary-light);
+  color: var(--color-primary-dark);
+}
+
+.matching-button.is-matched {
+  border-color: var(--color-success);
+  background: var(--color-success-light);
+  color: var(--color-success);
+  cursor: default;
+}
+
+.matching-button.is-incorrect {
+  border-color: var(--color-warning);
+  background: var(--color-warning-light);
+  color: var(--color-warning);
+}
+
+.matching-image {
+  width: 100%;
+  max-width: 100px;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  object-position: center;
+  border-radius: var(--radius-small);
+}
+
+/* ==========================================================================
    Lesson pagination
    ========================================================================== */
 .lesson-pagination-inner {
@@ -961,7 +1736,9 @@ button:focus-visible {
   }
 
   .lesson-header-content,
-  .grammar-topic {
+  .grammar-topic,
+  .vocab-section,
+  .vocab-review-panel {
     padding: var(--space-md);
   }
 
@@ -1079,6 +1856,36 @@ button:focus-visible {
   .pagination-button--next {
     text-align: left;
   }
+
+  .vocab-toolbar {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .vocab-card-actions {
+    flex-direction: column;
+  }
+
+  .vocab-card-grid {
+    grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  }
+
+  .matching-grid {
+    gap: var(--space-sm);
+  }
+
+  .matching-button {
+    padding: var(--space-xs);
+    font-size: 0.85rem;
+  }
+
+  .vocab-review-overlay {
+    padding: var(--space-sm);
+  }
+
+  .vocab-review-panel {
+    max-height: 95vh;
+  }
 }
 
 /* ==========================================================================
@@ -1092,5 +1899,14 @@ button:focus-visible {
   .back-to-top {
     right: var(--space-md);
     bottom: var(--space-md);
+  }
+
+  .vocab-review-prompt-image,
+  .vocab-flashcard-image {
+    max-width: 160px;
+  }
+
+  .matching-image {
+    max-width: 72px;
   }
 }

@@ -1,0 +1,78 @@
+{
+  "vocabulary": {
+    "sections": {
+      "topicVocabulary": "Từ vựng chủ đề",
+      "phrasalVerbs": "Cụm động từ",
+      "prepositionalPhrases": "Cụm giới từ",
+      "wordFormation": "Cấu tạo từ",
+      "wordPatterns": "Mẫu câu từ vựng"
+    },
+    "status": {
+      "all": "Tất cả",
+      "new": "Chưa học",
+      "learning": "Đang học",
+      "needsReview": "Cần ôn lại",
+      "mastered": "Đã nhớ"
+    },
+    "toolbar": {
+      "searchPlaceholder": "Tìm kiếm từ vựng...",
+      "partOfSpeechLabel": "Từ loại",
+      "partOfSpeechAll": "Tất cả từ loại"
+    },
+    "card": {
+      "listen": "Nghe phát âm",
+      "markKnown": "Đánh dấu đã nhớ",
+      "markReview": "Cần ôn lại"
+    },
+    "progress": {
+      "label": "Đã học {completed}/{total} từ"
+    },
+    "wordFormation": {
+      "showForms": "Xem các dạng từ",
+      "hideForms": "Ẩn các dạng từ"
+    },
+    "wordPattern": {
+      "structureLabel": "Cấu trúc",
+      "commonMistakeLabel": "Lỗi thường gặp"
+    },
+    "review": {
+      "title": "Ôn tập từ vựng",
+      "chooseMode": "Chọn chế độ ôn tập",
+      "modeFlashcard": "Thẻ ghi nhớ",
+      "modeChooseMeaning": "Chọn nghĩa đúng",
+      "modeChooseImage": "Chọn từ theo ảnh",
+      "modeTypeWord": "Nhập từ",
+      "modeMatching": "Ghép cặp",
+      "matchWordMeaning": "Từ ↔ nghĩa",
+      "matchWordImage": "Từ ↔ hình ảnh",
+      "matchRootForm": "Từ gốc ↔ dạng từ",
+      "matchAdjectivePreposition": "Tính từ/động từ ↔ giới từ",
+      "showMeaning": "Hiện nghĩa",
+      "forgot": "Chưa nhớ",
+      "hard": "Khó",
+      "know": "Đã nhớ",
+      "next": "Tiếp theo",
+      "previous": "Quay lại",
+      "submit": "Kiểm tra",
+      "correct": "Chính xác!",
+      "incorrect": "Chưa đúng.",
+      "typeAnswerPlaceholder": "Nhập từ...",
+      "finish": "Hoàn thành",
+      "close": "Đóng",
+      "summaryTitle": "Kết quả phiên ôn tập",
+      "correctLabel": "Số câu đúng",
+      "reviewAgain": "Ôn tập lại",
+      "noWordsAvailable": "Chưa có từ nào để ôn tập.",
+      "matchingInstructions": "Ghép mỗi mục bên trái với mục đúng bên phải."
+    },
+    "home": {
+      "widgetTitle": "Ôn tập từ mới",
+      "wordsCount": "{count} mục từ",
+      "masteredCount": "{count} đã nhớ",
+      "needsReviewCount": "{count} cần ôn lại",
+      "newCount": "{count} chưa học",
+      "quickReview": "Ôn tập nhanh",
+      "viewWordList": "Xem danh sách từ"
+    }
+  }
+}

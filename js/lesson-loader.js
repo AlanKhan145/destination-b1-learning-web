@@ -26,4 +26,14 @@ async function loadLesson(lessonId) {
   return response.json();
 }
 
-export { loadLesson, isValidLessonId, LESSON_ID_PATTERN };
+async function loadLessonIndex() {
+  const response = await fetch("./data/lessons/index.json");
+
+  if (!response.ok) {
+    throw new Error("unexpected-error");
+  }
+
+  return response.json();
+}
+
+export { loadLesson, loadLessonIndex, isValidLessonId, LESSON_ID_PATTERN };

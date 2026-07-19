@@ -151,5 +151,6 @@ export {
   validateShortAnswer,
   validateTrueFalse,
   validateMatching,
-  validateOrdering
+  validateOrdering,
+  normalizeText
 };

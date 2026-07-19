@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "lessons": [
+    {
+      "id": "unit-1",
+      "unitNumber": 1,
+      "category": "Grammar",
+      "title": "Present simple, present continuous, stative verbs",
+      "description": "Learn how to use the present simple, present continuous, and stative verbs.",
+      "status": "available"
+    },
+    {
+      "id": "unit-2",
+      "unitNumber": 2,
+      "category": "Grammar",
+      "title": "Past simple, past continuous, used to",
+      "description": "Learn how to use the past simple, past continuous, and used to for past actions, situations, habits, and states.",
+      "status": "available"
+    },
+    {
+      "id": "unit-3",
+      "unitNumber": 3,
+      "category": "Vocabulary",
+      "title": "Fun and Games",
+      "description": "Vocabulary for talking about games, sport, music and free-time activities.",
+      "status": "available",
+      "vocabularyReview": true
+    }
+  ]
+}

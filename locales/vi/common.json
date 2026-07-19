@@ -3,7 +3,13 @@
     "name": "Học tiếng Anh",
     "footer": "Luyện ngữ pháp tiếng Anh, từng bài một."
   },
+  "home": {
+    "title": "Danh sách bài học",
+    "subtitle": "Chọn một bài để bắt đầu học.",
+    "startLesson": "Bắt đầu học"
+  },
   "navigation": {
+    "backToLessons": "← Tất cả bài học",
     "previousLesson": "Bài trước",
     "nextLesson": "Bài tiếp theo",
     "backToTop": "Quay lại đầu trang",

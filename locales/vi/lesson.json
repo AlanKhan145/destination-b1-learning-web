@@ -2,6 +2,7 @@
   "lesson": {
     "unit": "Bài",
     "grammar": "Ngữ pháp",
+    "vocabulary": "Từ vựng",
     "tableOfContents": "Mục lục",
     "topicsInLesson": "Các chủ điểm trong bài",
     "form": "Cấu trúc",
@@ -12,6 +13,8 @@
     "example": "Ví dụ",
     "formula": "Công thức",
     "watchOut": "Lưu ý!",
+    "helpfulHint": "Mẹo hữu ích",
+    "rule": "Quy tắc",
     "comingSoon": "Sắp cập nhật",
     "tabLesson": "Bài học",
     "tabReview": "Ôn tập"

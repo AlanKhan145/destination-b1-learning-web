@@ -36,7 +36,7 @@ function highlightWords(text, words = []) {
     return fragment;
   }
 
-  const pattern = new RegExp(`(${words.map(escapeRegExp).join("|")})`, "gi");
+  const pattern = new RegExp(`\\b(${words.map(escapeRegExp).join("|")})\\b`, "gi");
   const parts = text.split(pattern);
 
   parts.forEach((part) => {
@@ -114,6 +114,14 @@ function renderTopicList(topics) {
  */
 function renderLessonHeader(lesson) {
   const container = createElement("div", { className: "lesson-header-content" });
+
+  container.appendChild(
+    createElement("a", {
+      className: "back-to-lessons-link",
+      text: t("navigation.backToLessons"),
+      attrs: { href: "./index.html" }
+    })
+  );
 
   const meta = createElement("div", { className: "lesson-meta" });
   meta.appendChild(
@@ -450,5 +458,7 @@ export {
   renderNotes,
   renderComingSoonTopic,
   renderLessonNavigation,
-  renderPracticeTopicButton
+  renderPracticeTopicButton,
+  highlightWords,
+  escapeRegExp
 };

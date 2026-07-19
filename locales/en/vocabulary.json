@@ -1,0 +1,78 @@
+{
+  "vocabulary": {
+    "sections": {
+      "topicVocabulary": "Topic vocabulary",
+      "phrasalVerbs": "Phrasal verbs",
+      "prepositionalPhrases": "Prepositional phrases",
+      "wordFormation": "Word formation",
+      "wordPatterns": "Word patterns"
+    },
+    "status": {
+      "all": "All",
+      "new": "New",
+      "learning": "Learning",
+      "needsReview": "Needs review",
+      "mastered": "Mastered"
+    },
+    "toolbar": {
+      "searchPlaceholder": "Search vocabulary...",
+      "partOfSpeechLabel": "Part of speech",
+      "partOfSpeechAll": "All types"
+    },
+    "card": {
+      "listen": "Listen",
+      "markKnown": "Mark as known",
+      "markReview": "Needs review"
+    },
+    "progress": {
+      "label": "{completed}/{total} words learned"
+    },
+    "wordFormation": {
+      "showForms": "Show forms",
+      "hideForms": "Hide forms"
+    },
+    "wordPattern": {
+      "structureLabel": "Structure",
+      "commonMistakeLabel": "Common mistake"
+    },
+    "review": {
+      "title": "Vocabulary review",
+      "chooseMode": "Choose a review mode",
+      "modeFlashcard": "Flashcards",
+      "modeChooseMeaning": "Choose the meaning",
+      "modeChooseImage": "Choose the picture",
+      "modeTypeWord": "Type the word",
+      "modeMatching": "Matching",
+      "matchWordMeaning": "Word ↔ meaning",
+      "matchWordImage": "Word ↔ picture",
+      "matchRootForm": "Root word ↔ derived form",
+      "matchAdjectivePreposition": "Adjective/verb ↔ preposition",
+      "showMeaning": "Show meaning",
+      "forgot": "Forgot",
+      "hard": "Hard",
+      "know": "Know it",
+      "next": "Next",
+      "previous": "Previous",
+      "submit": "Check answer",
+      "correct": "Correct!",
+      "incorrect": "Not quite.",
+      "typeAnswerPlaceholder": "Type the word...",
+      "finish": "Finish",
+      "close": "Close",
+      "summaryTitle": "Session summary",
+      "correctLabel": "Correct",
+      "reviewAgain": "Review again",
+      "noWordsAvailable": "No words are available to review yet.",
+      "matchingInstructions": "Match each item on the left with the correct item on the right."
+    },
+    "home": {
+      "widgetTitle": "Vocabulary Review",
+      "wordsCount": "{count} entries",
+      "masteredCount": "{count} mastered",
+      "needsReviewCount": "{count} need review",
+      "newCount": "{count} new",
+      "quickReview": "Quick review",
+      "viewWordList": "View word list"
+    }
+  }
+}

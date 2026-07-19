@@ -8,7 +8,7 @@ const DEFAULT_LANGUAGE = "en";
 const STORAGE_KEY = "preferredLanguage";
 // Each namespace is its own file (locales/<lang>/<namespace>.json) so translators
 // and future question types don't have to touch one giant locale file.
-const NAMESPACES = ["common", "lesson", "review", "question-types", "result"];
+const NAMESPACES = ["common", "lesson", "review", "question-types", "result", "vocabulary"];
 
 let currentLanguage = DEFAULT_LANGUAGE;
 let translations = {};
