@@ -1,0 +1,25 @@
+{
+  "id": "unit-3-topic-vocabulary-tf-0001",
+  "type": "true-false",
+  "unitId": "unit-3",
+  "topicId": "topic-vocabulary",
+  "contentLocale": "en",
+  "difficulty": "easy",
+  "prompt": "Monopoly is a type of board game.",
+  "explanation": "Monopoly is a well-known board game played with pieces on a board.",
+  "tags": [
+    "topic-vocabulary"
+  ],
+  "skills": [
+    "grammar"
+  ],
+  "source": {
+    "type": "original",
+    "reference": null
+  },
+  "status": "published",
+  "version": 1,
+  "createdAt": "2026-07-19T00:00:00.000Z",
+  "updatedAt": "2026-07-19T00:00:00.000Z",
+  "correctAnswer": true
+}

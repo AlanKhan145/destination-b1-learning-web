@@ -1,0 +1,47 @@
+{
+  "id": "unit-3-topic-vocabulary-mcq-0009",
+  "type": "multiple-choice",
+  "unitId": "unit-3",
+  "topicId": "topic-vocabulary",
+  "contentLocale": "en",
+  "difficulty": "medium",
+  "prompt": "Music traditionally performed at country fairs and festivals is called ______.",
+  "explanation": "Folk music is traditional music passed down within a community, often played at fairs and festivals.",
+  "tags": [
+    "topic-vocabulary"
+  ],
+  "skills": [
+    "grammar"
+  ],
+  "source": {
+    "type": "original",
+    "reference": null
+  },
+  "status": "published",
+  "version": 1,
+  "createdAt": "2026-07-19T00:00:00.000Z",
+  "updatedAt": "2026-07-19T00:00:00.000Z",
+  "options": [
+    {
+      "id": "a",
+      "text": "classical music"
+    },
+    {
+      "id": "b",
+      "text": "folk music"
+    },
+    {
+      "id": "c",
+      "text": "entertaining music"
+    },
+    {
+      "id": "d",
+      "text": "board music"
+    }
+  ],
+  "correctOptionIds": [
+    "b"
+  ],
+  "selectionMode": "single",
+  "shuffleOptions": true
+}

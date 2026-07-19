@@ -1,0 +1,35 @@
+{
+  "id": "review-1-phrasal-verbs-short-0007",
+  "type": "short-answer",
+  "unitId": "review-1",
+  "topicId": "phrasal-verbs",
+  "contentLocale": "en",
+  "difficulty": "medium",
+  "prompt": "We stopped playing because of the rain, but when it stopped we ______ on.",
+  "explanation": "Carry on (past: carried) means to continue.",
+  "tags": [
+    "phrasal-verbs"
+  ],
+  "skills": [
+    "grammar",
+    "writing"
+  ],
+  "source": {
+    "type": "original",
+    "reference": null
+  },
+  "status": "published",
+  "version": 1,
+  "createdAt": "2026-07-19T00:00:00.000Z",
+  "updatedAt": "2026-07-19T00:00:00.000Z",
+  "acceptedAnswers": [
+    "carried"
+  ],
+  "answerValidation": {
+    "caseSensitive": false,
+    "trimWhitespace": true,
+    "collapseWhitespace": true,
+    "ignoreEndingPunctuation": true,
+    "matchMode": "normalized"
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "id": "unit-3-prepositional-phrases-mcq-0002",
+  "type": "multiple-choice",
+  "unitId": "unit-3",
+  "topicId": "prepositional-phrases",
+  "contentLocale": "en",
+  "difficulty": "easy",
+  "prompt": "He does not play football professionally. He only plays ______.",
+  "explanation": "For fun means for enjoyment, not for a serious or professional reason.",
+  "tags": [
+    "prepositional-phrases"
+  ],
+  "skills": [
+    "grammar"
+  ],
+  "source": {
+    "type": "original",
+    "reference": null
+  },
+  "status": "published",
+  "version": 1,
+  "createdAt": "2026-07-19T00:00:00.000Z",
+  "updatedAt": "2026-07-19T00:00:00.000Z",
+  "options": [
+    {
+      "id": "a",
+      "text": "on DVD"
+    },
+    {
+      "id": "b",
+      "text": "in time"
+    },
+    {
+      "id": "c",
+      "text": "for fun"
+    },
+    {
+      "id": "d",
+      "text": "on stage"
+    }
+  ],
+  "correctOptionIds": [
+    "c"
+  ],
+  "selectionMode": "single",
+  "shuffleOptions": true
+}

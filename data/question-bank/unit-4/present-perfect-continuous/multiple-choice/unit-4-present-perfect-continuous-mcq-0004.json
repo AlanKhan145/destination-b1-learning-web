@@ -1,0 +1,40 @@
+{
+  "id": "unit-4-present-perfect-continuous-mcq-0004",
+  "type": "multiple-choice",
+  "unitId": "unit-4",
+  "topicId": "present-perfect-continuous",
+  "contentLocale": "en",
+  "tags": [
+    "since",
+    "action-emphasis"
+  ],
+  "skills": [
+    "grammar"
+  ],
+  "source": {
+    "type": "textbook",
+    "reference": "Destination B1, Unit 4 exercises"
+  },
+  "status": "published",
+  "version": 1,
+  "createdAt": "2026-07-19T00:00:00.000Z",
+  "updatedAt": "2026-07-19T00:00:00.000Z",
+  "difficulty": "medium",
+  "prompt": "Have you ___ on the phone since eight o'clock?",
+  "explanation": "Since eight o'clock emphasises an activity continuing up to now, so use the continuous form: been talking.",
+  "options": [
+    {
+      "id": "a",
+      "text": "talked"
+    },
+    {
+      "id": "b",
+      "text": "been talking"
+    }
+  ],
+  "correctOptionIds": [
+    "b"
+  ],
+  "selectionMode": "single",
+  "shuffleOptions": false
+}

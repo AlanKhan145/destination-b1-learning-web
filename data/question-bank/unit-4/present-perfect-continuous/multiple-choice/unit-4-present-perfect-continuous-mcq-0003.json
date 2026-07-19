@@ -1,0 +1,40 @@
+{
+  "id": "unit-4-present-perfect-continuous-mcq-0003",
+  "type": "multiple-choice",
+  "unitId": "unit-4",
+  "topicId": "present-perfect-continuous",
+  "contentLocale": "en",
+  "tags": [
+    "for",
+    "action-emphasis"
+  ],
+  "skills": [
+    "grammar"
+  ],
+  "source": {
+    "type": "textbook",
+    "reference": "Destination B1, Unit 4 exercises"
+  },
+  "status": "published",
+  "version": 1,
+  "createdAt": "2026-07-19T00:00:00.000Z",
+  "updatedAt": "2026-07-19T00:00:00.000Z",
+  "difficulty": "medium",
+  "prompt": "You've ___ that e-mail for over an hour. How long is it going to take you?",
+  "explanation": "The focus is on the time spent on an unfinished action, so use the continuous form: been writing.",
+  "options": [
+    {
+      "id": "a",
+      "text": "written"
+    },
+    {
+      "id": "b",
+      "text": "been writing"
+    }
+  ],
+  "correctOptionIds": [
+    "b"
+  ],
+  "selectionMode": "single",
+  "shuffleOptions": false
+}

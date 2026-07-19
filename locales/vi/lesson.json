@@ -3,6 +3,7 @@
     "unit": "Bài",
     "grammar": "Ngữ pháp",
     "vocabulary": "Từ vựng",
+    "review": "Ôn tập",
     "tableOfContents": "Mục lục",
     "topicsInLesson": "Các chủ điểm trong bài",
     "form": "Cấu trúc",
@@ -17,6 +18,12 @@
     "rule": "Quy tắc",
     "comingSoon": "Sắp cập nhật",
     "tabLesson": "Bài học",
-    "tabReview": "Ôn tập"
+    "tabReview": "Ôn tập",
+    "testOverviewTitle": "Nội dung bài kiểm tra",
+    "testOverviewIntro": "{partCount} phần, tổng cộng {totalItems} mục.",
+    "testOverviewCta": "Bấm “Bắt đầu làm bài” bên dưới khi bạn đã sẵn sàng.",
+    "testPart": "Phần",
+    "testFormat": "Dạng bài",
+    "testItems": "Số lượng"
   }
 }

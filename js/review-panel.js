@@ -23,13 +23,19 @@ import {
 import { render as renderMultipleChoice } from "./renderers/multiple-choice-renderer.js";
 import { render as renderShortAnswer } from "./renderers/short-answer-renderer.js";
 import { render as renderTrueFalse } from "./renderers/true-false-renderer.js";
+import { render as renderSecretWordPuzzle } from "./renderers/secret-word-puzzle-renderer.js";
+import { render as renderFillInTheBlanks } from "./renderers/fill-in-the-blanks-renderer.js";
+import { render as renderMatching } from "./renderers/matching-renderer.js";
 
 // Adding a new question type: write its renderer under js/renderers/, then register
 // it here. Nothing else in this file needs to change for existing types to keep working.
 const QUESTION_RENDERERS = {
   "multiple-choice": renderMultipleChoice,
   "short-answer": renderShortAnswer,
-  "true-false": renderTrueFalse
+  "true-false": renderTrueFalse,
+  "secret-word-puzzle": renderSecretWordPuzzle,
+  "fill-in-the-blanks": renderFillInTheBlanks,
+  matching: renderMatching
 };
 
 let panelEl = null;
@@ -40,6 +46,15 @@ let currentAttempt = null;
 let currentRendererHandle = null; // { getAnswer, showFeedback, disable } from the active renderer
 let isPanelOpen = false;
 
+function isStandaloneReview() {
+  return currentLesson?.category === "Review";
+}
+
+function setStandaloneAttemptActive(active) {
+  if (!isStandaloneReview()) return;
+  document.getElementById("workspace")?.classList.toggle("workspace--review-active", active);
+}
+
 function getPanelElements() {
   panelEl = document.getElementById("review-panel");
   return panelEl;
@@ -47,10 +62,11 @@ function getPanelElements() {
 
 function renderPanelChrome() {
   panelEl.innerHTML = "";
-  panelEl.setAttribute("aria-label", t("review.panelTitle"));
+  const title = t(isStandaloneReview() ? "review.testTitle" : "review.panelTitle");
+  panelEl.setAttribute("aria-label", title);
 
   const header = createElement("div", { className: "review-panel-header" });
-  header.appendChild(createElement("h2", { className: "review-panel-title", text: t("review.panelTitle") }));
+  header.appendChild(createElement("h2", { className: "review-panel-title", text: title }));
 
   toggleButtonEl = createElement("button", {
     className: "review-panel-toggle",
@@ -82,11 +98,15 @@ function clearBody() {
 
 /** Screen 1: pick between the full unit review and (implicitly) topic practice launched from the lesson content. */
 function renderStartScreen() {
+  setStandaloneAttemptActive(false);
   clearBody();
   const reviewConfig = currentLesson.review;
 
   const description = createElement("p", { className: "review-description", text: currentLesson.title });
-  const startButton = createElement("button", { className: "review-primary-button", text: t("review.start") });
+  const startButton = createElement("button", {
+    className: "review-primary-button",
+    text: t(isStandaloneReview() ? "review.startTest" : "review.start")
+  });
   startButton.addEventListener("click", () => {
     beginAttempt(() => loadReview(reviewConfig.reviewId));
   });
@@ -264,9 +284,11 @@ async function beginAttempt(loadReviewConfig) {
     const review = await loadReviewConfig();
     currentAttempt = await startReviewAttempt(review);
     goToIndex(currentAttempt, currentAttempt.currentIndex || 0);
+    setStandaloneAttemptActive(true);
     renderQuestionScreen();
   } catch (error) {
     console.error("[review-panel] failed to start review attempt:", error);
+    setStandaloneAttemptActive(false);
     renderEmptyState();
   }
 }
@@ -308,9 +330,12 @@ function initReviewPanel(lesson) {
 
   panel.hidden = false;
   document.getElementById("workspace")?.classList.remove("workspace--no-review");
-  setWorkspaceTabsEnabled(true);
+  // A Review-category page is already the test itself. Mobile Lesson/Review
+  // tabs would incorrectly split it back into a lesson plus an accessory panel.
+  setWorkspaceTabsEnabled(!isStandaloneReview());
 
-  isPanelOpen = Boolean(reviewConfig.defaultOpen);
+  // Standalone tests have no visible collapse control, so they must always open.
+  isPanelOpen = isStandaloneReview() || Boolean(reviewConfig.defaultOpen);
   renderPanelChrome();
   setPanelOpen(isPanelOpen);
   renderStartScreen();

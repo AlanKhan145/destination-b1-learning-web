@@ -1,0 +1,23 @@
+{
+  "id": "review-1",
+  "unitNumber": "1–3",
+  "category": "Review",
+  "title": "Units 1-3 Review",
+  "description": "A cumulative test covering the vocabulary and grammar from Units 1, 2 and 3: word formation, phrasal verbs, sentence transformation, past tenses, and sentence matching.",
+  "previousLessonId": "unit-3",
+  "nextLessonId": null,
+  "topics": [
+    { "id": "word-formation", "number": 1, "title": "Word formation", "format": "Fill in the blanks", "itemCount": 8, "itemLabel": "blanks" },
+    { "id": "phrasal-verbs", "number": 2, "title": "Phrasal verbs", "format": "Short answer", "itemCount": 8, "itemLabel": "questions" },
+    { "id": "sentence-transformation", "number": 3, "title": "Sentence transformation", "format": "Short answer", "itemCount": 10, "itemLabel": "questions" },
+    { "id": "grammar-tenses", "number": 4, "title": "Past tenses", "format": "Multiple choice", "itemCount": 8, "itemLabel": "questions" },
+    { "id": "sentence-matching", "number": 5, "title": "Sentence matching", "format": "Matching", "itemCount": 6, "itemLabel": "pairs" }
+  ],
+  "review": {
+    "reviewId": "review-1",
+    "enabled": true,
+    "displayMode": "side-panel",
+    "position": "right",
+    "defaultOpen": true
+  }
+}

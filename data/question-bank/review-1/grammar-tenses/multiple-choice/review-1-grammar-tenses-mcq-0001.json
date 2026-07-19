@@ -1,0 +1,47 @@
+{
+  "id": "review-1-grammar-tenses-mcq-0001",
+  "type": "multiple-choice",
+  "unitId": "review-1",
+  "topicId": "grammar-tenses",
+  "contentLocale": "en",
+  "difficulty": "medium",
+  "prompt": "When you rang, I ____ my bike.",
+  "explanation": "An action already in progress when interrupted uses the past continuous.",
+  "tags": [
+    "grammar-tenses"
+  ],
+  "skills": [
+    "grammar"
+  ],
+  "source": {
+    "type": "original",
+    "reference": null
+  },
+  "status": "published",
+  "version": 1,
+  "createdAt": "2026-07-19T00:00:00.000Z",
+  "updatedAt": "2026-07-19T00:00:00.000Z",
+  "options": [
+    {
+      "id": "a",
+      "text": "cleaned"
+    },
+    {
+      "id": "b",
+      "text": "was cleaning"
+    },
+    {
+      "id": "c",
+      "text": "used to clean"
+    },
+    {
+      "id": "d",
+      "text": "clean"
+    }
+  ],
+  "correctOptionIds": [
+    "b"
+  ],
+  "selectionMode": "single",
+  "shuffleOptions": true
+}

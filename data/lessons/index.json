@@ -25,6 +25,22 @@
       "description": "Vocabulary for talking about games, sport, music and free-time activities.",
       "status": "available",
       "vocabularyReview": true
+    },
+    {
+      "id": "review-1",
+      "unitNumber": "1–3",
+      "category": "Review",
+      "title": "Units 1-3 Review",
+      "description": "A cumulative test covering the vocabulary and grammar from Units 1, 2 and 3.",
+      "status": "available"
+    },
+    {
+      "id": "unit-4",
+      "unitNumber": 4,
+      "category": "Grammar",
+      "title": "Present perfect simple, present perfect continuous",
+      "description": "Learn how to use the present perfect simple and present perfect continuous to describe past actions connected to the present.",
+      "status": "available"
     }
   ]
 }

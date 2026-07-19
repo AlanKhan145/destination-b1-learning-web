@@ -1,0 +1,35 @@
+{
+  "id": "review-1-sentence-transformation-short-0007",
+  "type": "short-answer",
+  "unitId": "review-1",
+  "topicId": "sentence-transformation",
+  "contentLocale": "en",
+  "difficulty": "medium",
+  "prompt": "Volleyball doesn't really interest me. Complete: I'm not ______ volleyball. (in)",
+  "explanation": "The pattern is \"interested in\" + noun.",
+  "tags": [
+    "sentence-transformation"
+  ],
+  "skills": [
+    "grammar",
+    "writing"
+  ],
+  "source": {
+    "type": "original",
+    "reference": null
+  },
+  "status": "published",
+  "version": 1,
+  "createdAt": "2026-07-19T00:00:00.000Z",
+  "updatedAt": "2026-07-19T00:00:00.000Z",
+  "acceptedAnswers": [
+    "interested in"
+  ],
+  "answerValidation": {
+    "caseSensitive": false,
+    "trimWhitespace": true,
+    "collapseWhitespace": true,
+    "ignoreEndingPunctuation": true,
+    "matchMode": "normalized"
+  }
+}

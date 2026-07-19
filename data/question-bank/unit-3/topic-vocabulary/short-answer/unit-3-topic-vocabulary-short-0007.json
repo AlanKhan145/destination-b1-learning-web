@@ -1,0 +1,35 @@
+{
+  "id": "unit-3-topic-vocabulary-short-0007",
+  "type": "short-answer",
+  "unitId": "unit-3",
+  "topicId": "topic-vocabulary",
+  "contentLocale": "en",
+  "difficulty": "medium",
+  "prompt": "Use the correct form of INTEREST: Sport ______ most young people.",
+  "explanation": "\"Sport\" is singular, so the verb interest takes -s.",
+  "tags": [
+    "topic-vocabulary"
+  ],
+  "skills": [
+    "grammar",
+    "writing"
+  ],
+  "source": {
+    "type": "original",
+    "reference": null
+  },
+  "status": "published",
+  "version": 1,
+  "createdAt": "2026-07-19T00:00:00.000Z",
+  "updatedAt": "2026-07-19T00:00:00.000Z",
+  "acceptedAnswers": [
+    "interests"
+  ],
+  "answerValidation": {
+    "caseSensitive": false,
+    "trimWhitespace": true,
+    "collapseWhitespace": true,
+    "ignoreEndingPunctuation": true,
+    "matchMode": "normalized"
+  }
+}

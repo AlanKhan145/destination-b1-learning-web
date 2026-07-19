@@ -5,5 +5,19 @@
   "title": "Fun and Games",
   "description": "Vocabulary for talking about games, sport, music and free-time activities.",
   "previousLessonId": "unit-2",
-  "nextLessonId": null
+  "nextLessonId": "review-1",
+  "topics": [
+    { "id": "topic-vocabulary", "number": 1, "title": "Topic vocabulary" },
+    { "id": "phrasal-verbs", "number": 2, "title": "Phrasal verbs" },
+    { "id": "prepositional-phrases", "number": 3, "title": "Prepositional phrases" },
+    { "id": "word-formation", "number": 4, "title": "Word formation" },
+    { "id": "word-patterns", "number": 5, "title": "Word patterns" }
+  ],
+  "review": {
+    "reviewId": "unit-3-review",
+    "enabled": true,
+    "displayMode": "side-panel",
+    "position": "right",
+    "defaultOpen": false
+  }
 }

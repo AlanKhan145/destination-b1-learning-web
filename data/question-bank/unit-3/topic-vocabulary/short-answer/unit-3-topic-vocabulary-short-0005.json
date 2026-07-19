@@ -1,0 +1,35 @@
+{
+  "id": "unit-3-topic-vocabulary-short-0005",
+  "type": "short-answer",
+  "unitId": "unit-3",
+  "topicId": "topic-vocabulary",
+  "contentLocale": "en",
+  "difficulty": "medium",
+  "prompt": "Complete the sentence: Do you dream of ______ the winning goal in a football match?",
+  "explanation": "Score (get a point in a game) takes the -ing form after \"dream of\".",
+  "tags": [
+    "topic-vocabulary"
+  ],
+  "skills": [
+    "grammar",
+    "writing"
+  ],
+  "source": {
+    "type": "original",
+    "reference": null
+  },
+  "status": "published",
+  "version": 1,
+  "createdAt": "2026-07-19T00:00:00.000Z",
+  "updatedAt": "2026-07-19T00:00:00.000Z",
+  "acceptedAnswers": [
+    "scoring"
+  ],
+  "answerValidation": {
+    "caseSensitive": false,
+    "trimWhitespace": true,
+    "collapseWhitespace": true,
+    "ignoreEndingPunctuation": true,
+    "matchMode": "normalized"
+  }
+}

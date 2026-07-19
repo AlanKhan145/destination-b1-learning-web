@@ -1,0 +1,25 @@
+{
+  "id": "unit-3-phrasal-verbs-tf-0004",
+  "type": "true-false",
+  "unitId": "unit-3",
+  "topicId": "phrasal-verbs",
+  "contentLocale": "en",
+  "difficulty": "easy",
+  "prompt": "“Eat out” means to prepare and eat a meal at home.",
+  "explanation": "Eat out means to eat at a restaurant, not at home.",
+  "tags": [
+    "phrasal-verbs"
+  ],
+  "skills": [
+    "grammar"
+  ],
+  "source": {
+    "type": "original",
+    "reference": null
+  },
+  "status": "published",
+  "version": 1,
+  "createdAt": "2026-07-19T00:00:00.000Z",
+  "updatedAt": "2026-07-19T00:00:00.000Z",
+  "correctAnswer": false
+}

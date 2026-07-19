@@ -1,0 +1,79 @@
+{
+  "id": "review-1-word-formation-fitb-0001",
+  "type": "fill-in-the-blanks",
+  "unitId": "review-1",
+  "topicId": "word-formation",
+  "contentLocale": "en",
+  "difficulty": "medium",
+  "prompt": "Collecting records — use the word given in CAPITALS to form a word that fits each gap.",
+  "explanation": "Each gap needs a different word form of the given root word (noun, plural noun, etc.) to fit the sentence grammatically.",
+  "tags": [
+    "word-formation"
+  ],
+  "skills": [
+    "grammar",
+    "word-formation"
+  ],
+  "source": {
+    "type": "original",
+    "reference": null
+  },
+  "status": "published",
+  "version": 1,
+  "createdAt": "2026-07-19T00:00:00.000Z",
+  "updatedAt": "2026-07-19T00:00:00.000Z",
+  "passageTemplate": "These days, most of us have a CD {{blank-1}}. COLLECT\n\nBefore the CD, {{blank-2}} made LPs, or \"long-playing\" records. SING\n\nAlthough many {{blank-3}} have never seen an LP, they were once very popular. CHILD\n\nTo play these records, you needed a record {{blank-4}} with a needle that ran along the record and produced the sound. PLAY\n\nSome {{blank-5}} say the sound of LPs was better than CDs – and many {{blank-6}} agree. MUSIC / COLLECT\n\nLPs are no longer very popular as a form of {{blank-7}}, but many people buy and sell them. ENTERTAIN\n\nSome of them remember the LP from their {{blank-8}}, and listening to records reminds them of the past. CHILD",
+  "blanks": [
+    {
+      "id": "blank-1",
+      "acceptedAnswers": [
+        "collection"
+      ]
+    },
+    {
+      "id": "blank-2",
+      "acceptedAnswers": [
+        "singers",
+        "singer"
+      ]
+    },
+    {
+      "id": "blank-3",
+      "acceptedAnswers": [
+        "children"
+      ]
+    },
+    {
+      "id": "blank-4",
+      "acceptedAnswers": [
+        "player"
+      ]
+    },
+    {
+      "id": "blank-5",
+      "acceptedAnswers": [
+        "musicians",
+        "musician"
+      ]
+    },
+    {
+      "id": "blank-6",
+      "acceptedAnswers": [
+        "collectors",
+        "collector"
+      ]
+    },
+    {
+      "id": "blank-7",
+      "acceptedAnswers": [
+        "entertainment"
+      ]
+    },
+    {
+      "id": "blank-8",
+      "acceptedAnswers": [
+        "childhood"
+      ]
+    }
+  ]
+}

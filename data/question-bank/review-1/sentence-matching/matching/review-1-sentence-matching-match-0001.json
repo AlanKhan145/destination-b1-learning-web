@@ -1,0 +1,58 @@
+{
+  "id": "review-1-sentence-matching-match-0001",
+  "type": "matching",
+  "unitId": "review-1",
+  "topicId": "sentence-matching",
+  "contentLocale": "en",
+  "difficulty": "medium",
+  "prompt": "Match the two halves of the sentences.",
+  "explanation": "Each sentence half completes a common prepositional phrase (for a long time, in the middle of, in time, for fun, on DVD, on stage).",
+  "tags": [
+    "sentence-matching",
+    "prepositional-phrases"
+  ],
+  "skills": [
+    "grammar"
+  ],
+  "source": {
+    "type": "original",
+    "reference": null
+  },
+  "status": "published",
+  "version": 1,
+  "createdAt": "2026-07-19T00:00:00.000Z",
+  "updatedAt": "2026-07-19T00:00:00.000Z",
+  "pairs": [
+    {
+      "id": "pair-1",
+      "left": "I waited outside the tennis club for",
+      "right": "a long time, but George didn't appear."
+    },
+    {
+      "id": "pair-2",
+      "left": "When you rang, I was in",
+      "right": "the middle of cleaning my football boots."
+    },
+    {
+      "id": "pair-3",
+      "left": "We finally got to the stadium just in",
+      "right": "time to see the match start."
+    },
+    {
+      "id": "pair-4",
+      "left": "I just play football for",
+      "right": "fun, and I don't want to do it as a job."
+    },
+    {
+      "id": "pair-5",
+      "left": "I loved that film and when it comes out",
+      "right": "on DVD, I'll definitely get it."
+    },
+    {
+      "id": "pair-6",
+      "left": "It's great to appear on",
+      "right": "stage, with all the audience clapping."
+    }
+  ],
+  "shuffleRightItems": true
+}

@@ -1,0 +1,37 @@
+{
+  "id": "unit-4-present-perfect-simple-short-0001",
+  "type": "short-answer",
+  "unitId": "unit-4",
+  "topicId": "present-perfect-simple",
+  "contentLocale": "en",
+  "tags": [
+    "already",
+    "irregular-verb"
+  ],
+  "skills": [
+    "grammar",
+    "writing"
+  ],
+  "source": {
+    "type": "textbook",
+    "reference": "Destination B1, Unit 4 exercises"
+  },
+  "status": "published",
+  "version": 1,
+  "createdAt": "2026-07-19T00:00:00.000Z",
+  "updatedAt": "2026-07-19T00:00:00.000Z",
+  "difficulty": "easy",
+  "prompt": "Complete the sentence with the correct present perfect simple form of \"see\": I ___ this film already.",
+  "explanation": "Already signals a completed action connected to the present, so use the present perfect simple: have seen.",
+  "acceptedAnswers": [
+    "have seen",
+    "'ve seen"
+  ],
+  "answerValidation": {
+    "caseSensitive": false,
+    "trimWhitespace": true,
+    "collapseWhitespace": true,
+    "ignoreEndingPunctuation": true,
+    "matchMode": "normalized"
+  }
+}

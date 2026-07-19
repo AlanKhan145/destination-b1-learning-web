@@ -1,0 +1,35 @@
+{
+  "id": "review-1-phrasal-verbs-short-0008",
+  "type": "short-answer",
+  "unitId": "review-1",
+  "topicId": "phrasal-verbs",
+  "contentLocale": "en",
+  "difficulty": "easy",
+  "prompt": "A good way of getting more exercise is to ______ up a sport, like basketball.",
+  "explanation": "Take up means to start a hobby or sport.",
+  "tags": [
+    "phrasal-verbs"
+  ],
+  "skills": [
+    "grammar",
+    "writing"
+  ],
+  "source": {
+    "type": "original",
+    "reference": null
+  },
+  "status": "published",
+  "version": 1,
+  "createdAt": "2026-07-19T00:00:00.000Z",
+  "updatedAt": "2026-07-19T00:00:00.000Z",
+  "acceptedAnswers": [
+    "take"
+  ],
+  "answerValidation": {
+    "caseSensitive": false,
+    "trimWhitespace": true,
+    "collapseWhitespace": true,
+    "ignoreEndingPunctuation": true,
+    "matchMode": "normalized"
+  }
+}

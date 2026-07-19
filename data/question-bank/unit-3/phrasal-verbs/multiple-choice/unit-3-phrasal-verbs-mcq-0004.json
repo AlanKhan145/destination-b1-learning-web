@@ -1,0 +1,47 @@
+{
+  "id": "unit-3-phrasal-verbs-mcq-0004",
+  "type": "multiple-choice",
+  "unitId": "unit-3",
+  "topicId": "phrasal-verbs",
+  "contentLocale": "en",
+  "difficulty": "medium",
+  "prompt": "Although he was tired, he carried ______ playing.",
+  "explanation": "Carry on means to continue.",
+  "tags": [
+    "phrasal-verbs"
+  ],
+  "skills": [
+    "grammar"
+  ],
+  "source": {
+    "type": "original",
+    "reference": null
+  },
+  "status": "published",
+  "version": 1,
+  "createdAt": "2026-07-19T00:00:00.000Z",
+  "updatedAt": "2026-07-19T00:00:00.000Z",
+  "options": [
+    {
+      "id": "a",
+      "text": "off"
+    },
+    {
+      "id": "b",
+      "text": "up"
+    },
+    {
+      "id": "c",
+      "text": "on"
+    },
+    {
+      "id": "d",
+      "text": "out"
+    }
+  ],
+  "correctOptionIds": [
+    "c"
+  ],
+  "selectionMode": "single",
+  "shuffleOptions": true
+}

@@ -1,0 +1,25 @@
+{
+  "id": "unit-3-prepositional-phrases-tf-0001",
+  "type": "true-false",
+  "unitId": "unit-3",
+  "topicId": "prepositional-phrases",
+  "contentLocale": "en",
+  "difficulty": "medium",
+  "prompt": "A person who plays a sport for fun is necessarily a professional player.",
+  "explanation": "\"For fun\" means for enjoyment, not for a serious or professional reason.",
+  "tags": [
+    "prepositional-phrases"
+  ],
+  "skills": [
+    "grammar"
+  ],
+  "source": {
+    "type": "original",
+    "reference": null
+  },
+  "status": "published",
+  "version": 1,
+  "createdAt": "2026-07-19T00:00:00.000Z",
+  "updatedAt": "2026-07-19T00:00:00.000Z",
+  "correctAnswer": false
+}

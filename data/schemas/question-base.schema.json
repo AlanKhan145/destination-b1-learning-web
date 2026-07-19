@@ -18,8 +18,8 @@
   "properties": {
     "id": {
       "type": "string",
-      "description": "Unique across the whole bank. Format: unit-{n}-{topicId}-{questionType}-{0001}.",
-      "pattern": "^unit-[0-9]+-[a-z0-9-]+-[a-z]+-[0-9]{4}$"
+      "description": "Unique across the whole bank. Format: {unitId}-{topicId}-{questionType}-{0001}. unitId is usually unit-{n}, but a cumulative review may host its own bank under its own lesson id (e.g. review-1).",
+      "pattern": "^[a-z]+-[0-9]+-[a-z0-9-]+-[a-z]+-[0-9]{4}$"
     },
     "type": {
       "type": "string",
@@ -30,10 +30,11 @@
         "fill-in-the-blanks",
         "matching",
         "ordering",
-        "error-identification"
+        "error-identification",
+        "secret-word-puzzle"
       ]
     },
-    "unitId": { "type": "string", "pattern": "^unit-[0-9]+$" },
+    "unitId": { "type": "string", "pattern": "^[a-z]+-[0-9]+$" },
     "topicId": { "type": "string", "pattern": "^[a-z0-9-]+$" },
     "contentLocale": { "type": "string", "enum": ["en", "vi"] },
     "difficulty": { "type": "string", "enum": ["easy", "medium", "hard"] },

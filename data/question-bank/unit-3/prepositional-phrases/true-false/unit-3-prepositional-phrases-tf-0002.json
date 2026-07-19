@@ -1,0 +1,25 @@
+{
+  "id": "unit-3-prepositional-phrases-tf-0002",
+  "type": "true-false",
+  "unitId": "unit-3",
+  "topicId": "prepositional-phrases",
+  "contentLocale": "en",
+  "difficulty": "medium",
+  "prompt": "“In time for the programme” means arriving early enough not to miss it.",
+  "explanation": "In time for means early enough for something to happen.",
+  "tags": [
+    "prepositional-phrases"
+  ],
+  "skills": [
+    "grammar"
+  ],
+  "source": {
+    "type": "original",
+    "reference": null
+  },
+  "status": "published",
+  "version": 1,
+  "createdAt": "2026-07-19T00:00:00.000Z",
+  "updatedAt": "2026-07-19T00:00:00.000Z",
+  "correctAnswer": true
+}

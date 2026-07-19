@@ -1,0 +1,35 @@
+{
+  "id": "unit-4-present-perfect-continuous-short-0001",
+  "type": "short-answer",
+  "unitId": "unit-4",
+  "topicId": "present-perfect-continuous",
+  "contentLocale": "en",
+  "tags": [
+    "for"
+  ],
+  "skills": [
+    "grammar",
+    "writing"
+  ],
+  "source": {
+    "type": "textbook",
+    "reference": "Destination B1, Unit 4 exercises"
+  },
+  "status": "published",
+  "version": 1,
+  "createdAt": "2026-07-19T00:00:00.000Z",
+  "updatedAt": "2026-07-19T00:00:00.000Z",
+  "difficulty": "easy",
+  "prompt": "Complete the sentence with one word from the box (already, ever, for, just, never, since, yet): We've been waiting for you ___ over an hour. Where have you been?",
+  "explanation": "For introduces a period of time: for over an hour.",
+  "acceptedAnswers": [
+    "for"
+  ],
+  "answerValidation": {
+    "caseSensitive": false,
+    "trimWhitespace": true,
+    "collapseWhitespace": true,
+    "ignoreEndingPunctuation": true,
+    "matchMode": "normalized"
+  }
+}

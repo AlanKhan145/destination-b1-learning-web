@@ -1,0 +1,127 @@
+{
+  "id": "unit-3-review",
+  "unitId": "unit-3",
+  "title": "Unit 3 Review",
+  "description": "Review the vocabulary, phrasal verbs, prepositional phrases, word formation, and word patterns from Fun and Games.",
+  "passingScore": 70,
+  "contentLocale": "en",
+  "attemptSettings": {
+    "allowRetry": true,
+    "showCorrectAnswer": "after-submit",
+    "showExplanation": "after-submit",
+    "saveProgress": true
+  },
+  "sections": [
+    {
+      "id": "multiple-choice",
+      "type": "multiple-choice",
+      "title": "Multiple choice",
+      "instructions": "Choose the correct answer.",
+      "selectionMode": "fixed",
+      "shuffleQuestions": true,
+      "shuffleOptions": true,
+      "questionIds": [
+        "unit-3-topic-vocabulary-mcq-0001",
+        "unit-3-topic-vocabulary-mcq-0002",
+        "unit-3-topic-vocabulary-mcq-0003",
+        "unit-3-topic-vocabulary-mcq-0004",
+        "unit-3-topic-vocabulary-mcq-0005",
+        "unit-3-topic-vocabulary-mcq-0006",
+        "unit-3-topic-vocabulary-mcq-0007",
+        "unit-3-topic-vocabulary-mcq-0008",
+        "unit-3-topic-vocabulary-mcq-0009",
+        "unit-3-topic-vocabulary-mcq-0010",
+        "unit-3-phrasal-verbs-mcq-0001",
+        "unit-3-phrasal-verbs-mcq-0002",
+        "unit-3-phrasal-verbs-mcq-0003",
+        "unit-3-phrasal-verbs-mcq-0004",
+        "unit-3-phrasal-verbs-mcq-0005",
+        "unit-3-phrasal-verbs-mcq-0006",
+        "unit-3-prepositional-phrases-mcq-0001",
+        "unit-3-prepositional-phrases-mcq-0002",
+        "unit-3-word-formation-mcq-0001",
+        "unit-3-word-patterns-mcq-0001"
+      ]
+    },
+    {
+      "id": "short-answer",
+      "type": "short-answer",
+      "title": "Short answer",
+      "instructions": "Write one word or phrase for each question.",
+      "selectionMode": "fixed",
+      "shuffleQuestions": true,
+      "questionIds": [
+        "unit-3-topic-vocabulary-short-0001",
+        "unit-3-topic-vocabulary-short-0002",
+        "unit-3-topic-vocabulary-short-0003",
+        "unit-3-topic-vocabulary-short-0004",
+        "unit-3-topic-vocabulary-short-0005",
+        "unit-3-topic-vocabulary-short-0006",
+        "unit-3-topic-vocabulary-short-0007",
+        "unit-3-topic-vocabulary-short-0008",
+        "unit-3-word-formation-short-0001",
+        "unit-3-word-formation-short-0002",
+        "unit-3-word-formation-short-0003",
+        "unit-3-word-formation-short-0004",
+        "unit-3-word-patterns-short-0001",
+        "unit-3-word-patterns-short-0002",
+        "unit-3-word-patterns-short-0003",
+        "unit-3-word-patterns-short-0004"
+      ]
+    },
+    {
+      "id": "true-false",
+      "type": "true-false",
+      "title": "True or false",
+      "instructions": "Decide whether each statement is true or false.",
+      "selectionMode": "fixed",
+      "shuffleQuestions": true,
+      "questionIds": [
+        "unit-3-topic-vocabulary-tf-0001",
+        "unit-3-topic-vocabulary-tf-0002",
+        "unit-3-phrasal-verbs-tf-0001",
+        "unit-3-phrasal-verbs-tf-0002",
+        "unit-3-phrasal-verbs-tf-0003",
+        "unit-3-phrasal-verbs-tf-0004",
+        "unit-3-prepositional-phrases-tf-0001",
+        "unit-3-prepositional-phrases-tf-0002",
+        "unit-3-word-patterns-tf-0001",
+        "unit-3-word-patterns-tf-0002",
+        "unit-3-word-formation-tf-0001",
+        "unit-3-word-formation-tf-0002"
+      ]
+    },
+    {
+      "id": "crossword",
+      "type": "short-answer",
+      "title": "Crossword clues",
+      "instructions": "Fill in each word, one letter per box.",
+      "selectionMode": "fixed",
+      "shuffleQuestions": false,
+      "questionIds": [
+        "unit-3-topic-vocabulary-short-0009",
+        "unit-3-topic-vocabulary-short-0010",
+        "unit-3-topic-vocabulary-short-0011",
+        "unit-3-topic-vocabulary-short-0012",
+        "unit-3-topic-vocabulary-short-0013",
+        "unit-3-topic-vocabulary-short-0014",
+        "unit-3-topic-vocabulary-short-0015",
+        "unit-3-topic-vocabulary-short-0016",
+        "unit-3-topic-vocabulary-short-0017",
+        "unit-3-topic-vocabulary-short-0018",
+        "unit-3-topic-vocabulary-short-0019"
+      ]
+    },
+    {
+      "id": "secret-word-puzzle",
+      "type": "mixed",
+      "title": "Secret word puzzle",
+      "instructions": "Solve all five clues, then work out the secret word.",
+      "selectionMode": "fixed",
+      "shuffleQuestions": false,
+      "questionIds": [
+        "unit-3-topic-vocabulary-secret-0001"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "id": "unit-4-present-perfect-continuous-mcq-0007",
+  "type": "multiple-choice",
+  "unitId": "unit-4",
+  "topicId": "present-perfect-continuous",
+  "contentLocale": "en",
+  "tags": [
+    "since",
+    "action-emphasis"
+  ],
+  "skills": [
+    "grammar"
+  ],
+  "source": {
+    "type": "textbook",
+    "reference": "Destination B1, Unit 4 exercises"
+  },
+  "status": "published",
+  "version": 1,
+  "createdAt": "2026-07-19T00:00:00.000Z",
+  "updatedAt": "2026-07-19T00:00:00.000Z",
+  "difficulty": "medium",
+  "prompt": "Have the boys ___ computer games since this morning?",
+  "explanation": "Since this morning emphasises how long the activity has been going on, so use the continuous form: been playing.",
+  "options": [
+    {
+      "id": "a",
+      "text": "played"
+    },
+    {
+      "id": "b",
+      "text": "been playing"
+    }
+  ],
+  "correctOptionIds": [
+    "b"
+  ],
+  "selectionMode": "single",
+  "shuffleOptions": false
+}

@@ -1,0 +1,47 @@
+{
+  "id": "review-1-grammar-tenses-mcq-0005",
+  "type": "multiple-choice",
+  "unitId": "review-1",
+  "topicId": "grammar-tenses",
+  "contentLocale": "en",
+  "difficulty": "medium",
+  "prompt": "I broke my leg when Tony and I ____ for the school sports day.",
+  "explanation": "The practising was already in progress when the shorter action (breaking the leg) happened.",
+  "tags": [
+    "grammar-tenses"
+  ],
+  "skills": [
+    "grammar"
+  ],
+  "source": {
+    "type": "original",
+    "reference": null
+  },
+  "status": "published",
+  "version": 1,
+  "createdAt": "2026-07-19T00:00:00.000Z",
+  "updatedAt": "2026-07-19T00:00:00.000Z",
+  "options": [
+    {
+      "id": "a",
+      "text": "practised"
+    },
+    {
+      "id": "b",
+      "text": "used to practise"
+    },
+    {
+      "id": "c",
+      "text": "were practising"
+    },
+    {
+      "id": "d",
+      "text": "are practising"
+    }
+  ],
+  "correctOptionIds": [
+    "c"
+  ],
+  "selectionMode": "single",
+  "shuffleOptions": true
+}

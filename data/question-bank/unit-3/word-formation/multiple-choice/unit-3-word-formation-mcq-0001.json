@@ -1,0 +1,47 @@
+{
+  "id": "unit-3-word-formation-mcq-0001",
+  "type": "multiple-choice",
+  "unitId": "unit-3",
+  "topicId": "word-formation",
+  "contentLocale": "en",
+  "difficulty": "medium",
+  "prompt": "The correct adjective formed from PLAY is ______.",
+  "explanation": "Playful is the adjective form of play (player and playfully are the wrong word class).",
+  "tags": [
+    "word-formation"
+  ],
+  "skills": [
+    "grammar"
+  ],
+  "source": {
+    "type": "original",
+    "reference": null
+  },
+  "status": "published",
+  "version": 1,
+  "createdAt": "2026-07-19T00:00:00.000Z",
+  "updatedAt": "2026-07-19T00:00:00.000Z",
+  "options": [
+    {
+      "id": "a",
+      "text": "playful"
+    },
+    {
+      "id": "b",
+      "text": "player"
+    },
+    {
+      "id": "c",
+      "text": "playing"
+    },
+    {
+      "id": "d",
+      "text": "playfully"
+    }
+  ],
+  "correctOptionIds": [
+    "a"
+  ],
+  "selectionMode": "single",
+  "shuffleOptions": true
+}

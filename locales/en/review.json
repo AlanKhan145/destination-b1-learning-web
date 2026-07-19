@@ -1,9 +1,11 @@
 {
   "review": {
     "panelTitle": "Review",
+    "testTitle": "Test",
     "openPanel": "Open review panel",
     "closePanel": "Collapse review panel",
     "start": "Start review",
+    "startTest": "Start test",
     "submit": "Check answer",
     "next": "Next question",
     "previous": "Previous question",
@@ -18,6 +20,7 @@
     "emptyState": "No questions are available for this review yet.",
     "questionLoadError": "Some questions could not be loaded and were skipped.",
     "unansweredHint": "Select or type an answer before checking.",
-    "allQuestionsAnswered": "All questions answered. Ready to see your result?"
+    "allQuestionsAnswered": "All questions answered. Ready to see your result?",
+    "secretWordLabel": "Secret word"
   }
 }

@@ -1,0 +1,35 @@
+{
+  "id": "review-1-sentence-transformation-short-0005",
+  "type": "short-answer",
+  "unitId": "review-1",
+  "topicId": "sentence-transformation",
+  "contentLocale": "en",
+  "difficulty": "medium",
+  "prompt": "June and I had a game of tennis. Complete: I had ______ June. (against)",
+  "explanation": "The pattern is \"a game against\" + opponent.",
+  "tags": [
+    "sentence-transformation"
+  ],
+  "skills": [
+    "grammar",
+    "writing"
+  ],
+  "source": {
+    "type": "original",
+    "reference": null
+  },
+  "status": "published",
+  "version": 1,
+  "createdAt": "2026-07-19T00:00:00.000Z",
+  "updatedAt": "2026-07-19T00:00:00.000Z",
+  "acceptedAnswers": [
+    "a game against"
+  ],
+  "answerValidation": {
+    "caseSensitive": false,
+    "trimWhitespace": true,
+    "collapseWhitespace": true,
+    "ignoreEndingPunctuation": true,
+    "matchMode": "normalized"
+  }
+}

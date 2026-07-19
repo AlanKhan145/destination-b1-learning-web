@@ -1,0 +1,47 @@
+{
+  "id": "unit-3-topic-vocabulary-mcq-0001",
+  "type": "multiple-choice",
+  "unitId": "unit-3",
+  "topicId": "topic-vocabulary",
+  "contentLocale": "en",
+  "difficulty": "easy",
+  "prompt": "If Mai wins the final match, she will become the world ______.",
+  "explanation": "Champion means the winner of a competition.",
+  "tags": [
+    "topic-vocabulary"
+  ],
+  "skills": [
+    "grammar"
+  ],
+  "source": {
+    "type": "original",
+    "reference": null
+  },
+  "status": "published",
+  "version": 1,
+  "createdAt": "2026-07-19T00:00:00.000Z",
+  "updatedAt": "2026-07-19T00:00:00.000Z",
+  "options": [
+    {
+      "id": "a",
+      "text": "member"
+    },
+    {
+      "id": "b",
+      "text": "champion"
+    },
+    {
+      "id": "c",
+      "text": "opponent"
+    },
+    {
+      "id": "d",
+      "text": "referee"
+    }
+  ],
+  "correctOptionIds": [
+    "b"
+  ],
+  "selectionMode": "single",
+  "shuffleOptions": true
+}

@@ -1,0 +1,47 @@
+{
+  "id": "unit-3-phrasal-verbs-mcq-0005",
+  "type": "multiple-choice",
+  "unitId": "unit-3",
+  "topicId": "phrasal-verbs",
+  "contentLocale": "en",
+  "difficulty": "medium",
+  "prompt": "The referee sent the player ______ for breaking the rules.",
+  "explanation": "Send off means to make a player leave a game for breaking the rules.",
+  "tags": [
+    "phrasal-verbs"
+  ],
+  "skills": [
+    "grammar"
+  ],
+  "source": {
+    "type": "original",
+    "reference": null
+  },
+  "status": "published",
+  "version": 1,
+  "createdAt": "2026-07-19T00:00:00.000Z",
+  "updatedAt": "2026-07-19T00:00:00.000Z",
+  "options": [
+    {
+      "id": "a",
+      "text": "off"
+    },
+    {
+      "id": "b",
+      "text": "down"
+    },
+    {
+      "id": "c",
+      "text": "in"
+    },
+    {
+      "id": "d",
+      "text": "on"
+    }
+  ],
+  "correctOptionIds": [
+    "a"
+  ],
+  "selectionMode": "single",
+  "shuffleOptions": true
+}

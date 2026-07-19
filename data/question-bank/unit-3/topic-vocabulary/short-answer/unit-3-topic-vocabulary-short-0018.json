@@ -1,0 +1,37 @@
+{
+  "id": "unit-3-topic-vocabulary-short-0018",
+  "type": "short-answer",
+  "unitId": "unit-3",
+  "topicId": "topic-vocabulary",
+  "contentLocale": "en",
+  "difficulty": "easy",
+  "prompt": "A number of musicians who perform together.",
+  "explanation": "A group is a number of people (here, musicians) together.",
+  "tags": [
+    "topic-vocabulary",
+    "crossword"
+  ],
+  "skills": [
+    "grammar",
+    "writing"
+  ],
+  "source": {
+    "type": "original",
+    "reference": null
+  },
+  "status": "published",
+  "version": 1,
+  "createdAt": "2026-07-19T00:00:00.000Z",
+  "updatedAt": "2026-07-19T00:00:00.000Z",
+  "acceptedAnswers": [
+    "group"
+  ],
+  "answerValidation": {
+    "caseSensitive": false,
+    "trimWhitespace": true,
+    "collapseWhitespace": true,
+    "ignoreEndingPunctuation": true,
+    "matchMode": "normalized"
+  },
+  "letterCount": 5
+}

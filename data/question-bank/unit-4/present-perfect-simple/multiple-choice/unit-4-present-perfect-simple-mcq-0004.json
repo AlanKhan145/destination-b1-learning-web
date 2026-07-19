@@ -1,0 +1,39 @@
+{
+  "id": "unit-4-present-perfect-simple-mcq-0004",
+  "type": "multiple-choice",
+  "unitId": "unit-4",
+  "topicId": "present-perfect-simple",
+  "contentLocale": "en",
+  "tags": [
+    "past-simple-contrast"
+  ],
+  "skills": [
+    "grammar"
+  ],
+  "source": {
+    "type": "textbook",
+    "reference": "Destination B1, Unit 4 exercises"
+  },
+  "status": "published",
+  "version": 1,
+  "createdAt": "2026-07-19T00:00:00.000Z",
+  "updatedAt": "2026-07-19T00:00:00.000Z",
+  "difficulty": "medium",
+  "prompt": "Carol and I ___ to the cinema three nights ago.",
+  "explanation": "Three nights ago is a specific finished past time, so the past simple is required: went.",
+  "options": [
+    {
+      "id": "a",
+      "text": "have been"
+    },
+    {
+      "id": "b",
+      "text": "went"
+    }
+  ],
+  "correctOptionIds": [
+    "b"
+  ],
+  "selectionMode": "single",
+  "shuffleOptions": false
+}

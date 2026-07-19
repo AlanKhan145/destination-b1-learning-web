@@ -1,0 +1,25 @@
+{
+  "id": "unit-3-word-formation-tf-0002",
+  "type": "true-false",
+  "unitId": "unit-3",
+  "topicId": "word-formation",
+  "contentLocale": "en",
+  "difficulty": "easy",
+  "prompt": "“Childhood” is a verb formed from the word “child”.",
+  "explanation": "Childhood is a noun (the time of being a child), not a verb.",
+  "tags": [
+    "word-formation"
+  ],
+  "skills": [
+    "grammar"
+  ],
+  "source": {
+    "type": "original",
+    "reference": null
+  },
+  "status": "published",
+  "version": 1,
+  "createdAt": "2026-07-19T00:00:00.000Z",
+  "updatedAt": "2026-07-19T00:00:00.000Z",
+  "correctAnswer": false
+}

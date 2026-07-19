@@ -1,0 +1,47 @@
+{
+  "id": "unit-3-topic-vocabulary-mcq-0005",
+  "type": "multiple-choice",
+  "unitId": "unit-3",
+  "topicId": "topic-vocabulary",
+  "contentLocale": "en",
+  "difficulty": "easy",
+  "prompt": "Tom would never ______ in a card game because he always plays honestly.",
+  "explanation": "Cheat means to act dishonestly in order to win.",
+  "tags": [
+    "topic-vocabulary"
+  ],
+  "skills": [
+    "grammar"
+  ],
+  "source": {
+    "type": "original",
+    "reference": null
+  },
+  "status": "published",
+  "version": 1,
+  "createdAt": "2026-07-19T00:00:00.000Z",
+  "updatedAt": "2026-07-19T00:00:00.000Z",
+  "options": [
+    {
+      "id": "a",
+      "text": "beat"
+    },
+    {
+      "id": "b",
+      "text": "cheat"
+    },
+    {
+      "id": "c",
+      "text": "score"
+    },
+    {
+      "id": "d",
+      "text": "train"
+    }
+  ],
+  "correctOptionIds": [
+    "b"
+  ],
+  "selectionMode": "single",
+  "shuffleOptions": true
+}

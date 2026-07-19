@@ -1,0 +1,47 @@
+{
+  "id": "unit-3-topic-vocabulary-mcq-0010",
+  "type": "multiple-choice",
+  "unitId": "unit-3",
+  "topicId": "topic-vocabulary",
+  "contentLocale": "en",
+  "difficulty": "easy",
+  "prompt": "The player who leads a team during a match is usually the ______.",
+  "explanation": "The captain is the leader of a sports team.",
+  "tags": [
+    "topic-vocabulary"
+  ],
+  "skills": [
+    "grammar"
+  ],
+  "source": {
+    "type": "original",
+    "reference": null
+  },
+  "status": "published",
+  "version": 1,
+  "createdAt": "2026-07-19T00:00:00.000Z",
+  "updatedAt": "2026-07-19T00:00:00.000Z",
+  "options": [
+    {
+      "id": "a",
+      "text": "referee"
+    },
+    {
+      "id": "b",
+      "text": "opponent"
+    },
+    {
+      "id": "c",
+      "text": "captain"
+    },
+    {
+      "id": "d",
+      "text": "coach"
+    }
+  ],
+  "correctOptionIds": [
+    "c"
+  ],
+  "selectionMode": "single",
+  "shuffleOptions": true
+}

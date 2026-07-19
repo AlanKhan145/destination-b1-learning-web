@@ -224,6 +224,59 @@ button:focus-visible {
   width: 100%;
 }
 
+/* A Review-category "test" page: the review IS the content, not a sidebar
+   accessory — stack the intro above a full-width review panel instead of
+   the usual narrow 360px aside next to a wide lesson pane. */
+.workspace--review-mode {
+  flex-direction: column;
+}
+
+.workspace--review-mode .lesson-pane {
+  max-width: var(--max-content-width-workspace);
+  margin: 0 auto;
+  width: 100%;
+}
+
+.workspace--review-mode .lesson-header,
+.workspace--review-mode .lesson-content,
+.workspace--review-mode .lesson-pagination {
+  max-width: var(--max-content-width);
+  margin-right: auto;
+  margin-left: auto;
+  width: 100%;
+}
+
+.review-lesson-header-content .lesson-description {
+  margin-bottom: 0;
+}
+
+.workspace--review-mode .review-panel {
+  flex: none;
+  width: 100%;
+  max-width: var(--max-content-width-workspace);
+  margin: 0 auto;
+  position: static;
+}
+
+.workspace--review-mode .review-panel-toggle {
+  display: none;
+}
+
+.workspace--review-mode .review-panel-body {
+  max-width: 640px;
+  margin: 0 auto;
+  width: 100%;
+  padding: var(--space-lg);
+}
+
+/* Once the test starts, remove the overview from the visual flow so the
+   current question becomes the single, focused task. */
+.workspace--review-mode.workspace--review-active .lesson-header,
+.workspace--review-mode.workspace--review-active .lesson-content,
+.workspace--review-mode.workspace--review-active .lesson-pagination {
+  display: none;
+}
+
 .workspace-tabs {
   display: none;
   max-width: var(--max-content-width-workspace);
@@ -473,6 +526,155 @@ button:focus-visible {
 }
 
 .short-answer-input.is-incorrect {
+  border-color: var(--color-warning);
+  background: var(--color-warning-light);
+}
+
+/* ==========================================================================
+   Review panel: letter-box input (crossword clues + secret-word puzzle)
+   ========================================================================== */
+.letter-box-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-xs);
+}
+
+.letter-box {
+  width: 36px;
+  height: 44px;
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-family: inherit;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-small);
+  background: var(--color-surface);
+}
+
+.letter-box:focus-visible {
+  outline: 2px solid var(--color-primary);
+  outline-offset: 1px;
+}
+
+.letter-box--reveal {
+  border-color: var(--color-primary);
+  background: var(--color-primary-light);
+}
+
+.letter-box.is-correct {
+  border-color: var(--color-success);
+  background: var(--color-success-light);
+}
+
+.letter-box.is-incorrect {
+  border-color: var(--color-warning);
+  background: var(--color-warning-light);
+}
+
+.secret-puzzle-words {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-md);
+}
+
+.secret-puzzle-word-row {
+  padding-bottom: var(--space-sm);
+  border-bottom: 1px solid var(--color-border);
+}
+
+.secret-puzzle-clue {
+  font-weight: 600;
+  margin-bottom: var(--space-xs);
+}
+
+.secret-puzzle-final {
+  margin-top: var(--space-lg);
+  padding-top: var(--space-md);
+  border-top: 2px dashed var(--color-primary);
+}
+
+.secret-puzzle-final-label {
+  font-weight: 700;
+  color: var(--color-primary-dark);
+  margin-bottom: var(--space-sm);
+}
+
+/* ==========================================================================
+   Review panel: fill-in-the-blanks passage
+   ========================================================================== */
+.fill-blank-passage-paragraph {
+  margin-bottom: var(--space-md);
+  line-height: 1.8;
+}
+
+.blank-input {
+  display: inline-block;
+  width: 140px;
+  margin: 0 var(--space-xs);
+  padding: 2px var(--space-xs);
+  border: none;
+  border-bottom: 2px solid var(--color-border);
+  border-radius: 0;
+  font-family: inherit;
+  font-size: 1rem;
+  font-weight: 600;
+  text-align: center;
+  background: transparent;
+}
+
+.blank-input:focus-visible {
+  outline: none;
+  border-bottom-color: var(--color-primary);
+}
+
+.blank-input.is-correct {
+  border-bottom-color: var(--color-success);
+  color: var(--color-success);
+}
+
+.blank-input.is-incorrect {
+  border-bottom-color: var(--color-warning);
+  color: var(--color-warning);
+}
+
+/* ==========================================================================
+   Review panel: matching (select-per-row)
+   ========================================================================== */
+.matching-list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-sm);
+}
+
+.matching-row {
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+  flex-wrap: wrap;
+}
+
+.matching-left {
+  flex: 1 1 200px;
+  font-weight: 600;
+}
+
+.matching-select {
+  flex: 1 1 200px;
+  padding: var(--space-xs) var(--space-sm);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-small);
+  font-family: inherit;
+  font-size: 0.95rem;
+  background: var(--color-surface);
+}
+
+.matching-select.is-correct {
+  border-color: var(--color-success);
+  background: var(--color-success-light);
+}
+
+.matching-select.is-incorrect {
   border-color: var(--color-warning);
   background: var(--color-warning-light);
 }
@@ -977,6 +1179,26 @@ button:focus-visible {
   font-weight: 800;
   padding: 0 3px;
   border-radius: 4px;
+}
+
+/* ==========================================================================
+   Review-category lesson: test overview table (see review-lesson-renderer.js)
+   ========================================================================== */
+.review-overview-count {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+
+.review-overview-table th[scope="col"]:last-child,
+.review-overview-table td.review-overview-count {
+  text-align: right;
+}
+
+.review-overview-cta {
+  margin-top: var(--space-md);
+  color: var(--color-text-muted);
+  font-style: italic;
 }
 
 /* ==========================================================================
@@ -1847,6 +2069,10 @@ button:focus-visible {
     letter-spacing: 0.03em;
     color: var(--color-text-muted);
     margin-bottom: var(--space-xs);
+  }
+
+  .review-overview-count {
+    text-align: left;
   }
 
   .lesson-pagination-inner {

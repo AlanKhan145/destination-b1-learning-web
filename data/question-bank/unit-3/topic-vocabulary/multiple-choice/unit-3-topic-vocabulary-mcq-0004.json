@@ -1,0 +1,47 @@
+{
+  "id": "unit-3-topic-vocabulary-mcq-0004",
+  "type": "multiple-choice",
+  "unitId": "unit-3",
+  "topicId": "topic-vocabulary",
+  "contentLocale": "en",
+  "difficulty": "easy",
+  "prompt": "The person or team that you compete against is your ______.",
+  "explanation": "An opponent is the person or team you compete against.",
+  "tags": [
+    "topic-vocabulary"
+  ],
+  "skills": [
+    "grammar"
+  ],
+  "source": {
+    "type": "original",
+    "reference": null
+  },
+  "status": "published",
+  "version": 1,
+  "createdAt": "2026-07-19T00:00:00.000Z",
+  "updatedAt": "2026-07-19T00:00:00.000Z",
+  "options": [
+    {
+      "id": "a",
+      "text": "captain"
+    },
+    {
+      "id": "b",
+      "text": "coach"
+    },
+    {
+      "id": "c",
+      "text": "member"
+    },
+    {
+      "id": "d",
+      "text": "opponent"
+    }
+  ],
+  "correctOptionIds": [
+    "d"
+  ],
+  "selectionMode": "single",
+  "shuffleOptions": true
+}

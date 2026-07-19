@@ -1,0 +1,40 @@
+{
+  "id": "unit-4-present-perfect-continuous-mcq-0006",
+  "type": "multiple-choice",
+  "unitId": "unit-4",
+  "topicId": "present-perfect-continuous",
+  "contentLocale": "en",
+  "tags": [
+    "yet",
+    "action-emphasis"
+  ],
+  "skills": [
+    "grammar"
+  ],
+  "source": {
+    "type": "textbook",
+    "reference": "Destination B1, Unit 4 exercises"
+  },
+  "status": "published",
+  "version": 1,
+  "createdAt": "2026-07-19T00:00:00.000Z",
+  "updatedAt": "2026-07-19T00:00:00.000Z",
+  "difficulty": "medium",
+  "prompt": "I've ___ an interview with Brad Pitt, but I haven't finished it yet.",
+  "explanation": "The action is not finished yet, so the continuous form emphasises the ongoing activity: been reading.",
+  "options": [
+    {
+      "id": "a",
+      "text": "read"
+    },
+    {
+      "id": "b",
+      "text": "been reading"
+    }
+  ],
+  "correctOptionIds": [
+    "b"
+  ],
+  "selectionMode": "single",
+  "shuffleOptions": false
+}

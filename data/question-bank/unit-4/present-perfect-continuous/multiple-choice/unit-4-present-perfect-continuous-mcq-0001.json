@@ -1,0 +1,39 @@
+{
+  "id": "unit-4-present-perfect-continuous-mcq-0001",
+  "type": "multiple-choice",
+  "unitId": "unit-4",
+  "topicId": "present-perfect-continuous",
+  "contentLocale": "en",
+  "tags": [
+    "result-emphasis"
+  ],
+  "skills": [
+    "grammar"
+  ],
+  "source": {
+    "type": "textbook",
+    "reference": "Destination B1, Unit 4 exercises"
+  },
+  "status": "published",
+  "version": 1,
+  "createdAt": "2026-07-19T00:00:00.000Z",
+  "updatedAt": "2026-07-19T00:00:00.000Z",
+  "difficulty": "medium",
+  "prompt": "I think I've ___ that song before.",
+  "explanation": "Before (at any time up to now) focuses on the completed experience, so use the simple form: heard.",
+  "options": [
+    {
+      "id": "a",
+      "text": "heard"
+    },
+    {
+      "id": "b",
+      "text": "been hearing"
+    }
+  ],
+  "correctOptionIds": [
+    "a"
+  ],
+  "selectionMode": "single",
+  "shuffleOptions": false
+}

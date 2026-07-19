@@ -1,0 +1,39 @@
+{
+  "id": "unit-4-present-perfect-simple-mcq-0001",
+  "type": "multiple-choice",
+  "unitId": "unit-4",
+  "topicId": "present-perfect-simple",
+  "contentLocale": "en",
+  "tags": [
+    "never"
+  ],
+  "skills": [
+    "grammar"
+  ],
+  "source": {
+    "type": "textbook",
+    "reference": "Destination B1, Unit 4 exercises"
+  },
+  "status": "published",
+  "version": 1,
+  "createdAt": "2026-07-19T00:00:00.000Z",
+  "updatedAt": "2026-07-19T00:00:00.000Z",
+  "difficulty": "medium",
+  "prompt": "___ never played this game before.",
+  "explanation": "Before (at any time up to now) needs the present perfect simple: I've never played.",
+  "options": [
+    {
+      "id": "a",
+      "text": "I've"
+    },
+    {
+      "id": "b",
+      "text": "I"
+    }
+  ],
+  "correctOptionIds": [
+    "a"
+  ],
+  "selectionMode": "single",
+  "shuffleOptions": false
+}

@@ -1,0 +1,259 @@
+{
+  "id": "unit-4",
+  "unitNumber": 4,
+  "category": "Grammar",
+  "title": "Present perfect simple, present perfect continuous",
+  "description": "Learn how to use the present perfect simple and present perfect continuous to describe past actions connected to the present.",
+  "previousLessonId": "unit-3",
+  "nextLessonId": "unit-5",
+  "review": {
+    "reviewId": "unit-4-review",
+    "enabled": true,
+    "displayMode": "side-panel",
+    "position": "right",
+    "defaultOpen": false
+  },
+  "topics": [
+    {
+      "id": "present-perfect-simple",
+      "number": 1,
+      "title": "Present perfect simple",
+      "status": "available",
+      "review": {
+        "enabled": true,
+        "questionFilter": {
+          "unitId": "unit-4",
+          "topicIds": [
+            "present-perfect-simple"
+          ],
+          "status": [
+            "published"
+          ]
+        }
+      },
+      "description": "Used for situations that started in the past and are still true, completed actions at an unspecified past time, and actions whose results are important now.",
+      "formula": "have/has + past participle",
+      "forms": {
+        "columns": [
+          "I / you / we / they",
+          "He / she / it"
+        ],
+        "rows": [
+          {
+            "label": "Statement",
+            "cells": [
+              "I/You/We/They have ('ve) learnt ...",
+              "He/She/It has ('s) learnt ..."
+            ]
+          },
+          {
+            "label": "Negative",
+            "cells": [
+              "I/You/We/They have not (haven't) learnt ...",
+              "He/She/It has not (hasn't) learnt ..."
+            ]
+          },
+          {
+            "label": "Question",
+            "cells": [
+              "Have I/you/we/they learnt ...?",
+              "Has he/she/it learnt ...?"
+            ]
+          }
+        ]
+      },
+      "uses": [
+        {
+          "usage": "Situations that started in the past and are still true",
+          "example": "Mrs Jenkins has been the head teacher for three years.",
+          "highlightWords": [
+            "has been",
+            "for three years"
+          ]
+        },
+        {
+          "usage": "Completed actions at a time in the past which is not mentioned",
+          "example": "I've already read that book.",
+          "highlightWords": [
+            "I've already read"
+          ]
+        },
+        {
+          "usage": "Completed actions where the important thing is the result now",
+          "example": "They've all done their homework.",
+          "highlightWords": [
+            "They've all done"
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "type": "helpful-hint",
+          "content": "The present perfect simple is often used with the following words and phrases.",
+          "examples": [
+            "For: She's taught German here for over five years.",
+            "Since: Mr Gray has taught French here since 2006.",
+            "Just: We've just done this exercise.",
+            "Already: We've already done this exercise.",
+            "Yet: We haven't checked the answers yet.",
+            "Ever: Have you ever had guitar lessons?",
+            "Never: I've never understood why they give us so much homework!",
+            "It's the first time: It's the first time we've watched a video in class."
+          ],
+          "highlightWords": [
+            "for",
+            "since",
+            "just",
+            "already",
+            "yet",
+            "ever",
+            "never",
+            "it's the first time"
+          ]
+        },
+        {
+          "type": "watch-out",
+          "content": "We do not use the present perfect simple when we want to say exactly when something happened in the past. We use the past simple instead.",
+          "examples": [
+            "Correct: I did my homework last night.",
+            "Incorrect: I've done my homework last night."
+          ],
+          "highlightWords": [
+            "did",
+            "last night",
+            "I've done"
+          ]
+        },
+        {
+          "type": "watch-out",
+          "content": "We do not use the past simple when we want to show that something happened before now or is still important now. We use the present perfect simple.",
+          "examples": [
+            "I've finished! Can I go home now?"
+          ],
+          "highlightWords": [
+            "I've finished",
+            "now"
+          ]
+        },
+        {
+          "type": "watch-out",
+          "content": "Some verbs have irregular past participle forms. See page 182.",
+          "examples": [],
+          "highlightWords": [
+            "irregular past participle"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "present-perfect-continuous",
+      "number": 2,
+      "title": "Present perfect continuous",
+      "status": "available",
+      "review": {
+        "enabled": true,
+        "questionFilter": {
+          "unitId": "unit-4",
+          "topicIds": [
+            "present-perfect-continuous"
+          ],
+          "status": [
+            "published"
+          ]
+        }
+      },
+      "description": "Used for actions that have continued up to now or stopped only a short time before now.",
+      "formula": "have/has + been + verb-ing",
+      "forms": {
+        "columns": [
+          "I / you / we / they",
+          "He / she / it"
+        ],
+        "rows": [
+          {
+            "label": "Statement",
+            "cells": [
+              "I/You/We/They have ('ve) been studying ...",
+              "He/She/It has ('s) been studying ..."
+            ]
+          },
+          {
+            "label": "Negative",
+            "cells": [
+              "I/You/We/They have not (haven't) been studying ...",
+              "He/She/It has not (hasn't) been studying ..."
+            ]
+          },
+          {
+            "label": "Question",
+            "cells": [
+              "Have I/you/we/they been studying ...?",
+              "Has he/she/it been studying ...?"
+            ]
+          }
+        ]
+      },
+      "uses": [
+        {
+          "usage": "Actions continuing up to now",
+          "example": "We've been doing grammar exercises for over an hour. Can we have a break now?",
+          "highlightWords": [
+            "We've been doing",
+            "for over an hour"
+          ]
+        },
+        {
+          "usage": "Actions that stopped only a short time before now",
+          "example": "They're having a break now because they've been working so hard.",
+          "highlightWords": [
+            "they've been working",
+            "now"
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "type": "helpful-hint",
+          "content": "The present perfect continuous is often used with the following words.",
+          "examples": [
+            "For: I've been learning English for over three years.",
+            "Since: He's been learning Chinese since 2004.",
+            "Just: I've just been reading the school newspaper."
+          ],
+          "highlightWords": [
+            "for",
+            "since",
+            "just"
+          ]
+        },
+        {
+          "type": "rule",
+          "content": "The present perfect simple often emphasises the result of an action.",
+          "examples": [
+            "She's written an article for the school newspaper.",
+            "This means that she has finished the article."
+          ],
+          "highlightWords": [
+            "She's written",
+            "finished",
+            "result"
+          ]
+        },
+        {
+          "type": "rule",
+          "content": "The present perfect continuous often emphasises the action and the time spent on it rather than the result.",
+          "examples": [
+            "She's been writing an article for the school newspaper.",
+            "This means that she has started the article, but she has not finished it yet."
+          ],
+          "highlightWords": [
+            "She's been writing",
+            "has not finished",
+            "action",
+            "time spent"
+          ]
+        }
+      ]
+    }
+  ]
+}

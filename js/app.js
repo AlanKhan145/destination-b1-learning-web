@@ -10,6 +10,7 @@ import { initNavigation, initScrollSpy } from "./navigation.js";
 import { initReviewPanel, refreshReviewPanelLocale } from "./review-panel.js";
 import { loadVocabularySet } from "./vocabulary/vocabulary-data.js";
 import { renderVocabularyLesson } from "./vocabulary/vocabulary-lesson-renderer.js";
+import { renderReviewLesson } from "./review-lesson-renderer.js";
 
 const LANGUAGE_OPTIONS = [
   { code: "en", key: "language.english" },
@@ -27,6 +28,8 @@ function isVocabularyLesson(lesson) {
 function renderLessonBody() {
   if (isVocabularyLesson(currentLesson) && currentVocabularySet) {
     renderVocabularyLesson(currentLesson, currentVocabularySet);
+  } else if (currentLesson?.category === "Review") {
+    renderReviewLesson(currentLesson);
   } else {
     renderLesson(currentLesson);
   }

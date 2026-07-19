@@ -1,0 +1,47 @@
+{
+  "id": "review-1-grammar-tenses-mcq-0002",
+  "type": "multiple-choice",
+  "unitId": "review-1",
+  "topicId": "grammar-tenses",
+  "contentLocale": "en",
+  "difficulty": "medium",
+  "prompt": "At my last basketball club, we ____ every Saturday for three hours.",
+  "explanation": "Used to describes a repeated past habit that is no longer true (\"my LAST club\").",
+  "tags": [
+    "grammar-tenses"
+  ],
+  "skills": [
+    "grammar"
+  ],
+  "source": {
+    "type": "original",
+    "reference": null
+  },
+  "status": "published",
+  "version": 1,
+  "createdAt": "2026-07-19T00:00:00.000Z",
+  "updatedAt": "2026-07-19T00:00:00.000Z",
+  "options": [
+    {
+      "id": "a",
+      "text": "were training"
+    },
+    {
+      "id": "b",
+      "text": "training"
+    },
+    {
+      "id": "c",
+      "text": "train"
+    },
+    {
+      "id": "d",
+      "text": "used to train"
+    }
+  ],
+  "correctOptionIds": [
+    "d"
+  ],
+  "selectionMode": "single",
+  "shuffleOptions": true
+}

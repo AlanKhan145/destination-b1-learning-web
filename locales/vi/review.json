@@ -1,9 +1,11 @@
 {
   "review": {
     "panelTitle": "Ôn tập",
+    "testTitle": "Bài kiểm tra",
     "openPanel": "Mở phần ôn tập",
     "closePanel": "Thu gọn phần ôn tập",
     "start": "Bắt đầu ôn tập",
+    "startTest": "Bắt đầu làm bài",
     "submit": "Kiểm tra đáp án",
     "next": "Câu tiếp theo",
     "previous": "Câu trước",
@@ -18,6 +20,7 @@
     "emptyState": "Chưa có câu hỏi nào cho phần ôn tập này.",
     "questionLoadError": "Một số câu hỏi không tải được và đã bị bỏ qua.",
     "unansweredHint": "Hãy chọn hoặc nhập câu trả lời trước khi kiểm tra.",
-    "allQuestionsAnswered": "Đã trả lời hết các câu hỏi. Xem kết quả ngay?"
+    "allQuestionsAnswered": "Đã trả lời hết các câu hỏi. Xem kết quả ngay?",
+    "secretWordLabel": "Từ khóa bí mật"
   }
 }

@@ -1,0 +1,39 @@
+{
+  "id": "unit-4-present-perfect-simple-mcq-0003",
+  "type": "multiple-choice",
+  "unitId": "unit-4",
+  "topicId": "present-perfect-simple",
+  "contentLocale": "en",
+  "tags": [
+    "since"
+  ],
+  "skills": [
+    "grammar"
+  ],
+  "source": {
+    "type": "textbook",
+    "reference": "Destination B1, Unit 4 exercises"
+  },
+  "status": "published",
+  "version": 1,
+  "createdAt": "2026-07-19T00:00:00.000Z",
+  "updatedAt": "2026-07-19T00:00:00.000Z",
+  "difficulty": "medium",
+  "prompt": "___ here since 2005?",
+  "explanation": "Since 2005 links the past to now, so use the present perfect simple: Have you lived.",
+  "options": [
+    {
+      "id": "a",
+      "text": "Have you lived"
+    },
+    {
+      "id": "b",
+      "text": "Did you live"
+    }
+  ],
+  "correctOptionIds": [
+    "a"
+  ],
+  "selectionMode": "single",
+  "shuffleOptions": false
+}

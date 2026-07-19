@@ -1,0 +1,35 @@
+{
+  "id": "review-1-phrasal-verbs-short-0006",
+  "type": "short-answer",
+  "unitId": "review-1",
+  "topicId": "phrasal-verbs",
+  "contentLocale": "en",
+  "difficulty": "medium",
+  "prompt": "I used to play the trumpet, but I ______ it up last year because I didn't have time.",
+  "explanation": "Give up (past: gave) means to stop doing something you did regularly.",
+  "tags": [
+    "phrasal-verbs"
+  ],
+  "skills": [
+    "grammar",
+    "writing"
+  ],
+  "source": {
+    "type": "original",
+    "reference": null
+  },
+  "status": "published",
+  "version": 1,
+  "createdAt": "2026-07-19T00:00:00.000Z",
+  "updatedAt": "2026-07-19T00:00:00.000Z",
+  "acceptedAnswers": [
+    "gave"
+  ],
+  "answerValidation": {
+    "caseSensitive": false,
+    "trimWhitespace": true,
+    "collapseWhitespace": true,
+    "ignoreEndingPunctuation": true,
+    "matchMode": "normalized"
+  }
+}

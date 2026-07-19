@@ -1,0 +1,36 @@
+{
+  "id": "unit-4-present-perfect-simple-short-0002",
+  "type": "short-answer",
+  "unitId": "unit-4",
+  "topicId": "present-perfect-simple",
+  "contentLocale": "en",
+  "tags": [
+    "for"
+  ],
+  "skills": [
+    "grammar",
+    "writing"
+  ],
+  "source": {
+    "type": "textbook",
+    "reference": "Destination B1, Unit 4 exercises"
+  },
+  "status": "published",
+  "version": 1,
+  "createdAt": "2026-07-19T00:00:00.000Z",
+  "updatedAt": "2026-07-19T00:00:00.000Z",
+  "difficulty": "easy",
+  "prompt": "Complete the sentence with the correct present perfect simple form of \"have\": John and Julie ___ their car for about a year.",
+  "explanation": "For about a year describes a situation that started in the past and is still true, so use the present perfect simple: have had.",
+  "acceptedAnswers": [
+    "have had",
+    "'ve had"
+  ],
+  "answerValidation": {
+    "caseSensitive": false,
+    "trimWhitespace": true,
+    "collapseWhitespace": true,
+    "ignoreEndingPunctuation": true,
+    "matchMode": "normalized"
+  }
+}

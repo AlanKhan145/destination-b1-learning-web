@@ -1,0 +1,85 @@
+{
+  "id": "unit-4-review",
+  "unitId": "unit-4",
+  "title": "Unit 4 Review",
+  "description": "Review the present perfect simple and present perfect continuous.",
+  "passingScore": 70,
+  "contentLocale": "en",
+  "attemptSettings": {
+    "allowRetry": true,
+    "showCorrectAnswer": "after-submit",
+    "showExplanation": "after-submit",
+    "saveProgress": true
+  },
+  "sections": [
+    {
+      "id": "multiple-choice",
+      "type": "multiple-choice",
+      "title": "Choose the correct answer",
+      "instructions": "Choose the correct form to complete each sentence.",
+      "selectionMode": "fixed",
+      "shuffleQuestions": true,
+      "shuffleOptions": false,
+      "questionIds": [
+        "unit-4-present-perfect-simple-mcq-0001",
+        "unit-4-present-perfect-simple-mcq-0002",
+        "unit-4-present-perfect-simple-mcq-0003",
+        "unit-4-present-perfect-simple-mcq-0004",
+        "unit-4-present-perfect-simple-mcq-0005",
+        "unit-4-present-perfect-simple-mcq-0006",
+        "unit-4-present-perfect-simple-mcq-0007",
+        "unit-4-present-perfect-simple-mcq-0008",
+        "unit-4-present-perfect-continuous-mcq-0001",
+        "unit-4-present-perfect-continuous-mcq-0002",
+        "unit-4-present-perfect-continuous-mcq-0003",
+        "unit-4-present-perfect-continuous-mcq-0004",
+        "unit-4-present-perfect-continuous-mcq-0005",
+        "unit-4-present-perfect-continuous-mcq-0006",
+        "unit-4-present-perfect-continuous-mcq-0007"
+      ]
+    },
+    {
+      "id": "short-answer",
+      "type": "short-answer",
+      "title": "Complete the sentences",
+      "instructions": "Complete each sentence with the correct present perfect form, write full sentences from the prompts, or fill in the missing word.",
+      "selectionMode": "fixed",
+      "shuffleQuestions": true,
+      "questionIds": [
+        "unit-4-present-perfect-simple-short-0001",
+        "unit-4-present-perfect-simple-short-0002",
+        "unit-4-present-perfect-simple-short-0003",
+        "unit-4-present-perfect-simple-short-0004",
+        "unit-4-present-perfect-simple-short-0005",
+        "unit-4-present-perfect-simple-short-0006",
+        "unit-4-present-perfect-simple-short-0007",
+        "unit-4-present-perfect-simple-short-0008",
+        "unit-4-present-perfect-simple-short-0009",
+        "unit-4-present-perfect-simple-short-0010",
+        "unit-4-present-perfect-simple-short-0011",
+        "unit-4-present-perfect-simple-short-0012",
+        "unit-4-present-perfect-simple-short-0013",
+        "unit-4-present-perfect-simple-short-0014",
+        "unit-4-present-perfect-simple-short-0015",
+        "unit-4-present-perfect-simple-short-0016",
+        "unit-4-present-perfect-simple-short-0017",
+        "unit-4-present-perfect-simple-short-0018",
+        "unit-4-present-perfect-simple-short-0019",
+        "unit-4-present-perfect-continuous-short-0001",
+        "unit-4-present-perfect-continuous-short-0002",
+        "unit-4-present-perfect-continuous-short-0003"
+      ]
+    },
+    {
+      "id": "fill-in-the-blanks",
+      "type": "fill-in-the-blanks",
+      "title": "Complete the dialogue",
+      "instructions": "Complete the dialogue using the correct present perfect continuous form of the verbs in brackets. Use short forms where possible.",
+      "selectionMode": "fixed",
+      "shuffleQuestions": false,
+      "questionIds": [
+        "unit-4-present-perfect-continuous-fib-0001"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "id": "unit-3-phrasal-verbs-mcq-0006",
+  "type": "multiple-choice",
+  "unitId": "unit-3",
+  "topicId": "phrasal-verbs",
+  "contentLocale": "en",
+  "difficulty": "easy",
+  "prompt": "We do not ______ very often because restaurants are expensive.",
+  "explanation": "Eat out means to eat at a restaurant.",
+  "tags": [
+    "phrasal-verbs"
+  ],
+  "skills": [
+    "grammar"
+  ],
+  "source": {
+    "type": "original",
+    "reference": null
+  },
+  "status": "published",
+  "version": 1,
+  "createdAt": "2026-07-19T00:00:00.000Z",
+  "updatedAt": "2026-07-19T00:00:00.000Z",
+  "options": [
+    {
+      "id": "a",
+      "text": "give up"
+    },
+    {
+      "id": "b",
+      "text": "carry on"
+    },
+    {
+      "id": "c",
+      "text": "take up"
+    },
+    {
+      "id": "d",
+      "text": "eat out"
+    }
+  ],
+  "correctOptionIds": [
+    "d"
+  ],
+  "selectionMode": "single",
+  "shuffleOptions": true
+}

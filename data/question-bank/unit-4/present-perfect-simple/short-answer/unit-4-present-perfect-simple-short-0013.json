@@ -1,0 +1,36 @@
+{
+  "id": "unit-4-present-perfect-simple-short-0013",
+  "type": "short-answer",
+  "unitId": "unit-4",
+  "topicId": "present-perfect-simple",
+  "contentLocale": "en",
+  "tags": [
+    "already"
+  ],
+  "skills": [
+    "grammar",
+    "writing"
+  ],
+  "source": {
+    "type": "textbook",
+    "reference": "Destination B1, Unit 4 exercises"
+  },
+  "status": "published",
+  "version": 1,
+  "createdAt": "2026-07-19T00:00:00.000Z",
+  "updatedAt": "2026-07-19T00:00:00.000Z",
+  "difficulty": "medium",
+  "prompt": "Write a full sentence from the prompts using the present perfect simple: Christine / already / open / book",
+  "explanation": "Already goes between has and the past participle: Christine has already opened her book.",
+  "acceptedAnswers": [
+    "Christine has already opened her book",
+    "Christine's already opened her book"
+  ],
+  "answerValidation": {
+    "caseSensitive": false,
+    "trimWhitespace": true,
+    "collapseWhitespace": true,
+    "ignoreEndingPunctuation": true,
+    "matchMode": "normalized"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "unit-3-topic-vocabulary-short-0008",
+  "type": "short-answer",
+  "unitId": "unit-3",
+  "topicId": "topic-vocabulary",
+  "contentLocale": "en",
+  "difficulty": "medium",
+  "prompt": "Complete the sentence: We will help you find a place to ______.",
+  "explanation": "Train means to prepare for a sport by practising regularly.",
+  "tags": [
+    "topic-vocabulary"
+  ],
+  "skills": [
+    "grammar",
+    "writing"
+  ],
+  "source": {
+    "type": "original",
+    "reference": null
+  },
+  "status": "published",
+  "version": 1,
+  "createdAt": "2026-07-19T00:00:00.000Z",
+  "updatedAt": "2026-07-19T00:00:00.000Z",
+  "acceptedAnswers": [
+    "train"
+  ],
+  "answerValidation": {
+    "caseSensitive": false,
+    "trimWhitespace": true,
+    "collapseWhitespace": true,
+    "ignoreEndingPunctuation": true,
+    "matchMode": "normalized"
+  }
+}

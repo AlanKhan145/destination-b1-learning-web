@@ -1,0 +1,47 @@
+{
+  "id": "review-1-grammar-tenses-mcq-0007",
+  "type": "multiple-choice",
+  "unitId": "review-1",
+  "topicId": "grammar-tenses",
+  "contentLocale": "en",
+  "difficulty": "medium",
+  "prompt": "I ____ like golf, but now I really like it.",
+  "explanation": "The negative of used to is didn't use to (base form after didn't).",
+  "tags": [
+    "grammar-tenses"
+  ],
+  "skills": [
+    "grammar"
+  ],
+  "source": {
+    "type": "original",
+    "reference": null
+  },
+  "status": "published",
+  "version": 1,
+  "createdAt": "2026-07-19T00:00:00.000Z",
+  "updatedAt": "2026-07-19T00:00:00.000Z",
+  "options": [
+    {
+      "id": "a",
+      "text": "don't use to"
+    },
+    {
+      "id": "b",
+      "text": "don't used to"
+    },
+    {
+      "id": "c",
+      "text": "didn't used to"
+    },
+    {
+      "id": "d",
+      "text": "didn't use to"
+    }
+  ],
+  "correctOptionIds": [
+    "d"
+  ],
+  "selectionMode": "single",
+  "shuffleOptions": true
+}

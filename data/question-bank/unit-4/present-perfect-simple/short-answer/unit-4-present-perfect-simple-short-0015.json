@@ -1,0 +1,37 @@
+{
+  "id": "unit-4-present-perfect-simple-short-0015",
+  "type": "short-answer",
+  "unitId": "unit-4",
+  "topicId": "present-perfect-simple",
+  "contentLocale": "en",
+  "tags": [
+    "yet",
+    "negative"
+  ],
+  "skills": [
+    "grammar",
+    "writing"
+  ],
+  "source": {
+    "type": "textbook",
+    "reference": "Destination B1, Unit 4 exercises"
+  },
+  "status": "published",
+  "version": 1,
+  "createdAt": "2026-07-19T00:00:00.000Z",
+  "updatedAt": "2026-07-19T00:00:00.000Z",
+  "difficulty": "medium",
+  "prompt": "Write a full sentence from the prompts using the present perfect simple: he / not / pick it up / yet",
+  "explanation": "Negative + yet: He hasn't picked it up yet.",
+  "acceptedAnswers": [
+    "He hasn't picked it up yet",
+    "He has not picked it up yet"
+  ],
+  "answerValidation": {
+    "caseSensitive": false,
+    "trimWhitespace": true,
+    "collapseWhitespace": true,
+    "ignoreEndingPunctuation": true,
+    "matchMode": "normalized"
+  }
+}

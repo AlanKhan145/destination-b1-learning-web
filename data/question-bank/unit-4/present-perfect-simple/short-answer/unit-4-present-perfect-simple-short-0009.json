@@ -1,0 +1,37 @@
+{
+  "id": "unit-4-present-perfect-simple-short-0009",
+  "type": "short-answer",
+  "unitId": "unit-4",
+  "topicId": "present-perfect-simple",
+  "contentLocale": "en",
+  "tags": [
+    "yet",
+    "negative"
+  ],
+  "skills": [
+    "grammar",
+    "writing"
+  ],
+  "source": {
+    "type": "textbook",
+    "reference": "Destination B1, Unit 4 exercises"
+  },
+  "status": "published",
+  "version": 1,
+  "createdAt": "2026-07-19T00:00:00.000Z",
+  "updatedAt": "2026-07-19T00:00:00.000Z",
+  "difficulty": "medium",
+  "prompt": "Write a full sentence from the prompts using the present perfect simple: lesson / not / start / yet",
+  "explanation": "Negative + yet: The lesson hasn't started yet.",
+  "acceptedAnswers": [
+    "The lesson hasn't started yet",
+    "The lesson has not started yet"
+  ],
+  "answerValidation": {
+    "caseSensitive": false,
+    "trimWhitespace": true,
+    "collapseWhitespace": true,
+    "ignoreEndingPunctuation": true,
+    "matchMode": "normalized"
+  }
+}

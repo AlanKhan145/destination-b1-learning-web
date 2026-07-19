@@ -1,0 +1,35 @@
+{
+  "id": "unit-4-present-perfect-simple-short-0018",
+  "type": "short-answer",
+  "unitId": "unit-4",
+  "topicId": "present-perfect-simple",
+  "contentLocale": "en",
+  "tags": [
+    "already"
+  ],
+  "skills": [
+    "grammar",
+    "writing"
+  ],
+  "source": {
+    "type": "textbook",
+    "reference": "Destination B1, Unit 4 exercises"
+  },
+  "status": "published",
+  "version": 1,
+  "createdAt": "2026-07-19T00:00:00.000Z",
+  "updatedAt": "2026-07-19T00:00:00.000Z",
+  "difficulty": "easy",
+  "prompt": "Complete the sentence with one word from the box (already, ever, for, just, never, since, yet): I'm afraid we've ___ made plans for this weekend, so we won't be free.",
+  "explanation": "Already shows the action happened sooner than expected: we've already made plans.",
+  "acceptedAnswers": [
+    "already"
+  ],
+  "answerValidation": {
+    "caseSensitive": false,
+    "trimWhitespace": true,
+    "collapseWhitespace": true,
+    "ignoreEndingPunctuation": true,
+    "matchMode": "normalized"
+  }
+}

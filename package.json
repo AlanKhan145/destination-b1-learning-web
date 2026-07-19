@@ -5,6 +5,7 @@
   "description": "Static HTML/CSS/JS site: Destination B1 grammar lessons + question bank review.",
   "type": "module",
   "scripts": {
+    "add:lesson": "node scripts/add-grammar-lesson.js",
     "validate:questions": "node scripts/validate-question-bank.js",
     "build:question-index": "node scripts/build-question-index.js",
     "build:data": "npm run validate:questions && npm run build:question-index",

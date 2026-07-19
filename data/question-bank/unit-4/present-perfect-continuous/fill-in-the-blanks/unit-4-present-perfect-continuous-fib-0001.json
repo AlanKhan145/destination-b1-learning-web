@@ -1,0 +1,98 @@
+{
+  "id": "unit-4-present-perfect-continuous-fib-0001",
+  "type": "fill-in-the-blanks",
+  "unitId": "unit-4",
+  "topicId": "present-perfect-continuous",
+  "contentLocale": "en",
+  "tags": [
+    "dialogue",
+    "for",
+    "just",
+    "negative"
+  ],
+  "skills": [
+    "grammar"
+  ],
+  "source": {
+    "type": "textbook",
+    "reference": "Destination B1, Unit 4 exercises"
+  },
+  "status": "published",
+  "version": 1,
+  "createdAt": "2026-07-19T00:00:00.000Z",
+  "updatedAt": "2026-07-19T00:00:00.000Z",
+  "difficulty": "medium",
+  "prompt": "Complete the dialogue using the correct present perfect continuous form of the verbs in brackets. Use short forms where possible.",
+  "explanation": "The present perfect continuous (have/has + been + verb-ing) describes actions continuing up to now, such as studying, working and planning over the past weeks.",
+  "passageTemplate": "Mandy: Hi Matt. How are you? What {{b1}} (you / do) recently?\nMatt: Oh, hi Mandy! Well, {{b2}} (I / study) for my exams.\nMandy: That sounds boring! {{b3}} (you / work) hard?\nMatt: Very! Basically, {{b4}} (I / just / sit) at my desk in my bedroom for the past three weeks and {{b5}} (I / not / go) out at all. {{b6}} (I / work) with Michael, my best friend, some of the time, though, so at least I've had some company. How about you?\nMandy: Well, my mum and {{b7}} (I / paint) my bedroom for the last few days. That has been fun! And {{b8}} (we / also / plan) our summer holiday.\nMatt: Great! Where are you going?\nMandy: Well, we haven't decided yet. {{b9}} (We / look) at different places to see which we like best.\nMatt: I'm sure you'll have a great time, wherever you go. Oh, by the way, {{b10}} (I / think) of having a party when I finish my exams. Would you like to come?\nMandy: Sure! That would be great!",
+  "blanks": [
+    {
+      "id": "b1",
+      "acceptedAnswers": [
+        "have you been doing"
+      ]
+    },
+    {
+      "id": "b2",
+      "acceptedAnswers": [
+        "I've been studying",
+        "I have been studying"
+      ]
+    },
+    {
+      "id": "b3",
+      "acceptedAnswers": [
+        "Have you been working"
+      ]
+    },
+    {
+      "id": "b4",
+      "acceptedAnswers": [
+        "I've just been sitting",
+        "I have just been sitting"
+      ]
+    },
+    {
+      "id": "b5",
+      "acceptedAnswers": [
+        "I haven't been going",
+        "I have not been going"
+      ]
+    },
+    {
+      "id": "b6",
+      "acceptedAnswers": [
+        "I've been working",
+        "I have been working"
+      ]
+    },
+    {
+      "id": "b7",
+      "acceptedAnswers": [
+        "I've been painting",
+        "I have been painting"
+      ]
+    },
+    {
+      "id": "b8",
+      "acceptedAnswers": [
+        "we've also been planning",
+        "we have also been planning"
+      ]
+    },
+    {
+      "id": "b9",
+      "acceptedAnswers": [
+        "We've been looking",
+        "We have been looking"
+      ]
+    },
+    {
+      "id": "b10",
+      "acceptedAnswers": [
+        "I've been thinking",
+        "I have been thinking"
+      ]
+    }
+  ]
+}

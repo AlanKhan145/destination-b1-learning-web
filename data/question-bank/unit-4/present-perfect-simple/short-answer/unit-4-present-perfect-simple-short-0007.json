@@ -1,0 +1,37 @@
+{
+  "id": "unit-4-present-perfect-simple-short-0007",
+  "type": "short-answer",
+  "unitId": "unit-4",
+  "topicId": "present-perfect-simple",
+  "contentLocale": "en",
+  "tags": [
+    "yet",
+    "negative"
+  ],
+  "skills": [
+    "grammar",
+    "writing"
+  ],
+  "source": {
+    "type": "textbook",
+    "reference": "Destination B1, Unit 4 exercises"
+  },
+  "status": "published",
+  "version": 1,
+  "createdAt": "2026-07-19T00:00:00.000Z",
+  "updatedAt": "2026-07-19T00:00:00.000Z",
+  "difficulty": "medium",
+  "prompt": "Complete the sentence with the correct present perfect simple form of \"not / decide\": We ___ what to get Mark for his birthday yet.",
+  "explanation": "Yet with a negative shows the decision has not been made up to now: haven't decided.",
+  "acceptedAnswers": [
+    "have not decided",
+    "haven't decided"
+  ],
+  "answerValidation": {
+    "caseSensitive": false,
+    "trimWhitespace": true,
+    "collapseWhitespace": true,
+    "ignoreEndingPunctuation": true,
+    "matchMode": "normalized"
+  }
+}

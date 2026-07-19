@@ -1,0 +1,40 @@
+{
+  "id": "unit-4-present-perfect-continuous-mcq-0005",
+  "type": "multiple-choice",
+  "unitId": "unit-4",
+  "topicId": "present-perfect-continuous",
+  "contentLocale": "en",
+  "tags": [
+    "already",
+    "result-emphasis"
+  ],
+  "skills": [
+    "grammar"
+  ],
+  "source": {
+    "type": "textbook",
+    "reference": "Destination B1, Unit 4 exercises"
+  },
+  "status": "published",
+  "version": 1,
+  "createdAt": "2026-07-19T00:00:00.000Z",
+  "updatedAt": "2026-07-19T00:00:00.000Z",
+  "difficulty": "medium",
+  "prompt": "Jo has already ___ Shirley to dinner.",
+  "explanation": "Already shows the action is complete, so use the simple form to emphasise the result: invited.",
+  "options": [
+    {
+      "id": "a",
+      "text": "invited"
+    },
+    {
+      "id": "b",
+      "text": "been inviting"
+    }
+  ],
+  "correctOptionIds": [
+    "a"
+  ],
+  "selectionMode": "single",
+  "shuffleOptions": false
+}

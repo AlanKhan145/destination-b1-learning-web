@@ -130,12 +130,53 @@ function validateOrdering(question, answer) {
   });
 }
 
+const SECRET_PUZZLE_MATCH_OPTIONS = { caseSensitive: false, trimWhitespace: true, collapseWhitespace: true, ignoreEndingPunctuation: true };
+
+/** answer: { words: string[], secret: string }. Every sub-word AND the secret word must match — no partial credit, same pass/fail shape as every other type. */
+function validateSecretWordPuzzle(question, answer) {
+  const userWords = Array.isArray(answer?.words) ? answer.words : [];
+  const userSecret = typeof answer?.secret === "string" ? answer.secret : "";
+
+  const wordsCorrect = question.words.every(
+    (word, index) => normalizeText(userWords[index] || "", SECRET_PUZZLE_MATCH_OPTIONS) === normalizeText(word.answer, SECRET_PUZZLE_MATCH_OPTIONS)
+  );
+  const secretCorrect = normalizeText(userSecret, SECRET_PUZZLE_MATCH_OPTIONS) === normalizeText(question.secretAnswer, SECRET_PUZZLE_MATCH_OPTIONS);
+
+  return buildResult({
+    isCorrect: wordsCorrect && secretCorrect,
+    userAnswer: answer,
+    correctAnswer: { words: question.words.map((word) => word.answer), secret: question.secretAnswer },
+    explanation: question.explanation
+  });
+}
+
+const FILL_BLANKS_MATCH_OPTIONS = { caseSensitive: false, trimWhitespace: true, collapseWhitespace: true, ignoreEndingPunctuation: true };
+
+/** answer: { [blankId]: string }. Every blank must match — no partial credit, same pass/fail shape as every other type. */
+function validateFillInTheBlanks(question, answer) {
+  const userAnswers = answer && typeof answer === "object" ? answer : {};
+
+  const isCorrect = question.blanks.every((blank) => {
+    const userValue = normalizeText(userAnswers[blank.id] || "", FILL_BLANKS_MATCH_OPTIONS);
+    return blank.acceptedAnswers.some((accepted) => normalizeText(accepted, FILL_BLANKS_MATCH_OPTIONS) === userValue);
+  });
+
+  return buildResult({
+    isCorrect,
+    userAnswer: userAnswers,
+    correctAnswer: Object.fromEntries(question.blanks.map((blank) => [blank.id, blank.acceptedAnswers[0]])),
+    explanation: question.explanation
+  });
+}
+
 const VALIDATORS = {
   "multiple-choice": validateMultipleChoice,
   "short-answer": validateShortAnswer,
   "true-false": validateTrueFalse,
   matching: validateMatching,
-  ordering: validateOrdering
+  ordering: validateOrdering,
+  "secret-word-puzzle": validateSecretWordPuzzle,
+  "fill-in-the-blanks": validateFillInTheBlanks
 };
 
 /** Dispatches to the right validator based on question.type. */
@@ -152,5 +193,8 @@ export {
   validateTrueFalse,
   validateMatching,
   validateOrdering,
-  normalizeText
+  validateSecretWordPuzzle,
+  validateFillInTheBlanks,
+  normalizeText,
+  buildResult
 };

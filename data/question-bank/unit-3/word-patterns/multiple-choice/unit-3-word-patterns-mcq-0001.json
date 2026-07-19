@@ -1,0 +1,47 @@
+{
+  "id": "unit-3-word-patterns-mcq-0001",
+  "type": "multiple-choice",
+  "unitId": "unit-3",
+  "topicId": "word-patterns",
+  "contentLocale": "en",
+  "difficulty": "medium",
+  "prompt": "Which sentence is grammatically correct?",
+  "explanation": "The correct preposition after \"interested\" is \"in\".",
+  "tags": [
+    "word-patterns"
+  ],
+  "skills": [
+    "grammar"
+  ],
+  "source": {
+    "type": "original",
+    "reference": null
+  },
+  "status": "published",
+  "version": 1,
+  "createdAt": "2026-07-19T00:00:00.000Z",
+  "updatedAt": "2026-07-19T00:00:00.000Z",
+  "options": [
+    {
+      "id": "a",
+      "text": "I am interested on acting."
+    },
+    {
+      "id": "b",
+      "text": "I am interested at acting."
+    },
+    {
+      "id": "c",
+      "text": "I am interested with acting."
+    },
+    {
+      "id": "d",
+      "text": "I am interested in acting."
+    }
+  ],
+  "correctOptionIds": [
+    "d"
+  ],
+  "selectionMode": "single",
+  "shuffleOptions": true
+}

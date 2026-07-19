@@ -1,0 +1,47 @@
+{
+  "id": "unit-3-prepositional-phrases-mcq-0001",
+  "type": "multiple-choice",
+  "unitId": "unit-3",
+  "topicId": "prepositional-phrases",
+  "contentLocale": "en",
+  "difficulty": "medium",
+  "prompt": "We arrived ______ the beginning of the football match.",
+  "explanation": "In time for means early enough for something to happen.",
+  "tags": [
+    "prepositional-phrases"
+  ],
+  "skills": [
+    "grammar"
+  ],
+  "source": {
+    "type": "original",
+    "reference": null
+  },
+  "status": "published",
+  "version": 1,
+  "createdAt": "2026-07-19T00:00:00.000Z",
+  "updatedAt": "2026-07-19T00:00:00.000Z",
+  "options": [
+    {
+      "id": "a",
+      "text": "on stage"
+    },
+    {
+      "id": "b",
+      "text": "in time for"
+    },
+    {
+      "id": "c",
+      "text": "for a long time"
+    },
+    {
+      "id": "d",
+      "text": "in the middle"
+    }
+  ],
+  "correctOptionIds": [
+    "b"
+  ],
+  "selectionMode": "single",
+  "shuffleOptions": true
+}

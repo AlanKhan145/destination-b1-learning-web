@@ -1,0 +1,39 @@
+{
+  "id": "unit-4-present-perfect-simple-mcq-0005",
+  "type": "multiple-choice",
+  "unitId": "unit-4",
+  "topicId": "present-perfect-simple",
+  "contentLocale": "en",
+  "tags": [
+    "first-time"
+  ],
+  "skills": [
+    "grammar"
+  ],
+  "source": {
+    "type": "textbook",
+    "reference": "Destination B1, Unit 4 exercises"
+  },
+  "status": "published",
+  "version": 1,
+  "createdAt": "2026-07-19T00:00:00.000Z",
+  "updatedAt": "2026-07-19T00:00:00.000Z",
+  "difficulty": "medium",
+  "prompt": "It's the first time ___ our flat, isn't it?",
+  "explanation": "It's the first time is followed by the present perfect simple: you've visited.",
+  "options": [
+    {
+      "id": "a",
+      "text": "you've visited"
+    },
+    {
+      "id": "b",
+      "text": "you visited"
+    }
+  ],
+  "correctOptionIds": [
+    "a"
+  ],
+  "selectionMode": "single",
+  "shuffleOptions": false
+}

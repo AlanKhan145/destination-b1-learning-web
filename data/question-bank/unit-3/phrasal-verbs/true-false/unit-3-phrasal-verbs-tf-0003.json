@@ -1,0 +1,25 @@
+{
+  "id": "unit-3-phrasal-verbs-tf-0003",
+  "type": "true-false",
+  "unitId": "unit-3",
+  "topicId": "phrasal-verbs",
+  "contentLocale": "en",
+  "difficulty": "easy",
+  "prompt": "A referee can send a player off during a football match.",
+  "explanation": "A referee has the authority to send a player off for breaking the rules.",
+  "tags": [
+    "phrasal-verbs"
+  ],
+  "skills": [
+    "grammar"
+  ],
+  "source": {
+    "type": "original",
+    "reference": null
+  },
+  "status": "published",
+  "version": 1,
+  "createdAt": "2026-07-19T00:00:00.000Z",
+  "updatedAt": "2026-07-19T00:00:00.000Z",
+  "correctAnswer": true
+}

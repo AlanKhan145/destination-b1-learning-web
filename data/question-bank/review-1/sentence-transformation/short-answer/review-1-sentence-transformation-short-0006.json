@@ -1,0 +1,35 @@
+{
+  "id": "review-1-sentence-transformation-short-0006",
+  "type": "short-answer",
+  "unitId": "review-1",
+  "topicId": "sentence-transformation",
+  "contentLocale": "en",
+  "difficulty": "medium",
+  "prompt": "I played chess almost every day when I was young. Complete: I ______ chess almost every day when I was young. (used)",
+  "explanation": "Used to + bare infinitive describes a past habit.",
+  "tags": [
+    "sentence-transformation"
+  ],
+  "skills": [
+    "grammar",
+    "writing"
+  ],
+  "source": {
+    "type": "original",
+    "reference": null
+  },
+  "status": "published",
+  "version": 1,
+  "createdAt": "2026-07-19T00:00:00.000Z",
+  "updatedAt": "2026-07-19T00:00:00.000Z",
+  "acceptedAnswers": [
+    "used to play"
+  ],
+  "answerValidation": {
+    "caseSensitive": false,
+    "trimWhitespace": true,
+    "collapseWhitespace": true,
+    "ignoreEndingPunctuation": true,
+    "matchMode": "normalized"
+  }
+}

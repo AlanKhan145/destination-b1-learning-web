@@ -1,0 +1,36 @@
+{
+  "id": "unit-4-present-perfect-simple-short-0011",
+  "type": "short-answer",
+  "unitId": "unit-4",
+  "topicId": "present-perfect-simple",
+  "contentLocale": "en",
+  "tags": [
+    "just",
+    "irregular-verb"
+  ],
+  "skills": [
+    "grammar",
+    "writing"
+  ],
+  "source": {
+    "type": "textbook",
+    "reference": "Destination B1, Unit 4 exercises"
+  },
+  "status": "published",
+  "version": 1,
+  "createdAt": "2026-07-19T00:00:00.000Z",
+  "updatedAt": "2026-07-19T00:00:00.000Z",
+  "difficulty": "medium",
+  "prompt": "Write a full sentence from the prompts using the present perfect simple: Joe and Tim / just / come / into the classroom",
+  "explanation": "Just goes between have and the past participle: Joe and Tim have just come into the classroom.",
+  "acceptedAnswers": [
+    "Joe and Tim have just come into the classroom"
+  ],
+  "answerValidation": {
+    "caseSensitive": false,
+    "trimWhitespace": true,
+    "collapseWhitespace": true,
+    "ignoreEndingPunctuation": true,
+    "matchMode": "normalized"
+  }
+}

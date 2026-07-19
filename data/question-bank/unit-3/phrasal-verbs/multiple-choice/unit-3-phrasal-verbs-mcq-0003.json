@@ -1,0 +1,47 @@
+{
+  "id": "unit-3-phrasal-verbs-mcq-0003",
+  "type": "multiple-choice",
+  "unitId": "unit-3",
+  "topicId": "phrasal-verbs",
+  "contentLocale": "en",
+  "difficulty": "easy",
+  "prompt": "Everyone was dancing, so I decided to join ______.",
+  "explanation": "Join in means to participate, to take part.",
+  "tags": [
+    "phrasal-verbs"
+  ],
+  "skills": [
+    "grammar"
+  ],
+  "source": {
+    "type": "original",
+    "reference": null
+  },
+  "status": "published",
+  "version": 1,
+  "createdAt": "2026-07-19T00:00:00.000Z",
+  "updatedAt": "2026-07-19T00:00:00.000Z",
+  "options": [
+    {
+      "id": "a",
+      "text": "on"
+    },
+    {
+      "id": "b",
+      "text": "in"
+    },
+    {
+      "id": "c",
+      "text": "up"
+    },
+    {
+      "id": "d",
+      "text": "out"
+    }
+  ],
+  "correctOptionIds": [
+    "b"
+  ],
+  "selectionMode": "single",
+  "shuffleOptions": true
+}

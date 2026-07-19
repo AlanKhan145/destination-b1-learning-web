@@ -1,0 +1,47 @@
+{
+  "id": "review-1-grammar-tenses-mcq-0004",
+  "type": "multiple-choice",
+  "unitId": "review-1",
+  "topicId": "grammar-tenses",
+  "contentLocale": "en",
+  "difficulty": "medium",
+  "prompt": "We ____ to the beach every day when we were on holiday.",
+  "explanation": "Went describes a repeated action during a specific, completed period in the past.",
+  "tags": [
+    "grammar-tenses"
+  ],
+  "skills": [
+    "grammar"
+  ],
+  "source": {
+    "type": "original",
+    "reference": null
+  },
+  "status": "published",
+  "version": 1,
+  "createdAt": "2026-07-19T00:00:00.000Z",
+  "updatedAt": "2026-07-19T00:00:00.000Z",
+  "options": [
+    {
+      "id": "a",
+      "text": "went"
+    },
+    {
+      "id": "b",
+      "text": "were going"
+    },
+    {
+      "id": "c",
+      "text": "go"
+    },
+    {
+      "id": "d",
+      "text": "used to going"
+    }
+  ],
+  "correctOptionIds": [
+    "a"
+  ],
+  "selectionMode": "single",
+  "shuffleOptions": true
+}

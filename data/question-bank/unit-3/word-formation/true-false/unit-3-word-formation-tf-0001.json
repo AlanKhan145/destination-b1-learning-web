@@ -1,0 +1,25 @@
+{
+  "id": "unit-3-word-formation-tf-0001",
+  "type": "true-false",
+  "unitId": "unit-3",
+  "topicId": "word-formation",
+  "contentLocale": "en",
+  "difficulty": "easy",
+  "prompt": "“Playful” is an adjective that can describe an active kitten.",
+  "explanation": "Playful is an adjective meaning fond of playing.",
+  "tags": [
+    "word-formation"
+  ],
+  "skills": [
+    "grammar"
+  ],
+  "source": {
+    "type": "original",
+    "reference": null
+  },
+  "status": "published",
+  "version": 1,
+  "createdAt": "2026-07-19T00:00:00.000Z",
+  "updatedAt": "2026-07-19T00:00:00.000Z",
+  "correctAnswer": true
+}

@@ -3,6 +3,7 @@
     "unit": "Unit",
     "grammar": "Grammar",
     "vocabulary": "Vocabulary",
+    "review": "Review",
     "tableOfContents": "Table of contents",
     "topicsInLesson": "Topics in this lesson",
     "form": "Form",
@@ -17,6 +18,12 @@
     "rule": "Rule",
     "comingSoon": "Coming soon",
     "tabLesson": "Lesson",
-    "tabReview": "Review"
+    "tabReview": "Review",
+    "testOverviewTitle": "What's in this test",
+    "testOverviewIntro": "{partCount} parts, {totalItems} items in total.",
+    "testOverviewCta": "Select “Start test” below when you are ready.",
+    "testPart": "Part",
+    "testFormat": "Format",
+    "testItems": "Items"
   }
 }

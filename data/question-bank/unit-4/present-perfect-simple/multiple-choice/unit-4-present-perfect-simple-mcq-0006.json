@@ -1,0 +1,40 @@
+{
+  "id": "unit-4-present-perfect-simple-mcq-0006",
+  "type": "multiple-choice",
+  "unitId": "unit-4",
+  "topicId": "present-perfect-simple",
+  "contentLocale": "en",
+  "tags": [
+    "yet",
+    "negative"
+  ],
+  "skills": [
+    "grammar"
+  ],
+  "source": {
+    "type": "textbook",
+    "reference": "Destination B1, Unit 4 exercises"
+  },
+  "status": "published",
+  "version": 1,
+  "createdAt": "2026-07-19T00:00:00.000Z",
+  "updatedAt": "2026-07-19T00:00:00.000Z",
+  "difficulty": "medium",
+  "prompt": "They ___ the baby a name yet.",
+  "explanation": "Yet shows something is still expected to happen, so use the present perfect simple: haven't given.",
+  "options": [
+    {
+      "id": "a",
+      "text": "haven't given"
+    },
+    {
+      "id": "b",
+      "text": "didn't give"
+    }
+  ],
+  "correctOptionIds": [
+    "a"
+  ],
+  "selectionMode": "single",
+  "shuffleOptions": false
+}

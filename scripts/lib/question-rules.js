@@ -13,10 +13,14 @@ export const QUESTION_TYPES = [
   "fill-in-the-blanks",
   "matching",
   "ordering",
-  "error-identification"
+  "error-identification",
+  "secret-word-puzzle"
 ];
 
-export const ID_PATTERN = /^unit-[0-9]+-[a-z0-9-]+-[a-z]+-[0-9]{4}$/;
+// Format: {unitId}-{topicId}-{questionType}-{0001}. unitId is usually unit-{n},
+// but a cumulative review can host its own question bank under its own lesson
+// id (e.g. review-1), so the prefix is {word}-{n} rather than literally "unit".
+export const ID_PATTERN = /^[a-z]+-[0-9]+-[a-z0-9-]+-[a-z]+-[0-9]{4}$/;
 const REQUIRED_BASE_FIELDS = ["id", "type", "unitId", "topicId", "contentLocale", "difficulty", "prompt", "status", "version"];
 
 function isNonEmptyString(value) {
@@ -109,11 +113,52 @@ function validateShortAnswer(question) {
     errors.push("acceptedAnswers must be a non-empty array");
   } else if (question.acceptedAnswers.some((answer) => !isNonEmptyString(answer))) {
     errors.push("acceptedAnswers must contain only non-empty strings");
+  } else if (
+    question.letterCount !== undefined &&
+    !question.acceptedAnswers.some((answer) => answer.length === question.letterCount)
+  ) {
+    errors.push(`letterCount ${question.letterCount} does not match the length of any acceptedAnswers entry`);
+  }
+
+  if (question.letterCount !== undefined && !(Number.isInteger(question.letterCount) && question.letterCount >= 1)) {
+    errors.push("letterCount must be an integer >= 1");
   }
 
   const matchMode = question.answerValidation?.matchMode;
   if (matchMode !== undefined && !["exact", "normalized", "contains", "regex"].includes(matchMode)) {
     errors.push(`invalid answerValidation.matchMode "${matchMode}"`);
+  }
+
+  return errors;
+}
+
+function validateSecretWordPuzzle(question) {
+  const errors = [];
+  if (!Array.isArray(question.words) || question.words.length < 2) {
+    errors.push("secret-word-puzzle needs at least 2 words");
+    return errors;
+  }
+
+  question.words.forEach((word, index) => {
+    if (!word || !isNonEmptyString(word.clue) || !isNonEmptyString(word.answer)) {
+      errors.push(`words[${index}] needs a non-empty clue and answer`);
+      return;
+    }
+    if (word.letterCount !== word.answer.length) {
+      errors.push(`words[${index}] letterCount (${word.letterCount}) does not match answer.length (${word.answer.length})`);
+    }
+    if (!Number.isInteger(word.revealIndex) || word.revealIndex < 1 || word.revealIndex > word.answer.length) {
+      errors.push(`words[${index}] revealIndex ${word.revealIndex} is out of range for answer "${word.answer}"`);
+    }
+  });
+
+  if (!isNonEmptyString(question.secretAnswer)) {
+    errors.push("secretAnswer must be a non-empty string");
+  } else if (errors.length === 0) {
+    const derived = question.words.map((word) => (word.answer[word.revealIndex - 1] || "").toUpperCase()).join("");
+    if (derived !== question.secretAnswer.toUpperCase()) {
+      errors.push(`secretAnswer "${question.secretAnswer}" does not match the letters derived from words (got "${derived}")`);
+    }
   }
 
   return errors;
@@ -137,6 +182,9 @@ function validateFillInTheBlanks(question) {
     if (!blank || !isNonEmptyString(blank.id)) errors.push("every blank needs a non-empty id");
     if (!Array.isArray(blank?.acceptedAnswers) || blank.acceptedAnswers.length < 1) {
       errors.push(`blank "${blank?.id}" needs a non-empty acceptedAnswers array`);
+    }
+    if (isNonEmptyString(question.passageTemplate) && blank?.id && !question.passageTemplate.includes(`{{${blank.id}}}`)) {
+      errors.push(`passageTemplate is missing the {{${blank.id}}} token for blank "${blank.id}"`);
     }
   }
   return errors;
@@ -203,7 +251,8 @@ const TYPE_VALIDATORS = {
   "fill-in-the-blanks": validateFillInTheBlanks,
   matching: validateMatching,
   ordering: validateOrdering,
-  "error-identification": validateErrorIdentification
+  "error-identification": validateErrorIdentification,
+  "secret-word-puzzle": validateSecretWordPuzzle
 };
 
 /** Validates a single question object. Returns an array of human-readable error strings (empty = valid). */

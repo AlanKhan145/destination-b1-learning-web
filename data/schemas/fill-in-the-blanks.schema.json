@@ -9,6 +9,10 @@
       "required": ["blanks"],
       "properties": {
         "type": { "const": "fill-in-the-blanks" },
+        "passageTemplate": {
+          "type": "string",
+          "description": "Optional. Passage text with {{blankId}} tokens marking each gap inline. When present, the renderer shows the passage with real inputs in place of each token instead of a plain list of blanks."
+        },
         "blanks": {
           "type": "array",
           "minItems": 1,

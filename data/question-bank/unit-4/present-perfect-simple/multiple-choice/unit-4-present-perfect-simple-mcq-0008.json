@@ -1,0 +1,40 @@
+{
+  "id": "unit-4-present-perfect-simple-mcq-0008",
+  "type": "multiple-choice",
+  "unitId": "unit-4",
+  "topicId": "present-perfect-simple",
+  "contentLocale": "en",
+  "tags": [
+    "ever",
+    "question"
+  ],
+  "skills": [
+    "grammar"
+  ],
+  "source": {
+    "type": "textbook",
+    "reference": "Destination B1, Unit 4 exercises"
+  },
+  "status": "published",
+  "version": 1,
+  "createdAt": "2026-07-19T00:00:00.000Z",
+  "updatedAt": "2026-07-19T00:00:00.000Z",
+  "difficulty": "medium",
+  "prompt": "___ an email before?",
+  "explanation": "Before (at any time up to now) with ever needs the present perfect simple: Have you ever sent.",
+  "options": [
+    {
+      "id": "a",
+      "text": "Have you ever sent"
+    },
+    {
+      "id": "b",
+      "text": "Did you ever send"
+    }
+  ],
+  "correctOptionIds": [
+    "a"
+  ],
+  "selectionMode": "single",
+  "shuffleOptions": false
+}

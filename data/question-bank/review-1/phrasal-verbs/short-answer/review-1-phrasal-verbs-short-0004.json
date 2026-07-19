@@ -1,0 +1,35 @@
+{
+  "id": "review-1-phrasal-verbs-short-0004",
+  "type": "short-answer",
+  "unitId": "review-1",
+  "topicId": "phrasal-verbs",
+  "contentLocale": "en",
+  "difficulty": "easy",
+  "prompt": "We ______ out about once a week and we cook at home the rest of the time.",
+  "explanation": "Eat out means to eat at a restaurant.",
+  "tags": [
+    "phrasal-verbs"
+  ],
+  "skills": [
+    "grammar",
+    "writing"
+  ],
+  "source": {
+    "type": "original",
+    "reference": null
+  },
+  "status": "published",
+  "version": 1,
+  "createdAt": "2026-07-19T00:00:00.000Z",
+  "updatedAt": "2026-07-19T00:00:00.000Z",
+  "acceptedAnswers": [
+    "eat"
+  ],
+  "answerValidation": {
+    "caseSensitive": false,
+    "trimWhitespace": true,
+    "collapseWhitespace": true,
+    "ignoreEndingPunctuation": true,
+    "matchMode": "normalized"
+  }
+}

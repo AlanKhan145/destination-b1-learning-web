@@ -1,0 +1,47 @@
+{
+  "id": "review-1-grammar-tenses-mcq-0008",
+  "type": "multiple-choice",
+  "unitId": "review-1",
+  "topicId": "grammar-tenses",
+  "contentLocale": "en",
+  "difficulty": "medium",
+  "prompt": "Denise ____ at the stadium until she finds a better job.",
+  "explanation": "\"Until she finds\" signals a temporary present situation, so the present continuous is used.",
+  "tags": [
+    "grammar-tenses"
+  ],
+  "skills": [
+    "grammar"
+  ],
+  "source": {
+    "type": "original",
+    "reference": null
+  },
+  "status": "published",
+  "version": 1,
+  "createdAt": "2026-07-19T00:00:00.000Z",
+  "updatedAt": "2026-07-19T00:00:00.000Z",
+  "options": [
+    {
+      "id": "a",
+      "text": "works"
+    },
+    {
+      "id": "b",
+      "text": "is working"
+    },
+    {
+      "id": "c",
+      "text": "used to work"
+    },
+    {
+      "id": "d",
+      "text": "was working"
+    }
+  ],
+  "correctOptionIds": [
+    "b"
+  ],
+  "selectionMode": "single",
+  "shuffleOptions": true
+}

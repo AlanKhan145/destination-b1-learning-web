@@ -1,0 +1,47 @@
+{
+  "id": "review-1-grammar-tenses-mcq-0006",
+  "type": "multiple-choice",
+  "unitId": "review-1",
+  "topicId": "grammar-tenses",
+  "contentLocale": "en",
+  "difficulty": "medium",
+  "prompt": "Leon never ____ about it, but he was once a world champion skier.",
+  "explanation": "This describes Leon's present habit, contrasted with his past achievement.",
+  "tags": [
+    "grammar-tenses"
+  ],
+  "skills": [
+    "grammar"
+  ],
+  "source": {
+    "type": "original",
+    "reference": null
+  },
+  "status": "published",
+  "version": 1,
+  "createdAt": "2026-07-19T00:00:00.000Z",
+  "updatedAt": "2026-07-19T00:00:00.000Z",
+  "options": [
+    {
+      "id": "a",
+      "text": "talks"
+    },
+    {
+      "id": "b",
+      "text": "is talking"
+    },
+    {
+      "id": "c",
+      "text": "was talking"
+    },
+    {
+      "id": "d",
+      "text": "talk"
+    }
+  ],
+  "correctOptionIds": [
+    "a"
+  ],
+  "selectionMode": "single",
+  "shuffleOptions": true
+}
