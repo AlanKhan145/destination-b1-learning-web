@@ -1,0 +1,25 @@
+{
+  "id": "unit-2-used-to-tf-0003",
+  "type": "true-false",
+  "unitId": "unit-2",
+  "topicId": "used-to",
+  "contentLocale": "en",
+  "difficulty": "medium",
+  "prompt": "The sentence 'There used to be a supermarket here' describes a past situation that has changed.",
+  "explanation": "It means the supermarket existed in the past but probably does not exist there now.",
+  "tags": [
+    "grammar-rule"
+  ],
+  "skills": [
+    "grammar"
+  ],
+  "source": {
+    "type": "original",
+    "reference": null
+  },
+  "status": "published",
+  "version": 1,
+  "createdAt": "2026-07-19T00:00:00.000Z",
+  "updatedAt": "2026-07-19T00:00:00.000Z",
+  "correctAnswer": true
+}

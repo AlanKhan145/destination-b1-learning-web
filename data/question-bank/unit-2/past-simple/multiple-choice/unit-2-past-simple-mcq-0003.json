@@ -1,0 +1,47 @@
+{
+  "id": "unit-2-past-simple-mcq-0003",
+  "type": "multiple-choice",
+  "unitId": "unit-2",
+  "topicId": "past-simple",
+  "contentLocale": "en",
+  "difficulty": "easy",
+  "prompt": "Everyone ___ that it was Bill's fault.",
+  "explanation": "Knew is the irregular past simple form of know.",
+  "tags": [
+    "irregular-verb"
+  ],
+  "skills": [
+    "grammar"
+  ],
+  "source": {
+    "type": "original",
+    "reference": null
+  },
+  "status": "published",
+  "version": 1,
+  "createdAt": "2026-07-19T00:00:00.000Z",
+  "updatedAt": "2026-07-19T00:00:00.000Z",
+  "options": [
+    {
+      "id": "a",
+      "text": "know"
+    },
+    {
+      "id": "b",
+      "text": "knew"
+    },
+    {
+      "id": "c",
+      "text": "was knowing"
+    },
+    {
+      "id": "d",
+      "text": "knowed"
+    }
+  ],
+  "correctOptionIds": [
+    "b"
+  ],
+  "selectionMode": "single",
+  "shuffleOptions": true
+}

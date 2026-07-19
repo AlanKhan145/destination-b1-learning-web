@@ -1,0 +1,47 @@
+{
+  "id": "unit-2-past-simple-mcq-0004",
+  "type": "multiple-choice",
+  "unitId": "unit-2",
+  "topicId": "past-simple",
+  "contentLocale": "en",
+  "difficulty": "medium",
+  "prompt": "When we were in Canada, we ___ skiing almost every day.",
+  "explanation": "Went describes a repeated activity during a completed period in the past.",
+  "tags": [
+    "repeated-action"
+  ],
+  "skills": [
+    "grammar"
+  ],
+  "source": {
+    "type": "original",
+    "reference": null
+  },
+  "status": "published",
+  "version": 1,
+  "createdAt": "2026-07-19T00:00:00.000Z",
+  "updatedAt": "2026-07-19T00:00:00.000Z",
+  "options": [
+    {
+      "id": "a",
+      "text": "went"
+    },
+    {
+      "id": "b",
+      "text": "were going"
+    },
+    {
+      "id": "c",
+      "text": "go"
+    },
+    {
+      "id": "d",
+      "text": "are going"
+    }
+  ],
+  "correctOptionIds": [
+    "a"
+  ],
+  "selectionMode": "single",
+  "shuffleOptions": true
+}

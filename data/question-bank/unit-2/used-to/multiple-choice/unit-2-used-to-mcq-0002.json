@@ -1,0 +1,47 @@
+{
+  "id": "unit-2-used-to-mcq-0002",
+  "type": "multiple-choice",
+  "unitId": "unit-2",
+  "topicId": "used-to",
+  "contentLocale": "en",
+  "difficulty": "medium",
+  "prompt": "___ there use to be a supermarket on the corner?",
+  "explanation": "Questions with used to are normally formed with Did + subject + use to.",
+  "tags": [
+    "question-form"
+  ],
+  "skills": [
+    "grammar"
+  ],
+  "source": {
+    "type": "original",
+    "reference": null
+  },
+  "status": "published",
+  "version": 1,
+  "createdAt": "2026-07-19T00:00:00.000Z",
+  "updatedAt": "2026-07-19T00:00:00.000Z",
+  "options": [
+    {
+      "id": "a",
+      "text": "Was"
+    },
+    {
+      "id": "b",
+      "text": "Were"
+    },
+    {
+      "id": "c",
+      "text": "Did"
+    },
+    {
+      "id": "d",
+      "text": "Does"
+    }
+  ],
+  "correctOptionIds": [
+    "c"
+  ],
+  "selectionMode": "single",
+  "shuffleOptions": true
+}

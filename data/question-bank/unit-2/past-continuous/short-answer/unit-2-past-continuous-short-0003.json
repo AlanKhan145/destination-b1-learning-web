@@ -1,0 +1,35 @@
+{
+  "id": "unit-2-past-continuous-short-0003",
+  "type": "short-answer",
+  "unitId": "unit-2",
+  "topicId": "past-continuous",
+  "contentLocale": "en",
+  "difficulty": "medium",
+  "prompt": "Complete the sentence using the correct form of leave: I saw him while I ___ the office.",
+  "explanation": "Was leaving describes the action that was in progress when the speaker saw him.",
+  "tags": [
+    "past-simple-vs-past-continuous"
+  ],
+  "skills": [
+    "grammar",
+    "writing"
+  ],
+  "source": {
+    "type": "original",
+    "reference": null
+  },
+  "status": "published",
+  "version": 1,
+  "createdAt": "2026-07-19T00:00:00.000Z",
+  "updatedAt": "2026-07-19T00:00:00.000Z",
+  "acceptedAnswers": [
+    "was leaving"
+  ],
+  "answerValidation": {
+    "caseSensitive": false,
+    "trimWhitespace": true,
+    "collapseWhitespace": true,
+    "ignoreEndingPunctuation": true,
+    "matchMode": "normalized"
+  }
+}

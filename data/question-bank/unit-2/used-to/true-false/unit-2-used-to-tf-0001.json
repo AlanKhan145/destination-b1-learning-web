@@ -1,0 +1,25 @@
+{
+  "id": "unit-2-used-to-tf-0001",
+  "type": "true-false",
+  "unitId": "unit-2",
+  "topicId": "used-to",
+  "contentLocale": "en",
+  "difficulty": "easy",
+  "prompt": "Used to can describe a past habit that is no longer true.",
+  "explanation": "Used to is used for past habits and past states that have changed.",
+  "tags": [
+    "grammar-rule"
+  ],
+  "skills": [
+    "grammar"
+  ],
+  "source": {
+    "type": "original",
+    "reference": null
+  },
+  "status": "published",
+  "version": 1,
+  "createdAt": "2026-07-19T00:00:00.000Z",
+  "updatedAt": "2026-07-19T00:00:00.000Z",
+  "correctAnswer": true
+}

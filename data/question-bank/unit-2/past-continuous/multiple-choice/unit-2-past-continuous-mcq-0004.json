@@ -1,0 +1,48 @@
+{
+  "id": "unit-2-past-continuous-mcq-0004",
+  "type": "multiple-choice",
+  "unitId": "unit-2",
+  "topicId": "past-continuous",
+  "contentLocale": "en",
+  "difficulty": "medium",
+  "prompt": "As I ___ past the window, I saw that Paula had a guitar.",
+  "explanation": "Was walking describes the background action during which the speaker saw Paula.",
+  "tags": [
+    "background-action",
+    "past-simple-vs-past-continuous"
+  ],
+  "skills": [
+    "grammar"
+  ],
+  "source": {
+    "type": "original",
+    "reference": null
+  },
+  "status": "published",
+  "version": 1,
+  "createdAt": "2026-07-19T00:00:00.000Z",
+  "updatedAt": "2026-07-19T00:00:00.000Z",
+  "options": [
+    {
+      "id": "a",
+      "text": "walked"
+    },
+    {
+      "id": "b",
+      "text": "was walking"
+    },
+    {
+      "id": "c",
+      "text": "were walking"
+    },
+    {
+      "id": "d",
+      "text": "am walking"
+    }
+  ],
+  "correctOptionIds": [
+    "b"
+  ],
+  "selectionMode": "single",
+  "shuffleOptions": true
+}

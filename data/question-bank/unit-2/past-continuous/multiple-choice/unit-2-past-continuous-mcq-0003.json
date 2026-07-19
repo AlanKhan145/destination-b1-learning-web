@@ -1,0 +1,48 @@
+{
+  "id": "unit-2-past-continuous-mcq-0003",
+  "type": "multiple-choice",
+  "unitId": "unit-2",
+  "topicId": "past-continuous",
+  "contentLocale": "en",
+  "difficulty": "medium",
+  "prompt": "We ___ breakfast when a letter came through the letter box.",
+  "explanation": "The breakfast was already in progress when the shorter action happened.",
+  "tags": [
+    "interrupted-action",
+    "past-simple-vs-past-continuous"
+  ],
+  "skills": [
+    "grammar"
+  ],
+  "source": {
+    "type": "original",
+    "reference": null
+  },
+  "status": "published",
+  "version": 1,
+  "createdAt": "2026-07-19T00:00:00.000Z",
+  "updatedAt": "2026-07-19T00:00:00.000Z",
+  "options": [
+    {
+      "id": "a",
+      "text": "ate"
+    },
+    {
+      "id": "b",
+      "text": "were eating"
+    },
+    {
+      "id": "c",
+      "text": "was eating"
+    },
+    {
+      "id": "d",
+      "text": "used to eat"
+    }
+  ],
+  "correctOptionIds": [
+    "b"
+  ],
+  "selectionMode": "single",
+  "shuffleOptions": true
+}

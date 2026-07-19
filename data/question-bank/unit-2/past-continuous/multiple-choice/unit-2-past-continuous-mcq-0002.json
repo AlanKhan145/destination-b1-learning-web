@@ -1,0 +1,47 @@
+{
+  "id": "unit-2-past-continuous-mcq-0002",
+  "type": "multiple-choice",
+  "unitId": "unit-2",
+  "topicId": "past-continuous",
+  "contentLocale": "en",
+  "difficulty": "easy",
+  "prompt": "At midnight, I ___, but Jane was listening to music.",
+  "explanation": "Was sleeping describes an action in progress at midnight.",
+  "tags": [
+    "action-in-progress"
+  ],
+  "skills": [
+    "grammar"
+  ],
+  "source": {
+    "type": "original",
+    "reference": null
+  },
+  "status": "published",
+  "version": 1,
+  "createdAt": "2026-07-19T00:00:00.000Z",
+  "updatedAt": "2026-07-19T00:00:00.000Z",
+  "options": [
+    {
+      "id": "a",
+      "text": "slept"
+    },
+    {
+      "id": "b",
+      "text": "was sleeping"
+    },
+    {
+      "id": "c",
+      "text": "were sleeping"
+    },
+    {
+      "id": "d",
+      "text": "sleep"
+    }
+  ],
+  "correctOptionIds": [
+    "b"
+  ],
+  "selectionMode": "single",
+  "shuffleOptions": true
+}

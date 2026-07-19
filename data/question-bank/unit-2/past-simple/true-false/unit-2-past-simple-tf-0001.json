@@ -1,0 +1,25 @@
+{
+  "id": "unit-2-past-simple-tf-0001",
+  "type": "true-false",
+  "unitId": "unit-2",
+  "topicId": "past-simple",
+  "contentLocale": "en",
+  "difficulty": "easy",
+  "prompt": "The past simple can be used for an action that started and finished in the past.",
+  "explanation": "The past simple commonly describes completed past actions.",
+  "tags": [
+    "grammar-rule"
+  ],
+  "skills": [
+    "grammar"
+  ],
+  "source": {
+    "type": "original",
+    "reference": null
+  },
+  "status": "published",
+  "version": 1,
+  "createdAt": "2026-07-19T00:00:00.000Z",
+  "updatedAt": "2026-07-19T00:00:00.000Z",
+  "correctAnswer": true
+}

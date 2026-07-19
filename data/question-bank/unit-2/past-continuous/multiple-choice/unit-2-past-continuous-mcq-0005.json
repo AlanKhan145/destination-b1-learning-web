@@ -1,0 +1,48 @@
+{
+  "id": "unit-2-past-continuous-mcq-0005",
+  "type": "multiple-choice",
+  "unitId": "unit-2",
+  "topicId": "past-continuous",
+  "contentLocale": "en",
+  "difficulty": "medium",
+  "prompt": "Jake fell while he ___ to catch the bus.",
+  "explanation": "The running was in progress when Jake fell.",
+  "tags": [
+    "interrupted-action",
+    "past-simple-vs-past-continuous"
+  ],
+  "skills": [
+    "grammar"
+  ],
+  "source": {
+    "type": "original",
+    "reference": null
+  },
+  "status": "published",
+  "version": 1,
+  "createdAt": "2026-07-19T00:00:00.000Z",
+  "updatedAt": "2026-07-19T00:00:00.000Z",
+  "options": [
+    {
+      "id": "a",
+      "text": "ran"
+    },
+    {
+      "id": "b",
+      "text": "was running"
+    },
+    {
+      "id": "c",
+      "text": "runs"
+    },
+    {
+      "id": "d",
+      "text": "is running"
+    }
+  ],
+  "correctOptionIds": [
+    "b"
+  ],
+  "selectionMode": "single",
+  "shuffleOptions": true
+}

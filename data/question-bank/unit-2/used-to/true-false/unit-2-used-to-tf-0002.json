@@ -1,0 +1,26 @@
+{
+  "id": "unit-2-used-to-tf-0002",
+  "type": "true-false",
+  "unitId": "unit-2",
+  "topicId": "used-to",
+  "contentLocale": "en",
+  "difficulty": "medium",
+  "prompt": "The question 'Did you used to play football?' is the standard correct form.",
+  "explanation": "After did, use the base form: Did you use to play football?",
+  "tags": [
+    "common-mistake",
+    "question-form"
+  ],
+  "skills": [
+    "grammar"
+  ],
+  "source": {
+    "type": "original",
+    "reference": null
+  },
+  "status": "published",
+  "version": 1,
+  "createdAt": "2026-07-19T00:00:00.000Z",
+  "updatedAt": "2026-07-19T00:00:00.000Z",
+  "correctAnswer": false
+}

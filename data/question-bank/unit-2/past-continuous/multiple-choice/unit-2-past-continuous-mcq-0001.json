@@ -1,0 +1,47 @@
+{
+  "id": "unit-2-past-continuous-mcq-0001",
+  "type": "multiple-choice",
+  "unitId": "unit-2",
+  "topicId": "past-continuous",
+  "contentLocale": "en",
+  "difficulty": "easy",
+  "prompt": "At half past seven, Ted ___ his guitar.",
+  "explanation": "The action was in progress at a particular time in the past, so was playing is correct.",
+  "tags": [
+    "action-in-progress"
+  ],
+  "skills": [
+    "grammar"
+  ],
+  "source": {
+    "type": "original",
+    "reference": null
+  },
+  "status": "published",
+  "version": 1,
+  "createdAt": "2026-07-19T00:00:00.000Z",
+  "updatedAt": "2026-07-19T00:00:00.000Z",
+  "options": [
+    {
+      "id": "a",
+      "text": "played"
+    },
+    {
+      "id": "b",
+      "text": "was playing"
+    },
+    {
+      "id": "c",
+      "text": "were playing"
+    },
+    {
+      "id": "d",
+      "text": "plays"
+    }
+  ],
+  "correctOptionIds": [
+    "b"
+  ],
+  "selectionMode": "single",
+  "shuffleOptions": true
+}

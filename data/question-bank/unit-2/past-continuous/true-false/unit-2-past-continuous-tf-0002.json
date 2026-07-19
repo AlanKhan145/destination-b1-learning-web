@@ -1,0 +1,25 @@
+{
+  "id": "unit-2-past-continuous-tf-0002",
+  "type": "true-false",
+  "unitId": "unit-2",
+  "topicId": "past-continuous",
+  "contentLocale": "en",
+  "difficulty": "easy",
+  "prompt": "The sentence 'I was go home' is grammatically correct.",
+  "explanation": "The correct form is I was going home.",
+  "tags": [
+    "common-mistake"
+  ],
+  "skills": [
+    "grammar"
+  ],
+  "source": {
+    "type": "original",
+    "reference": null
+  },
+  "status": "published",
+  "version": 1,
+  "createdAt": "2026-07-19T00:00:00.000Z",
+  "updatedAt": "2026-07-19T00:00:00.000Z",
+  "correctAnswer": false
+}

@@ -1,0 +1,37 @@
+{
+  "id": "unit-2-used-to-short-0001",
+  "type": "short-answer",
+  "unitId": "unit-2",
+  "topicId": "used-to",
+  "contentLocale": "en",
+  "difficulty": "medium",
+  "prompt": "Complete the sentence using the negative form of used to: I ___ like eating cabbage, but now I love it.",
+  "explanation": "After didn't, the base form use is required: didn't use to.",
+  "tags": [
+    "negative",
+    "used-to"
+  ],
+  "skills": [
+    "grammar",
+    "writing"
+  ],
+  "source": {
+    "type": "original",
+    "reference": null
+  },
+  "status": "published",
+  "version": 1,
+  "createdAt": "2026-07-19T00:00:00.000Z",
+  "updatedAt": "2026-07-19T00:00:00.000Z",
+  "acceptedAnswers": [
+    "didn't use to",
+    "did not use to"
+  ],
+  "answerValidation": {
+    "caseSensitive": false,
+    "trimWhitespace": true,
+    "collapseWhitespace": true,
+    "ignoreEndingPunctuation": true,
+    "matchMode": "normalized"
+  }
+}

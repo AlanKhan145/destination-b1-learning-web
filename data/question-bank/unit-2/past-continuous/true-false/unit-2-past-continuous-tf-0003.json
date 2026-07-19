@@ -1,0 +1,25 @@
+{
+  "id": "unit-2-past-continuous-tf-0003",
+  "type": "true-false",
+  "unitId": "unit-2",
+  "topicId": "past-continuous",
+  "contentLocale": "en",
+  "difficulty": "medium",
+  "prompt": "In the sentence 'We were eating when the phone rang', eating was the longer background action.",
+  "explanation": "Were eating describes the action in progress, while rang describes the interruption.",
+  "tags": [
+    "past-simple-vs-past-continuous"
+  ],
+  "skills": [
+    "grammar"
+  ],
+  "source": {
+    "type": "original",
+    "reference": null
+  },
+  "status": "published",
+  "version": 1,
+  "createdAt": "2026-07-19T00:00:00.000Z",
+  "updatedAt": "2026-07-19T00:00:00.000Z",
+  "correctAnswer": true
+}

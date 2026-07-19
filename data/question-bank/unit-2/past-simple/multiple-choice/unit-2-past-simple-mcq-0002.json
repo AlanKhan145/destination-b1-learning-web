@@ -1,0 +1,48 @@
+{
+  "id": "unit-2-past-simple-mcq-0002",
+  "type": "multiple-choice",
+  "unitId": "unit-2",
+  "topicId": "past-simple",
+  "contentLocale": "en",
+  "difficulty": "easy",
+  "prompt": "I ___ the answer, so I didn't say anything.",
+  "explanation": "The sentence refers to a past situation. The negative past simple form is didn't know.",
+  "tags": [
+    "negative",
+    "irregular-verb"
+  ],
+  "skills": [
+    "grammar"
+  ],
+  "source": {
+    "type": "original",
+    "reference": null
+  },
+  "status": "published",
+  "version": 1,
+  "createdAt": "2026-07-19T00:00:00.000Z",
+  "updatedAt": "2026-07-19T00:00:00.000Z",
+  "options": [
+    {
+      "id": "a",
+      "text": "don't know"
+    },
+    {
+      "id": "b",
+      "text": "wasn't knowing"
+    },
+    {
+      "id": "c",
+      "text": "didn't know"
+    },
+    {
+      "id": "d",
+      "text": "haven't known"
+    }
+  ],
+  "correctOptionIds": [
+    "c"
+  ],
+  "selectionMode": "single",
+  "shuffleOptions": true
+}

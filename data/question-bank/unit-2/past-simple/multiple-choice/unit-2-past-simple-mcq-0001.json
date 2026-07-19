@@ -1,0 +1,48 @@
+{
+  "id": "unit-2-past-simple-mcq-0001",
+  "type": "multiple-choice",
+  "unitId": "unit-2",
+  "topicId": "past-simple",
+  "contentLocale": "en",
+  "difficulty": "easy",
+  "prompt": "Yesterday, Mia ___ to school early.",
+  "explanation": "Yesterday describes a completed action in the past, so the past simple form went is required.",
+  "tags": [
+    "completed-action",
+    "irregular-verb"
+  ],
+  "skills": [
+    "grammar"
+  ],
+  "source": {
+    "type": "original",
+    "reference": null
+  },
+  "status": "published",
+  "version": 1,
+  "createdAt": "2026-07-19T00:00:00.000Z",
+  "updatedAt": "2026-07-19T00:00:00.000Z",
+  "options": [
+    {
+      "id": "a",
+      "text": "go"
+    },
+    {
+      "id": "b",
+      "text": "went"
+    },
+    {
+      "id": "c",
+      "text": "was going"
+    },
+    {
+      "id": "d",
+      "text": "used to go"
+    }
+  ],
+  "correctOptionIds": [
+    "b"
+  ],
+  "selectionMode": "single",
+  "shuffleOptions": true
+}

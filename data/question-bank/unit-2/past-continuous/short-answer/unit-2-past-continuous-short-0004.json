@@ -1,0 +1,37 @@
+{
+  "id": "unit-2-past-continuous-short-0004",
+  "type": "short-answer",
+  "unitId": "unit-2",
+  "topicId": "past-continuous",
+  "contentLocale": "en",
+  "difficulty": "medium",
+  "prompt": "Complete the sentence using the correct form of burn: Luke was standing outside the bank when it suddenly ___.",
+  "explanation": "The fire started as a completed event, so the past simple form is required.",
+  "tags": [
+    "irregular-verb",
+    "past-simple-vs-past-continuous"
+  ],
+  "skills": [
+    "grammar",
+    "writing"
+  ],
+  "source": {
+    "type": "original",
+    "reference": null
+  },
+  "status": "published",
+  "version": 1,
+  "createdAt": "2026-07-19T00:00:00.000Z",
+  "updatedAt": "2026-07-19T00:00:00.000Z",
+  "acceptedAnswers": [
+    "burned",
+    "burnt"
+  ],
+  "answerValidation": {
+    "caseSensitive": false,
+    "trimWhitespace": true,
+    "collapseWhitespace": true,
+    "ignoreEndingPunctuation": true,
+    "matchMode": "normalized"
+  }
+}

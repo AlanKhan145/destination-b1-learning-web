@@ -1,0 +1,47 @@
+{
+  "id": "unit-2-used-to-mcq-0001",
+  "type": "multiple-choice",
+  "unitId": "unit-2",
+  "topicId": "used-to",
+  "contentLocale": "en",
+  "difficulty": "easy",
+  "prompt": "When I was younger, I ___ pizza almost every day.",
+  "explanation": "Used to eat describes a repeated past habit that is no longer true.",
+  "tags": [
+    "past-habit"
+  ],
+  "skills": [
+    "grammar"
+  ],
+  "source": {
+    "type": "original",
+    "reference": null
+  },
+  "status": "published",
+  "version": 1,
+  "createdAt": "2026-07-19T00:00:00.000Z",
+  "updatedAt": "2026-07-19T00:00:00.000Z",
+  "options": [
+    {
+      "id": "a",
+      "text": "use to eat"
+    },
+    {
+      "id": "b",
+      "text": "used to eat"
+    },
+    {
+      "id": "c",
+      "text": "used eating"
+    },
+    {
+      "id": "d",
+      "text": "was used to eat"
+    }
+  ],
+  "correctOptionIds": [
+    "b"
+  ],
+  "selectionMode": "single",
+  "shuffleOptions": true
+}

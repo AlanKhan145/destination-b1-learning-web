@@ -1,0 +1,330 @@
+{
+  "id": "unit-2",
+  "unitNumber": 2,
+  "category": "Grammar",
+  "title": "Past simple, past continuous, used to",
+  "description": "Learn how to use the past simple, past continuous, and used to for past actions, situations, habits, and states.",
+  "previousLessonId": "unit-1",
+  "nextLessonId": "unit-3",
+  "review": {
+    "reviewId": "unit-2-review",
+    "enabled": true,
+    "displayMode": "side-panel",
+    "position": "right",
+    "defaultOpen": false
+  },
+  "topics": [
+    {
+      "id": "past-simple",
+      "number": 1,
+      "title": "Past simple",
+      "status": "available",
+      "review": {
+        "enabled": true,
+        "questionFilter": {
+          "unitId": "unit-2",
+          "topicIds": [
+            "past-simple"
+          ],
+          "status": [
+            "published"
+          ]
+        }
+      },
+      "description": "Used for completed actions, repeated past actions, general truths about the past, and main events in a story.",
+      "formula": "verb-ed or irregular past form",
+      "forms": {
+        "columns": [
+          "I / you / he / she / it / we / they"
+        ],
+        "rows": [
+          {
+            "label": "Statement",
+            "cells": [
+              "I/You/He/She/It/We/They played ..."
+            ]
+          },
+          {
+            "label": "Negative",
+            "cells": [
+              "I/You/He/She/It/We/They did not (didn't) play ..."
+            ]
+          },
+          {
+            "label": "Question",
+            "cells": [
+              "Did I/you/he/she/it/we/they play ...?"
+            ]
+          }
+        ]
+      },
+      "uses": [
+        {
+          "usage": "Completed actions",
+          "example": "I saw the new James Bond film yesterday.",
+          "highlightWords": [
+            "saw",
+            "yesterday"
+          ]
+        },
+        {
+          "usage": "Repeated actions in the past",
+          "example": "I went to the theatre four times last month.",
+          "highlightWords": [
+            "went",
+            "four times",
+            "last month"
+          ]
+        },
+        {
+          "usage": "General truths about the past",
+          "example": "Fifty years ago, people didn't spend as much on entertainment as they do today.",
+          "highlightWords": [
+            "Fifty years ago",
+            "didn't spend"
+          ]
+        },
+        {
+          "usage": "Main events in a story",
+          "example": "Josh pushed the door open and looked inside the room.",
+          "highlightWords": [
+            "pushed",
+            "looked"
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "type": "helpful-hint",
+          "content": "The past simple is often used with the following words and phrases.",
+          "examples": [
+            "yesterday",
+            "last week/summer/year/etc",
+            "in January/2001/etc",
+            "an hour/a week/a year ago"
+          ],
+          "highlightWords": [
+            "yesterday",
+            "last",
+            "in",
+            "ago"
+          ]
+        },
+        {
+          "type": "watch-out",
+          "content": "Some verbs have irregular past simple forms. See page 182.",
+          "examples": [
+            "go → went",
+            "see → saw"
+          ],
+          "highlightWords": [
+            "irregular past simple forms",
+            "went",
+            "saw"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "past-continuous",
+      "number": 2,
+      "title": "Past continuous",
+      "status": "available",
+      "review": {
+        "enabled": true,
+        "questionFilter": {
+          "unitId": "unit-2",
+          "topicIds": [
+            "past-continuous"
+          ],
+          "status": [
+            "published"
+          ]
+        }
+      },
+      "description": "Used for actions happening at a particular moment in the past, simultaneous actions, and background information in a story.",
+      "formula": "was/were + verb-ing",
+      "forms": {
+        "columns": [
+          "I / he / she / it",
+          "You / we / they"
+        ],
+        "rows": [
+          {
+            "label": "Statement",
+            "cells": [
+              "I/He/She/It was playing ...",
+              "You/We/They were playing ..."
+            ]
+          },
+          {
+            "label": "Negative",
+            "cells": [
+              "I/He/She/It was not (wasn't) playing ...",
+              "You/We/They were not (weren't) playing ..."
+            ]
+          },
+          {
+            "label": "Question",
+            "cells": [
+              "Was I/he/she/it playing ...?",
+              "Were you/we/they playing ...?"
+            ]
+          }
+        ]
+      },
+      "uses": [
+        {
+          "usage": "Actions happening at a moment in the past",
+          "example": "At nine o'clock last night, I was watching TV.",
+          "highlightWords": [
+            "At nine o'clock last night",
+            "was watching"
+          ]
+        },
+        {
+          "usage": "Two actions in progress at the same time",
+          "example": "I was reading a book while you were doing the washing-up.",
+          "highlightWords": [
+            "was reading",
+            "while",
+            "were doing"
+          ]
+        },
+        {
+          "usage": "Background information in a story",
+          "example": "It was raining, so Wendy decided to go to the cinema.",
+          "highlightWords": [
+            "was raining",
+            "decided"
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "type": "helpful-hint",
+          "content": "The past continuous is often used with the following words and phrases.",
+          "examples": [
+            "at that moment",
+            "at one/two/etc o'clock",
+            "while"
+          ],
+          "highlightWords": [
+            "at that moment",
+            "at one o'clock",
+            "at two o'clock",
+            "while"
+          ]
+        },
+        {
+          "type": "watch-out",
+          "content": "When one action in the past happens in the middle of another action, use the past simple and the past continuous together.",
+          "examples": [
+            "The phone rang while I was watching a DVD."
+          ],
+          "highlightWords": [
+            "rang",
+            "while",
+            "was watching"
+          ]
+        },
+        {
+          "type": "watch-out",
+          "content": "Do not use the past continuous for regular or repeated actions in the past. Use the past simple instead.",
+          "examples": [
+            "Incorrect: Last year, I was going to the cinema every weekend.",
+            "Correct: Last year, I went to the cinema every weekend."
+          ],
+          "highlightWords": [
+            "was going",
+            "went",
+            "every weekend"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "used-to",
+      "number": 3,
+      "title": "Used to",
+      "status": "available",
+      "review": {
+        "enabled": true,
+        "questionFilter": {
+          "unitId": "unit-2",
+          "topicIds": [
+            "used-to"
+          ],
+          "status": [
+            "published"
+          ]
+        }
+      },
+      "description": "Used for habits and states that existed in the distant past.",
+      "formula": "used to + bare infinitive",
+      "forms": {
+        "columns": [
+          "I / you / he / she / it / we / they"
+        ],
+        "rows": [
+          {
+            "label": "Statement",
+            "cells": [
+              "I/You/He/She/It/We/They used to ..."
+            ]
+          },
+          {
+            "label": "Negative",
+            "cells": [
+              "I/You/He/She/It/We/They never used to ...",
+              "I/You/He/She/It/We/They didn't use to ..."
+            ]
+          },
+          {
+            "label": "Question",
+            "cells": [
+              "Did I/you/he/she/it/we/they use to ...?"
+            ]
+          }
+        ]
+      },
+      "uses": [
+        {
+          "usage": "Distant past habits and states",
+          "example": "When I was four, I used to eat ice cream every day.",
+          "highlightWords": [
+            "When I was four",
+            "used to eat",
+            "every day"
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "type": "rule",
+          "content": "Use used to followed by the bare infinitive.",
+          "examples": [
+            "I used to eat ice cream every day."
+          ],
+          "highlightWords": [
+            "used to",
+            "eat"
+          ]
+        },
+        {
+          "type": "watch-out",
+          "content": "After did or didn't, use use to instead of used to.",
+          "examples": [
+            "Did you use to play football?",
+            "I didn't use to like coffee."
+          ],
+          "highlightWords": [
+            "Did",
+            "didn't",
+            "use to"
+          ]
+        }
+      ]
+    }
+  ]
+}
