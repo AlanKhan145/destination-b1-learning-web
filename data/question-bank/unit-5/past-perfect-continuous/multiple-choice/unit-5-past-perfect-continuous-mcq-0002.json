@@ -1,0 +1,39 @@
+{
+  "id": "unit-5-past-perfect-continuous-mcq-0002",
+  "type": "multiple-choice",
+  "unitId": "unit-5",
+  "topicId": "past-perfect-continuous",
+  "contentLocale": "en",
+  "tags": [
+    "simple-vs-continuous"
+  ],
+  "skills": [
+    "grammar"
+  ],
+  "source": {
+    "type": "textbook",
+    "reference": "Destination B1, Unit 5 exercises"
+  },
+  "status": "published",
+  "version": 1,
+  "createdAt": "2026-07-19T00:00:00.000Z",
+  "updatedAt": "2026-07-19T00:00:00.000Z",
+  "difficulty": "hard",
+  "prompt": "Had you already ___ James his birthday present when we gave him ours?",
+  "explanation": "Giving a present is a single completed action with a clear result, so use the past perfect simple: given.",
+  "options": [
+    {
+      "id": "a",
+      "text": "given"
+    },
+    {
+      "id": "b",
+      "text": "been giving"
+    }
+  ],
+  "correctOptionIds": [
+    "a"
+  ],
+  "selectionMode": "single",
+  "shuffleOptions": false
+}

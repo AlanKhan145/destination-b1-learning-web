@@ -1,0 +1,39 @@
+{
+  "id": "unit-5-past-perfect-continuous-mcq-0003",
+  "type": "multiple-choice",
+  "unitId": "unit-5",
+  "topicId": "past-perfect-continuous",
+  "contentLocale": "en",
+  "tags": [
+    "simple-vs-continuous"
+  ],
+  "skills": [
+    "grammar"
+  ],
+  "source": {
+    "type": "textbook",
+    "reference": "Destination B1, Unit 5 exercises"
+  },
+  "status": "published",
+  "version": 1,
+  "createdAt": "2026-07-19T00:00:00.000Z",
+  "updatedAt": "2026-07-19T00:00:00.000Z",
+  "difficulty": "hard",
+  "prompt": "Gail hadn't ___ me that she would help me, so I wasn't angry when she didn't.",
+  "explanation": "Telling someone something is a completed, single action, so use the past perfect simple: told.",
+  "options": [
+    {
+      "id": "a",
+      "text": "told"
+    },
+    {
+      "id": "b",
+      "text": "been telling"
+    }
+  ],
+  "correctOptionIds": [
+    "a"
+  ],
+  "selectionMode": "single",
+  "shuffleOptions": false
+}

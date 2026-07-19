@@ -1,0 +1,34 @@
+{
+  "id": "unit-6-word-patterns-short-0010",
+  "type": "short-answer",
+  "unitId": "unit-6",
+  "topicId": "word-patterns",
+  "contentLocale": "en",
+  "tags": [
+    "transformation"
+  ],
+  "skills": [
+    "vocabulary"
+  ],
+  "source": {
+    "type": "textbook",
+    "reference": "Destination B1, Unit 6 exercises"
+  },
+  "status": "published",
+  "version": 1,
+  "createdAt": "2026-07-19T00:00:00.000Z",
+  "updatedAt": "2026-07-19T00:00:00.000Z",
+  "difficulty": "hard",
+  "prompt": "Dan couldn't do his homework on his own so I've been helping him. Complete the second sentence using \"helping\" (2-5 words): I've been ___ his homework because he couldn't do it on his own.",
+  "explanation": "The pattern \"help somebody with\" fits the meaning of helping Dan with his homework.",
+  "acceptedAnswers": [
+    "helping him with"
+  ],
+  "answerValidation": {
+    "caseSensitive": false,
+    "trimWhitespace": true,
+    "collapseWhitespace": true,
+    "ignoreEndingPunctuation": true,
+    "matchMode": "normalized"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "id": "unit-6-word-patterns-short-0012",
+  "type": "short-answer",
+  "unitId": "unit-6",
+  "topicId": "word-patterns",
+  "contentLocale": "en",
+  "tags": [
+    "transformation"
+  ],
+  "skills": [
+    "vocabulary"
+  ],
+  "source": {
+    "type": "textbook",
+    "reference": "Destination B1, Unit 6 exercises"
+  },
+  "status": "published",
+  "version": 1,
+  "createdAt": "2026-07-19T00:00:00.000Z",
+  "updatedAt": "2026-07-19T00:00:00.000Z",
+  "difficulty": "hard",
+  "prompt": "I really hope you find a solution to the problem. Complete the second sentence using \"succeed\" (2-5 words): I really hope you ___ a solution to the problem.",
+  "explanation": "\"Find a solution\" is rephrased with the pattern \"succeed in + V-ing\".",
+  "acceptedAnswers": [
+    "succeed in finding"
+  ],
+  "answerValidation": {
+    "caseSensitive": false,
+    "trimWhitespace": true,
+    "collapseWhitespace": true,
+    "ignoreEndingPunctuation": true,
+    "matchMode": "normalized"
+  }
+}

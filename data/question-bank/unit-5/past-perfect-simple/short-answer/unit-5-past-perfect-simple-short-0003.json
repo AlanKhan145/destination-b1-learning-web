@@ -1,0 +1,36 @@
+{
+  "id": "unit-5-past-perfect-simple-short-0003",
+  "type": "short-answer",
+  "unitId": "unit-5",
+  "topicId": "past-perfect-simple",
+  "contentLocale": "en",
+  "tags": [
+    "negative",
+    "by"
+  ],
+  "skills": [
+    "grammar"
+  ],
+  "source": {
+    "type": "textbook",
+    "reference": "Destination B1, Unit 5 exercises"
+  },
+  "status": "published",
+  "version": 1,
+  "createdAt": "2026-07-19T00:00:00.000Z",
+  "updatedAt": "2026-07-19T00:00:00.000Z",
+  "difficulty": "easy",
+  "prompt": "Complete the sentence with the correct past perfect simple form of \"not / finish\": Tina ___ doing the housework by seven o'clock, so she called Andrea to tell her she would be late.",
+  "explanation": "\"By seven o'clock\" marks a deadline in the past that the action had not been completed by, so use the negative past perfect simple: hadn't finished.",
+  "acceptedAnswers": [
+    "hadn't finished",
+    "had not finished"
+  ],
+  "answerValidation": {
+    "caseSensitive": false,
+    "trimWhitespace": true,
+    "collapseWhitespace": true,
+    "ignoreEndingPunctuation": true,
+    "matchMode": "normalized"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "unit-5-past-perfect-continuous-short-0001",
+  "type": "short-answer",
+  "unitId": "unit-5",
+  "topicId": "past-perfect-continuous",
+  "contentLocale": "en",
+  "tags": [
+    "result-of-continuous-action"
+  ],
+  "skills": [
+    "grammar"
+  ],
+  "source": {
+    "type": "textbook",
+    "reference": "Destination B1, Unit 5 exercises"
+  },
+  "status": "published",
+  "version": 1,
+  "createdAt": "2026-07-19T00:00:00.000Z",
+  "updatedAt": "2026-07-19T00:00:00.000Z",
+  "difficulty": "medium",
+  "prompt": "Complete the sentence with the correct past perfect continuous form of \"run\": She was tired because ___.",
+  "explanation": "The tiredness is the result of an ongoing activity (running), so use the past perfect continuous.",
+  "acceptedAnswers": [
+    "she had been running",
+    "she'd been running"
+  ],
+  "answerValidation": {
+    "caseSensitive": false,
+    "trimWhitespace": true,
+    "collapseWhitespace": true,
+    "ignoreEndingPunctuation": true,
+    "matchMode": "normalized"
+  }
+}

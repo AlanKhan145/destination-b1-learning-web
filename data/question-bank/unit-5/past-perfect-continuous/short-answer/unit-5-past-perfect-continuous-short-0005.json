@@ -1,0 +1,35 @@
+{
+  "id": "unit-5-past-perfect-continuous-short-0005",
+  "type": "short-answer",
+  "unitId": "unit-5",
+  "topicId": "past-perfect-continuous",
+  "contentLocale": "en",
+  "tags": [
+    "result-of-continuous-action"
+  ],
+  "skills": [
+    "grammar"
+  ],
+  "source": {
+    "type": "textbook",
+    "reference": "Destination B1, Unit 5 exercises"
+  },
+  "status": "published",
+  "version": 1,
+  "createdAt": "2026-07-19T00:00:00.000Z",
+  "updatedAt": "2026-07-19T00:00:00.000Z",
+  "difficulty": "medium",
+  "prompt": "Complete the sentence with the correct past perfect continuous form of \"they / wait / for over half an hour\": When I arrived, ___.",
+  "explanation": "\"For over half an hour\" emphasises the duration of an action continuing up to the point I arrived, so use the past perfect continuous.",
+  "acceptedAnswers": [
+    "they had been waiting for over half an hour",
+    "they'd been waiting for over half an hour"
+  ],
+  "answerValidation": {
+    "caseSensitive": false,
+    "trimWhitespace": true,
+    "collapseWhitespace": true,
+    "ignoreEndingPunctuation": true,
+    "matchMode": "normalized"
+  }
+}

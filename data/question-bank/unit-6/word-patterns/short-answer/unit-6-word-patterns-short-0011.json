@@ -1,0 +1,34 @@
+{
+  "id": "unit-6-word-patterns-short-0011",
+  "type": "short-answer",
+  "unitId": "unit-6",
+  "topicId": "word-patterns",
+  "contentLocale": "en",
+  "tags": [
+    "transformation"
+  ],
+  "skills": [
+    "vocabulary"
+  ],
+  "source": {
+    "type": "textbook",
+    "reference": "Destination B1, Unit 6 exercises"
+  },
+  "status": "published",
+  "version": 1,
+  "createdAt": "2026-07-19T00:00:00.000Z",
+  "updatedAt": "2026-07-19T00:00:00.000Z",
+  "difficulty": "hard",
+  "prompt": "No one can learn all that in one day! Complete the second sentence using \"capable\" (2-5 words): No one ___ all that in one day!",
+  "explanation": "\"Can learn\" is rephrased with the pattern \"capable of + V-ing\".",
+  "acceptedAnswers": [
+    "is capable of learning"
+  ],
+  "answerValidation": {
+    "caseSensitive": false,
+    "trimWhitespace": true,
+    "collapseWhitespace": true,
+    "ignoreEndingPunctuation": true,
+    "matchMode": "normalized"
+  }
+}

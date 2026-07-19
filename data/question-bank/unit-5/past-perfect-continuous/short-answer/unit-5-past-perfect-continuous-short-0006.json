@@ -1,0 +1,35 @@
+{
+  "id": "unit-5-past-perfect-continuous-short-0006",
+  "type": "short-answer",
+  "unitId": "unit-5",
+  "topicId": "past-perfect-continuous",
+  "contentLocale": "en",
+  "tags": [
+    "result-of-continuous-action"
+  ],
+  "skills": [
+    "grammar"
+  ],
+  "source": {
+    "type": "textbook",
+    "reference": "Destination B1, Unit 5 exercises"
+  },
+  "status": "published",
+  "version": 1,
+  "createdAt": "2026-07-19T00:00:00.000Z",
+  "updatedAt": "2026-07-19T00:00:00.000Z",
+  "difficulty": "medium",
+  "prompt": "Complete the sentence with the correct past perfect continuous form of \"not / wait / long\": When I got there, ___.",
+  "explanation": "The negative past perfect continuous shows the waiting had not been going on for long by the time I got there.",
+  "acceptedAnswers": [
+    "they hadn't been waiting long",
+    "they had not been waiting long"
+  ],
+  "answerValidation": {
+    "caseSensitive": false,
+    "trimWhitespace": true,
+    "collapseWhitespace": true,
+    "ignoreEndingPunctuation": true,
+    "matchMode": "normalized"
+  }
+}

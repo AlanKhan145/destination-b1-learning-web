@@ -1,0 +1,39 @@
+{
+  "id": "unit-6-topic-vocabulary-fib-0001",
+  "type": "fill-in-the-blanks",
+  "unitId": "unit-6",
+  "topicId": "topic-vocabulary",
+  "contentLocale": "en",
+  "tags": [
+    "word-box"
+  ],
+  "skills": [
+    "vocabulary"
+  ],
+  "source": {
+    "type": "textbook",
+    "reference": "Destination B1, Unit 6 exercises"
+  },
+  "status": "published",
+  "version": 1,
+  "createdAt": "2026-07-19T00:00:00.000Z",
+  "updatedAt": "2026-07-19T00:00:00.000Z",
+  "difficulty": "easy",
+  "prompt": "Complete the sentence with the correct form of \"make progress\". (word box: make progress / make sure / take an exam)",
+  "explanation": "\"Make progress\" splits into \"made ... progress\" once \"a lot of\" is inserted between the verb and the noun.",
+  "passageTemplate": "You've all {{b1}} a lot of {{b2}} this year. Well done!",
+  "blanks": [
+    {
+      "id": "b1",
+      "acceptedAnswers": [
+        "made"
+      ]
+    },
+    {
+      "id": "b2",
+      "acceptedAnswers": [
+        "progress"
+      ]
+    }
+  ]
+}

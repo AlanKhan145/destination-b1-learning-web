@@ -1,0 +1,40 @@
+{
+  "id": "unit-5-past-perfect-simple-mcq-0007",
+  "type": "multiple-choice",
+  "unitId": "unit-5",
+  "topicId": "past-perfect-simple",
+  "contentLocale": "en",
+  "tags": [
+    "event-order",
+    "same-meaning"
+  ],
+  "skills": [
+    "grammar"
+  ],
+  "source": {
+    "type": "textbook",
+    "reference": "Destination B1, Unit 5 exercises"
+  },
+  "status": "published",
+  "version": 1,
+  "createdAt": "2026-07-19T00:00:00.000Z",
+  "updatedAt": "2026-07-19T00:00:00.000Z",
+  "difficulty": "medium",
+  "prompt": "Which sentence means the same as: \"The girls had tidied the house when the visitors arrived.\"?",
+  "explanation": "The past perfect (\"had tidied\") shows the tidying was already finished before the visitors arrived.",
+  "options": [
+    {
+      "id": "a",
+      "text": "The visitors arrived and later the girls tidied the house."
+    },
+    {
+      "id": "b",
+      "text": "The girls tidied the house and then the visitors arrived."
+    }
+  ],
+  "correctOptionIds": [
+    "b"
+  ],
+  "selectionMode": "single",
+  "shuffleOptions": false
+}

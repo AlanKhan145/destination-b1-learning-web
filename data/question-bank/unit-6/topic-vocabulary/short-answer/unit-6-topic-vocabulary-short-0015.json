@@ -1,0 +1,35 @@
+{
+  "id": "unit-6-topic-vocabulary-short-0015",
+  "type": "short-answer",
+  "unitId": "unit-6",
+  "topicId": "topic-vocabulary",
+  "contentLocale": "en",
+  "tags": [
+    "crossword"
+  ],
+  "skills": [
+    "vocabulary"
+  ],
+  "source": {
+    "type": "textbook",
+    "reference": "Destination B1, Unit 6 exercises"
+  },
+  "status": "published",
+  "version": 1,
+  "createdAt": "2026-07-19T00:00:00.000Z",
+  "updatedAt": "2026-07-19T00:00:00.000Z",
+  "difficulty": "medium",
+  "prompt": "Across 4. The other students were talking and laughing but Jamie ___ on his work. (12)",
+  "explanation": "Giving all your attention to what you're doing is concentrating.",
+  "acceptedAnswers": [
+    "concentrated"
+  ],
+  "answerValidation": {
+    "caseSensitive": false,
+    "trimWhitespace": true,
+    "collapseWhitespace": true,
+    "ignoreEndingPunctuation": true,
+    "matchMode": "normalized"
+  },
+  "letterCount": 12
+}

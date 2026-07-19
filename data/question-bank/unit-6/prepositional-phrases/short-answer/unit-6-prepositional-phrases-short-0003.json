@@ -1,0 +1,34 @@
+{
+  "id": "unit-6-prepositional-phrases-short-0003",
+  "type": "short-answer",
+  "unitId": "unit-6",
+  "topicId": "prepositional-phrases",
+  "contentLocale": "en",
+  "tags": [
+    "mixed-up-words"
+  ],
+  "skills": [
+    "vocabulary"
+  ],
+  "source": {
+    "type": "textbook",
+    "reference": "Destination B1, Unit 6 exercises"
+  },
+  "status": "published",
+  "version": 1,
+  "createdAt": "2026-07-19T00:00:00.000Z",
+  "updatedAt": "2026-07-19T00:00:00.000Z",
+  "difficulty": "medium",
+  "prompt": "Find the correct word for this sentence (it belongs in a different sentence below): \"I thought the exam would be difficult but, in instance, it was really easy.\"",
+  "explanation": "The phrase is \"in fact\", used to emphasise something true and surprising.",
+  "acceptedAnswers": [
+    "fact"
+  ],
+  "answerValidation": {
+    "caseSensitive": false,
+    "trimWhitespace": true,
+    "collapseWhitespace": true,
+    "ignoreEndingPunctuation": true,
+    "matchMode": "normalized"
+  }
+}

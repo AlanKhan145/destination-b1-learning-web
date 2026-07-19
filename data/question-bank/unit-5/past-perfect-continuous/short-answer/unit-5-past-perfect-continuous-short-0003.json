@@ -1,0 +1,35 @@
+{
+  "id": "unit-5-past-perfect-continuous-short-0003",
+  "type": "short-answer",
+  "unitId": "unit-5",
+  "topicId": "past-perfect-continuous",
+  "contentLocale": "en",
+  "tags": [
+    "result-of-continuous-action"
+  ],
+  "skills": [
+    "grammar"
+  ],
+  "source": {
+    "type": "textbook",
+    "reference": "Destination B1, Unit 5 exercises"
+  },
+  "status": "published",
+  "version": 1,
+  "createdAt": "2026-07-19T00:00:00.000Z",
+  "updatedAt": "2026-07-19T00:00:00.000Z",
+  "difficulty": "medium",
+  "prompt": "Complete the sentence with the correct past perfect continuous form of \"it / rain / all night\": The garden was flooded because ___.",
+  "explanation": "\"All night\" signals a continuous action leading up to a past result (the flooded garden), so use the past perfect continuous.",
+  "acceptedAnswers": [
+    "it had been raining all night",
+    "it'd been raining all night"
+  ],
+  "answerValidation": {
+    "caseSensitive": false,
+    "trimWhitespace": true,
+    "collapseWhitespace": true,
+    "ignoreEndingPunctuation": true,
+    "matchMode": "normalized"
+  }
+}

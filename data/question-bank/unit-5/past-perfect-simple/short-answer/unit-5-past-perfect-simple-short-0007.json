@@ -1,0 +1,36 @@
+{
+  "id": "unit-5-past-perfect-simple-short-0007",
+  "type": "short-answer",
+  "unitId": "unit-5",
+  "topicId": "past-perfect-simple",
+  "contentLocale": "en",
+  "tags": [
+    "question",
+    "before"
+  ],
+  "skills": [
+    "grammar"
+  ],
+  "source": {
+    "type": "textbook",
+    "reference": "Destination B1, Unit 5 exercises"
+  },
+  "status": "published",
+  "version": 1,
+  "createdAt": "2026-07-19T00:00:00.000Z",
+  "updatedAt": "2026-07-19T00:00:00.000Z",
+  "difficulty": "easy",
+  "prompt": "Complete the question with the correct past perfect simple form of \"you / hear\": ___ about the accident before you saw it on TV?",
+  "explanation": "\"Before you saw it on TV\" marks the later past event, so the earlier action (hearing about it) needs the past perfect simple question form.",
+  "acceptedAnswers": [
+    "Had you heard",
+    "had you heard"
+  ],
+  "answerValidation": {
+    "caseSensitive": false,
+    "trimWhitespace": true,
+    "collapseWhitespace": true,
+    "ignoreEndingPunctuation": true,
+    "matchMode": "normalized"
+  }
+}

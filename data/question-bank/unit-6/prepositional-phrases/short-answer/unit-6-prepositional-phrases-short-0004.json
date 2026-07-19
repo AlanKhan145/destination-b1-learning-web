@@ -1,0 +1,34 @@
+{
+  "id": "unit-6-prepositional-phrases-short-0004",
+  "type": "short-answer",
+  "unitId": "unit-6",
+  "topicId": "prepositional-phrases",
+  "contentLocale": "en",
+  "tags": [
+    "mixed-up-words"
+  ],
+  "skills": [
+    "vocabulary"
+  ],
+  "source": {
+    "type": "textbook",
+    "reference": "Destination B1, Unit 6 exercises"
+  },
+  "status": "published",
+  "version": 1,
+  "createdAt": "2026-07-19T00:00:00.000Z",
+  "updatedAt": "2026-07-19T00:00:00.000Z",
+  "difficulty": "medium",
+  "prompt": "Find the correct word for this sentence (it belongs in a different sentence below): \"Many people, for heart my brother, prefer to do something active rather than do homework.\"",
+  "explanation": "The phrase is \"for instance\", meaning \"for example\".",
+  "acceptedAnswers": [
+    "instance"
+  ],
+  "answerValidation": {
+    "caseSensitive": false,
+    "trimWhitespace": true,
+    "collapseWhitespace": true,
+    "ignoreEndingPunctuation": true,
+    "matchMode": "normalized"
+  }
+}

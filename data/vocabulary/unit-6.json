@@ -1,0 +1,1114 @@
+{
+  "version": 1,
+  "unitId": "unit-6",
+  "title": "Learning and doing",
+  "description": "Vocabulary for talking about studying, exams, skills and school life.",
+  "sourceNote": "See page 185 for definitions.",
+  "sections": {
+    "topicVocabulary": [
+      {
+        "id": "vocab-unit-6-achieve",
+        "type": "word",
+        "word": "achieve",
+        "image": "./assets/vocabulary/unit-6/learning-and-doing/01_achieve.png",
+        "imageAlt": "A student proudly achieving a goal",
+        "phonetic": "/əˈtʃiːv/",
+        "partOfSpeech": [
+          "verb"
+        ],
+        "meaningVi": "đạt được",
+        "definitionEn": "to succeed in finishing something or reaching a goal, especially after a lot of effort",
+        "example": {
+          "en": "She worked hard to achieve her dream of becoming a doctor.",
+          "vi": "Cô ấy đã làm việc chăm chỉ để đạt được ước mơ trở thành bác sĩ."
+        }
+      },
+      {
+        "id": "vocab-unit-6-brain",
+        "type": "word",
+        "word": "brain",
+        "image": "./assets/vocabulary/unit-6/learning-and-doing/02_brain.png",
+        "imageAlt": "A diagram of a human brain",
+        "phonetic": "/breɪn/",
+        "partOfSpeech": [
+          "noun"
+        ],
+        "meaningVi": "não bộ",
+        "definitionEn": "the organ inside the head that controls thought, memory and feeling",
+        "example": {
+          "en": "The human brain is capable of amazing things.",
+          "vi": "Bộ não con người có khả năng làm được những điều tuyệt vời."
+        }
+      },
+      {
+        "id": "vocab-unit-6-clever",
+        "type": "word",
+        "word": "clever",
+        "image": "./assets/vocabulary/unit-6/learning-and-doing/03_clever.png",
+        "imageAlt": "A clever student solving a puzzle quickly",
+        "phonetic": "/ˈklevə/",
+        "partOfSpeech": [
+          "adjective"
+        ],
+        "meaningVi": "thông minh",
+        "definitionEn": "quick to learn and understand things",
+        "example": {
+          "en": "My little sister is very clever for her age.",
+          "vi": "Em gái tôi rất thông minh so với tuổi."
+        }
+      },
+      {
+        "id": "vocab-unit-6-concentrate",
+        "type": "word",
+        "word": "concentrate",
+        "image": "./assets/vocabulary/unit-6/learning-and-doing/04_concentrate.png",
+        "imageAlt": "A student concentrating hard on a book",
+        "phonetic": "/ˈkɒnsntreɪt/",
+        "partOfSpeech": [
+          "verb"
+        ],
+        "meaningVi": "tập trung",
+        "definitionEn": "to give all your attention to what you are doing",
+        "example": {
+          "en": "It's hard to concentrate with all this noise.",
+          "vi": "Thật khó để tập trung với tất cả tiếng ồn này."
+        }
+      },
+      {
+        "id": "vocab-unit-6-consider",
+        "type": "word",
+        "word": "consider",
+        "image": "./assets/vocabulary/unit-6/learning-and-doing/05_consider.png",
+        "imageAlt": "A person thinking carefully before deciding",
+        "phonetic": "/kənˈsɪdə/",
+        "partOfSpeech": [
+          "verb"
+        ],
+        "meaningVi": "cân nhắc, xem xét",
+        "definitionEn": "to think carefully about something before making a decision",
+        "example": {
+          "en": "You should consider all your options before you decide.",
+          "vi": "Bạn nên cân nhắc tất cả các lựa chọn trước khi quyết định."
+        }
+      },
+      {
+        "id": "vocab-unit-6-course",
+        "type": "word",
+        "word": "course",
+        "image": "./assets/vocabulary/unit-6/learning-and-doing/06_course.png",
+        "imageAlt": "Students attending a course",
+        "phonetic": "/kɔːs/",
+        "partOfSpeech": [
+          "noun"
+        ],
+        "meaningVi": "khóa học",
+        "definitionEn": "a series of lessons on a particular subject",
+        "example": {
+          "en": "She's taking a course in graphic design.",
+          "vi": "Cô ấy đang theo học một khóa học về thiết kế đồ họa."
+        }
+      },
+      {
+        "id": "vocab-unit-6-degree",
+        "type": "word",
+        "word": "degree",
+        "image": "./assets/vocabulary/unit-6/learning-and-doing/07_degree.png",
+        "imageAlt": "A graduate holding a university degree certificate",
+        "phonetic": "/dɪˈɡriː/",
+        "partOfSpeech": [
+          "noun"
+        ],
+        "meaningVi": "bằng cấp, học vị",
+        "definitionEn": "a qualification given by a university after a course of study",
+        "example": {
+          "en": "He has a degree in engineering.",
+          "vi": "Anh ấy có bằng kỹ sư."
+        }
+      },
+      {
+        "id": "vocab-unit-6-experience",
+        "type": "word",
+        "word": "experience",
+        "image": "./assets/vocabulary/unit-6/learning-and-doing/08_experience.png",
+        "imageAlt": "Someone gaining experience from a new activity",
+        "phonetic": "/ɪkˈspɪəriəns/",
+        "partOfSpeech": [
+          "verb",
+          "noun"
+        ],
+        "meaningVi": "trải nghiệm; kinh nghiệm",
+        "definitionEn": "to have something happen to you; knowledge or skill gained from doing something",
+        "example": {
+          "en": "Living abroad was an experience she'll never forget.",
+          "vi": "Sống ở nước ngoài là một trải nghiệm mà cô ấy sẽ không bao giờ quên."
+        }
+      },
+      {
+        "id": "vocab-unit-6-expert",
+        "type": "word",
+        "word": "expert",
+        "image": "./assets/vocabulary/unit-6/learning-and-doing/09_expert.png",
+        "imageAlt": "An expert explaining a subject confidently",
+        "phonetic": "/ˈekspɜːt/",
+        "partOfSpeech": [
+          "noun",
+          "adjective"
+        ],
+        "meaningVi": "chuyên gia; thành thạo",
+        "definitionEn": "a person with great knowledge or skill in a subject; having great knowledge or skill in something",
+        "example": {
+          "en": "He's an expert in ancient history.",
+          "vi": "Anh ấy là một chuyên gia về lịch sử cổ đại."
+        }
+      },
+      {
+        "id": "vocab-unit-6-fail",
+        "type": "word",
+        "word": "fail",
+        "image": "./assets/vocabulary/unit-6/learning-and-doing/10_fail.png",
+        "imageAlt": "A disappointed student who failed a test",
+        "phonetic": "/feɪl/",
+        "partOfSpeech": [
+          "verb"
+        ],
+        "meaningVi": "thất bại, trượt (thi)",
+        "definitionEn": "to not succeed in an exam or a task",
+        "example": {
+          "en": "I'm worried I might fail my maths exam.",
+          "vi": "Tôi lo rằng mình có thể trượt kỳ thi toán."
+        }
+      },
+      {
+        "id": "vocab-unit-6-guess",
+        "type": "word",
+        "word": "guess",
+        "image": "./assets/vocabulary/unit-6/learning-and-doing/11_guess.png",
+        "imageAlt": "A student guessing an answer",
+        "phonetic": "/ɡes/",
+        "partOfSpeech": [
+          "verb",
+          "noun"
+        ],
+        "meaningVi": "đoán; sự phỏng đoán",
+        "definitionEn": "to give an answer without being sure if it's correct; an attempt to guess something",
+        "example": {
+          "en": "I don't know the answer, so I'll just guess.",
+          "vi": "Tôi không biết câu trả lời, vậy nên tôi sẽ đoán thôi."
+        }
+      },
+      {
+        "id": "vocab-unit-6-hesitate",
+        "type": "word",
+        "word": "hesitate",
+        "image": "./assets/vocabulary/unit-6/learning-and-doing/12_hesitate.png",
+        "imageAlt": "A student hesitating before answering",
+        "phonetic": "/ˈhezɪteɪt/",
+        "partOfSpeech": [
+          "verb"
+        ],
+        "meaningVi": "do dự, ngần ngại",
+        "definitionEn": "to pause before doing or saying something because you are unsure",
+        "example": {
+          "en": "She hesitated before answering the difficult question.",
+          "vi": "Cô ấy đã do dự trước khi trả lời câu hỏi khó."
+        }
+      },
+      {
+        "id": "vocab-unit-6-instruction",
+        "type": "word",
+        "word": "instruction",
+        "image": "./assets/vocabulary/unit-6/learning-and-doing/13_instruction.png",
+        "imageAlt": "A worksheet with clear instructions",
+        "phonetic": "/ɪnˈstrʌkʃn/",
+        "partOfSpeech": [
+          "noun"
+        ],
+        "meaningVi": "hướng dẫn, chỉ dẫn",
+        "definitionEn": "information that tells you how to do something",
+        "example": {
+          "en": "Please read the instructions before you start the test.",
+          "vi": "Hãy đọc kỹ hướng dẫn trước khi bắt đầu bài kiểm tra."
+        }
+      },
+      {
+        "id": "vocab-unit-6-make-progress",
+        "type": "word",
+        "word": "make progress",
+        "image": "./assets/vocabulary/unit-6/learning-and-doing/14_make_progress.png",
+        "imageAlt": "A student making progress on a chart",
+        "phonetic": "/meɪk ˈprəʊɡres/",
+        "partOfSpeech": [
+          "verb-phrase"
+        ],
+        "meaningVi": "tiến bộ",
+        "definitionEn": "to improve or develop gradually",
+        "example": {
+          "en": "You've made a lot of progress in English this term.",
+          "vi": "Bạn đã tiến bộ rất nhiều trong môn tiếng Anh học kỳ này."
+        }
+      },
+      {
+        "id": "vocab-unit-6-make-sure",
+        "type": "word",
+        "word": "make sure",
+        "image": "./assets/vocabulary/unit-6/learning-and-doing/15_make_sure.png",
+        "imageAlt": "A student double-checking their exam answers",
+        "phonetic": "/meɪk ʃʊə/",
+        "partOfSpeech": [
+          "verb-phrase"
+        ],
+        "meaningVi": "đảm bảo chắc chắn",
+        "definitionEn": "to check that something is definitely true or has been done",
+        "example": {
+          "en": "Make sure you bring a pen to the exam.",
+          "vi": "Hãy đảm bảo rằng bạn mang theo bút đến kỳ thi."
+        }
+      },
+      {
+        "id": "vocab-unit-6-mark",
+        "type": "word",
+        "word": "mark",
+        "image": "./assets/vocabulary/unit-6/learning-and-doing/16_mark.png",
+        "imageAlt": "A teacher marking an exam paper",
+        "phonetic": "/mɑːk/",
+        "partOfSpeech": [
+          "verb",
+          "noun"
+        ],
+        "meaningVi": "chấm điểm; điểm số",
+        "definitionEn": "to give a score to a piece of work; a number or letter that shows how good a piece of work is",
+        "example": {
+          "en": "The teacher marked our essays over the weekend.",
+          "vi": "Giáo viên đã chấm bài luận của chúng tôi vào cuối tuần."
+        }
+      },
+      {
+        "id": "vocab-unit-6-mental",
+        "type": "word",
+        "word": "mental",
+        "image": "./assets/vocabulary/unit-6/learning-and-doing/17_mental.png",
+        "imageAlt": "A brain icon representing mental ability",
+        "phonetic": "/ˈmentl/",
+        "partOfSpeech": [
+          "adjective"
+        ],
+        "meaningVi": "thuộc về tinh thần, trí óc",
+        "definitionEn": "relating to the mind",
+        "example": {
+          "en": "Chess is good exercise for your mental abilities.",
+          "vi": "Cờ vua là bài tập tốt cho khả năng trí óc của bạn."
+        }
+      },
+      {
+        "id": "vocab-unit-6-pass",
+        "type": "word",
+        "word": "pass",
+        "image": "./assets/vocabulary/unit-6/learning-and-doing/18_pass.png",
+        "imageAlt": "A relieved student who passed an exam",
+        "phonetic": "/pɑːs/",
+        "partOfSpeech": [
+          "verb"
+        ],
+        "meaningVi": "đỗ, vượt qua (kỳ thi)",
+        "definitionEn": "to succeed in a test or exam",
+        "example": {
+          "en": "I hope I pass my driving test this time.",
+          "vi": "Tôi hy vọng lần này mình sẽ đỗ bài thi lái xe."
+        }
+      },
+      {
+        "id": "vocab-unit-6-qualification",
+        "type": "word",
+        "word": "qualification",
+        "image": "./assets/vocabulary/unit-6/learning-and-doing/19_qualification.png",
+        "imageAlt": "A certificate representing a qualification",
+        "phonetic": "/ˌkwɒlɪfɪˈkeɪʃn/",
+        "partOfSpeech": [
+          "noun"
+        ],
+        "meaningVi": "bằng cấp, chứng chỉ",
+        "definitionEn": "an exam that you have passed or a course that you have completed",
+        "example": {
+          "en": "You need a teaching qualification for this job.",
+          "vi": "Bạn cần một bằng cấp sư phạm cho công việc này."
+        }
+      },
+      {
+        "id": "vocab-unit-6-remind",
+        "type": "word",
+        "word": "remind",
+        "image": "./assets/vocabulary/unit-6/learning-and-doing/20_remind.png",
+        "imageAlt": "A note reminding someone of a task",
+        "phonetic": "/rɪˈmaɪnd/",
+        "partOfSpeech": [
+          "verb"
+        ],
+        "meaningVi": "nhắc nhở",
+        "definitionEn": "to make someone remember something",
+        "example": {
+          "en": "Can you remind me to call my mum later?",
+          "vi": "Bạn có thể nhắc tôi gọi cho mẹ sau được không?"
+        }
+      },
+      {
+        "id": "vocab-unit-6-report",
+        "type": "word",
+        "word": "report",
+        "image": "./assets/vocabulary/unit-6/learning-and-doing/21_report.png",
+        "imageAlt": "A school report showing a student's progress",
+        "phonetic": "/rɪˈpɔːt/",
+        "partOfSpeech": [
+          "noun"
+        ],
+        "meaningVi": "báo cáo, học bạ",
+        "definitionEn": "a written account of a student's work and progress, or a piece of information about a subject",
+        "example": {
+          "en": "Her school report said she was making excellent progress.",
+          "vi": "Học bạ của cô ấy cho biết cô ấy đang tiến bộ vượt bậc."
+        }
+      },
+      {
+        "id": "vocab-unit-6-revise",
+        "type": "word",
+        "word": "revise",
+        "image": "./assets/vocabulary/unit-6/learning-and-doing/22_revise.png",
+        "imageAlt": "A student revising notes for an exam",
+        "phonetic": "/rɪˈvaɪz/",
+        "partOfSpeech": [
+          "verb"
+        ],
+        "meaningVi": "ôn tập",
+        "definitionEn": "to study again what you have already learnt, in preparation for an exam",
+        "example": {
+          "en": "I need to revise for my history exam this weekend.",
+          "vi": "Tôi cần ôn tập cho kỳ thi lịch sử vào cuối tuần này."
+        }
+      },
+      {
+        "id": "vocab-unit-6-search",
+        "type": "word",
+        "word": "search",
+        "image": "./assets/vocabulary/unit-6/learning-and-doing/23_search.png",
+        "imageAlt": "Someone searching through books for information",
+        "phonetic": "/sɜːtʃ/",
+        "partOfSpeech": [
+          "verb",
+          "noun"
+        ],
+        "meaningVi": "tìm kiếm; cuộc tìm kiếm",
+        "definitionEn": "to try to find something by looking carefully; an attempt to find something",
+        "example": {
+          "en": "I searched everywhere for my notes.",
+          "vi": "Tôi đã tìm kiếm khắp nơi để tìm ghi chú của mình."
+        }
+      },
+      {
+        "id": "vocab-unit-6-skill",
+        "type": "word",
+        "word": "skill",
+        "image": "./assets/vocabulary/unit-6/learning-and-doing/24_skill.png",
+        "imageAlt": "A person demonstrating a useful skill",
+        "phonetic": "/skɪl/",
+        "partOfSpeech": [
+          "noun"
+        ],
+        "meaningVi": "kỹ năng",
+        "definitionEn": "the ability to do something well, usually gained through training or experience",
+        "example": {
+          "en": "Cooking is a useful skill to learn.",
+          "vi": "Nấu ăn là một kỹ năng hữu ích để học."
+        }
+      },
+      {
+        "id": "vocab-unit-6-smart",
+        "type": "word",
+        "word": "smart",
+        "image": "./assets/vocabulary/unit-6/learning-and-doing/25_smart.png",
+        "imageAlt": "A smart student solving a problem quickly",
+        "phonetic": "/smɑːt/",
+        "partOfSpeech": [
+          "adjective"
+        ],
+        "meaningVi": "thông minh, khôn ngoan",
+        "definitionEn": "intelligent, or able to think quickly in difficult situations",
+        "example": {
+          "en": "That was a smart move — you solved the problem quickly.",
+          "vi": "Đó là một nước đi thông minh — bạn đã giải quyết vấn đề rất nhanh."
+        }
+      },
+      {
+        "id": "vocab-unit-6-subject",
+        "type": "word",
+        "word": "subject",
+        "image": "./assets/vocabulary/unit-6/learning-and-doing/26_subject.png",
+        "imageAlt": "A row of school subject books",
+        "phonetic": "/ˈsʌbdʒɪkt/",
+        "partOfSpeech": [
+          "noun"
+        ],
+        "meaningVi": "môn học",
+        "definitionEn": "an area of knowledge studied at school or university",
+        "example": {
+          "en": "Science is my favourite subject at school.",
+          "vi": "Khoa học là môn học yêu thích của tôi ở trường."
+        }
+      },
+      {
+        "id": "vocab-unit-6-take-an-exam",
+        "type": "word",
+        "word": "take an exam",
+        "image": "./assets/vocabulary/unit-6/learning-and-doing/27_take_an_exam.png",
+        "imageAlt": "Students taking an exam in a classroom",
+        "phonetic": "/teɪk ən ɪɡˈzæm/",
+        "partOfSpeech": [
+          "verb-phrase"
+        ],
+        "meaningVi": "làm bài thi, tham dự kỳ thi",
+        "definitionEn": "to do a test to show your knowledge or skill in a subject",
+        "example": {
+          "en": "Students take an exam at the end of every term.",
+          "vi": "Học sinh làm bài thi vào cuối mỗi học kỳ."
+        }
+      },
+      {
+        "id": "vocab-unit-6-talented",
+        "type": "word",
+        "word": "talented",
+        "image": "./assets/vocabulary/unit-6/learning-and-doing/28_talented.png",
+        "imageAlt": "A talented young musician performing",
+        "phonetic": "/ˈtæləntɪd/",
+        "partOfSpeech": [
+          "adjective"
+        ],
+        "meaningVi": "tài năng",
+        "definitionEn": "having a natural ability to do something well",
+        "example": {
+          "en": "She's a talented musician as well as a good student.",
+          "vi": "Cô ấy là một nhạc sĩ tài năng cũng như là một học sinh giỏi."
+        }
+      },
+      {
+        "id": "vocab-unit-6-term",
+        "type": "word",
+        "word": "term",
+        "image": "./assets/vocabulary/unit-6/learning-and-doing/29_term.png",
+        "imageAlt": "A school calendar showing a new term",
+        "phonetic": "/tɜːm/",
+        "partOfSpeech": [
+          "noun"
+        ],
+        "meaningVi": "học kỳ",
+        "definitionEn": "one of the periods that a school or university year is divided into",
+        "example": {
+          "en": "The new term starts in September.",
+          "vi": "Học kỳ mới bắt đầu vào tháng Chín."
+        }
+      },
+      {
+        "id": "vocab-unit-6-wonder",
+        "type": "word",
+        "word": "wonder",
+        "image": "./assets/vocabulary/unit-6/learning-and-doing/30_wonder.png",
+        "imageAlt": "A curious student wondering about something",
+        "phonetic": "/ˈwʌndə/",
+        "partOfSpeech": [
+          "verb"
+        ],
+        "meaningVi": "tự hỏi, thắc mắc",
+        "definitionEn": "to want to know something or ask yourself questions about it",
+        "example": {
+          "en": "I wonder what our new teacher will be like.",
+          "vi": "Tôi tự hỏi giáo viên mới của chúng tôi sẽ như thế nào."
+        }
+      }
+    ],
+    "phrasalVerbs": [
+      {
+        "id": "vocab-unit-6-cross-out",
+        "type": "phrasal-verb",
+        "word": "cross out",
+        "image": "./assets/vocabulary/unit-6/learning-and-doing/01_cross_out.png",
+        "imageAlt": "Someone crossing out a wrong answer",
+        "meaningVi": "xóa bỏ, gạch bỏ",
+        "definitionEn": "draw a line through something written",
+        "example": {
+          "en": "Cross out the wrong answer and write the correct one.",
+          "vi": "Gạch bỏ đáp án sai và viết đáp án đúng."
+        }
+      },
+      {
+        "id": "vocab-unit-6-look-up",
+        "type": "phrasal-verb",
+        "word": "look up",
+        "image": "./assets/vocabulary/unit-6/learning-and-doing/02_look_up.png",
+        "imageAlt": "Someone looking up a word in a dictionary",
+        "meaningVi": "tra cứu",
+        "definitionEn": "try to find information in a book, dictionary, etc.",
+        "example": {
+          "en": "If you don't know the word, look it up in a dictionary.",
+          "vi": "Nếu bạn không biết từ đó, hãy tra nó trong từ điển."
+        }
+      },
+      {
+        "id": "vocab-unit-6-point-out",
+        "type": "phrasal-verb",
+        "word": "point out",
+        "image": "./assets/vocabulary/unit-6/learning-and-doing/03_point_out.png",
+        "imageAlt": "A teacher pointing out a mistake",
+        "meaningVi": "chỉ ra",
+        "definitionEn": "tell somebody important information",
+        "example": {
+          "en": "The teacher pointed out several mistakes in my essay.",
+          "vi": "Giáo viên đã chỉ ra một vài lỗi trong bài luận của tôi."
+        }
+      },
+      {
+        "id": "vocab-unit-6-read-out",
+        "type": "phrasal-verb",
+        "word": "read out",
+        "image": "./assets/vocabulary/unit-6/learning-and-doing/04_read_out.png",
+        "imageAlt": "A student reading out an answer to the class",
+        "meaningVi": "đọc to lên",
+        "definitionEn": "say something out loud which you are reading",
+        "example": {
+          "en": "The teacher asked me to read out my answer to the class.",
+          "vi": "Giáo viên đã yêu cầu tôi đọc to câu trả lời của mình trước lớp."
+        }
+      },
+      {
+        "id": "vocab-unit-6-rip-up",
+        "type": "phrasal-verb",
+        "word": "rip up",
+        "image": "./assets/vocabulary/unit-6/learning-and-doing/05_rip_up.png",
+        "imageAlt": "Someone ripping up a piece of paper",
+        "meaningVi": "xé nát, xé vụn",
+        "definitionEn": "tear into pieces",
+        "example": {
+          "en": "He ripped up his notes after the exam.",
+          "vi": "Anh ấy đã xé vụn ghi chú của mình sau kỳ thi."
+        }
+      },
+      {
+        "id": "vocab-unit-6-rub-out",
+        "type": "phrasal-verb",
+        "word": "rub out",
+        "image": "./assets/vocabulary/unit-6/learning-and-doing/06_rub_out.png",
+        "imageAlt": "Someone rubbing out a mistake with an eraser",
+        "meaningVi": "tẩy, xóa",
+        "definitionEn": "remove with a rubber (eraser)",
+        "example": {
+          "en": "Rub out your mistake and write the answer again.",
+          "vi": "Hãy tẩy lỗi sai và viết lại câu trả lời."
+        }
+      },
+      {
+        "id": "vocab-unit-6-turn-over",
+        "type": "phrasal-verb",
+        "word": "turn over",
+        "image": "./assets/vocabulary/unit-6/learning-and-doing/07_turn_over.png",
+        "imageAlt": "A student turning over an exam paper",
+        "meaningVi": "lật (trang, mặt giấy)",
+        "definitionEn": "turn something so the other side is facing you",
+        "example": {
+          "en": "Turn over your exam paper and begin.",
+          "vi": "Hãy lật trang bài thi của bạn và bắt đầu làm bài."
+        }
+      },
+      {
+        "id": "vocab-unit-6-write-down",
+        "type": "phrasal-verb",
+        "word": "write down",
+        "image": "./assets/vocabulary/unit-6/learning-and-doing/08_write_down.png",
+        "imageAlt": "A student writing down new words in a notebook",
+        "meaningVi": "viết ra, ghi lại",
+        "definitionEn": "write information on a piece of paper",
+        "example": {
+          "en": "Write down the new words in your notebook.",
+          "vi": "Hãy viết các từ mới vào vở của bạn."
+        }
+      }
+    ],
+    "prepositionalPhrases": [
+      {
+        "id": "vocab-unit-6-by-heart",
+        "type": "prepositional-phrase",
+        "word": "by heart",
+        "image": "./assets/vocabulary/unit-6/learning-and-doing/09_by_heart.png",
+        "imageAlt": "A student reciting a poem by heart",
+        "meaningVi": "thuộc lòng",
+        "usageEn": "used to say something is learnt from memory, without needing to read it",
+        "example": {
+          "en": "She learned the whole poem by heart.",
+          "vi": "Cô ấy đã học thuộc lòng cả bài thơ."
+        }
+      },
+      {
+        "id": "vocab-unit-6-for-instance",
+        "type": "prepositional-phrase",
+        "word": "for instance",
+        "image": "./assets/vocabulary/unit-6/learning-and-doing/10_for_instance.png",
+        "imageAlt": "A teacher giving an example, for instance a subject",
+        "meaningVi": "ví dụ như",
+        "usageEn": "used to introduce an example",
+        "example": {
+          "en": "Some subjects, for instance maths and science, need a lot of practice.",
+          "vi": "Một số môn học, ví dụ như toán và khoa học, cần nhiều luyện tập."
+        }
+      },
+      {
+        "id": "vocab-unit-6-in-conclusion",
+        "type": "prepositional-phrase",
+        "word": "in conclusion",
+        "image": "./assets/vocabulary/unit-6/learning-and-doing/11_in_conclusion.png",
+        "imageAlt": "A student writing the conclusion of an essay",
+        "meaningVi": "kết luận là",
+        "usageEn": "used to introduce the last part of what you are saying or writing",
+        "example": {
+          "en": "In conclusion, regular revision is the key to exam success.",
+          "vi": "Kết luận là, ôn tập thường xuyên là chìa khóa để thành công trong kỳ thi."
+        }
+      },
+      {
+        "id": "vocab-unit-6-in-fact",
+        "type": "prepositional-phrase",
+        "word": "in fact",
+        "image": "./assets/vocabulary/unit-6/learning-and-doing/12_in_fact.png",
+        "imageAlt": "A surprised student realising a fact",
+        "meaningVi": "thực ra, thực tế là",
+        "usageEn": "used to emphasise that something is true, especially if it's surprising",
+        "example": {
+          "en": "I thought the test would be easy, but in fact it was very hard.",
+          "vi": "Tôi nghĩ bài kiểm tra sẽ dễ, nhưng thực ra nó rất khó."
+        }
+      },
+      {
+        "id": "vocab-unit-6-in-favour-of",
+        "type": "prepositional-phrase",
+        "word": "in favour (of)",
+        "variants": [
+          "in favour",
+          "in favour of"
+        ],
+        "image": "./assets/vocabulary/unit-6/learning-and-doing/13_in_favour_of.png",
+        "imageAlt": "Students voting in favour of an idea",
+        "meaningVi": "ủng hộ (điều gì)",
+        "usageEn": "agreeing with or supporting an idea or plan",
+        "example": {
+          "en": "Most students are in favour of shorter exams.",
+          "vi": "Hầu hết học sinh đều ủng hộ các kỳ thi ngắn hơn."
+        }
+      },
+      {
+        "id": "vocab-unit-6-in-general",
+        "type": "prepositional-phrase",
+        "word": "in general",
+        "image": "./assets/vocabulary/unit-6/learning-and-doing/14_in_general.png",
+        "imageAlt": "A teacher describing students in general",
+        "meaningVi": "nói chung",
+        "usageEn": "considering something as a whole rather than in detail",
+        "example": {
+          "en": "In general, she finds languages easier than science subjects.",
+          "vi": "Nói chung, cô ấy thấy các môn ngôn ngữ dễ hơn các môn khoa học."
+        }
+      }
+    ],
+    "wordFormation": {
+      "families": [
+        {
+          "id": "vocab-unit-6-family-begin",
+          "type": "word-family",
+          "root": "begin",
+          "image": "./assets/vocabulary/unit-6/learning-and-doing/15_begin.png",
+          "imageAlt": "A student beginning a new course",
+          "forms": [
+            {
+              "word": "began",
+              "partOfSpeech": "verb (past simple)",
+              "meaningVi": "(quá khứ của begin)"
+            },
+            {
+              "word": "begun",
+              "partOfSpeech": "verb (past participle)",
+              "meaningVi": "(phân từ hai của begin)"
+            },
+            {
+              "word": "beginner",
+              "partOfSpeech": "noun",
+              "meaningVi": "người mới bắt đầu"
+            },
+            {
+              "word": "beginning",
+              "partOfSpeech": "noun",
+              "meaningVi": "sự khởi đầu"
+            }
+          ]
+        },
+        {
+          "id": "vocab-unit-6-family-brave",
+          "type": "word-family",
+          "root": "brave",
+          "image": "./assets/vocabulary/unit-6/learning-and-doing/16_brave.png",
+          "imageAlt": "A brave student speaking in front of the class",
+          "forms": [
+            {
+              "word": "bravery",
+              "partOfSpeech": "noun",
+              "meaningVi": "lòng dũng cảm"
+            }
+          ]
+        },
+        {
+          "id": "vocab-unit-6-family-correct",
+          "type": "word-family",
+          "root": "correct",
+          "image": "./assets/vocabulary/unit-6/learning-and-doing/17_correct.png",
+          "imageAlt": "A teacher correcting a student's work",
+          "forms": [
+            {
+              "word": "correction",
+              "partOfSpeech": "noun",
+              "meaningVi": "sự sửa chữa, sự chỉnh sửa"
+            },
+            {
+              "word": "incorrect",
+              "partOfSpeech": "adjective",
+              "meaningVi": "không chính xác, sai"
+            }
+          ]
+        },
+        {
+          "id": "vocab-unit-6-family-divide",
+          "type": "word-family",
+          "root": "divide",
+          "image": "./assets/vocabulary/unit-6/learning-and-doing/18_divide.png",
+          "imageAlt": "A class divided into groups",
+          "forms": [
+            {
+              "word": "division",
+              "partOfSpeech": "noun",
+              "meaningVi": "sự phân chia, phép chia"
+            }
+          ]
+        },
+        {
+          "id": "vocab-unit-6-family-educate",
+          "type": "word-family",
+          "root": "educate",
+          "image": "./assets/vocabulary/unit-6/learning-and-doing/19_educate.png",
+          "imageAlt": "A teacher educating a class of students",
+          "forms": [
+            {
+              "word": "education",
+              "partOfSpeech": "noun",
+              "meaningVi": "giáo dục"
+            }
+          ]
+        },
+        {
+          "id": "vocab-unit-6-family-instruct",
+          "type": "word-family",
+          "root": "instruct",
+          "image": "./assets/vocabulary/unit-6/learning-and-doing/20_instruct.png",
+          "imageAlt": "A teacher instructing students",
+          "forms": [
+            {
+              "word": "instruction",
+              "partOfSpeech": "noun",
+              "meaningVi": "sự hướng dẫn, chỉ dẫn"
+            },
+            {
+              "word": "instructor",
+              "partOfSpeech": "noun",
+              "meaningVi": "người hướng dẫn, huấn luyện viên"
+            }
+          ]
+        },
+        {
+          "id": "vocab-unit-6-family-memory",
+          "type": "word-family",
+          "root": "memory",
+          "image": "./assets/vocabulary/unit-6/learning-and-doing/21_memory.png",
+          "imageAlt": "A student relying on memory to answer",
+          "forms": [
+            {
+              "word": "memorise",
+              "partOfSpeech": "verb",
+              "meaningVi": "ghi nhớ, học thuộc"
+            },
+            {
+              "word": "memorial",
+              "partOfSpeech": "noun / adjective",
+              "meaningVi": "đài tưởng niệm; để tưởng nhớ"
+            }
+          ]
+        },
+        {
+          "id": "vocab-unit-6-family-refer",
+          "type": "word-family",
+          "root": "refer",
+          "image": "./assets/vocabulary/unit-6/learning-and-doing/22_refer.png",
+          "imageAlt": "A student referring to a textbook",
+          "forms": [
+            {
+              "word": "reference",
+              "partOfSpeech": "noun",
+              "meaningVi": "sự tham khảo, tài liệu tham khảo"
+            }
+          ]
+        },
+        {
+          "id": "vocab-unit-6-family-silent",
+          "type": "word-family",
+          "root": "silent",
+          "image": "./assets/vocabulary/unit-6/learning-and-doing/23_silent.png",
+          "imageAlt": "A silent classroom during an exam",
+          "forms": [
+            {
+              "word": "silence",
+              "partOfSpeech": "noun",
+              "meaningVi": "sự im lặng"
+            },
+            {
+              "word": "silently",
+              "partOfSpeech": "adverb",
+              "meaningVi": "một cách im lặng, lặng lẽ"
+            }
+          ]
+        },
+        {
+          "id": "vocab-unit-6-family-simple",
+          "type": "word-family",
+          "root": "simple",
+          "image": "./assets/vocabulary/unit-6/learning-and-doing/24_simple.png",
+          "imageAlt": "A teacher simplifying a difficult topic",
+          "forms": [
+            {
+              "word": "simplify",
+              "partOfSpeech": "verb",
+              "meaningVi": "đơn giản hóa"
+            },
+            {
+              "word": "simplicity",
+              "partOfSpeech": "noun",
+              "meaningVi": "sự đơn giản"
+            }
+          ]
+        }
+      ]
+    },
+    "wordPatterns": {
+      "adjectivePreposition": [
+        {
+          "id": "vocab-unit-6-pattern-capable-of",
+          "type": "word-pattern",
+          "patternGroup": "adjective",
+          "headword": "capable",
+          "prepositions": [
+            "of"
+          ],
+          "structure": "capable of + noun / V-ing",
+          "image": "./assets/vocabulary/unit-6/learning-and-doing/25_capable_of.png",
+          "imageAlt": "A capable student solving a problem confidently",
+          "meaningVi": "có khả năng làm gì",
+          "example": {
+            "en": "I'm sure you're capable of passing this exam.",
+            "vi": "Tôi chắc chắn bạn có khả năng vượt qua kỳ thi này."
+          }
+        },
+        {
+          "id": "vocab-unit-6-pattern-talented-at",
+          "type": "word-pattern",
+          "patternGroup": "adjective",
+          "headword": "talented",
+          "prepositions": [
+            "at"
+          ],
+          "structure": "talented at + noun / V-ing",
+          "image": "./assets/vocabulary/unit-6/learning-and-doing/26_talented_at.png",
+          "imageAlt": "A student talented at solving maths problems",
+          "meaningVi": "có tài về (việc gì)",
+          "example": {
+            "en": "He's talented at solving maths problems.",
+            "vi": "Cậu ấy có tài giải các bài toán."
+          }
+        }
+      ],
+      "verbPreposition": [
+        {
+          "id": "vocab-unit-6-pattern-cheat-at-in",
+          "type": "word-pattern",
+          "patternGroup": "verb",
+          "headword": "cheat",
+          "prepositions": [
+            "at",
+            "in"
+          ],
+          "structure": "cheat at/in + noun (a game/an exam)",
+          "image": "./assets/vocabulary/unit-6/learning-and-doing/27_cheat_at_in.png",
+          "imageAlt": "A student caught cheating in an exam",
+          "meaningVi": "gian lận trong (việc gì)",
+          "example": {
+            "en": "She was caught cheating in the exam.",
+            "vi": "Cô ấy đã bị bắt gian lận trong kỳ thi."
+          }
+        },
+        {
+          "id": "vocab-unit-6-pattern-confuse-with",
+          "type": "word-pattern",
+          "patternGroup": "verb",
+          "headword": "confuse",
+          "prepositions": [
+            "with"
+          ],
+          "structure": "confuse something with + something else",
+          "image": "./assets/vocabulary/unit-6/learning-and-doing/28_confuse_with.png",
+          "imageAlt": "Two similar words being confused with each other",
+          "meaningVi": "nhầm lẫn cái gì với cái gì",
+          "example": {
+            "en": "Don't confuse \"affect\" with \"effect\".",
+            "vi": "Đừng nhầm lẫn \"affect\" với \"effect\"."
+          }
+        },
+        {
+          "id": "vocab-unit-6-pattern-continue-with",
+          "type": "word-pattern",
+          "patternGroup": "verb",
+          "headword": "continue",
+          "prepositions": [
+            "with"
+          ],
+          "structure": "continue with + noun",
+          "image": "./assets/vocabulary/unit-6/learning-and-doing/29_continue_with.png",
+          "imageAlt": "A student continuing with the next question",
+          "meaningVi": "tiếp tục với (việc gì)",
+          "example": {
+            "en": "Let's continue with the next question.",
+            "vi": "Hãy tiếp tục với câu hỏi tiếp theo."
+          }
+        },
+        {
+          "id": "vocab-unit-6-pattern-cope-with",
+          "type": "word-pattern",
+          "patternGroup": "verb",
+          "headword": "cope",
+          "prepositions": [
+            "with"
+          ],
+          "structure": "cope with + noun / V-ing",
+          "image": "./assets/vocabulary/unit-6/learning-and-doing/30_cope_with.png",
+          "imageAlt": "A student coping with exam stress",
+          "meaningVi": "đối phó, xoay xở với (việc gì)",
+          "example": {
+            "en": "It can be hard to cope with exam stress.",
+            "vi": "Có thể khó để đối phó với áp lực thi cử."
+          }
+        },
+        {
+          "id": "vocab-unit-6-pattern-help-with",
+          "type": "word-pattern",
+          "patternGroup": "verb",
+          "headword": "help",
+          "prepositions": [
+            "with"
+          ],
+          "structure": "help (somebody) with + noun",
+          "image": "./assets/vocabulary/unit-6/learning-and-doing/31_help_somebody_with.png",
+          "imageAlt": "A classmate helping another with homework",
+          "meaningVi": "giúp (ai) làm việc gì",
+          "example": {
+            "en": "Can you help me with my homework?",
+            "vi": "Bạn có thể giúp tôi làm bài tập về nhà không?"
+          }
+        },
+        {
+          "id": "vocab-unit-6-pattern-know-about",
+          "type": "word-pattern",
+          "patternGroup": "verb",
+          "headword": "know",
+          "prepositions": [
+            "about"
+          ],
+          "structure": "know about + noun",
+          "image": "./assets/vocabulary/unit-6/learning-and-doing/32_know_about.png",
+          "imageAlt": "A student who knows about ancient history",
+          "meaningVi": "biết về (điều gì)",
+          "example": {
+            "en": "He knows a lot about ancient history.",
+            "vi": "Anh ấy biết rất nhiều về lịch sử cổ đại."
+          }
+        },
+        {
+          "id": "vocab-unit-6-pattern-learn-about",
+          "type": "word-pattern",
+          "patternGroup": "verb",
+          "headword": "learn",
+          "prepositions": [
+            "about"
+          ],
+          "structure": "learn about + noun",
+          "image": "./assets/vocabulary/unit-6/learning-and-doing/33_learn_about.png",
+          "imageAlt": "Students learning about the solar system",
+          "meaningVi": "học về (điều gì)",
+          "example": {
+            "en": "We learned about the solar system in science class.",
+            "vi": "Chúng tôi đã học về hệ mặt trời trong giờ khoa học."
+          }
+        },
+        {
+          "id": "vocab-unit-6-pattern-succeed-in",
+          "type": "word-pattern",
+          "patternGroup": "verb",
+          "headword": "succeed",
+          "prepositions": [
+            "in"
+          ],
+          "structure": "succeed in + noun / V-ing",
+          "image": "./assets/vocabulary/unit-6/learning-and-doing/34_succeed_in.png",
+          "imageAlt": "A student succeeding in passing all exams",
+          "meaningVi": "thành công trong (việc gì)",
+          "example": {
+            "en": "She succeeded in passing all her exams.",
+            "vi": "Cô ấy đã thành công vượt qua tất cả các kỳ thi."
+          }
+        }
+      ],
+      "nounPreposition": [
+        {
+          "id": "vocab-unit-6-pattern-an-opinion-about-of",
+          "type": "word-pattern",
+          "patternGroup": "noun",
+          "headword": "opinion",
+          "prepositions": [
+            "about",
+            "of"
+          ],
+          "structure": "an opinion about/of + noun",
+          "image": "./assets/vocabulary/unit-6/learning-and-doing/35_an_opinion_about_of.png",
+          "imageAlt": "A student giving an opinion about a new exam system",
+          "meaningVi": "ý kiến về (điều gì)",
+          "example": {
+            "en": "What's your opinion about the new exam system?",
+            "vi": "Ý kiến của bạn về hệ thống thi cử mới là gì?"
+          }
+        },
+        {
+          "id": "vocab-unit-6-pattern-a-question-about",
+          "type": "word-pattern",
+          "patternGroup": "noun",
+          "headword": "question",
+          "prepositions": [
+            "about"
+          ],
+          "structure": "a question about + noun",
+          "image": "./assets/vocabulary/unit-6/learning-and-doing/36_a_question_about.png",
+          "imageAlt": "A student asking a question about homework",
+          "meaningVi": "một câu hỏi về (điều gì)",
+          "example": {
+            "en": "I have a question about the homework.",
+            "vi": "Tôi có một câu hỏi về bài tập về nhà."
+          }
+        }
+      ]
+    }
+  }
+}

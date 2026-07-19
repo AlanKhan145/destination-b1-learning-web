@@ -1,0 +1,35 @@
+{
+  "id": "unit-5-past-perfect-continuous-short-0002",
+  "type": "short-answer",
+  "unitId": "unit-5",
+  "topicId": "past-perfect-continuous",
+  "contentLocale": "en",
+  "tags": [
+    "result-of-continuous-action"
+  ],
+  "skills": [
+    "grammar"
+  ],
+  "source": {
+    "type": "textbook",
+    "reference": "Destination B1, Unit 5 exercises"
+  },
+  "status": "published",
+  "version": 1,
+  "createdAt": "2026-07-19T00:00:00.000Z",
+  "updatedAt": "2026-07-19T00:00:00.000Z",
+  "difficulty": "medium",
+  "prompt": "Complete the sentence with the correct past perfect continuous form of \"dance\": They were hot because ___.",
+  "explanation": "Feeling hot is the result of continuous physical activity (dancing), so use the past perfect continuous.",
+  "acceptedAnswers": [
+    "they had been dancing",
+    "they'd been dancing"
+  ],
+  "answerValidation": {
+    "caseSensitive": false,
+    "trimWhitespace": true,
+    "collapseWhitespace": true,
+    "ignoreEndingPunctuation": true,
+    "matchMode": "normalized"
+  }
+}

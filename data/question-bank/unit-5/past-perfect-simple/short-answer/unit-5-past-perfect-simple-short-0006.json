@@ -1,0 +1,36 @@
+{
+  "id": "unit-5-past-perfect-simple-short-0006",
+  "type": "short-answer",
+  "unitId": "unit-5",
+  "topicId": "past-perfect-simple",
+  "contentLocale": "en",
+  "tags": [
+    "already",
+    "because"
+  ],
+  "skills": [
+    "grammar"
+  ],
+  "source": {
+    "type": "textbook",
+    "reference": "Destination B1, Unit 5 exercises"
+  },
+  "status": "published",
+  "version": 1,
+  "createdAt": "2026-07-19T00:00:00.000Z",
+  "updatedAt": "2026-07-19T00:00:00.000Z",
+  "difficulty": "easy",
+  "prompt": "Complete the sentence with the correct past perfect simple form of \"I / already / eat\": I didn't eat anything at the party because ___ at home.",
+  "explanation": "Eating at home happened before the party, so the earlier action takes the past perfect simple: I'd already eaten.",
+  "acceptedAnswers": [
+    "I'd already eaten",
+    "I had already eaten"
+  ],
+  "answerValidation": {
+    "caseSensitive": false,
+    "trimWhitespace": true,
+    "collapseWhitespace": true,
+    "ignoreEndingPunctuation": true,
+    "matchMode": "normalized"
+  }
+}

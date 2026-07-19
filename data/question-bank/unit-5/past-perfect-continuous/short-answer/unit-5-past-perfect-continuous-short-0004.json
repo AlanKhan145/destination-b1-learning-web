@@ -1,0 +1,35 @@
+{
+  "id": "unit-5-past-perfect-continuous-short-0004",
+  "type": "short-answer",
+  "unitId": "unit-5",
+  "topicId": "past-perfect-continuous",
+  "contentLocale": "en",
+  "tags": [
+    "result-of-continuous-action"
+  ],
+  "skills": [
+    "grammar"
+  ],
+  "source": {
+    "type": "textbook",
+    "reference": "Destination B1, Unit 5 exercises"
+  },
+  "status": "published",
+  "version": 1,
+  "createdAt": "2026-07-19T00:00:00.000Z",
+  "updatedAt": "2026-07-19T00:00:00.000Z",
+  "difficulty": "medium",
+  "prompt": "Complete the question with the correct past perfect continuous form of \"drive / too fast\": Did they crash because ___?",
+  "explanation": "Driving too fast is the ongoing action that led to the crash, so use the past perfect continuous.",
+  "acceptedAnswers": [
+    "they had been driving too fast",
+    "they'd been driving too fast"
+  ],
+  "answerValidation": {
+    "caseSensitive": false,
+    "trimWhitespace": true,
+    "collapseWhitespace": true,
+    "ignoreEndingPunctuation": true,
+    "matchMode": "normalized"
+  }
+}

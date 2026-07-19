@@ -1,0 +1,35 @@
+{
+  "id": "unit-6-topic-vocabulary-short-0012",
+  "type": "short-answer",
+  "unitId": "unit-6",
+  "topicId": "topic-vocabulary",
+  "contentLocale": "en",
+  "tags": [
+    "crossword"
+  ],
+  "skills": [
+    "vocabulary"
+  ],
+  "source": {
+    "type": "textbook",
+    "reference": "Destination B1, Unit 6 exercises"
+  },
+  "status": "published",
+  "version": 1,
+  "createdAt": "2026-07-19T00:00:00.000Z",
+  "updatedAt": "2026-07-19T00:00:00.000Z",
+  "difficulty": "medium",
+  "prompt": "Across 1. I want you to ___ Unit 6 at the weekend because you've got a test on Monday. (6)",
+  "explanation": "To study again what you've already learnt is to revise.",
+  "acceptedAnswers": [
+    "revise"
+  ],
+  "answerValidation": {
+    "caseSensitive": false,
+    "trimWhitespace": true,
+    "collapseWhitespace": true,
+    "ignoreEndingPunctuation": true,
+    "matchMode": "normalized"
+  },
+  "letterCount": 6
+}

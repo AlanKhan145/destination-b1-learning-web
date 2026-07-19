@@ -1,0 +1,35 @@
+{
+  "id": "unit-5-past-perfect-simple-short-0002",
+  "type": "short-answer",
+  "unitId": "unit-5",
+  "topicId": "past-perfect-simple",
+  "contentLocale": "en",
+  "tags": [
+    "already"
+  ],
+  "skills": [
+    "grammar"
+  ],
+  "source": {
+    "type": "textbook",
+    "reference": "Destination B1, Unit 5 exercises"
+  },
+  "status": "published",
+  "version": 1,
+  "createdAt": "2026-07-19T00:00:00.000Z",
+  "updatedAt": "2026-07-19T00:00:00.000Z",
+  "difficulty": "easy",
+  "prompt": "Complete the sentence with the correct past perfect simple form of \"already / see\": Steve ___ the film, so he didn't come with us to the cinema.",
+  "explanation": "\"Already\" signals a completed action before another past event (not coming to the cinema), so use the past perfect simple: had already seen.",
+  "acceptedAnswers": [
+    "had already seen",
+    "'d already seen"
+  ],
+  "answerValidation": {
+    "caseSensitive": false,
+    "trimWhitespace": true,
+    "collapseWhitespace": true,
+    "ignoreEndingPunctuation": true,
+    "matchMode": "normalized"
+  }
+}

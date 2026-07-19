@@ -1,0 +1,34 @@
+{
+  "id": "unit-6-word-patterns-short-0008",
+  "type": "short-answer",
+  "unitId": "unit-6",
+  "topicId": "word-patterns",
+  "contentLocale": "en",
+  "tags": [
+    "transformation"
+  ],
+  "skills": [
+    "vocabulary"
+  ],
+  "source": {
+    "type": "textbook",
+    "reference": "Destination B1, Unit 6 exercises"
+  },
+  "status": "published",
+  "version": 1,
+  "createdAt": "2026-07-19T00:00:00.000Z",
+  "updatedAt": "2026-07-19T00:00:00.000Z",
+  "difficulty": "hard",
+  "prompt": "Our teacher wasn't feeling well but she didn't stop the lesson. Complete the second sentence using \"continued\" (2-5 words): Our teacher wasn't feeling well but she ___ the lesson.",
+  "explanation": "\"Didn't stop\" means the same as \"continued with\".",
+  "acceptedAnswers": [
+    "continued with"
+  ],
+  "answerValidation": {
+    "caseSensitive": false,
+    "trimWhitespace": true,
+    "collapseWhitespace": true,
+    "ignoreEndingPunctuation": true,
+    "matchMode": "normalized"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "unit-5-past-perfect-simple-short-0005",
+  "type": "short-answer",
+  "unitId": "unit-5",
+  "topicId": "past-perfect-simple",
+  "contentLocale": "en",
+  "tags": [
+    "after"
+  ],
+  "skills": [
+    "grammar"
+  ],
+  "source": {
+    "type": "textbook",
+    "reference": "Destination B1, Unit 5 exercises"
+  },
+  "status": "published",
+  "version": 1,
+  "createdAt": "2026-07-19T00:00:00.000Z",
+  "updatedAt": "2026-07-19T00:00:00.000Z",
+  "difficulty": "easy",
+  "prompt": "Complete the sentence with the correct past perfect simple form of \"we / set off\": The car broke down just after ___.",
+  "explanation": "\"Just after\" needs the earlier action in the past perfect simple: the setting off happened before the car broke down.",
+  "acceptedAnswers": [
+    "we'd set off",
+    "we had set off"
+  ],
+  "answerValidation": {
+    "caseSensitive": false,
+    "trimWhitespace": true,
+    "collapseWhitespace": true,
+    "ignoreEndingPunctuation": true,
+    "matchMode": "normalized"
+  }
+}

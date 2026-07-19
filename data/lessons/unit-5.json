@@ -1,0 +1,233 @@
+{
+  "id": "unit-5",
+  "unitNumber": 5,
+  "category": "Grammar",
+  "title": "Past perfect simple, past perfect continuous",
+  "description": "Learn how to use the past perfect simple and past perfect continuous to describe actions and situations that happened before another point in the past.",
+  "previousLessonId": "unit-4",
+  "nextLessonId": "unit-6",
+  "review": {
+    "reviewId": "unit-5-review",
+    "enabled": true,
+    "displayMode": "side-panel",
+    "position": "right",
+    "defaultOpen": false
+  },
+  "topics": [
+    {
+      "id": "past-perfect-simple",
+      "number": 1,
+      "title": "Past perfect simple",
+      "status": "available",
+      "review": {
+        "enabled": true,
+        "questionFilter": {
+          "unitId": "unit-5",
+          "topicIds": [
+            "past-perfect-simple"
+          ],
+          "status": [
+            "published"
+          ]
+        }
+      },
+      "description": "Used for an action or situation that happened before another point or action in the past, and for completed actions whose result mattered at that earlier past time.",
+      "formula": "had + past participle",
+      "forms": {
+        "columns": [
+          "I / you / he / she / it / we / they"
+        ],
+        "rows": [
+          {
+            "label": "Statement",
+            "cells": [
+              "I/You/He/She/It/We/They had ('d) finished ..."
+            ]
+          },
+          {
+            "label": "Negative",
+            "cells": [
+              "I/You/He/She/It/We/They had not (hadn't) finished ..."
+            ]
+          },
+          {
+            "label": "Question",
+            "cells": [
+              "Had I/you/he/she/it/we/they finished ...?"
+            ]
+          }
+        ]
+      },
+      "uses": [
+        {
+          "usage": "An action or state that happened before a point in the past",
+          "example": "I'd finished my homework a few minutes before the lesson started.",
+          "highlightWords": [
+            "I'd finished",
+            "before the lesson started"
+          ]
+        },
+        {
+          "usage": "A completed action, emphasising the result at a point in the past",
+          "example": "We were happy because we'd all done our homework.",
+          "highlightWords": [
+            "we'd all done"
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "type": "helpful-hint",
+          "content": "The past perfect simple is often used with the following words and phrases.",
+          "examples": [
+            "By: I'd finished my homework by eight o'clock.",
+            "By the time: By the time I got to class, the lesson had started.",
+            "Before: The teacher had checked the answers before the lesson.",
+            "After: I left after I'd finished the test.",
+            "Just: Simon had just finished the test when the bell rang.",
+            "When: I left when I'd finished the test."
+          ],
+          "highlightWords": [
+            "by",
+            "by the time",
+            "before",
+            "after",
+            "just",
+            "when"
+          ]
+        },
+        {
+          "type": "rule",
+          "content": "Using the past simple or the past perfect simple can change the order of events in a sentence.",
+          "examples": [
+            "Past simple: The lesson started when I arrived. (I arrived, then the lesson started.)",
+            "Past perfect simple: The lesson had started when I arrived. (The lesson started, then I arrived.)"
+          ],
+          "highlightWords": [
+            "started",
+            "had started",
+            "arrived"
+          ]
+        },
+        {
+          "type": "watch-out",
+          "content": "Some verbs have irregular past participle forms.",
+          "examples": [
+            "write - wrote - written",
+            "do - did - done"
+          ],
+          "highlightWords": [
+            "irregular past participle"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "past-perfect-continuous",
+      "number": 2,
+      "title": "Past perfect continuous",
+      "status": "available",
+      "review": {
+        "enabled": true,
+        "questionFilter": {
+          "unitId": "unit-5",
+          "topicIds": [
+            "past-perfect-continuous"
+          ],
+          "status": [
+            "published"
+          ]
+        }
+      },
+      "description": "Used for an action that had been continuing up to a point in the past, or that had stopped only a short time before that point.",
+      "formula": "had + been + verb-ing",
+      "forms": {
+        "columns": [
+          "I / you / he / she / it / we / they"
+        ],
+        "rows": [
+          {
+            "label": "Statement",
+            "cells": [
+              "I/You/He/She/It/We/They had ('d) been studying ..."
+            ]
+          },
+          {
+            "label": "Negative",
+            "cells": [
+              "I/You/He/She/It/We/They had not (hadn't) been studying ..."
+            ]
+          },
+          {
+            "label": "Question",
+            "cells": [
+              "Had I/you/he/she/it/we/they been studying ...?"
+            ]
+          }
+        ]
+      },
+      "uses": [
+        {
+          "usage": "An action that had been continuing up to a point in the past",
+          "example": "We'd been doing grammar exercises for over an hour, so we were really bored!",
+          "highlightWords": [
+            "We'd been doing",
+            "for over an hour"
+          ]
+        },
+        {
+          "usage": "An action that had just stopped before a point in the past",
+          "example": "They had a break because they'd been working so hard.",
+          "highlightWords": [
+            "they'd been working"
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "type": "helpful-hint",
+          "content": "The past perfect continuous is often used with the following words and phrases.",
+          "examples": [
+            "For: Tony had been studying for hours, so he had a headache.",
+            "Since: She'd been hoping to win the competition since the summer.",
+            "Before: We'd been talking about the Internet before the lesson started.",
+            "All day/night: I'd been studying all day."
+          ],
+          "highlightWords": [
+            "for",
+            "since",
+            "before",
+            "all day",
+            "all night"
+          ]
+        },
+        {
+          "type": "rule",
+          "content": "The past perfect simple often emphasises the result or completion of an action.",
+          "examples": [
+            "She'd written an article for the school newspaper.",
+            "This means that she had finished the article."
+          ],
+          "highlightWords": [
+            "She'd written",
+            "had finished",
+            "result"
+          ]
+        },
+        {
+          "type": "rule",
+          "content": "The past perfect continuous often emphasises the process and the time spent on the action, not necessarily the result.",
+          "examples": [
+            "She'd been writing an article for the school newspaper.",
+            "This means that she had started the article, but she may not have finished it yet."
+          ],
+          "highlightWords": [
+            "She'd been writing",
+            "process",
+            "time spent"
+          ]
+        }
+      ]
+    }
+  ]
+}

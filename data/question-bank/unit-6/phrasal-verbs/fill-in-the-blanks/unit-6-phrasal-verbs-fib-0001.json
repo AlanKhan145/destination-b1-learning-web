@@ -1,0 +1,76 @@
+{
+  "id": "unit-6-phrasal-verbs-fib-0001",
+  "type": "fill-in-the-blanks",
+  "unitId": "unit-6",
+  "topicId": "phrasal-verbs",
+  "contentLocale": "en",
+  "tags": [
+    "diary",
+    "phrasal-verbs"
+  ],
+  "skills": [
+    "vocabulary"
+  ],
+  "source": {
+    "type": "textbook",
+    "reference": "Destination B1, Unit 6 exercises"
+  },
+  "status": "published",
+  "version": 1,
+  "createdAt": "2026-07-19T00:00:00.000Z",
+  "updatedAt": "2026-07-19T00:00:00.000Z",
+  "difficulty": "medium",
+  "prompt": "Complete the diary entry with the missing particle for each phrasal verb (turn over, read out, look up, rub out, cross out, rip up, write down, point out).",
+  "explanation": "Each gap completes a phrasal verb from the unit: turn (papers) over, read out instructions, look up words, rub out / cross out / rip up a mistake, write your name down, and point out a fact.",
+  "passageTemplate": "24th June\n\nWe had our English exam today! It was a disaster! We all sat there nervously, waiting for Mrs Jennings to say we could start. Finally, she told us to turn our exam papers {{b1}}. Then she read {{b2}} the instructions to make sure we all understood.\n\nWe had to write three essays in two hours! We weren't allowed to look {{b3}} any words in the dictionary, and we had to write in pen. That meant we couldn't rub anything {{b4}} if we made a mistake. We had to cross it {{b5}} neatly or just rip {{b6}} the whole piece of paper and start again.\n\nSo, I read through the three questions very carefully and thought about what I was going to write. I'd just written my name {{b7}} at the top of the first piece of paper, and was about to start writing the first essay, when Mrs Jennings pointed {{b8}} that there were only five minutes left. Oh dear!",
+  "blanks": [
+    {
+      "id": "b1",
+      "acceptedAnswers": [
+        "over"
+      ]
+    },
+    {
+      "id": "b2",
+      "acceptedAnswers": [
+        "out"
+      ]
+    },
+    {
+      "id": "b3",
+      "acceptedAnswers": [
+        "up"
+      ]
+    },
+    {
+      "id": "b4",
+      "acceptedAnswers": [
+        "out"
+      ]
+    },
+    {
+      "id": "b5",
+      "acceptedAnswers": [
+        "out"
+      ]
+    },
+    {
+      "id": "b6",
+      "acceptedAnswers": [
+        "up"
+      ]
+    },
+    {
+      "id": "b7",
+      "acceptedAnswers": [
+        "down"
+      ]
+    },
+    {
+      "id": "b8",
+      "acceptedAnswers": [
+        "out"
+      ]
+    }
+  ]
+}

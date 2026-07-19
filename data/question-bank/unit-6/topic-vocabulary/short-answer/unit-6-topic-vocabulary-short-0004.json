@@ -1,0 +1,34 @@
+{
+  "id": "unit-6-topic-vocabulary-short-0004",
+  "type": "short-answer",
+  "unitId": "unit-6",
+  "topicId": "topic-vocabulary",
+  "contentLocale": "en",
+  "tags": [
+    "word-box"
+  ],
+  "skills": [
+    "vocabulary"
+  ],
+  "source": {
+    "type": "textbook",
+    "reference": "Destination B1, Unit 6 exercises"
+  },
+  "status": "published",
+  "version": 1,
+  "createdAt": "2026-07-19T00:00:00.000Z",
+  "updatedAt": "2026-07-19T00:00:00.000Z",
+  "difficulty": "easy",
+  "prompt": "I've left you a list of ___ on the kitchen table. Make sure you follow them! (degree / experience / instruction)",
+  "explanation": "\"Follow them\" shows the missing word is plural: instructions.",
+  "acceptedAnswers": [
+    "instructions"
+  ],
+  "answerValidation": {
+    "caseSensitive": false,
+    "trimWhitespace": true,
+    "collapseWhitespace": true,
+    "ignoreEndingPunctuation": true,
+    "matchMode": "normalized"
+  }
+}

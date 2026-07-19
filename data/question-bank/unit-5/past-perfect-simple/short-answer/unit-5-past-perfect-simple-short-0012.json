@@ -1,0 +1,35 @@
+{
+  "id": "unit-5-past-perfect-simple-short-0012",
+  "type": "short-answer",
+  "unitId": "unit-5",
+  "topicId": "past-perfect-simple",
+  "contentLocale": "en",
+  "tags": [
+    "sentence-building"
+  ],
+  "skills": [
+    "grammar"
+  ],
+  "source": {
+    "type": "textbook",
+    "reference": "Destination B1, Unit 5 exercises"
+  },
+  "status": "published",
+  "version": 1,
+  "createdAt": "2026-07-19T00:00:00.000Z",
+  "updatedAt": "2026-07-19T00:00:00.000Z",
+  "difficulty": "medium",
+  "prompt": "Write a full sentence from the prompts, using the past perfect simple: by the time / I leave / school / I / decide / to become / a musician",
+  "explanation": "\"By the time\" + past simple (\"left\") pairs with the past perfect simple for the earlier decision.",
+  "acceptedAnswers": [
+    "By the time I left school, I had decided to become a musician.",
+    "By the time I left school, I'd decided to become a musician."
+  ],
+  "answerValidation": {
+    "caseSensitive": false,
+    "trimWhitespace": true,
+    "collapseWhitespace": true,
+    "ignoreEndingPunctuation": true,
+    "matchMode": "normalized"
+  }
+}

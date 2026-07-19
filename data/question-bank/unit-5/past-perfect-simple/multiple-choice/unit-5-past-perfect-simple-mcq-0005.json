@@ -1,0 +1,40 @@
+{
+  "id": "unit-5-past-perfect-simple-mcq-0005",
+  "type": "multiple-choice",
+  "unitId": "unit-5",
+  "topicId": "past-perfect-simple",
+  "contentLocale": "en",
+  "tags": [
+    "event-order",
+    "same-meaning"
+  ],
+  "skills": [
+    "grammar"
+  ],
+  "source": {
+    "type": "textbook",
+    "reference": "Destination B1, Unit 5 exercises"
+  },
+  "status": "published",
+  "version": 1,
+  "createdAt": "2026-07-19T00:00:00.000Z",
+  "updatedAt": "2026-07-19T00:00:00.000Z",
+  "difficulty": "medium",
+  "prompt": "Which sentence means the same as: \"Mr Banks hadn't arrived at the office by the time I got there.\"?",
+  "explanation": "The negative past perfect (\"hadn't arrived\") shows Mr Banks had not yet arrived by the time I got there, so I arrived first.",
+  "options": [
+    {
+      "id": "a",
+      "text": "I arrived before Mr Banks."
+    },
+    {
+      "id": "b",
+      "text": "Mr Banks arrived before me."
+    }
+  ],
+  "correctOptionIds": [
+    "a"
+  ],
+  "selectionMode": "single",
+  "shuffleOptions": false
+}

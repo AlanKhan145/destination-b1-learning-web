@@ -1,0 +1,34 @@
+{
+  "id": "unit-6-word-patterns-short-0005",
+  "type": "short-answer",
+  "unitId": "unit-6",
+  "topicId": "word-patterns",
+  "contentLocale": "en",
+  "tags": [
+    "preposition"
+  ],
+  "skills": [
+    "vocabulary"
+  ],
+  "source": {
+    "type": "textbook",
+    "reference": "Destination B1, Unit 6 exercises"
+  },
+  "status": "published",
+  "version": 1,
+  "createdAt": "2026-07-19T00:00:00.000Z",
+  "updatedAt": "2026-07-19T00:00:00.000Z",
+  "difficulty": "easy",
+  "prompt": "I hope Mr Aziz doesn't ask me a question ___ the book because I haven't read it!",
+  "explanation": "The pattern is \"a question about + noun\".",
+  "acceptedAnswers": [
+    "about"
+  ],
+  "answerValidation": {
+    "caseSensitive": false,
+    "trimWhitespace": true,
+    "collapseWhitespace": true,
+    "ignoreEndingPunctuation": true,
+    "matchMode": "normalized"
+  }
+}

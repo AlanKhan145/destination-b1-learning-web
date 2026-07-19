@@ -1,0 +1,24 @@
+{
+  "id": "unit-6",
+  "unitNumber": 6,
+  "category": "Vocabulary",
+  "title": "Learning and doing",
+  "description": "Vocabulary for talking about studying, exams, skills and school life.",
+  "previousLessonId": "unit-5",
+  "nextLessonId": null,
+  "vocabularyReview": true,
+  "topics": [
+    { "id": "topic-vocabulary", "number": 1, "title": "Topic vocabulary" },
+    { "id": "phrasal-verbs", "number": 2, "title": "Phrasal verbs" },
+    { "id": "prepositional-phrases", "number": 3, "title": "Prepositional phrases" },
+    { "id": "word-formation", "number": 4, "title": "Word formation" },
+    { "id": "word-patterns", "number": 5, "title": "Word patterns" }
+  ],
+  "review": {
+    "reviewId": "unit-6-review",
+    "enabled": true,
+    "displayMode": "side-panel",
+    "position": "right",
+    "defaultOpen": false
+  }
+}

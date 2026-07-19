@@ -1,0 +1,36 @@
+{
+  "id": "unit-5-past-perfect-simple-short-0004",
+  "type": "short-answer",
+  "unitId": "unit-5",
+  "topicId": "past-perfect-simple",
+  "contentLocale": "en",
+  "tags": [
+    "question",
+    "just"
+  ],
+  "skills": [
+    "grammar"
+  ],
+  "source": {
+    "type": "textbook",
+    "reference": "Destination B1, Unit 5 exercises"
+  },
+  "status": "published",
+  "version": 1,
+  "createdAt": "2026-07-19T00:00:00.000Z",
+  "updatedAt": "2026-07-19T00:00:00.000Z",
+  "difficulty": "easy",
+  "prompt": "Complete the question with the correct past perfect simple form of \"you / just / speak\": ___ to Billy when I rang?",
+  "explanation": "\"Just\" describes an action completed a short time before another past moment (when I rang), so use the past perfect simple question form: Had you just spoken?",
+  "acceptedAnswers": [
+    "Had you just spoken",
+    "had you just spoken"
+  ],
+  "answerValidation": {
+    "caseSensitive": false,
+    "trimWhitespace": true,
+    "collapseWhitespace": true,
+    "ignoreEndingPunctuation": true,
+    "matchMode": "normalized"
+  }
+}

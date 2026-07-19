@@ -1,0 +1,35 @@
+{
+  "id": "unit-5-past-perfect-simple-short-0009",
+  "type": "short-answer",
+  "unitId": "unit-5",
+  "topicId": "past-perfect-simple",
+  "contentLocale": "en",
+  "tags": [
+    "sentence-building"
+  ],
+  "skills": [
+    "grammar"
+  ],
+  "source": {
+    "type": "textbook",
+    "reference": "Destination B1, Unit 5 exercises"
+  },
+  "status": "published",
+  "version": 1,
+  "createdAt": "2026-07-19T00:00:00.000Z",
+  "updatedAt": "2026-07-19T00:00:00.000Z",
+  "difficulty": "medium",
+  "prompt": "Write a full sentence from the prompts, using the past perfect simple: I / already / think of / that / before / you / suggest / it",
+  "explanation": "\"Before you suggested it\" marks the later event, so the earlier one (\"think of that\") takes the past perfect simple.",
+  "acceptedAnswers": [
+    "I had already thought of that before you suggested it.",
+    "I'd already thought of that before you suggested it."
+  ],
+  "answerValidation": {
+    "caseSensitive": false,
+    "trimWhitespace": true,
+    "collapseWhitespace": true,
+    "ignoreEndingPunctuation": true,
+    "matchMode": "normalized"
+  }
+}

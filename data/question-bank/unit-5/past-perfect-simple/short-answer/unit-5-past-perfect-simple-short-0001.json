@@ -1,0 +1,34 @@
+{
+  "id": "unit-5-past-perfect-simple-short-0001",
+  "type": "short-answer",
+  "unitId": "unit-5",
+  "topicId": "past-perfect-simple",
+  "contentLocale": "en",
+  "tags": [
+    "by-the-time"
+  ],
+  "skills": [
+    "grammar"
+  ],
+  "source": {
+    "type": "textbook",
+    "reference": "Destination B1, Unit 5 exercises"
+  },
+  "status": "published",
+  "version": 1,
+  "createdAt": "2026-07-19T00:00:00.000Z",
+  "updatedAt": "2026-07-19T00:00:00.000Z",
+  "difficulty": "easy",
+  "prompt": "Complete the sentence with the correct past perfect simple form of \"leave\": By the time I arrived, everyone ___.",
+  "explanation": "\"By the time\" + past simple (\"arrived\") pairs with the past perfect simple for the earlier action: everyone had left before I arrived.",
+  "acceptedAnswers": [
+    "had left"
+  ],
+  "answerValidation": {
+    "caseSensitive": false,
+    "trimWhitespace": true,
+    "collapseWhitespace": true,
+    "ignoreEndingPunctuation": true,
+    "matchMode": "normalized"
+  }
+}

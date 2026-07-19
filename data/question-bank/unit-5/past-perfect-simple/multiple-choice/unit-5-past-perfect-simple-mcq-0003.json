@@ -1,0 +1,40 @@
+{
+  "id": "unit-5-past-perfect-simple-mcq-0003",
+  "type": "multiple-choice",
+  "unitId": "unit-5",
+  "topicId": "past-perfect-simple",
+  "contentLocale": "en",
+  "tags": [
+    "event-order",
+    "same-meaning"
+  ],
+  "skills": [
+    "grammar"
+  ],
+  "source": {
+    "type": "textbook",
+    "reference": "Destination B1, Unit 5 exercises"
+  },
+  "status": "published",
+  "version": 1,
+  "createdAt": "2026-07-19T00:00:00.000Z",
+  "updatedAt": "2026-07-19T00:00:00.000Z",
+  "difficulty": "medium",
+  "prompt": "Which sentence means the same as: \"By the time Dad came home, I'd gone to bed.\"?",
+  "explanation": "The past perfect (\"I'd gone to bed\") shows this happened before the later past event (Dad coming home).",
+  "options": [
+    {
+      "id": "a",
+      "text": "I went to bed before Dad came home."
+    },
+    {
+      "id": "b",
+      "text": "I went to bed after Dad came home."
+    }
+  ],
+  "correctOptionIds": [
+    "a"
+  ],
+  "selectionMode": "single",
+  "shuffleOptions": false
+}

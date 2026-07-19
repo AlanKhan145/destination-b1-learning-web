@@ -1,0 +1,34 @@
+{
+  "id": "unit-6-word-formation-short-0010",
+  "type": "short-answer",
+  "unitId": "unit-6",
+  "topicId": "word-formation",
+  "contentLocale": "en",
+  "tags": [
+    "word-formation"
+  ],
+  "skills": [
+    "vocabulary"
+  ],
+  "source": {
+    "type": "textbook",
+    "reference": "Destination B1, Unit 6 exercises"
+  },
+  "status": "published",
+  "version": 1,
+  "createdAt": "2026-07-19T00:00:00.000Z",
+  "updatedAt": "2026-07-19T00:00:00.000Z",
+  "difficulty": "medium",
+  "prompt": "Actors have to ___ a lot of words when they are in a play. (MEMORY)",
+  "explanation": "MEMORY -> memorise (verb).",
+  "acceptedAnswers": [
+    "memorise"
+  ],
+  "answerValidation": {
+    "caseSensitive": false,
+    "trimWhitespace": true,
+    "collapseWhitespace": true,
+    "ignoreEndingPunctuation": true,
+    "matchMode": "normalized"
+  }
+}

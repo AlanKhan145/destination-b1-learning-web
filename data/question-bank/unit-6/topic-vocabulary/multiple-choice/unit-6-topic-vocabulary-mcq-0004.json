@@ -1,0 +1,39 @@
+{
+  "id": "unit-6-topic-vocabulary-mcq-0004",
+  "type": "multiple-choice",
+  "unitId": "unit-6",
+  "topicId": "topic-vocabulary",
+  "contentLocale": "en",
+  "tags": [
+    "circle-the-word"
+  ],
+  "skills": [
+    "vocabulary"
+  ],
+  "source": {
+    "type": "textbook",
+    "reference": "Destination B1, Unit 6 exercises"
+  },
+  "status": "published",
+  "version": 1,
+  "createdAt": "2026-07-19T00:00:00.000Z",
+  "updatedAt": "2026-07-19T00:00:00.000Z",
+  "difficulty": "easy",
+  "prompt": "Carl is a computer ___. Why don't you ask him to fix your computer?",
+  "explanation": "An expert is someone with great knowledge or skill in a subject.",
+  "options": [
+    {
+      "id": "a",
+      "text": "brain"
+    },
+    {
+      "id": "b",
+      "text": "expert"
+    }
+  ],
+  "correctOptionIds": [
+    "b"
+  ],
+  "selectionMode": "single",
+  "shuffleOptions": false
+}

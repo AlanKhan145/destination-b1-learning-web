@@ -1,0 +1,35 @@
+{
+  "id": "unit-6-topic-vocabulary-short-0019",
+  "type": "short-answer",
+  "unitId": "unit-6",
+  "topicId": "topic-vocabulary",
+  "contentLocale": "en",
+  "tags": [
+    "crossword"
+  ],
+  "skills": [
+    "vocabulary"
+  ],
+  "source": {
+    "type": "textbook",
+    "reference": "Destination B1, Unit 6 exercises"
+  },
+  "status": "published",
+  "version": 1,
+  "createdAt": "2026-07-19T00:00:00.000Z",
+  "updatedAt": "2026-07-19T00:00:00.000Z",
+  "difficulty": "medium",
+  "prompt": "Down 4. Kelly didn't know what to say so she ___ before she answered. (9)",
+  "explanation": "Pausing before doing or saying something because you're unsure is hesitating.",
+  "acceptedAnswers": [
+    "hesitated"
+  ],
+  "answerValidation": {
+    "caseSensitive": false,
+    "trimWhitespace": true,
+    "collapseWhitespace": true,
+    "ignoreEndingPunctuation": true,
+    "matchMode": "normalized"
+  },
+  "letterCount": 9
+}

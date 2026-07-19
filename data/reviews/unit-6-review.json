@@ -1,0 +1,116 @@
+{
+  "id": "unit-6-review",
+  "unitId": "unit-6",
+  "title": "Unit 6 Review",
+  "description": "Review the vocabulary, phrasal verbs, prepositional phrases, word formation, and word patterns from Learning and doing.",
+  "passingScore": 70,
+  "contentLocale": "en",
+  "attemptSettings": {
+    "allowRetry": true,
+    "showCorrectAnswer": "after-submit",
+    "showExplanation": "after-submit",
+    "saveProgress": true
+  },
+  "sections": [
+    {
+      "id": "multiple-choice",
+      "type": "multiple-choice",
+      "title": "Multiple choice",
+      "instructions": "Circle (choose) the correct word.",
+      "selectionMode": "fixed",
+      "shuffleQuestions": true,
+      "shuffleOptions": false,
+      "questionIds": [
+        "unit-6-topic-vocabulary-mcq-0001",
+        "unit-6-topic-vocabulary-mcq-0002",
+        "unit-6-topic-vocabulary-mcq-0003",
+        "unit-6-topic-vocabulary-mcq-0004",
+        "unit-6-topic-vocabulary-mcq-0005",
+        "unit-6-topic-vocabulary-mcq-0006",
+        "unit-6-topic-vocabulary-mcq-0007",
+        "unit-6-topic-vocabulary-mcq-0008",
+        "unit-6-topic-vocabulary-mcq-0009"
+      ]
+    },
+    {
+      "id": "short-answer",
+      "type": "short-answer",
+      "title": "Short answer",
+      "instructions": "Complete each sentence with the correct word, form or phrase.",
+      "selectionMode": "fixed",
+      "shuffleQuestions": true,
+      "questionIds": [
+        "unit-6-topic-vocabulary-short-0001",
+        "unit-6-topic-vocabulary-short-0002",
+        "unit-6-topic-vocabulary-short-0003",
+        "unit-6-topic-vocabulary-short-0004",
+        "unit-6-topic-vocabulary-short-0005",
+        "unit-6-topic-vocabulary-short-0006",
+        "unit-6-topic-vocabulary-short-0007",
+        "unit-6-topic-vocabulary-short-0008",
+        "unit-6-topic-vocabulary-short-0009",
+        "unit-6-topic-vocabulary-short-0010",
+        "unit-6-topic-vocabulary-short-0011",
+        "unit-6-prepositional-phrases-short-0001",
+        "unit-6-prepositional-phrases-short-0002",
+        "unit-6-prepositional-phrases-short-0003",
+        "unit-6-prepositional-phrases-short-0004",
+        "unit-6-prepositional-phrases-short-0005",
+        "unit-6-prepositional-phrases-short-0006",
+        "unit-6-word-formation-short-0001",
+        "unit-6-word-formation-short-0002",
+        "unit-6-word-formation-short-0003",
+        "unit-6-word-formation-short-0004",
+        "unit-6-word-formation-short-0005",
+        "unit-6-word-formation-short-0006",
+        "unit-6-word-formation-short-0007",
+        "unit-6-word-formation-short-0008",
+        "unit-6-word-formation-short-0009",
+        "unit-6-word-formation-short-0010",
+        "unit-6-word-patterns-short-0001",
+        "unit-6-word-patterns-short-0002",
+        "unit-6-word-patterns-short-0003",
+        "unit-6-word-patterns-short-0004",
+        "unit-6-word-patterns-short-0005",
+        "unit-6-word-patterns-short-0006",
+        "unit-6-word-patterns-short-0007",
+        "unit-6-word-patterns-short-0008",
+        "unit-6-word-patterns-short-0009",
+        "unit-6-word-patterns-short-0010",
+        "unit-6-word-patterns-short-0011",
+        "unit-6-word-patterns-short-0012"
+      ]
+    },
+    {
+      "id": "fill-in-the-blanks",
+      "type": "fill-in-the-blanks",
+      "title": "Complete the text",
+      "instructions": "Complete each gap with one word.",
+      "selectionMode": "fixed",
+      "shuffleQuestions": false,
+      "questionIds": [
+        "unit-6-topic-vocabulary-fib-0001",
+        "unit-6-phrasal-verbs-fib-0001"
+      ]
+    },
+    {
+      "id": "crossword",
+      "type": "short-answer",
+      "title": "Crossword clues",
+      "instructions": "Fill in each word, one letter per box.",
+      "selectionMode": "fixed",
+      "shuffleQuestions": false,
+      "questionIds": [
+        "unit-6-topic-vocabulary-short-0012",
+        "unit-6-topic-vocabulary-short-0013",
+        "unit-6-topic-vocabulary-short-0014",
+        "unit-6-topic-vocabulary-short-0015",
+        "unit-6-topic-vocabulary-short-0016",
+        "unit-6-topic-vocabulary-short-0017",
+        "unit-6-topic-vocabulary-short-0018",
+        "unit-6-topic-vocabulary-short-0019",
+        "unit-6-topic-vocabulary-short-0020"
+      ]
+    }
+  ]
+}

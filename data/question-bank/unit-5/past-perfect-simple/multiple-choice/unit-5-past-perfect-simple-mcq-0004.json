@@ -1,0 +1,40 @@
+{
+  "id": "unit-5-past-perfect-simple-mcq-0004",
+  "type": "multiple-choice",
+  "unitId": "unit-5",
+  "topicId": "past-perfect-simple",
+  "contentLocale": "en",
+  "tags": [
+    "event-order",
+    "same-meaning"
+  ],
+  "skills": [
+    "grammar"
+  ],
+  "source": {
+    "type": "textbook",
+    "reference": "Destination B1, Unit 5 exercises"
+  },
+  "status": "published",
+  "version": 1,
+  "createdAt": "2026-07-19T00:00:00.000Z",
+  "updatedAt": "2026-07-19T00:00:00.000Z",
+  "difficulty": "medium",
+  "prompt": "Which sentence means the same as: \"She didn't go to bed until her mum had come home.\"?",
+  "explanation": "\"Had come home\" is the earlier action: her mum arrived first, and only then did she go to bed.",
+  "options": [
+    {
+      "id": "a",
+      "text": "She went to bed and then her mum came home."
+    },
+    {
+      "id": "b",
+      "text": "Her mum came home and then she went to bed."
+    }
+  ],
+  "correctOptionIds": [
+    "b"
+  ],
+  "selectionMode": "single",
+  "shuffleOptions": false
+}

@@ -1,0 +1,35 @@
+{
+  "id": "unit-5-past-perfect-simple-short-0011",
+  "type": "short-answer",
+  "unitId": "unit-5",
+  "topicId": "past-perfect-simple",
+  "contentLocale": "en",
+  "tags": [
+    "sentence-building"
+  ],
+  "skills": [
+    "grammar"
+  ],
+  "source": {
+    "type": "textbook",
+    "reference": "Destination B1, Unit 5 exercises"
+  },
+  "status": "published",
+  "version": 1,
+  "createdAt": "2026-07-19T00:00:00.000Z",
+  "updatedAt": "2026-07-19T00:00:00.000Z",
+  "difficulty": "medium",
+  "prompt": "Write a full sentence from the prompts, using the past perfect simple: she / be / hungry / because / she / not / eat / anything / all day",
+  "explanation": "Not eating all day happened before feeling hungry, so the earlier action takes the negative past perfect simple.",
+  "acceptedAnswers": [
+    "She was hungry because she hadn't eaten anything all day.",
+    "She was hungry because she had not eaten anything all day."
+  ],
+  "answerValidation": {
+    "caseSensitive": false,
+    "trimWhitespace": true,
+    "collapseWhitespace": true,
+    "ignoreEndingPunctuation": true,
+    "matchMode": "normalized"
+  }
+}

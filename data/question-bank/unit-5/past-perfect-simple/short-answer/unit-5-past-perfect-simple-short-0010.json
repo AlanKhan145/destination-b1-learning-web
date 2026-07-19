@@ -1,0 +1,35 @@
+{
+  "id": "unit-5-past-perfect-simple-short-0010",
+  "type": "short-answer",
+  "unitId": "unit-5",
+  "topicId": "past-perfect-simple",
+  "contentLocale": "en",
+  "tags": [
+    "sentence-building"
+  ],
+  "skills": [
+    "grammar"
+  ],
+  "source": {
+    "type": "textbook",
+    "reference": "Destination B1, Unit 5 exercises"
+  },
+  "status": "published",
+  "version": 1,
+  "createdAt": "2026-07-19T00:00:00.000Z",
+  "updatedAt": "2026-07-19T00:00:00.000Z",
+  "difficulty": "medium",
+  "prompt": "Write a full sentence from the prompts, using the past perfect simple: when / I / turn on / the TV / the programme / already / start",
+  "explanation": "\"Turned on\" is the later past simple event; the programme starting happened earlier, so it takes the past perfect simple.",
+  "acceptedAnswers": [
+    "When I turned on the TV, the programme had already started.",
+    "When I turned on the TV, the programme'd already started."
+  ],
+  "answerValidation": {
+    "caseSensitive": false,
+    "trimWhitespace": true,
+    "collapseWhitespace": true,
+    "ignoreEndingPunctuation": true,
+    "matchMode": "normalized"
+  }
+}

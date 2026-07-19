@@ -1,0 +1,35 @@
+{
+  "id": "unit-5-past-perfect-simple-short-0008",
+  "type": "short-answer",
+  "unitId": "unit-5",
+  "topicId": "past-perfect-simple",
+  "contentLocale": "en",
+  "tags": [
+    "sentence-building"
+  ],
+  "skills": [
+    "grammar"
+  ],
+  "source": {
+    "type": "textbook",
+    "reference": "Destination B1, Unit 5 exercises"
+  },
+  "status": "published",
+  "version": 1,
+  "createdAt": "2026-07-19T00:00:00.000Z",
+  "updatedAt": "2026-07-19T00:00:00.000Z",
+  "difficulty": "medium",
+  "prompt": "Write a full sentence from the prompts, using the past perfect simple: we / just / hear / the news / when / you / ring",
+  "explanation": "\"Just\" + an earlier action before another past event (\"rang\") calls for the past perfect simple: We'd just heard the news when you rang.",
+  "acceptedAnswers": [
+    "We had just heard the news when you rang.",
+    "We'd just heard the news when you rang."
+  ],
+  "answerValidation": {
+    "caseSensitive": false,
+    "trimWhitespace": true,
+    "collapseWhitespace": true,
+    "ignoreEndingPunctuation": true,
+    "matchMode": "normalized"
+  }
+}

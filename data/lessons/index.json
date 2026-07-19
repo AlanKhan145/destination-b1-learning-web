@@ -41,6 +41,23 @@
       "title": "Present perfect simple, present perfect continuous",
       "description": "Learn how to use the present perfect simple and present perfect continuous to describe past actions connected to the present.",
       "status": "available"
+    },
+    {
+      "id": "unit-5",
+      "unitNumber": 5,
+      "category": "Grammar",
+      "title": "Past perfect simple, past perfect continuous",
+      "description": "Learn how to use the past perfect simple and past perfect continuous to describe actions and situations that happened before another point in the past.",
+      "status": "available"
+    },
+    {
+      "id": "unit-6",
+      "unitNumber": 6,
+      "category": "Vocabulary",
+      "title": "Learning and doing",
+      "description": "Vocabulary for talking about studying, exams, skills and school life.",
+      "status": "available",
+      "vocabularyReview": true
     }
   ]
 }

@@ -1,0 +1,40 @@
+{
+  "id": "unit-5-past-perfect-simple-mcq-0006",
+  "type": "multiple-choice",
+  "unitId": "unit-5",
+  "topicId": "past-perfect-simple",
+  "contentLocale": "en",
+  "tags": [
+    "event-order",
+    "same-meaning"
+  ],
+  "skills": [
+    "grammar"
+  ],
+  "source": {
+    "type": "textbook",
+    "reference": "Destination B1, Unit 5 exercises"
+  },
+  "status": "published",
+  "version": 1,
+  "createdAt": "2026-07-19T00:00:00.000Z",
+  "updatedAt": "2026-07-19T00:00:00.000Z",
+  "difficulty": "medium",
+  "prompt": "Which sentence means the same as: \"They'd bought the plane tickets before they heard about the cheaper flight.\"?",
+  "explanation": "\"Before they heard about the cheaper flight\" marks buying the tickets as the earlier, past perfect action.",
+  "options": [
+    {
+      "id": "a",
+      "text": "They bought the plane tickets and later they heard about the cheaper flight."
+    },
+    {
+      "id": "b",
+      "text": "They heard about the cheaper flight and then they bought the plane tickets."
+    }
+  ],
+  "correctOptionIds": [
+    "a"
+  ],
+  "selectionMode": "single",
+  "shuffleOptions": false
+}

@@ -1,0 +1,34 @@
+{
+  "id": "unit-6-word-formation-short-0003",
+  "type": "short-answer",
+  "unitId": "unit-6",
+  "topicId": "word-formation",
+  "contentLocale": "en",
+  "tags": [
+    "word-formation"
+  ],
+  "skills": [
+    "vocabulary"
+  ],
+  "source": {
+    "type": "textbook",
+    "reference": "Destination B1, Unit 6 exercises"
+  },
+  "status": "published",
+  "version": 1,
+  "createdAt": "2026-07-19T00:00:00.000Z",
+  "updatedAt": "2026-07-19T00:00:00.000Z",
+  "difficulty": "medium",
+  "prompt": "The police are going to give Tracy an award for ___. (BRAVE)",
+  "explanation": "BRAVE -> bravery (noun).",
+  "acceptedAnswers": [
+    "bravery"
+  ],
+  "answerValidation": {
+    "caseSensitive": false,
+    "trimWhitespace": true,
+    "collapseWhitespace": true,
+    "ignoreEndingPunctuation": true,
+    "matchMode": "normalized"
+  }
+}

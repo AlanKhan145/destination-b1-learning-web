@@ -1,0 +1,34 @@
+{
+  "id": "unit-6-topic-vocabulary-short-0011",
+  "type": "short-answer",
+  "unitId": "unit-6",
+  "topicId": "topic-vocabulary",
+  "contentLocale": "en",
+  "tags": [
+    "word-box"
+  ],
+  "skills": [
+    "vocabulary"
+  ],
+  "source": {
+    "type": "textbook",
+    "reference": "Destination B1, Unit 6 exercises"
+  },
+  "status": "published",
+  "version": 1,
+  "createdAt": "2026-07-19T00:00:00.000Z",
+  "updatedAt": "2026-07-19T00:00:00.000Z",
+  "difficulty": "easy",
+  "prompt": "I ___ that I'd answered all the questions and then I handed in my test paper. (make progress / make sure / take an exam)",
+  "explanation": "\"Made sure\" (past simple of \"make sure\") means checking something is true or done.",
+  "acceptedAnswers": [
+    "made sure"
+  ],
+  "answerValidation": {
+    "caseSensitive": false,
+    "trimWhitespace": true,
+    "collapseWhitespace": true,
+    "ignoreEndingPunctuation": true,
+    "matchMode": "normalized"
+  }
+}
