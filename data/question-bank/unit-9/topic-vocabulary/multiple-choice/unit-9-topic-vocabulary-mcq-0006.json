@@ -1,0 +1,24 @@
+{
+  "id": "unit-9-topic-vocabulary-mcq-0006",
+  "type": "multiple-choice",
+  "unitId": "unit-9",
+  "topicId": "topic-vocabulary",
+  "contentLocale": "en",
+  "difficulty": "easy",
+  "prompt": "We stayed at a lovely beach ___ in Thailand.",
+  "explanation": "A resort is a place where a lot of people go on holiday.",
+  "tags": ["topic-vocabulary"],
+  "skills": ["vocabulary"],
+  "source": { "type": "original", "reference": null },
+  "status": "published",
+  "version": 1,
+  "createdAt": "2026-07-21T00:00:00.000Z",
+  "updatedAt": "2026-07-21T00:00:00.000Z",
+  "options": [
+    { "id": "a", "text": "resort" },
+    { "id": "b", "text": "trip" }
+  ],
+  "correctOptionIds": ["a"],
+  "selectionMode": "single",
+  "shuffleOptions": true
+}

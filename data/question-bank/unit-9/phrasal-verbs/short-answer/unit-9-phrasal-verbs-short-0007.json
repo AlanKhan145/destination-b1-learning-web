@@ -1,0 +1,25 @@
+{
+  "id": "unit-9-phrasal-verbs-short-0007",
+  "type": "short-answer",
+  "unitId": "unit-9",
+  "topicId": "phrasal-verbs",
+  "contentLocale": "en",
+  "difficulty": "medium",
+  "prompt": "Complete using the correct form of the phrasal verb: We ran to the train and ___ just before it started to move.",
+  "explanation": "Get on(to) means to enter a bus, train, etc.",
+  "tags": ["phrasal-verbs"],
+  "skills": ["vocabulary", "grammar"],
+  "source": { "type": "original", "reference": null },
+  "status": "published",
+  "version": 1,
+  "createdAt": "2026-07-21T00:00:00.000Z",
+  "updatedAt": "2026-07-21T00:00:00.000Z",
+  "acceptedAnswers": ["got on"],
+  "answerValidation": {
+    "caseSensitive": false,
+    "trimWhitespace": true,
+    "collapseWhitespace": true,
+    "ignoreEndingPunctuation": true,
+    "matchMode": "normalized"
+  }
+}

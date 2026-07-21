@@ -1,0 +1,30 @@
+{
+  "id": "review-2-open-cloze-fitb-0001",
+  "type": "fill-in-the-blanks",
+  "unitId": "review-2",
+  "topicId": "open-cloze",
+  "contentLocale": "en",
+  "difficulty": "hard",
+  "prompt": "Read the text \"Cheating\" and write one word in each gap.",
+  "explanation": "Each gap needs a preposition that fits a fixed pattern: succeed in, a question about, learn about, know a lot about, capable of, help someone with, continue with, cope with, an opinion about/on, cheat in.",
+  "tags": ["open-cloze", "prepositions"],
+  "skills": ["grammar"],
+  "source": { "type": "original", "reference": null },
+  "status": "published",
+  "version": 1,
+  "createdAt": "2026-07-21T00:00:00.000Z",
+  "updatedAt": "2026-07-21T00:00:00.000Z",
+  "passageTemplate": "You're doing a history test. Your friend, who's sitting next to you, really wants to succeed {{blank-1}} the test. There's a question {{blank-2}} the First World War, which you've been learning {{blank-3}} recently. You know a lot {{blank-4}} it, but your friend isn't really capable {{blank-5}} answering the question properly.\n\nYour friend whispers, \"Help me!\" What should you do? Should you help your friend {{blank-6}} the question, or just continue {{blank-7}} your own test?\n\nEvery student has to cope {{blank-8}} this difficult situation at some point.\n\nWhat's your opinion {{blank-9}} cheating? Should you help your friend cheat {{blank-10}} the test or not?",
+  "blanks": [
+    { "id": "blank-1", "acceptedAnswers": ["in"] },
+    { "id": "blank-2", "acceptedAnswers": ["about", "on"] },
+    { "id": "blank-3", "acceptedAnswers": ["about"] },
+    { "id": "blank-4", "acceptedAnswers": ["about"] },
+    { "id": "blank-5", "acceptedAnswers": ["of"] },
+    { "id": "blank-6", "acceptedAnswers": ["with"] },
+    { "id": "blank-7", "acceptedAnswers": ["with"] },
+    { "id": "blank-8", "acceptedAnswers": ["with"] },
+    { "id": "blank-9", "acceptedAnswers": ["about", "on"] },
+    { "id": "blank-10", "acceptedAnswers": ["in", "on"] }
+  ]
+}

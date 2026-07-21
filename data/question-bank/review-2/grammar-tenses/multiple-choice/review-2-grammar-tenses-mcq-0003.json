@@ -1,0 +1,26 @@
+{
+  "id": "review-2-grammar-tenses-mcq-0003",
+  "type": "multiple-choice",
+  "unitId": "review-2",
+  "topicId": "grammar-tenses",
+  "contentLocale": "en",
+  "difficulty": "medium",
+  "prompt": "____ that crossword for over an hour and you still haven't finished it!",
+  "explanation": "The present perfect continuous (You've been doing) emphasises a continuing action and the time spent on it, paired here with the present perfect result \"haven't finished\".",
+  "tags": ["grammar-tenses", "present-perfect-continuous"],
+  "skills": ["grammar"],
+  "source": { "type": "original", "reference": null },
+  "status": "published",
+  "version": 1,
+  "createdAt": "2026-07-21T00:00:00.000Z",
+  "updatedAt": "2026-07-21T00:00:00.000Z",
+  "options": [
+    { "id": "a", "text": "You've done" },
+    { "id": "b", "text": "You'd done" },
+    { "id": "c", "text": "You've been doing" },
+    { "id": "d", "text": "You'd been doing" }
+  ],
+  "correctOptionIds": ["c"],
+  "selectionMode": "single",
+  "shuffleOptions": true
+}

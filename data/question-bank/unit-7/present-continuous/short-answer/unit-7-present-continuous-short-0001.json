@@ -1,0 +1,29 @@
+{
+  "id": "unit-7-present-continuous-short-0001",
+  "type": "short-answer",
+  "unitId": "unit-7",
+  "topicId": "present-continuous",
+  "contentLocale": "en",
+  "difficulty": "medium",
+  "prompt": "Shelley's diary — Monday: meet Alison, Friends Café. Complete: On Monday, she ___.",
+  "explanation": "A fixed arrangement with another person uses the present continuous: is meeting.",
+  "tags": ["arrangements", "diary"],
+  "skills": ["grammar", "writing"],
+  "source": { "type": "original", "reference": null },
+  "status": "published",
+  "version": 1,
+  "createdAt": "2026-07-21T00:00:00.000Z",
+  "updatedAt": "2026-07-21T00:00:00.000Z",
+  "acceptedAnswers": [
+    "is meeting Alison at Friends Café",
+    "is meeting Alison at the Friends Café",
+    "'s meeting Alison at Friends Café"
+  ],
+  "answerValidation": {
+    "caseSensitive": false,
+    "trimWhitespace": true,
+    "collapseWhitespace": true,
+    "ignoreEndingPunctuation": true,
+    "matchMode": "normalized"
+  }
+}

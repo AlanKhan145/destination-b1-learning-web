@@ -1,0 +1,25 @@
+{
+  "id": "review-2-phrasal-verbs-short-0005",
+  "type": "short-answer",
+  "unitId": "review-2",
+  "topicId": "phrasal-verbs",
+  "contentLocale": "en",
+  "difficulty": "medium",
+  "prompt": "Carol, will you ______ ______ your poem to the class, please? (say it out loud, starts with 'r')",
+  "explanation": "Read out means to read something aloud so other people can hear it.",
+  "tags": ["phrasal-verbs"],
+  "skills": ["grammar", "writing"],
+  "source": { "type": "original", "reference": null },
+  "status": "published",
+  "version": 1,
+  "createdAt": "2026-07-21T00:00:00.000Z",
+  "updatedAt": "2026-07-21T00:00:00.000Z",
+  "acceptedAnswers": ["read out"],
+  "answerValidation": {
+    "caseSensitive": false,
+    "trimWhitespace": true,
+    "collapseWhitespace": true,
+    "ignoreEndingPunctuation": true,
+    "matchMode": "normalized"
+  }
+}

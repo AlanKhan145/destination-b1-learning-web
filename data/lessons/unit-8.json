@@ -1,0 +1,162 @@
+{
+  "id": "unit-8",
+  "unitNumber": 8,
+  "category": "Grammar",
+  "title": "In, on, at",
+  "description": "Learn how to use the prepositions in, on and at for time and place.",
+  "previousLessonId": "unit-7",
+  "nextLessonId": "unit-9",
+  "review": {
+    "reviewId": "unit-8-review",
+    "enabled": true,
+    "displayMode": "side-panel",
+    "position": "right",
+    "defaultOpen": false
+  },
+  "topics": [
+    {
+      "id": "in",
+      "number": 1,
+      "title": "In",
+      "status": "available",
+      "review": {
+        "enabled": true,
+        "questionFilter": {
+          "unitId": "unit-8",
+          "topicIds": ["in"],
+          "status": ["published"]
+        }
+      },
+      "description": "Used for months, years, seasons and parts of the day; and for towns/cities, countries/continents, areas/regions, and being inside an object, room or building.",
+      "formula": null,
+      "forms": {
+        "columns": [],
+        "rows": []
+      },
+      "uses": [
+        { "usage": "Months", "example": "Paris is wonderful in April." },
+        { "usage": "Years", "example": "I first went to Russia in 2005." },
+        { "usage": "Seasons", "example": "We often go skiing in winter." },
+        { "usage": "Parts of the day", "example": "My train leaves in the afternoon." },
+        { "usage": "Towns and cities", "example": "There's a famous castle in Edinburgh." },
+        { "usage": "Countries and continents", "example": "My brother is in Mexico." },
+        { "usage": "Areas and regions", "example": "What's life like in the desert?" },
+        { "usage": "Inside an object", "example": "Your passport is in the drawer." },
+        { "usage": "Inside a room", "example": "I've left the tickets in the living room!" },
+        { "usage": "Inside a building", "example": "Sharon has been in the travel agent's for an hour!" }
+      ],
+      "notes": [
+        {
+          "type": "helpful-hint",
+          "content": "We also use in in the following phrases.",
+          "examples": [
+            "in a minute / an hour",
+            "in front of",
+            "in the middle (of)",
+            "in the future"
+          ],
+          "highlightWords": ["in a minute", "in front of", "in the middle", "in the future"]
+        },
+        {
+          "type": "watch-out",
+          "content": "With verbs of motion such as come, go, move, run and walk, we usually use to instead of in, on or at.",
+          "examples": ["Was it hot when you went to Japan?"],
+          "highlightWords": ["went to Japan"]
+        }
+      ]
+    },
+    {
+      "id": "on",
+      "number": 2,
+      "title": "On",
+      "status": "available",
+      "review": {
+        "enabled": true,
+        "questionFilter": {
+          "unitId": "unit-8",
+          "topicIds": ["on"],
+          "status": ["published"]
+        }
+      },
+      "description": "Used for days and dates; and for islands, pages, the top of an object, and surfaces.",
+      "formula": null,
+      "forms": {
+        "columns": [],
+        "rows": []
+      },
+      "uses": [
+        { "usage": "Days", "example": "I got a new car on Saturday." },
+        { "usage": "Dates", "example": "My birthday is on 19th March." },
+        { "usage": "Islands", "example": "Last year, we stayed on Mykonos." },
+        { "usage": "Pages", "example": "There are some useful Italian phrases on page 97." },
+        { "usage": "On top of an object", "example": "Did you put your car keys on the kitchen table?" },
+        { "usage": "On a surface", "example": "There's a timetable on the wall." }
+      ],
+      "notes": [
+        {
+          "type": "helpful-hint",
+          "content": "We also use on in the following phrases.",
+          "examples": ["on the beach", "on the left/right", "on my birthday"],
+          "highlightWords": ["on the beach", "on the left", "on the right", "on my birthday"]
+        },
+        {
+          "type": "watch-out",
+          "content": "We say in the morning/afternoon/evening, but on Monday morning/Wednesday evening, etc.",
+          "examples": ["We're flying to Washington in the morning / on Tuesday morning."],
+          "highlightWords": ["in the morning", "on Tuesday morning"]
+        },
+        {
+          "type": "watch-out",
+          "content": "We don't use a preposition with tomorrow, yesterday, tomorrow morning, yesterday evening, etc.",
+          "examples": ["We're flying to Washington tomorrow afternoon."],
+          "highlightWords": ["tomorrow afternoon"]
+        }
+      ]
+    },
+    {
+      "id": "at",
+      "number": 3,
+      "title": "At",
+      "status": "available",
+      "review": {
+        "enabled": true,
+        "questionFilter": {
+          "unitId": "unit-8",
+          "topicIds": ["at"],
+          "status": ["published"]
+        }
+      },
+      "description": "Used for clock times and holiday periods; and for exact places, addresses, buildings (talking about the activities that happen there), and activities.",
+      "formula": null,
+      "forms": {
+        "columns": [],
+        "rows": []
+      },
+      "uses": [
+        { "usage": "Clock times", "example": "There's a bus at ten past three." },
+        { "usage": "Holiday periods", "example": "What are you doing at Christmas?" },
+        { "usage": "Exact places", "example": "What's it like at the North Pole?" },
+        { "usage": "Addresses", "example": "My cousin lives at 132 London Road." },
+        { "usage": "Buildings, when talking about the activities that happen there", "example": "I think John is at the cinema, watching Titanic." },
+        { "usage": "Activities", "example": "Rania isn't here. She's at a party." }
+      ],
+      "notes": [
+        {
+          "type": "helpful-hint",
+          "content": "We also use at in the following phrases.",
+          "examples": ["at the moment", "at night", "at the top/bottom", "at the door/window"],
+          "highlightWords": ["at the moment", "at night", "at the top", "at the bottom", "at the door", "at the window"]
+        },
+        {
+          "type": "watch-out",
+          "content": "Compare how we use in and at for places: we use in for larger areas that are all around us when we are there, and at for smaller places and points on a journey.",
+          "examples": [
+            "We're spending our next holiday in the countryside.",
+            "Let's meet at the train station."
+          ],
+          "highlightWords": ["in the countryside", "at the train station"]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,777 @@
+{
+  "version": 1,
+  "unitId": "unit-9",
+  "title": "Coming and Going",
+  "description": "Vocabulary for talking about travel, transport and journeys.",
+  "sourceNote": "See page 185 for definitions.",
+  "sections": {
+    "topicVocabulary": [
+      {
+        "id": "vocab-unit-9-abroad",
+        "type": "word",
+        "word": "abroad",
+        "image": "./assets/vocabulary/unit-9/coming-and-going/01_abroad.png",
+        "imageAlt": "A person boarding a plane to travel abroad",
+        "phonetic": "/əˈbrɔːd/",
+        "partOfSpeech": ["adverb"],
+        "meaningVi": "ở nước ngoài, ra nước ngoài",
+        "definitionEn": "in or to a foreign country",
+        "example": { "en": "She's studying abroad this year.", "vi": "Năm nay cô ấy đang du học ở nước ngoài." }
+      },
+      {
+        "id": "vocab-unit-9-accommodation",
+        "type": "word",
+        "word": "accommodation",
+        "image": "./assets/vocabulary/unit-9/coming-and-going/02_accommodation.png",
+        "imageAlt": "A hotel room used as travel accommodation",
+        "phonetic": "/əˌkɒməˈdeɪʃn/",
+        "partOfSpeech": ["noun"],
+        "meaningVi": "chỗ ở",
+        "definitionEn": "a place to live, stay or sleep, especially for travellers",
+        "example": { "en": "We booked our accommodation before the trip.", "vi": "Chúng tôi đã đặt chỗ ở trước chuyến đi." }
+      },
+      {
+        "id": "vocab-unit-9-book",
+        "type": "word",
+        "word": "book",
+        "image": "./assets/vocabulary/unit-9/coming-and-going/03_book.png",
+        "imageAlt": "Someone booking tickets online",
+        "phonetic": "/bʊk/",
+        "partOfSpeech": ["verb"],
+        "meaningVi": "đặt trước (vé, phòng...)",
+        "definitionEn": "to arrange to have a seat, room, ticket, etc. at a particular time in the future",
+        "example": { "en": "I've booked two tickets for the concert.", "vi": "Tôi đã đặt hai vé xem hòa nhạc." }
+      },
+      {
+        "id": "vocab-unit-9-break",
+        "type": "word",
+        "word": "break",
+        "image": "./assets/vocabulary/unit-9/coming-and-going/04_break.png",
+        "imageAlt": "A family relaxing on a short holiday break",
+        "phonetic": "/breɪk/",
+        "partOfSpeech": ["noun"],
+        "meaningVi": "kỳ nghỉ ngắn",
+        "definitionEn": "a short holiday, or a pause from work or school",
+        "example": { "en": "We're going away for a short break this weekend.", "vi": "Chúng tôi sẽ đi nghỉ ngắn ngày vào cuối tuần này." }
+      },
+      {
+        "id": "vocab-unit-9-cancel",
+        "type": "word",
+        "word": "cancel",
+        "image": "./assets/vocabulary/unit-9/coming-and-going/05_cancel.png",
+        "imageAlt": "A cancelled flight shown on an airport departures board",
+        "phonetic": "/ˈkænsl/",
+        "partOfSpeech": ["verb"],
+        "meaningVi": "hủy bỏ",
+        "definitionEn": "to decide that something that was planned will not happen",
+        "example": { "en": "Our flight was cancelled because of the storm.", "vi": "Chuyến bay của chúng tôi đã bị hủy vì bão." }
+      },
+      {
+        "id": "vocab-unit-9-catch",
+        "type": "word",
+        "word": "catch",
+        "image": "./assets/vocabulary/unit-9/coming-and-going/06_catch.png",
+        "imageAlt": "Passengers running to catch a train",
+        "phonetic": "/kætʃ/",
+        "partOfSpeech": ["verb"],
+        "meaningVi": "bắt kịp, đón (xe, tàu...)",
+        "definitionEn": "to get on a bus, train, plane, etc. in order to travel somewhere",
+        "example": { "en": "We need to catch the eight o'clock train.", "vi": "Chúng ta cần bắt chuyến tàu tám giờ." }
+      },
+      {
+        "id": "vocab-unit-9-coach",
+        "type": "word",
+        "word": "coach",
+        "image": "./assets/vocabulary/unit-9/coming-and-going/07_coach.png",
+        "imageAlt": "A long-distance coach parked at a bus station",
+        "phonetic": "/kəʊtʃ/",
+        "partOfSpeech": ["noun"],
+        "meaningVi": "xe khách đường dài",
+        "definitionEn": "a comfortable bus that takes people on long journeys",
+        "example": { "en": "We travelled to Paris by coach.", "vi": "Chúng tôi đã đi Paris bằng xe khách." }
+      },
+      {
+        "id": "vocab-unit-9-convenient",
+        "type": "word",
+        "word": "convenient",
+        "image": "./assets/vocabulary/unit-9/coming-and-going/08_convenient.png",
+        "imageAlt": "A hotel conveniently located near the airport",
+        "phonetic": "/kənˈviːniənt/",
+        "partOfSpeech": ["adjective"],
+        "meaningVi": "thuận tiện",
+        "definitionEn": "suitable for your purposes and needs, without causing problems",
+        "example": { "en": "The hotel is very convenient for the airport.", "vi": "Khách sạn này rất thuận tiện để ra sân bay." }
+      },
+      {
+        "id": "vocab-unit-9-crash",
+        "type": "word",
+        "word": "crash",
+        "image": "./assets/vocabulary/unit-9/coming-and-going/09_crash.png",
+        "imageAlt": "A car that has crashed into a wall",
+        "phonetic": "/kræʃ/",
+        "partOfSpeech": ["verb", "noun"],
+        "meaningVi": "đâm, va chạm; vụ va chạm",
+        "definitionEn": "to hit something violently causing damage; a violent accident involving a vehicle",
+        "example": { "en": "The car crashed into a wall.", "vi": "Chiếc xe đã đâm vào tường." }
+      },
+      {
+        "id": "vocab-unit-9-crowded",
+        "type": "word",
+        "word": "crowded",
+        "image": "./assets/vocabulary/unit-9/coming-and-going/10_crowded.png",
+        "imageAlt": "A crowded beach full of people in summer",
+        "phonetic": "/ˈkraʊdɪd/",
+        "partOfSpeech": ["adjective"],
+        "meaningVi": "đông đúc",
+        "definitionEn": "full of people",
+        "example": { "en": "The beach was really crowded in summer.", "vi": "Bãi biển rất đông đúc vào mùa hè." }
+      },
+      {
+        "id": "vocab-unit-9-cruise",
+        "type": "word",
+        "word": "cruise",
+        "image": "./assets/vocabulary/unit-9/coming-and-going/11_cruise.png",
+        "imageAlt": "A large cruise ship sailing at sea",
+        "phonetic": "/kruːz/",
+        "partOfSpeech": ["noun"],
+        "meaningVi": "chuyến du lịch bằng tàu biển",
+        "definitionEn": "a holiday journey on a large ship, visiting different places",
+        "example": { "en": "They went on a cruise around the Mediterranean.", "vi": "Họ đã đi du lịch bằng tàu biển quanh Địa Trung Hải." }
+      },
+      {
+        "id": "vocab-unit-9-delay",
+        "type": "word",
+        "word": "delay",
+        "image": "./assets/vocabulary/unit-9/coming-and-going/12_delay.png",
+        "imageAlt": "Passengers waiting because of a flight delay",
+        "phonetic": "/dɪˈleɪ/",
+        "partOfSpeech": ["verb", "noun"],
+        "meaningVi": "trì hoãn; sự trì hoãn",
+        "definitionEn": "to make something happen later than planned; a period of time when something is later than expected",
+        "example": { "en": "Our flight was delayed by two hours.", "vi": "Chuyến bay của chúng tôi bị hoãn hai tiếng." }
+      },
+      {
+        "id": "vocab-unit-9-destination",
+        "type": "word",
+        "word": "destination",
+        "image": "./assets/vocabulary/unit-9/coming-and-going/13_destination.png",
+        "imageAlt": "A signpost pointing to a popular holiday destination",
+        "phonetic": "/ˌdestɪˈneɪʃn/",
+        "partOfSpeech": ["noun"],
+        "meaningVi": "điểm đến",
+        "definitionEn": "the place where someone or something is going",
+        "example": { "en": "Bali is a popular holiday destination.", "vi": "Bali là một điểm đến du lịch nổi tiếng." }
+      },
+      {
+        "id": "vocab-unit-9-ferry",
+        "type": "word",
+        "word": "ferry",
+        "image": "./assets/vocabulary/unit-9/coming-and-going/14_ferry.png",
+        "imageAlt": "A ferry carrying passengers and vehicles across the sea",
+        "phonetic": "/ˈferi/",
+        "partOfSpeech": ["noun"],
+        "meaningVi": "phà",
+        "definitionEn": "a boat that carries people and vehicles across a river or a narrow area of sea",
+        "example": { "en": "We took the ferry across the channel.", "vi": "Chúng tôi đã đi phà qua eo biển." }
+      },
+      {
+        "id": "vocab-unit-9-flight",
+        "type": "word",
+        "word": "flight",
+        "image": "./assets/vocabulary/unit-9/coming-and-going/15_flight.png",
+        "imageAlt": "A plane taking off for a flight",
+        "phonetic": "/flaɪt/",
+        "partOfSpeech": ["noun"],
+        "meaningVi": "chuyến bay",
+        "definitionEn": "a journey made by air",
+        "example": { "en": "Our flight to London leaves at noon.", "vi": "Chuyến bay của chúng tôi đến London khởi hành lúc trưa." }
+      },
+      {
+        "id": "vocab-unit-9-foreign",
+        "type": "word",
+        "word": "foreign",
+        "image": "./assets/vocabulary/unit-9/coming-and-going/16_foreign.png",
+        "imageAlt": "A traveller looking at foreign currency and a map",
+        "phonetic": "/ˈfɒrən/",
+        "partOfSpeech": ["adjective"],
+        "meaningVi": "(thuộc) nước ngoài",
+        "definitionEn": "belonging to or connected with a country that is not your own",
+        "example": { "en": "She speaks three foreign languages.", "vi": "Cô ấy nói được ba ngoại ngữ." }
+      },
+      {
+        "id": "vocab-unit-9-harbour",
+        "type": "word",
+        "word": "harbour",
+        "image": "./assets/vocabulary/unit-9/coming-and-going/17_harbour.png",
+        "imageAlt": "Fishing boats moored in a harbour",
+        "phonetic": "/ˈhɑːbə/",
+        "partOfSpeech": ["noun"],
+        "meaningVi": "bến cảng",
+        "definitionEn": "an area of water next to the coast where boats and ships can shelter",
+        "example": { "en": "The fishing boats returned to the harbour at sunset.", "vi": "Những chiếc thuyền đánh cá trở về bến cảng lúc hoàng hôn." }
+      },
+      {
+        "id": "vocab-unit-9-journey",
+        "type": "word",
+        "word": "journey",
+        "image": "./assets/vocabulary/unit-9/coming-and-going/18_journey.png",
+        "imageAlt": "A traveller looking out of a train window during a long journey",
+        "phonetic": "/ˈdʒɜːni/",
+        "partOfSpeech": ["noun"],
+        "meaningVi": "hành trình, chuyến đi",
+        "definitionEn": "an act of travelling from one place to another",
+        "example": { "en": "It was a long journey by train.", "vi": "Đó là một hành trình dài bằng tàu hỏa." }
+      },
+      {
+        "id": "vocab-unit-9-luggage",
+        "type": "word",
+        "word": "luggage",
+        "image": "./assets/vocabulary/unit-9/coming-and-going/19_luggage.png",
+        "imageAlt": "Suitcases and bags of luggage at an airport",
+        "phonetic": "/ˈlʌɡɪdʒ/",
+        "partOfSpeech": ["noun"],
+        "meaningVi": "hành lý",
+        "definitionEn": "the bags and suitcases that you take with you when you travel",
+        "example": { "en": "Please don't leave your luggage unattended.", "vi": "Vui lòng không để hành lý không có người trông coi." }
+      },
+      {
+        "id": "vocab-unit-9-nearby",
+        "type": "word",
+        "word": "nearby",
+        "image": "./assets/vocabulary/unit-9/coming-and-going/20_nearby.png",
+        "imageAlt": "A café located nearby a hotel",
+        "phonetic": "/ˌnɪəˈbaɪ/",
+        "partOfSpeech": ["adjective", "adverb"],
+        "meaningVi": "ở gần đó",
+        "definitionEn": "not far away in distance",
+        "example": { "en": "There's a nice café nearby.", "vi": "Có một quán cà phê đẹp ở gần đó." }
+      },
+      {
+        "id": "vocab-unit-9-pack",
+        "type": "word",
+        "word": "pack",
+        "image": "./assets/vocabulary/unit-9/coming-and-going/21_pack.png",
+        "imageAlt": "A person packing clothes into a suitcase",
+        "phonetic": "/pæk/",
+        "partOfSpeech": ["verb"],
+        "meaningVi": "đóng gói, thu xếp hành lý",
+        "definitionEn": "to put things into a bag or suitcase for travelling",
+        "example": { "en": "I still need to pack my suitcase.", "vi": "Tôi vẫn cần thu xếp hành lý vào vali." }
+      },
+      {
+        "id": "vocab-unit-9-passport",
+        "type": "word",
+        "word": "passport",
+        "image": "./assets/vocabulary/unit-9/coming-and-going/22_passport.png",
+        "imageAlt": "A traveller holding their passport",
+        "phonetic": "/ˈpɑːspɔːt/",
+        "partOfSpeech": ["noun"],
+        "meaningVi": "hộ chiếu",
+        "definitionEn": "an official document that you need to travel to another country",
+        "example": { "en": "Don't forget to bring your passport.", "vi": "Đừng quên mang theo hộ chiếu." }
+      },
+      {
+        "id": "vocab-unit-9-platform",
+        "type": "word",
+        "word": "platform",
+        "image": "./assets/vocabulary/unit-9/coming-and-going/23_platform.png",
+        "imageAlt": "Passengers waiting on a railway platform",
+        "phonetic": "/ˈplætfɔːm/",
+        "partOfSpeech": ["noun"],
+        "meaningVi": "sân ga",
+        "definitionEn": "the area in a railway station where you get on or off the train",
+        "example": { "en": "The train to Bristol leaves from platform four.", "vi": "Chuyến tàu đi Bristol khởi hành từ sân ga số bốn." }
+      },
+      {
+        "id": "vocab-unit-9-public-transport",
+        "type": "word",
+        "word": "public transport",
+        "image": "./assets/vocabulary/unit-9/coming-and-going/24_public_transport.png",
+        "imageAlt": "People waiting for a bus as public transport",
+        "phonetic": "/ˌpʌblɪk ˈtrænspɔːt/",
+        "partOfSpeech": ["noun-phrase"],
+        "meaningVi": "phương tiện giao thông công cộng",
+        "definitionEn": "buses, trains, etc. that are available for anyone to use",
+        "example": { "en": "It's cheaper to use public transport than to drive.", "vi": "Dùng phương tiện công cộng rẻ hơn là tự lái xe." }
+      },
+      {
+        "id": "vocab-unit-9-reach",
+        "type": "word",
+        "word": "reach",
+        "image": "./assets/vocabulary/unit-9/coming-and-going/25_reach.png",
+        "imageAlt": "Tired travellers finally reaching their hotel",
+        "phonetic": "/riːtʃ/",
+        "partOfSpeech": ["verb"],
+        "meaningVi": "đến, tới nơi",
+        "definitionEn": "to arrive at a place, especially after travelling",
+        "example": { "en": "We finally reached the hotel after midnight.", "vi": "Cuối cùng chúng tôi cũng đến được khách sạn sau nửa đêm." }
+      },
+      {
+        "id": "vocab-unit-9-resort",
+        "type": "word",
+        "word": "resort",
+        "image": "./assets/vocabulary/unit-9/coming-and-going/26_resort.png",
+        "imageAlt": "A beach resort with sun loungers and palm trees",
+        "phonetic": "/rɪˈzɔːt/",
+        "partOfSpeech": ["noun"],
+        "meaningVi": "khu nghỉ dưỡng",
+        "definitionEn": "a place where a lot of people go on holiday",
+        "example": { "en": "We stayed at a beach resort in Thailand.", "vi": "Chúng tôi đã ở tại một khu nghỉ dưỡng bên biển ở Thái Lan." }
+      },
+      {
+        "id": "vocab-unit-9-souvenir",
+        "type": "word",
+        "word": "souvenir",
+        "image": "./assets/vocabulary/unit-9/coming-and-going/27_souvenir.png",
+        "imageAlt": "Souvenirs for sale at a market stall",
+        "phonetic": "/ˌsuːvəˈnɪə/",
+        "partOfSpeech": ["noun"],
+        "meaningVi": "quà lưu niệm",
+        "definitionEn": "something you buy to remind you of a place you have visited",
+        "example": { "en": "I bought a souvenir from the market.", "vi": "Tôi đã mua một món quà lưu niệm ở chợ." }
+      },
+      {
+        "id": "vocab-unit-9-traffic",
+        "type": "word",
+        "word": "traffic",
+        "image": "./assets/vocabulary/unit-9/coming-and-going/28_traffic.png",
+        "imageAlt": "Heavy traffic on a busy motorway",
+        "phonetic": "/ˈtræfɪk/",
+        "partOfSpeech": ["noun"],
+        "meaningVi": "giao thông, dòng xe cộ",
+        "definitionEn": "the vehicles moving along a road",
+        "example": { "en": "There was heavy traffic on the motorway this morning.", "vi": "Sáng nay giao thông trên đường cao tốc rất đông đúc." }
+      },
+      {
+        "id": "vocab-unit-9-trip",
+        "type": "word",
+        "word": "trip",
+        "image": "./assets/vocabulary/unit-9/coming-and-going/29_trip.png",
+        "imageAlt": "A family planning a trip to the mountains",
+        "phonetic": "/trɪp/",
+        "partOfSpeech": ["noun"],
+        "meaningVi": "chuyến đi",
+        "definitionEn": "a journey to a place and back again, especially for a short time",
+        "example": { "en": "We're planning a trip to the mountains.", "vi": "Chúng tôi đang lên kế hoạch cho một chuyến đi lên núi." }
+      },
+      {
+        "id": "vocab-unit-9-vehicle",
+        "type": "word",
+        "word": "vehicle",
+        "image": "./assets/vocabulary/unit-9/coming-and-going/30_vehicle.png",
+        "imageAlt": "Different types of vehicles on a road",
+        "phonetic": "/ˈviːəkl/",
+        "partOfSpeech": ["noun"],
+        "meaningVi": "phương tiện, xe cộ",
+        "definitionEn": "a machine, usually with an engine, that carries people or things, especially on roads",
+        "example": { "en": "Cars, buses and lorries are all vehicles.", "vi": "Ô tô, xe buýt và xe tải đều là phương tiện." }
+      }
+    ],
+    "phrasalVerbs": [
+      {
+        "id": "vocab-unit-9-get-into",
+        "type": "phrasal-verb",
+        "word": "get in(to)",
+        "image": "./assets/vocabulary/unit-9/coming-and-going/01_get_into.png",
+        "imageAlt": "A woman getting into a taxi",
+        "meaningVi": "lên (xe ô tô)",
+        "definitionEn": "enter a car",
+        "example": { "en": "She got into the taxi and gave the driver her address.", "vi": "Cô ấy lên taxi và đưa địa chỉ cho tài xế." }
+      },
+      {
+        "id": "vocab-unit-9-get-off",
+        "type": "phrasal-verb",
+        "word": "get off",
+        "image": "./assets/vocabulary/unit-9/coming-and-going/02_get_off.png",
+        "imageAlt": "Passengers getting off a bus",
+        "meaningVi": "xuống (xe buýt, tàu...)",
+        "definitionEn": "leave a bus/train/etc",
+        "example": { "en": "We need to get off at the next stop.", "vi": "Chúng ta cần xuống ở điểm dừng tiếp theo." }
+      },
+      {
+        "id": "vocab-unit-9-get-onto",
+        "type": "phrasal-verb",
+        "word": "get on(to)",
+        "image": "./assets/vocabulary/unit-9/coming-and-going/03_get_onto.png",
+        "imageAlt": "A passenger getting onto a train",
+        "meaningVi": "lên (xe buýt, tàu...)",
+        "definitionEn": "enter a bus/train/etc",
+        "example": { "en": "He got on the train just before it left.", "vi": "Anh ấy lên tàu ngay trước khi tàu chạy." }
+      },
+      {
+        "id": "vocab-unit-9-get-out-of",
+        "type": "phrasal-verb",
+        "word": "get out (of)",
+        "image": "./assets/vocabulary/unit-9/coming-and-going/04_get_out_of.png",
+        "imageAlt": "A driver getting out of a car",
+        "meaningVi": "ra khỏi (xe, tòa nhà...)",
+        "definitionEn": "leave a car/building/room/etc",
+        "example": { "en": "Get out of the car and lock the doors.", "vi": "Hãy ra khỏi xe và khóa cửa lại." }
+      },
+      {
+        "id": "vocab-unit-9-go-away",
+        "type": "phrasal-verb",
+        "word": "go away",
+        "image": "./assets/vocabulary/unit-9/coming-and-going/05_go_away.png",
+        "imageAlt": "A couple going away for the weekend with suitcases",
+        "meaningVi": "rời đi, đi xa",
+        "definitionEn": "leave a place/somebody",
+        "example": { "en": "They went away for the weekend.", "vi": "Họ đã đi xa vào cuối tuần." }
+      },
+      {
+        "id": "vocab-unit-9-go-back-to",
+        "type": "phrasal-verb",
+        "word": "go back (to)",
+        "image": "./assets/vocabulary/unit-9/coming-and-going/06_go_back_to.png",
+        "imageAlt": "A tourist going back to the hotel",
+        "meaningVi": "quay trở lại",
+        "definitionEn": "return (to)",
+        "example": { "en": "We went back to the hotel to get our umbrellas.", "vi": "Chúng tôi đã quay lại khách sạn để lấy ô." }
+      },
+      {
+        "id": "vocab-unit-9-set-off",
+        "type": "phrasal-verb",
+        "word": "set off",
+        "image": "./assets/vocabulary/unit-9/coming-and-going/07_set_off.png",
+        "imageAlt": "A family setting off on a road trip",
+        "meaningVi": "khởi hành, lên đường",
+        "definitionEn": "start a journey",
+        "example": { "en": "We set off early to avoid the traffic.", "vi": "Chúng tôi khởi hành sớm để tránh tắc đường." }
+      },
+      {
+        "id": "vocab-unit-9-take-off",
+        "type": "phrasal-verb",
+        "word": "take off",
+        "image": "./assets/vocabulary/unit-9/coming-and-going/08_take_off.png",
+        "imageAlt": "A plane taking off from the runway",
+        "meaningVi": "cất cánh",
+        "definitionEn": "leave the ground",
+        "example": { "en": "The plane took off an hour late.", "vi": "Máy bay cất cánh trễ một tiếng." }
+      }
+    ],
+    "prepositionalPhrases": [
+      {
+        "id": "vocab-unit-9-by-air-sea-bus-car",
+        "type": "prepositional-phrase",
+        "word": "by air/sea/bus/car/etc",
+        "image": "./assets/vocabulary/unit-9/coming-and-going/09_by_air_sea_bus_car.png",
+        "imageAlt": "Icons showing travel by air, sea, bus and car",
+        "meaningVi": "bằng (phương tiện gì)",
+        "usageEn": "used to say how you travel or how something is sent, followed by the mode of transport",
+        "example": { "en": "It's much faster to travel by air than by sea.", "vi": "Di chuyển bằng máy bay nhanh hơn nhiều so với đường biển." }
+      },
+      {
+        "id": "vocab-unit-9-on-board",
+        "type": "prepositional-phrase",
+        "word": "on board",
+        "image": "./assets/vocabulary/unit-9/coming-and-going/10_on_board.png",
+        "imageAlt": "Passengers on board a plane",
+        "meaningVi": "trên tàu/máy bay",
+        "usageEn": "on a ship, plane or train",
+        "example": { "en": "There were 200 passengers on board the plane.", "vi": "Có 200 hành khách trên máy bay." }
+      },
+      {
+        "id": "vocab-unit-9-on-foot",
+        "type": "prepositional-phrase",
+        "word": "on foot",
+        "image": "./assets/vocabulary/unit-9/coming-and-going/11_on_foot.png",
+        "imageAlt": "A tourist exploring a city on foot",
+        "meaningVi": "đi bộ",
+        "usageEn": "walking, not using any form of transport",
+        "example": { "en": "It's only ten minutes on foot from here.", "vi": "Từ đây đi bộ chỉ mất mười phút." }
+      },
+      {
+        "id": "vocab-unit-9-on-holiday",
+        "type": "prepositional-phrase",
+        "word": "on holiday",
+        "image": "./assets/vocabulary/unit-9/coming-and-going/12_on_holiday.png",
+        "imageAlt": "A family relaxing on holiday at the beach",
+        "meaningVi": "đang đi nghỉ",
+        "usageEn": "away from home, not working, for pleasure",
+        "example": { "en": "We're going to Spain on holiday next month.", "vi": "Tháng tới chúng tôi sẽ đi nghỉ ở Tây Ban Nha." }
+      },
+      {
+        "id": "vocab-unit-9-on-schedule",
+        "type": "prepositional-phrase",
+        "word": "on schedule",
+        "image": "./assets/vocabulary/unit-9/coming-and-going/13_on_schedule.png",
+        "imageAlt": "A train arriving on schedule",
+        "meaningVi": "đúng lịch trình",
+        "usageEn": "happening at the time that was planned",
+        "example": { "en": "The train arrived on schedule.", "vi": "Tàu đến đúng giờ theo lịch trình." }
+      },
+      {
+        "id": "vocab-unit-9-on-the-coast",
+        "type": "prepositional-phrase",
+        "word": "on the coast",
+        "image": "./assets/vocabulary/unit-9/coming-and-going/14_on_the_coast.png",
+        "imageAlt": "A town on the coast with lovely beaches",
+        "meaningVi": "ở vùng ven biển",
+        "usageEn": "in a place next to the sea",
+        "example": { "en": "The town is on the coast, so it has lovely beaches.", "vi": "Thị trấn nằm ven biển nên có những bãi biển đẹp." }
+      }
+    ],
+    "wordFormation": {
+      "families": [
+        {
+          "id": "vocab-unit-9-family-attract",
+          "type": "word-family",
+          "root": "attract",
+          "image": "./assets/vocabulary/unit-9/coming-and-going/15_attract.png",
+          "imageAlt": "A famous attraction that attracts many tourists",
+          "forms": [
+            { "word": "attractive", "partOfSpeech": "adjective", "meaningVi": "hấp dẫn, thu hút" },
+            { "word": "attraction", "partOfSpeech": "noun", "meaningVi": "điểm thu hút, sức hấp dẫn" }
+          ]
+        },
+        {
+          "id": "vocab-unit-9-family-back",
+          "type": "word-family",
+          "root": "back",
+          "image": "./assets/vocabulary/unit-9/coming-and-going/16_back.png",
+          "imageAlt": "A sign pointing backwards towards the way back",
+          "forms": [
+            { "word": "backwards", "partOfSpeech": "adverb", "meaningVi": "về phía sau, ngược lại" }
+          ]
+        },
+        {
+          "id": "vocab-unit-9-family-choose",
+          "type": "word-family",
+          "root": "choose",
+          "image": "./assets/vocabulary/unit-9/coming-and-going/17_choose.png",
+          "imageAlt": "A traveller choosing between two destinations",
+          "forms": [
+            { "word": "chose", "partOfSpeech": "verb (past simple)", "meaningVi": "(quá khứ của choose)" },
+            { "word": "chosen", "partOfSpeech": "verb (past participle)", "meaningVi": "(phân từ hai của choose)" },
+            { "word": "choice", "partOfSpeech": "noun", "meaningVi": "sự lựa chọn" }
+          ]
+        },
+        {
+          "id": "vocab-unit-9-family-comfort",
+          "type": "word-family",
+          "root": "comfort",
+          "image": "./assets/vocabulary/unit-9/coming-and-going/18_comfort.png",
+          "imageAlt": "A comfortable seat on a long journey",
+          "forms": [
+            { "word": "comfortable", "partOfSpeech": "adjective", "meaningVi": "thoải mái" },
+            { "word": "uncomfortable", "partOfSpeech": "adjective", "meaningVi": "không thoải mái" }
+          ]
+        },
+        {
+          "id": "vocab-unit-9-family-depart",
+          "type": "word-family",
+          "root": "depart",
+          "image": "./assets/vocabulary/unit-9/coming-and-going/19_depart.png",
+          "imageAlt": "A departure board showing flight departure times",
+          "forms": [
+            { "word": "departure", "partOfSpeech": "noun", "meaningVi": "sự khởi hành" }
+          ]
+        },
+        {
+          "id": "vocab-unit-9-family-direct",
+          "type": "word-family",
+          "root": "direct",
+          "image": "./assets/vocabulary/unit-9/coming-and-going/20_direct.png",
+          "imageAlt": "A signpost showing directions to different places",
+          "forms": [
+            { "word": "direction", "partOfSpeech": "noun", "meaningVi": "phương hướng" }
+          ]
+        },
+        {
+          "id": "vocab-unit-9-family-drive",
+          "type": "word-family",
+          "root": "drive",
+          "image": "./assets/vocabulary/unit-9/coming-and-going/21_drive.png",
+          "imageAlt": "A driver driving a car on a road trip",
+          "forms": [
+            { "word": "drove", "partOfSpeech": "verb (past simple)", "meaningVi": "(quá khứ của drive)" },
+            { "word": "driven", "partOfSpeech": "verb (past participle)", "meaningVi": "(phân từ hai của drive)" },
+            { "word": "driver", "partOfSpeech": "noun", "meaningVi": "người lái xe, tài xế" }
+          ]
+        },
+        {
+          "id": "vocab-unit-9-family-fly",
+          "type": "word-family",
+          "root": "fly",
+          "image": "./assets/vocabulary/unit-9/coming-and-going/22_fly.png",
+          "imageAlt": "A plane flying in the sky",
+          "forms": [
+            { "word": "flew", "partOfSpeech": "verb (past simple)", "meaningVi": "(quá khứ của fly)" },
+            { "word": "flown", "partOfSpeech": "verb (past participle)", "meaningVi": "(phân từ hai của fly)" },
+            { "word": "flight", "partOfSpeech": "noun", "meaningVi": "chuyến bay" }
+          ]
+        },
+        {
+          "id": "vocab-unit-9-family-travel",
+          "type": "word-family",
+          "root": "travel",
+          "image": "./assets/vocabulary/unit-9/coming-and-going/23_travel.png",
+          "imageAlt": "A traveller with a backpack exploring a new city",
+          "forms": [
+            { "word": "traveller", "partOfSpeech": "noun", "meaningVi": "người du lịch, lữ khách" }
+          ]
+        },
+        {
+          "id": "vocab-unit-9-family-visit",
+          "type": "word-family",
+          "root": "visit",
+          "image": "./assets/vocabulary/unit-9/coming-and-going/24_visit.png",
+          "imageAlt": "Visitors visiting a famous landmark",
+          "forms": [
+            { "word": "visitor", "partOfSpeech": "noun", "meaningVi": "khách tham quan, du khách" }
+          ]
+        }
+      ]
+    },
+    "wordPatterns": {
+      "adjectivePreposition": [
+        {
+          "id": "vocab-unit-9-pattern-close-to",
+          "type": "word-pattern",
+          "patternGroup": "adjective",
+          "headword": "close",
+          "prepositions": ["to"],
+          "structure": "close to + noun",
+          "image": "./assets/vocabulary/unit-9/coming-and-going/25_close_to.png",
+          "imageAlt": "A hotel close to the beach",
+          "meaningVi": "gần với",
+          "example": { "en": "Our hotel is close to the beach.", "vi": "Khách sạn của chúng tôi gần biển." }
+        },
+        {
+          "id": "vocab-unit-9-pattern-famous-for",
+          "type": "word-pattern",
+          "patternGroup": "adjective",
+          "headword": "famous",
+          "prepositions": ["for"],
+          "structure": "famous for + noun / V-ing",
+          "image": "./assets/vocabulary/unit-9/coming-and-going/26_famous_for.png",
+          "imageAlt": "A city famous for its old harbour",
+          "meaningVi": "nổi tiếng vì",
+          "example": { "en": "The city is famous for its old harbour.", "vi": "Thành phố này nổi tiếng với bến cảng cổ." }
+        },
+        {
+          "id": "vocab-unit-9-pattern-far-from",
+          "type": "word-pattern",
+          "patternGroup": "adjective",
+          "headword": "far",
+          "prepositions": ["from"],
+          "structure": "far from + noun",
+          "image": "./assets/vocabulary/unit-9/coming-and-going/27_far_from.png",
+          "imageAlt": "A campsite far from the nearest town",
+          "meaningVi": "xa so với",
+          "example": { "en": "The campsite is far from the nearest town.", "vi": "Khu cắm trại ở xa thị trấn gần nhất." }
+        },
+        {
+          "id": "vocab-unit-9-pattern-late-for",
+          "type": "word-pattern",
+          "patternGroup": "adjective",
+          "headword": "late",
+          "prepositions": ["for"],
+          "structure": "late for + noun",
+          "image": "./assets/vocabulary/unit-9/coming-and-going/28_late_for.png",
+          "imageAlt": "Passengers late for their flight",
+          "meaningVi": "trễ giờ",
+          "example": { "en": "We were late for our flight.", "vi": "Chúng tôi đã trễ chuyến bay." }
+        },
+        {
+          "id": "vocab-unit-9-pattern-suitable-for",
+          "type": "word-pattern",
+          "patternGroup": "adjective",
+          "headword": "suitable",
+          "prepositions": ["for"],
+          "structure": "suitable for + noun / V-ing",
+          "image": "./assets/vocabulary/unit-9/coming-and-going/29_suitable_for.png",
+          "imageAlt": "A trip suitable for young children",
+          "meaningVi": "phù hợp với",
+          "example": { "en": "This trip isn't suitable for young children.", "vi": "Chuyến đi này không phù hợp với trẻ nhỏ." }
+        }
+      ],
+      "verbPreposition": [
+        {
+          "id": "vocab-unit-9-pattern-arrive-at-in",
+          "type": "word-pattern",
+          "patternGroup": "verb",
+          "headword": "arrive",
+          "prepositions": ["at", "in"],
+          "structure": "arrive at + small place / in + city, country",
+          "image": "./assets/vocabulary/unit-9/coming-and-going/30_arrive_at_in.png",
+          "imageAlt": "Passengers arriving at the airport",
+          "meaningVi": "đến (nơi nào đó)",
+          "example": { "en": "We arrived at the airport two hours early.", "vi": "Chúng tôi đến sân bay sớm hai tiếng." }
+        },
+        {
+          "id": "vocab-unit-9-pattern-ask-somebody-about",
+          "type": "word-pattern",
+          "patternGroup": "verb",
+          "headword": "ask",
+          "prepositions": ["about"],
+          "structure": "ask somebody about + noun",
+          "image": "./assets/vocabulary/unit-9/coming-and-going/31_ask_somebody_about.png",
+          "imageAlt": "A tourist asking a guide about local customs",
+          "meaningVi": "hỏi ai đó về điều gì",
+          "example": { "en": "I asked the guide about the local customs.", "vi": "Tôi đã hỏi hướng dẫn viên về phong tục địa phương." }
+        },
+        {
+          "id": "vocab-unit-9-pattern-ask-for",
+          "type": "word-pattern",
+          "patternGroup": "verb",
+          "headword": "ask",
+          "prepositions": ["for"],
+          "structure": "ask for + noun",
+          "image": "./assets/vocabulary/unit-9/coming-and-going/32_ask_for.png",
+          "imageAlt": "A tourist asking for directions to the station",
+          "meaningVi": "yêu cầu, xin",
+          "example": { "en": "She asked for directions to the station.", "vi": "Cô ấy đã hỏi đường đến ga." }
+        },
+        {
+          "id": "vocab-unit-9-pattern-look-at",
+          "type": "word-pattern",
+          "patternGroup": "verb",
+          "headword": "look",
+          "prepositions": ["at"],
+          "structure": "look at + noun",
+          "image": "./assets/vocabulary/unit-9/coming-and-going/33_look_at.png",
+          "imageAlt": "Travellers looking at a map before setting off",
+          "meaningVi": "nhìn vào",
+          "example": { "en": "Look at the map before we set off.", "vi": "Hãy xem bản đồ trước khi chúng ta khởi hành." }
+        },
+        {
+          "id": "vocab-unit-9-pattern-prepare-for",
+          "type": "word-pattern",
+          "patternGroup": "verb",
+          "headword": "prepare",
+          "prepositions": ["for"],
+          "structure": "prepare for + noun / V-ing",
+          "image": "./assets/vocabulary/unit-9/coming-and-going/34_prepare_for.png",
+          "imageAlt": "A family preparing for a trip abroad",
+          "meaningVi": "chuẩn bị cho",
+          "example": { "en": "We need to prepare for our trip abroad.", "vi": "Chúng ta cần chuẩn bị cho chuyến đi nước ngoài." }
+        },
+        {
+          "id": "vocab-unit-9-pattern-provide-somebody-with",
+          "type": "word-pattern",
+          "patternGroup": "verb",
+          "headword": "provide",
+          "prepositions": ["with"],
+          "structure": "provide somebody with + noun",
+          "image": "./assets/vocabulary/unit-9/coming-and-going/35_provide_somebody_with.png",
+          "imageAlt": "An airline providing passengers with free meals",
+          "meaningVi": "cung cấp cho ai đó",
+          "example": { "en": "The airline provided us with free meals.", "vi": "Hãng hàng không đã cung cấp cho chúng tôi bữa ăn miễn phí." }
+        },
+        {
+          "id": "vocab-unit-9-pattern-wait-for",
+          "type": "word-pattern",
+          "patternGroup": "verb",
+          "headword": "wait",
+          "prepositions": ["for"],
+          "structure": "wait for + noun",
+          "image": "./assets/vocabulary/unit-9/coming-and-going/36_wait_for.png",
+          "imageAlt": "Passengers waiting for the next ferry",
+          "meaningVi": "chờ đợi",
+          "example": { "en": "We had to wait for the next ferry.", "vi": "Chúng tôi phải chờ chuyến phà tiếp theo." }
+        }
+      ]
+    }
+  }
+}

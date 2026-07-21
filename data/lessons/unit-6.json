@@ -5,7 +5,7 @@
   "title": "Learning and doing",
   "description": "Vocabulary for talking about studying, exams, skills and school life.",
   "previousLessonId": "unit-5",
-  "nextLessonId": null,
+  "nextLessonId": "review-2",
   "vocabularyReview": true,
   "topics": [
     { "id": "topic-vocabulary", "number": 1, "title": "Topic vocabulary" },

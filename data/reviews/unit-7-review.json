@@ -1,0 +1,97 @@
+{
+  "id": "unit-7-review",
+  "unitId": "unit-7",
+  "title": "Unit 7 Review",
+  "description": "Review the present continuous, will, be going to, and present simple for future time.",
+  "passingScore": 70,
+  "contentLocale": "en",
+  "attemptSettings": {
+    "allowRetry": true,
+    "showCorrectAnswer": "after-submit",
+    "showExplanation": "after-submit",
+    "saveProgress": true
+  },
+  "sections": [
+    {
+      "id": "present-continuous",
+      "type": "short-answer",
+      "title": "Present continuous",
+      "instructions": "Look at Shelley's diary and use the prompts to write sentences using the correct form of the present continuous.",
+      "selectionMode": "fixed",
+      "shuffleQuestions": false,
+      "questionIds": [
+        "unit-7-present-continuous-short-0001",
+        "unit-7-present-continuous-short-0002",
+        "unit-7-present-continuous-short-0003",
+        "unit-7-present-continuous-short-0004",
+        "unit-7-present-continuous-short-0005",
+        "unit-7-present-continuous-short-0006"
+      ]
+    },
+    {
+      "id": "will",
+      "type": "fill-in-the-blanks",
+      "title": "Will or shall",
+      "instructions": "Complete using will or shall and the verbs in the box. You may have to use some negative forms.",
+      "selectionMode": "fixed",
+      "shuffleQuestions": false,
+      "questionIds": ["unit-7-will-fitb-0001"]
+    },
+    {
+      "id": "be-going-to",
+      "type": "fill-in-the-blanks",
+      "title": "Be going to",
+      "instructions": "Complete using the correct form of be going to and the verbs in brackets. You may have to use some negative forms.",
+      "selectionMode": "fixed",
+      "shuffleQuestions": false,
+      "questionIds": ["unit-7-be-going-to-fitb-0001"]
+    },
+    {
+      "id": "present-simple",
+      "type": "fill-in-the-blanks",
+      "title": "Present simple",
+      "instructions": "Complete using the correct present simple form of the verbs in the box.",
+      "selectionMode": "fixed",
+      "shuffleQuestions": false,
+      "questionIds": ["unit-7-present-simple-fitb-0001"]
+    },
+    {
+      "id": "circle-correct",
+      "type": "multiple-choice",
+      "title": "Circle the correct word or phrase",
+      "instructions": "Choose the correct word or phrase.",
+      "selectionMode": "fixed",
+      "shuffleQuestions": true,
+      "shuffleOptions": true,
+      "questionIds": [
+        "unit-7-will-mcq-0001",
+        "unit-7-present-continuous-mcq-0001",
+        "unit-7-be-going-to-mcq-0001",
+        "unit-7-will-mcq-0002",
+        "unit-7-be-going-to-mcq-0002",
+        "unit-7-present-continuous-mcq-0002",
+        "unit-7-will-mcq-0003",
+        "unit-7-present-continuous-mcq-0003",
+        "unit-7-will-mcq-0004",
+        "unit-7-will-mcq-0005"
+      ]
+    },
+    {
+      "id": "choose-correct",
+      "type": "multiple-choice",
+      "title": "Choose the correct answer",
+      "instructions": "Choose the correct answer.",
+      "selectionMode": "fixed",
+      "shuffleQuestions": true,
+      "shuffleOptions": true,
+      "questionIds": [
+        "unit-7-present-continuous-mcq-0004",
+        "unit-7-will-mcq-0006",
+        "unit-7-will-mcq-0007",
+        "unit-7-be-going-to-mcq-0003",
+        "unit-7-will-mcq-0008",
+        "unit-7-be-going-to-mcq-0004"
+      ]
+    }
+  ]
+}

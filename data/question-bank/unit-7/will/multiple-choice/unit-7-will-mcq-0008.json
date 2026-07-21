@@ -1,0 +1,25 @@
+{
+  "id": "unit-7-will-mcq-0008",
+  "type": "multiple-choice",
+  "unitId": "unit-7",
+  "topicId": "will",
+  "contentLocale": "en",
+  "difficulty": "medium",
+  "prompt": "\"John is a better player than Martin, isn't he?\" \"Oh, yes. ___ the match tomorrow, I expect.\"",
+  "explanation": "A prediction based on opinion (I expect) uses will: He'll win.",
+  "tags": ["will", "predictions"],
+  "skills": ["grammar"],
+  "source": { "type": "original", "reference": null },
+  "status": "published",
+  "version": 1,
+  "createdAt": "2026-07-21T00:00:00.000Z",
+  "updatedAt": "2026-07-21T00:00:00.000Z",
+  "options": [
+    { "id": "a", "text": "He'll win" },
+    { "id": "b", "text": "He wins" },
+    { "id": "c", "text": "He's winning" }
+  ],
+  "correctOptionIds": ["a"],
+  "selectionMode": "single",
+  "shuffleOptions": true
+}

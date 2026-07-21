@@ -1,0 +1,29 @@
+{
+  "id": "unit-7-present-continuous-short-0006",
+  "type": "short-answer",
+  "unitId": "unit-7",
+  "topicId": "present-continuous",
+  "contentLocale": "en",
+  "difficulty": "medium",
+  "prompt": "Shelley's diary — Saturday: work, Dad's shop, all morning. Complete: On Saturday, she ___.",
+  "explanation": "A fixed arrangement uses the present continuous: is working.",
+  "tags": ["arrangements", "diary"],
+  "skills": ["grammar", "writing"],
+  "source": { "type": "original", "reference": null },
+  "status": "published",
+  "version": 1,
+  "createdAt": "2026-07-21T00:00:00.000Z",
+  "updatedAt": "2026-07-21T00:00:00.000Z",
+  "acceptedAnswers": [
+    "is working at Dad's shop all morning",
+    "'s working at Dad's shop all morning",
+    "is working in Dad's shop all morning"
+  ],
+  "answerValidation": {
+    "caseSensitive": false,
+    "trimWhitespace": true,
+    "collapseWhitespace": true,
+    "ignoreEndingPunctuation": true,
+    "matchMode": "normalized"
+  }
+}

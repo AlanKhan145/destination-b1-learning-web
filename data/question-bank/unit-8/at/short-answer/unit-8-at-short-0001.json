@@ -1,0 +1,26 @@
+{
+  "id": "unit-8-at-short-0001",
+  "type": "short-answer",
+  "unitId": "unit-8",
+  "topicId": "at",
+  "contentLocale": "en",
+  "difficulty": "easy",
+  "prompt": "Look at the picture and complete the sentence: We're ___ a concert.",
+  "explanation": "Activities use at: at a concert.",
+  "tags": ["prepositions", "picture"],
+  "skills": ["grammar"],
+  "media": { "image": "assets/question-bank/unit-8/at-in-on-place/02-concert.png", "alt": "A band performing on stage in front of an audience." },
+  "source": { "type": "original", "reference": null },
+  "status": "published",
+  "version": 1,
+  "createdAt": "2026-07-21T00:00:00.000Z",
+  "updatedAt": "2026-07-21T00:00:00.000Z",
+  "acceptedAnswers": ["at"],
+  "answerValidation": {
+    "caseSensitive": false,
+    "trimWhitespace": true,
+    "collapseWhitespace": true,
+    "ignoreEndingPunctuation": true,
+    "matchMode": "normalized"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "id": "unit-8-in-fitb-0003",
+  "type": "fill-in-the-blanks",
+  "unitId": "unit-8",
+  "topicId": "in",
+  "contentLocale": "en",
+  "difficulty": "medium",
+  "prompt": "Complete using the words in the box: at, in, on, to.",
+  "explanation": "Verbs of motion (move, go, come, walk, fly) use to. Cities use \"arrive in\". Exact points such as the end of a street use at. Surfaces use on.",
+  "tags": ["prepositions", "to-contrast"],
+  "skills": ["grammar"],
+  "source": { "type": "original", "reference": null },
+  "status": "published",
+  "version": 1,
+  "createdAt": "2026-07-21T00:00:00.000Z",
+  "updatedAt": "2026-07-21T00:00:00.000Z",
+  "passageTemplate": "1. My aunt and uncle have decided to move {{blank-1}} New Zealand.\n2. Do you want to go {{blank-2}} the theatre tomorrow?\n3. We stayed {{blank-3}} a great hotel in Dubai.\n4. Wait {{blank-4}} the end of the street and I'll come and meet you.\n5. You can come {{blank-5}} my house for dinner, if you like.\n6. Connor was walking {{blank-6}} the corner shop when he realised he'd lost his wallet.\n7. We drove all night and finally arrived {{blank-7}} Lisbon at eight o'clock.\n8. Did you leave your book {{blank-8}} the teacher's desk, so she can see it?\n9. Look at those sheep {{blank-9}} that field over there.\n10. It takes about six hours to fly {{blank-10}} Asia from here.",
+  "blanks": [
+    { "id": "blank-1", "acceptedAnswers": ["to"] },
+    { "id": "blank-2", "acceptedAnswers": ["to"] },
+    { "id": "blank-3", "acceptedAnswers": ["at", "in"] },
+    { "id": "blank-4", "acceptedAnswers": ["at"] },
+    { "id": "blank-5", "acceptedAnswers": ["to"] },
+    { "id": "blank-6", "acceptedAnswers": ["to"] },
+    { "id": "blank-7", "acceptedAnswers": ["in"] },
+    { "id": "blank-8", "acceptedAnswers": ["on"] },
+    { "id": "blank-9", "acceptedAnswers": ["in"] },
+    { "id": "blank-10", "acceptedAnswers": ["to"] }
+  ]
+}

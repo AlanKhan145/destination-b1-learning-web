@@ -1,0 +1,25 @@
+{
+  "id": "unit-9-topic-vocabulary-short-0011",
+  "type": "short-answer",
+  "unitId": "unit-9",
+  "topicId": "topic-vocabulary",
+  "contentLocale": "en",
+  "difficulty": "easy",
+  "prompt": "Unscramble the letters to complete the sentence: \"Have you ever travelled ___?\" \"Yes, I went to Italy last year.\" (D A R O A B)",
+  "explanation": "Abroad means in or to a foreign country.",
+  "tags": ["topic-vocabulary", "anagram"],
+  "skills": ["vocabulary"],
+  "source": { "type": "original", "reference": null },
+  "status": "published",
+  "version": 1,
+  "createdAt": "2026-07-21T00:00:00.000Z",
+  "updatedAt": "2026-07-21T00:00:00.000Z",
+  "acceptedAnswers": ["abroad"],
+  "answerValidation": {
+    "caseSensitive": false,
+    "trimWhitespace": true,
+    "collapseWhitespace": true,
+    "ignoreEndingPunctuation": true,
+    "matchMode": "normalized"
+  }
+}

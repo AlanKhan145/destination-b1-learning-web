@@ -1,0 +1,23 @@
+{
+  "id": "review-2",
+  "unitNumber": "4–6",
+  "category": "Review",
+  "title": "Units 4-6 Review",
+  "description": "A cumulative test covering the vocabulary and grammar from Units 4, 5 and 6: topic vocabulary, phrasal verbs, word formation, perfect tenses, and open cloze.",
+  "previousLessonId": "unit-6",
+  "nextLessonId": null,
+  "topics": [
+    { "id": "vocabulary", "number": 1, "title": "Topic vocabulary", "format": "Fill in the blanks", "itemCount": 8, "itemLabel": "blanks" },
+    { "id": "phrasal-verbs", "number": 2, "title": "Phrasal verbs", "format": "Short answer", "itemCount": 7, "itemLabel": "questions" },
+    { "id": "word-formation", "number": 3, "title": "Word formation", "format": "Fill in the blanks", "itemCount": 10, "itemLabel": "blanks" },
+    { "id": "grammar-tenses", "number": 4, "title": "Perfect tenses", "format": "Multiple choice", "itemCount": 8, "itemLabel": "questions" },
+    { "id": "open-cloze", "number": 5, "title": "Open cloze", "format": "Fill in the blanks", "itemCount": 10, "itemLabel": "blanks" }
+  ],
+  "review": {
+    "reviewId": "review-2",
+    "enabled": true,
+    "displayMode": "side-panel",
+    "position": "right",
+    "defaultOpen": true
+  }
+}

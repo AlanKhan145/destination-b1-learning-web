@@ -155,6 +155,16 @@ function renderQuestionScreen() {
 
   const entry = getCurrentEntry(currentAttempt);
   const questionEl = createElement("div", { className: "review-question", attrs: { "data-question-type": entry.question.type } });
+
+  if (entry.question.media?.image) {
+    questionEl.appendChild(
+      createElement("img", {
+        className: "review-question-image",
+        attrs: { src: entry.question.media.image, alt: entry.question.media.alt || "" }
+      })
+    );
+  }
+
   questionEl.appendChild(createElement("p", { className: "review-question-prompt", text: entry.question.prompt }));
 
   const answerContainer = createElement("div", { className: "review-answer-area" });

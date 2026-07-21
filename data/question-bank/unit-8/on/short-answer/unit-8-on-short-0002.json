@@ -1,0 +1,26 @@
+{
+  "id": "unit-8-on-short-0002",
+  "type": "short-answer",
+  "unitId": "unit-8",
+  "topicId": "on",
+  "contentLocale": "en",
+  "difficulty": "easy",
+  "prompt": "Look at the picture and complete the sentence: He's ___ an island.",
+  "explanation": "Islands use on: on an island.",
+  "tags": ["prepositions", "picture"],
+  "skills": ["grammar"],
+  "media": { "image": "assets/question-bank/unit-8/at-in-on-place/06-island.png", "alt": "A man relaxing under a palm tree on a sandy beach, with the sea and a sailboat behind him." },
+  "source": { "type": "original", "reference": null },
+  "status": "published",
+  "version": 1,
+  "createdAt": "2026-07-21T00:00:00.000Z",
+  "updatedAt": "2026-07-21T00:00:00.000Z",
+  "acceptedAnswers": ["on"],
+  "answerValidation": {
+    "caseSensitive": false,
+    "trimWhitespace": true,
+    "collapseWhitespace": true,
+    "ignoreEndingPunctuation": true,
+    "matchMode": "normalized"
+  }
+}

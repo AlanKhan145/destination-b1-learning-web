@@ -1,0 +1,30 @@
+{
+  "id": "unit-7-be-going-to-fitb-0001",
+  "type": "fill-in-the-blanks",
+  "unitId": "unit-7",
+  "topicId": "be-going-to",
+  "contentLocale": "en",
+  "difficulty": "medium",
+  "prompt": "Complete using the correct form of be going to and the verbs in brackets. You may have to use some negative forms.",
+  "explanation": "Intentions and evidence-based predictions use be going to. Questions invert the form of be (Is Lauren going to tell...?); negatives insert not before going to (isn't going to invite).",
+  "tags": ["be-going-to"],
+  "skills": ["grammar"],
+  "source": { "type": "original", "reference": null },
+  "status": "published",
+  "version": 1,
+  "createdAt": "2026-07-21T00:00:00.000Z",
+  "updatedAt": "2026-07-21T00:00:00.000Z",
+  "passageTemplate": "1. When I grow up, I {{blank-1}} (play) guitar in a rock group!\n2. Rick and Mark {{blank-2}} (start) going to the gym twice a week.\n3. {{blank-3}} Lauren {{blank-4}} (tell) her mum about what happened?\n4. I {{blank-5}} (look) on the Internet for information about snowboarding.\n5. No, Nadine {{blank-6}} (invite) everyone from class – just her close friends.\n6. {{blank-7}} Harry {{blank-8}} (be) ready on time or not?\n7. Careful! You {{blank-9}} (break) something with that ball! Go outside!\n8. I {{blank-10}} (lie down) for half an hour. Call me at six o'clock.",
+  "blanks": [
+    { "id": "blank-1", "acceptedAnswers": ["am going to play", "'m going to play"] },
+    { "id": "blank-2", "acceptedAnswers": ["are going to start", "'re going to start"] },
+    { "id": "blank-3", "acceptedAnswers": ["Is", "is"] },
+    { "id": "blank-4", "acceptedAnswers": ["going to tell"] },
+    { "id": "blank-5", "acceptedAnswers": ["am going to look", "'m going to look"] },
+    { "id": "blank-6", "acceptedAnswers": ["isn't going to invite", "is not going to invite"] },
+    { "id": "blank-7", "acceptedAnswers": ["Is", "is"] },
+    { "id": "blank-8", "acceptedAnswers": ["going to be"] },
+    { "id": "blank-9", "acceptedAnswers": ["are going to break", "'re going to break"] },
+    { "id": "blank-10", "acceptedAnswers": ["am going to lie down", "'m going to lie down"] }
+  ]
+}

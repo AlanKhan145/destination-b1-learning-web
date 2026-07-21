@@ -1,0 +1,24 @@
+{
+  "id": "unit-7-will-mcq-0001",
+  "type": "multiple-choice",
+  "unitId": "unit-7",
+  "topicId": "will",
+  "contentLocale": "en",
+  "difficulty": "medium",
+  "prompt": "Oscar says he ___ the washing-up after dinner.",
+  "explanation": "This is an offer/decision made now (not a pre-arranged plan with another person), so will is used: he will do.",
+  "tags": ["will", "present-continuous-contrast"],
+  "skills": ["grammar"],
+  "source": { "type": "original", "reference": null },
+  "status": "published",
+  "version": 1,
+  "createdAt": "2026-07-21T00:00:00.000Z",
+  "updatedAt": "2026-07-21T00:00:00.000Z",
+  "options": [
+    { "id": "a", "text": "is doing" },
+    { "id": "b", "text": "will do" }
+  ],
+  "correctOptionIds": ["b"],
+  "selectionMode": "single",
+  "shuffleOptions": true
+}

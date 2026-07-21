@@ -1,0 +1,30 @@
+{
+  "id": "unit-7-will-fitb-0001",
+  "type": "fill-in-the-blanks",
+  "unitId": "unit-7",
+  "topicId": "will",
+  "contentLocale": "en",
+  "difficulty": "medium",
+  "prompt": "Complete using will or shall and the verbs in the box: be, come, find, have, lend, live, take, visit. You may have to use some negative forms.",
+  "explanation": "Facts and predictions use will (will visit, will find, will live, won't be). A request uses Will you...? (Will you lend). A decision made now uses will (I'll have). An offer uses will (I'll take). An offer that is a question with we uses Shall we...? (Shall we come).",
+  "tags": ["will", "shall"],
+  "skills": ["grammar"],
+  "source": { "type": "original", "reference": null },
+  "status": "published",
+  "version": 1,
+  "createdAt": "2026-07-21T00:00:00.000Z",
+  "updatedAt": "2026-07-21T00:00:00.000Z",
+  "passageTemplate": "1. This year, more than a million tourists {{blank-1}} our local area.\n2. I'm sure we {{blank-2}} your bag soon. Where did you last see it?\n3. {{blank-3}} you {{blank-4}} me some money until Saturday?\n4. Everything on the menu looks delicious! Erm … I {{blank-5}} Chicken Kiev, please.\n5. I {{blank-6}} you to the bus station, if you like.\n6. One day, people {{blank-7}} on Mars in special buildings.\n7. No, there {{blank-8}} any problems with delivering your new furniture next week.\n8. {{blank-9}} we {{blank-10}} at six to help you get things ready for dinner?",
+  "blanks": [
+    { "id": "blank-1", "acceptedAnswers": ["will visit"] },
+    { "id": "blank-2", "acceptedAnswers": ["will find", "'ll find"] },
+    { "id": "blank-3", "acceptedAnswers": ["Will", "will"] },
+    { "id": "blank-4", "acceptedAnswers": ["lend"] },
+    { "id": "blank-5", "acceptedAnswers": ["will have", "'ll have"] },
+    { "id": "blank-6", "acceptedAnswers": ["will take", "'ll take"] },
+    { "id": "blank-7", "acceptedAnswers": ["will live", "'ll live"] },
+    { "id": "blank-8", "acceptedAnswers": ["won't be", "will not be"] },
+    { "id": "blank-9", "acceptedAnswers": ["Shall", "shall"] },
+    { "id": "blank-10", "acceptedAnswers": ["come"] }
+  ]
+}

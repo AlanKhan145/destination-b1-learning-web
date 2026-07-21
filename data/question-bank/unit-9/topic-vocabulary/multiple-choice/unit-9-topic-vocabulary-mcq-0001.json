@@ -1,0 +1,24 @@
+{
+  "id": "unit-9-topic-vocabulary-mcq-0001",
+  "type": "multiple-choice",
+  "unitId": "unit-9",
+  "topicId": "topic-vocabulary",
+  "contentLocale": "en",
+  "difficulty": "easy",
+  "prompt": "There was terrible ___ on the motorway this morning.",
+  "explanation": "Traffic is the vehicles moving along a road.",
+  "tags": ["topic-vocabulary"],
+  "skills": ["vocabulary"],
+  "source": { "type": "original", "reference": null },
+  "status": "published",
+  "version": 1,
+  "createdAt": "2026-07-21T00:00:00.000Z",
+  "updatedAt": "2026-07-21T00:00:00.000Z",
+  "options": [
+    { "id": "a", "text": "ferry" },
+    { "id": "b", "text": "traffic" }
+  ],
+  "correctOptionIds": ["b"],
+  "selectionMode": "single",
+  "shuffleOptions": true
+}

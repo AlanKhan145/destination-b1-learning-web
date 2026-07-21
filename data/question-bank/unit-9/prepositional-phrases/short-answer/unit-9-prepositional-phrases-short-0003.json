@@ -1,0 +1,25 @@
+{
+  "id": "unit-9-prepositional-phrases-short-0003",
+  "type": "short-answer",
+  "unitId": "unit-9",
+  "topicId": "prepositional-phrases",
+  "contentLocale": "en",
+  "difficulty": "medium",
+  "prompt": "Complete using a word from the box plus any other words you need: If you come ___, don't forget to get off at the stop outside the bank. (board, bus, coast, foot, holiday, schedule)",
+  "explanation": "By bus is used to say how you travel.",
+  "tags": ["prepositional-phrases", "word-box"],
+  "skills": ["vocabulary"],
+  "source": { "type": "original", "reference": null },
+  "status": "published",
+  "version": 1,
+  "createdAt": "2026-07-21T00:00:00.000Z",
+  "updatedAt": "2026-07-21T00:00:00.000Z",
+  "acceptedAnswers": ["by bus"],
+  "answerValidation": {
+    "caseSensitive": false,
+    "trimWhitespace": true,
+    "collapseWhitespace": true,
+    "ignoreEndingPunctuation": true,
+    "matchMode": "normalized"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "id": "unit-8-in-fitb-0002",
+  "type": "fill-in-the-blanks",
+  "unitId": "unit-8",
+  "topicId": "in",
+  "contentLocale": "en",
+  "difficulty": "medium",
+  "prompt": "Complete using on, in or at.",
+  "explanation": "In is used for being inside a building, area or written text; on for a surface or an island; at for an address.",
+  "tags": ["prepositions"],
+  "skills": ["grammar"],
+  "source": { "type": "original", "reference": null },
+  "status": "published",
+  "version": 1,
+  "createdAt": "2026-07-21T00:00:00.000Z",
+  "updatedAt": "2026-07-21T00:00:00.000Z",
+  "passageTemplate": "1. There are lots of people {{blank-1}} the restaurant.\n2. The people who live {{blank-2}} number 44 are away on holiday.\n3. You should go to the Louvre when you're {{blank-3}} Paris.\n4. Gorillas live {{blank-4}} forests in Africa and eat fruit.\n5. What does that sign {{blank-5}} the wall say?\n6. What did Ethan say {{blank-6}} his letter?\n7. Have you heard of the strange statues {{blank-7}} Easter Island?\n8. Do you really want to spend the whole day {{blank-8}} the beach?",
+  "blanks": [
+    { "id": "blank-1", "acceptedAnswers": ["in"] },
+    { "id": "blank-2", "acceptedAnswers": ["at"] },
+    { "id": "blank-3", "acceptedAnswers": ["in"] },
+    { "id": "blank-4", "acceptedAnswers": ["in"] },
+    { "id": "blank-5", "acceptedAnswers": ["on"] },
+    { "id": "blank-6", "acceptedAnswers": ["in"] },
+    { "id": "blank-7", "acceptedAnswers": ["on"] },
+    { "id": "blank-8", "acceptedAnswers": ["on"] }
+  ]
+}

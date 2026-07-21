@@ -1,0 +1,29 @@
+{
+  "id": "unit-7-present-continuous-short-0002",
+  "type": "short-answer",
+  "unitId": "unit-7",
+  "topicId": "present-continuous",
+  "contentLocale": "en",
+  "difficulty": "medium",
+  "prompt": "Shelley's diary — Tuesday: go shopping, Mum. Complete: On Tuesday, she ___.",
+  "explanation": "A fixed arrangement with another person uses the present continuous: is going.",
+  "tags": ["arrangements", "diary"],
+  "skills": ["grammar", "writing"],
+  "source": { "type": "original", "reference": null },
+  "status": "published",
+  "version": 1,
+  "createdAt": "2026-07-21T00:00:00.000Z",
+  "updatedAt": "2026-07-21T00:00:00.000Z",
+  "acceptedAnswers": [
+    "is going shopping with Mum",
+    "'s going shopping with Mum",
+    "is going shopping with her mum"
+  ],
+  "answerValidation": {
+    "caseSensitive": false,
+    "trimWhitespace": true,
+    "collapseWhitespace": true,
+    "ignoreEndingPunctuation": true,
+    "matchMode": "normalized"
+  }
+}

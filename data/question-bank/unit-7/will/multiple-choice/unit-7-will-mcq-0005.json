@@ -1,0 +1,24 @@
+{
+  "id": "unit-7-will-mcq-0005",
+  "type": "multiple-choice",
+  "unitId": "unit-7",
+  "topicId": "will",
+  "contentLocale": "en",
+  "difficulty": "medium",
+  "prompt": "If you want me to, I ___ to the manager about it.",
+  "explanation": "A decision or offer made at the moment of speaking uses will: will complain.",
+  "tags": ["will", "be-going-to-contrast"],
+  "skills": ["grammar"],
+  "source": { "type": "original", "reference": null },
+  "status": "published",
+  "version": 1,
+  "createdAt": "2026-07-21T00:00:00.000Z",
+  "updatedAt": "2026-07-21T00:00:00.000Z",
+  "options": [
+    { "id": "a", "text": "will complain" },
+    { "id": "b", "text": "am going to complain" }
+  ],
+  "correctOptionIds": ["a"],
+  "selectionMode": "single",
+  "shuffleOptions": true
+}

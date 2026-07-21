@@ -1,0 +1,24 @@
+{
+  "id": "unit-8-at-mcq-0003",
+  "type": "multiple-choice",
+  "unitId": "unit-8",
+  "topicId": "at",
+  "contentLocale": "en",
+  "difficulty": "medium",
+  "prompt": "I think there's someone ___ the door. I'll go and check.",
+  "explanation": "\"At the door/window\" is a fixed phrase with at.",
+  "tags": ["prepositions"],
+  "skills": ["grammar"],
+  "source": { "type": "original", "reference": null },
+  "status": "published",
+  "version": 1,
+  "createdAt": "2026-07-21T00:00:00.000Z",
+  "updatedAt": "2026-07-21T00:00:00.000Z",
+  "options": [
+    { "id": "a", "text": "at" },
+    { "id": "b", "text": "in" }
+  ],
+  "correctOptionIds": ["a"],
+  "selectionMode": "single",
+  "shuffleOptions": true
+}

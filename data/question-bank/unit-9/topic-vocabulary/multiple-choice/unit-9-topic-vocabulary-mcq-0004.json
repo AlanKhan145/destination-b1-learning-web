@@ -1,0 +1,24 @@
+{
+  "id": "unit-9-topic-vocabulary-mcq-0004",
+  "type": "multiple-choice",
+  "unitId": "unit-9",
+  "topicId": "topic-vocabulary",
+  "contentLocale": "en",
+  "difficulty": "easy",
+  "prompt": "She can speak two ___ languages fluently.",
+  "explanation": "Foreign means belonging to or connected with a country that is not your own.",
+  "tags": ["topic-vocabulary"],
+  "skills": ["vocabulary"],
+  "source": { "type": "original", "reference": null },
+  "status": "published",
+  "version": 1,
+  "createdAt": "2026-07-21T00:00:00.000Z",
+  "updatedAt": "2026-07-21T00:00:00.000Z",
+  "options": [
+    { "id": "a", "text": "convenient" },
+    { "id": "b", "text": "foreign" }
+  ],
+  "correctOptionIds": ["b"],
+  "selectionMode": "single",
+  "shuffleOptions": true
+}

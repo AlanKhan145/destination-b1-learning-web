@@ -1,0 +1,25 @@
+{
+  "id": "unit-9-topic-vocabulary-short-0006",
+  "type": "short-answer",
+  "unitId": "unit-9",
+  "topicId": "topic-vocabulary",
+  "contentLocale": "en",
+  "difficulty": "medium",
+  "prompt": "Unscramble the letters to complete the sentence: You have to choose your ___ and the ticket machine gives you your ticket. (I N E T I D S O T A N)",
+  "explanation": "A destination is the place where someone or something is going.",
+  "tags": ["topic-vocabulary", "anagram"],
+  "skills": ["vocabulary"],
+  "source": { "type": "original", "reference": null },
+  "status": "published",
+  "version": 1,
+  "createdAt": "2026-07-21T00:00:00.000Z",
+  "updatedAt": "2026-07-21T00:00:00.000Z",
+  "acceptedAnswers": ["destination"],
+  "answerValidation": {
+    "caseSensitive": false,
+    "trimWhitespace": true,
+    "collapseWhitespace": true,
+    "ignoreEndingPunctuation": true,
+    "matchMode": "normalized"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "id": "unit-9-topic-vocabulary-short-0018",
+  "type": "short-answer",
+  "unitId": "unit-9",
+  "topicId": "topic-vocabulary",
+  "contentLocale": "en",
+  "difficulty": "easy",
+  "prompt": "Complete using the correct form of \"catch\": If we're quick, then maybe we can still ___ the bus.",
+  "explanation": "Catch means to get on a bus, train, plane, etc. in order to travel somewhere.",
+  "tags": ["topic-vocabulary", "word-box"],
+  "skills": ["vocabulary", "grammar"],
+  "source": { "type": "original", "reference": null },
+  "status": "published",
+  "version": 1,
+  "createdAt": "2026-07-21T00:00:00.000Z",
+  "updatedAt": "2026-07-21T00:00:00.000Z",
+  "acceptedAnswers": ["catch"],
+  "answerValidation": {
+    "caseSensitive": false,
+    "trimWhitespace": true,
+    "collapseWhitespace": true,
+    "ignoreEndingPunctuation": true,
+    "matchMode": "normalized"
+  }
+}

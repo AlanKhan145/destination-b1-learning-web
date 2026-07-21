@@ -1,0 +1,29 @@
+{
+  "id": "unit-7-present-continuous-short-0003",
+  "type": "short-answer",
+  "unitId": "unit-7",
+  "topicId": "present-continuous",
+  "contentLocale": "en",
+  "difficulty": "medium",
+  "prompt": "Shelley's diary — Wednesday: catch train, Brighton. Complete: On Wednesday, she ___.",
+  "explanation": "A fixed arrangement uses the present continuous: is catching.",
+  "tags": ["arrangements", "diary"],
+  "skills": ["grammar", "writing"],
+  "source": { "type": "original", "reference": null },
+  "status": "published",
+  "version": 1,
+  "createdAt": "2026-07-21T00:00:00.000Z",
+  "updatedAt": "2026-07-21T00:00:00.000Z",
+  "acceptedAnswers": [
+    "is catching the train to Brighton",
+    "'s catching the train to Brighton",
+    "is catching a train to Brighton"
+  ],
+  "answerValidation": {
+    "caseSensitive": false,
+    "trimWhitespace": true,
+    "collapseWhitespace": true,
+    "ignoreEndingPunctuation": true,
+    "matchMode": "normalized"
+  }
+}

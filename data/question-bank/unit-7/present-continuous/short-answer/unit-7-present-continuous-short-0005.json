@@ -1,0 +1,30 @@
+{
+  "id": "unit-7-present-continuous-short-0005",
+  "type": "short-answer",
+  "unitId": "unit-7",
+  "topicId": "present-continuous",
+  "contentLocale": "en",
+  "difficulty": "medium",
+  "prompt": "Shelley's diary — Friday: catch train, home, 10 am. Complete: On Friday, she ___.",
+  "explanation": "A fixed arrangement with a stated time uses the present continuous: is catching.",
+  "tags": ["arrangements", "diary"],
+  "skills": ["grammar", "writing"],
+  "source": { "type": "original", "reference": null },
+  "status": "published",
+  "version": 1,
+  "createdAt": "2026-07-21T00:00:00.000Z",
+  "updatedAt": "2026-07-21T00:00:00.000Z",
+  "acceptedAnswers": [
+    "is catching the train home at 10 am",
+    "'s catching the train home at 10 am",
+    "is catching the train home at ten o'clock",
+    "is catching the train home at 10 o'clock"
+  ],
+  "answerValidation": {
+    "caseSensitive": false,
+    "trimWhitespace": true,
+    "collapseWhitespace": true,
+    "ignoreEndingPunctuation": true,
+    "matchMode": "normalized"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "unit-7-present-simple-fitb-0001",
+  "type": "fill-in-the-blanks",
+  "unitId": "unit-7",
+  "topicId": "present-simple",
+  "contentLocale": "en",
+  "difficulty": "easy",
+  "prompt": "Complete using the correct present simple form of the verbs in the box: arrive, come, leave, take.",
+  "explanation": "Timetabled events use the present simple: the plane leaves, we arrive, we take the train, we come back.",
+  "tags": ["timetables", "word-box"],
+  "skills": ["grammar"],
+  "source": { "type": "original", "reference": null },
+  "status": "published",
+  "version": 1,
+  "createdAt": "2026-07-21T00:00:00.000Z",
+  "updatedAt": "2026-07-21T00:00:00.000Z",
+  "passageTemplate": "\"I'm so excited about my holiday! My plane {{blank-1}} the airport here at nine o'clock and we {{blank-2}} in Paris two hours later. We then {{blank-3}} the train from the airport to the city. We'll have a great week, and then we {{blank-4}} back on the 17th. I can't wait!\"",
+  "blanks": [
+    { "id": "blank-1", "acceptedAnswers": ["leaves"] },
+    { "id": "blank-2", "acceptedAnswers": ["arrive"] },
+    { "id": "blank-3", "acceptedAnswers": ["take"] },
+    { "id": "blank-4", "acceptedAnswers": ["come"] }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "id": "unit-8-at-short-0002",
+  "type": "short-answer",
+  "unitId": "unit-8",
+  "topicId": "at",
+  "contentLocale": "en",
+  "difficulty": "easy",
+  "prompt": "Look at the picture and complete the sentence: They're ___ a wedding.",
+  "explanation": "Activities/events use at: at a wedding.",
+  "tags": ["prepositions", "picture"],
+  "skills": ["grammar"],
+  "media": { "image": "assets/question-bank/unit-8/at-in-on-place/08-wedding.png", "alt": "Two men in formal suits talking near a large tiered cake with candles." },
+  "source": { "type": "original", "reference": null },
+  "status": "published",
+  "version": 1,
+  "createdAt": "2026-07-21T00:00:00.000Z",
+  "updatedAt": "2026-07-21T00:00:00.000Z",
+  "acceptedAnswers": ["at"],
+  "answerValidation": {
+    "caseSensitive": false,
+    "trimWhitespace": true,
+    "collapseWhitespace": true,
+    "ignoreEndingPunctuation": true,
+    "matchMode": "normalized"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "id": "review-2-vocabulary-fitb-0001",
+  "type": "fill-in-the-blanks",
+  "unitId": "review-2",
+  "topicId": "vocabulary",
+  "contentLocale": "en",
+  "difficulty": "medium",
+  "prompt": "Complete using the words in the box: exam, fact, favour, heart, instance, mark, progress, skill. Each word is used once.",
+  "explanation": "\"Make progress\", \"take an exam\", \"in favour of\", \"a useful skill\", \"learn by heart\", \"for instance\", \"a good mark\" and \"in fact\" are all fixed expressions with these nouns.",
+  "tags": ["vocabulary", "word-box"],
+  "skills": ["vocabulary"],
+  "source": { "type": "original", "reference": null },
+  "status": "published",
+  "version": 1,
+  "createdAt": "2026-07-21T00:00:00.000Z",
+  "updatedAt": "2026-07-21T00:00:00.000Z",
+  "passageTemplate": "1. My German teacher says I've made a lot of {{blank-1}} this term!\n2. What time are you taking the French {{blank-2}} tomorrow?\n3. I'm not in {{blank-3}} of giving students lots of homework each night.\n4. Being able to drive a car is a very useful {{blank-4}}.\n5. Have we got to learn all these irregular verbs by {{blank-5}}?\n6. Some languages, like Russian for {{blank-6}}, don't have words for 'a', 'an' and 'the'.\n7. I got a very good {{blank-7}} in my geography test.\n8. Many people hate learning phrasal verbs, but in {{blank-8}} they're not that difficult.",
+  "blanks": [
+    { "id": "blank-1", "acceptedAnswers": ["progress"] },
+    { "id": "blank-2", "acceptedAnswers": ["exam"] },
+    { "id": "blank-3", "acceptedAnswers": ["favour"] },
+    { "id": "blank-4", "acceptedAnswers": ["skill"] },
+    { "id": "blank-5", "acceptedAnswers": ["heart"] },
+    { "id": "blank-6", "acceptedAnswers": ["instance"] },
+    { "id": "blank-7", "acceptedAnswers": ["mark"] },
+    { "id": "blank-8", "acceptedAnswers": ["fact"] }
+  ]
+}

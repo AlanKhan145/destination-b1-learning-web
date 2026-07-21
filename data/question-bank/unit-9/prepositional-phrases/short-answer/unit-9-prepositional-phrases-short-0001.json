@@ -1,0 +1,25 @@
+{
+  "id": "unit-9-prepositional-phrases-short-0001",
+  "type": "short-answer",
+  "unitId": "unit-9",
+  "topicId": "prepositional-phrases",
+  "contentLocale": "en",
+  "difficulty": "medium",
+  "prompt": "Complete using a word from the box plus any other words you need: When you go ___, it always takes a few days to completely relax. (board, bus, coast, foot, holiday, schedule)",
+  "explanation": "On holiday means away from home, not working, for pleasure.",
+  "tags": ["prepositional-phrases", "word-box"],
+  "skills": ["vocabulary"],
+  "source": { "type": "original", "reference": null },
+  "status": "published",
+  "version": 1,
+  "createdAt": "2026-07-21T00:00:00.000Z",
+  "updatedAt": "2026-07-21T00:00:00.000Z",
+  "acceptedAnswers": ["on holiday"],
+  "answerValidation": {
+    "caseSensitive": false,
+    "trimWhitespace": true,
+    "collapseWhitespace": true,
+    "ignoreEndingPunctuation": true,
+    "matchMode": "normalized"
+  }
+}

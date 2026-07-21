@@ -1,0 +1,32 @@
+{
+  "id": "unit-9-word-patterns-fitb-0001",
+  "type": "fill-in-the-blanks",
+  "unitId": "unit-9",
+  "topicId": "word-patterns",
+  "contentLocale": "en",
+  "difficulty": "medium",
+  "prompt": "Write one word in each gap.",
+  "explanation": "Each pair of gaps tests a fixed adjective/verb + preposition pattern from this unit: famous for, look at, arrive at, provide somebody with, prepare for, suitable for, far from, close to, wait for, ask somebody about, late for, ask for.",
+  "tags": ["word-patterns"],
+  "skills": ["vocabulary", "grammar"],
+  "source": { "type": "original", "reference": null },
+  "status": "published",
+  "version": 1,
+  "createdAt": "2026-07-21T00:00:00.000Z",
+  "updatedAt": "2026-07-21T00:00:00.000Z",
+  "passageTemplate": "1. Sydney is famous {{blank-1}} its harbour. You should also look {{blank-2}} the Opera House and the bridge while you're there.\n2. We arrived {{blank-3}} the hotel and they provided us {{blank-4}} a map of the area.\n3. When you're preparing {{blank-5}} a holiday, pack clothes that are suitable {{blank-6}} the place where you're going.\n4. I prefer to be far {{blank-7}} other people when I'm on holiday. I don't like being close {{blank-8}} crowds of tourists.\n5. While we were waiting {{blank-9}} our train, I asked someone {{blank-10}} the delay.\n6. Will was late {{blank-11}} his appointment, so he asked me {{blank-12}} some money for a taxi.",
+  "blanks": [
+    { "id": "blank-1", "acceptedAnswers": ["for"] },
+    { "id": "blank-2", "acceptedAnswers": ["at"] },
+    { "id": "blank-3", "acceptedAnswers": ["at"] },
+    { "id": "blank-4", "acceptedAnswers": ["with"] },
+    { "id": "blank-5", "acceptedAnswers": ["for"] },
+    { "id": "blank-6", "acceptedAnswers": ["for"] },
+    { "id": "blank-7", "acceptedAnswers": ["from"] },
+    { "id": "blank-8", "acceptedAnswers": ["to"] },
+    { "id": "blank-9", "acceptedAnswers": ["for"] },
+    { "id": "blank-10", "acceptedAnswers": ["about"] },
+    { "id": "blank-11", "acceptedAnswers": ["for"] },
+    { "id": "blank-12", "acceptedAnswers": ["for"] }
+  ]
+}

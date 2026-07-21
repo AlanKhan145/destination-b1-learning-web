@@ -1,0 +1,24 @@
+{
+  "id": "unit-9-topic-vocabulary-mcq-0002",
+  "type": "multiple-choice",
+  "unitId": "unit-9",
+  "topicId": "topic-vocabulary",
+  "contentLocale": "en",
+  "difficulty": "easy",
+  "prompt": "The beach was really ___ during the summer holidays.",
+  "explanation": "Crowded means full of people.",
+  "tags": ["topic-vocabulary"],
+  "skills": ["vocabulary"],
+  "source": { "type": "original", "reference": null },
+  "status": "published",
+  "version": 1,
+  "createdAt": "2026-07-21T00:00:00.000Z",
+  "updatedAt": "2026-07-21T00:00:00.000Z",
+  "options": [
+    { "id": "a", "text": "crowded" },
+    { "id": "b", "text": "nearby" }
+  ],
+  "correctOptionIds": ["a"],
+  "selectionMode": "single",
+  "shuffleOptions": true
+}

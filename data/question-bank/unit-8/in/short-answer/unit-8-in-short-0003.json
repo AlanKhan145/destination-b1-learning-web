@@ -1,0 +1,26 @@
+{
+  "id": "unit-8-in-short-0003",
+  "type": "short-answer",
+  "unitId": "unit-8",
+  "topicId": "in",
+  "contentLocale": "en",
+  "difficulty": "easy",
+  "prompt": "Look at the picture and complete the sentence: It's ___ the middle.",
+  "explanation": "\"In the middle (of)\" is a fixed phrase with in.",
+  "tags": ["prepositions", "picture"],
+  "skills": ["grammar"],
+  "media": { "image": "assets/question-bank/unit-8/at-in-on-place/05-the-middle.png", "alt": "Two cats in baskets with a small teddy bear placed between them, in the middle." },
+  "source": { "type": "original", "reference": null },
+  "status": "published",
+  "version": 1,
+  "createdAt": "2026-07-21T00:00:00.000Z",
+  "updatedAt": "2026-07-21T00:00:00.000Z",
+  "acceptedAnswers": ["in"],
+  "answerValidation": {
+    "caseSensitive": false,
+    "trimWhitespace": true,
+    "collapseWhitespace": true,
+    "ignoreEndingPunctuation": true,
+    "matchMode": "normalized"
+  }
+}

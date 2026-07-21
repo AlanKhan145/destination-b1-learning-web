@@ -1,0 +1,24 @@
+{
+  "id": "unit-8-in-mcq-0003",
+  "type": "multiple-choice",
+  "unitId": "unit-8",
+  "topicId": "in",
+  "contentLocale": "en",
+  "difficulty": "medium",
+  "prompt": "We'll all have computers connected to our brains ___ the future.",
+  "explanation": "\"In the future\" is a fixed phrase with in.",
+  "tags": ["prepositions"],
+  "skills": ["grammar"],
+  "source": { "type": "original", "reference": null },
+  "status": "published",
+  "version": 1,
+  "createdAt": "2026-07-21T00:00:00.000Z",
+  "updatedAt": "2026-07-21T00:00:00.000Z",
+  "options": [
+    { "id": "a", "text": "at" },
+    { "id": "b", "text": "in" }
+  ],
+  "correctOptionIds": ["b"],
+  "selectionMode": "single",
+  "shuffleOptions": true
+}

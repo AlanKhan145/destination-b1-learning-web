@@ -1,0 +1,31 @@
+{
+  "id": "unit-8-in-fitb-0004",
+  "type": "fill-in-the-blanks",
+  "unitId": "unit-8",
+  "topicId": "in",
+  "contentLocale": "en",
+  "difficulty": "hard",
+  "prompt": "Read the text \"Jetlag\" and write one word in each gap.",
+  "explanation": "Verbs of motion (travel, go, fly) use to. \"In the middle of the night\" and \"in the morning\" use in. Clock-time-like points (midday, eleven pm, 3 pm, midnight) use at, as do specific buildings/points on a journey like an airport. Cities use in.",
+  "tags": ["prepositions", "open-cloze"],
+  "skills": ["grammar"],
+  "source": { "type": "original", "reference": null },
+  "status": "published",
+  "version": 1,
+  "createdAt": "2026-07-21T00:00:00.000Z",
+  "updatedAt": "2026-07-21T00:00:00.000Z",
+  "passageTemplate": "When you travel {{blank-1}} the other side of the world, jetlag is a real problem. You find yourself awake {{blank-2}} the middle of the night and you feel like going to bed {{blank-3}} the morning, just when everyone else is getting up.\n\nJetlag happens when you go {{blank-4}} a country where the time is very different. For example, you might leave London {{blank-5}} midday and fly {{blank-6}} Los Angeles. The flight takes about eleven hours, so when you arrive {{blank-7}} Los Angeles airport, your body thinks you're there {{blank-8}} eleven pm.\n\nBut Los Angeles is eight hours behind London, so you actually get there {{blank-9}} 3 pm local time. So, {{blank-10}} midnight Los Angeles time, your body, which still thinks it's {{blank-11}} London, says it's 8 am.\n\nIt takes a few days for your body clock to change.",
+  "blanks": [
+    { "id": "blank-1", "acceptedAnswers": ["to"] },
+    { "id": "blank-2", "acceptedAnswers": ["in"] },
+    { "id": "blank-3", "acceptedAnswers": ["in"] },
+    { "id": "blank-4", "acceptedAnswers": ["to"] },
+    { "id": "blank-5", "acceptedAnswers": ["at"] },
+    { "id": "blank-6", "acceptedAnswers": ["to"] },
+    { "id": "blank-7", "acceptedAnswers": ["at"] },
+    { "id": "blank-8", "acceptedAnswers": ["at"] },
+    { "id": "blank-9", "acceptedAnswers": ["at"] },
+    { "id": "blank-10", "acceptedAnswers": ["at"] },
+    { "id": "blank-11", "acceptedAnswers": ["in"] }
+  ]
+}

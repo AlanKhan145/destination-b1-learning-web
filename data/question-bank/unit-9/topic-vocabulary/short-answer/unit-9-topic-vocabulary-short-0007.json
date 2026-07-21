@@ -1,0 +1,25 @@
+{
+  "id": "unit-9-topic-vocabulary-short-0007",
+  "type": "short-answer",
+  "unitId": "unit-9",
+  "topicId": "topic-vocabulary",
+  "contentLocale": "en",
+  "difficulty": "easy",
+  "prompt": "Unscramble the letters to complete the sentence: This ___ is suitable for city driving and for rough country roads. (H E I C E V L)",
+  "explanation": "A vehicle is a machine, usually with an engine, that carries people or things, especially on roads.",
+  "tags": ["topic-vocabulary", "anagram"],
+  "skills": ["vocabulary"],
+  "source": { "type": "original", "reference": null },
+  "status": "published",
+  "version": 1,
+  "createdAt": "2026-07-21T00:00:00.000Z",
+  "updatedAt": "2026-07-21T00:00:00.000Z",
+  "acceptedAnswers": ["vehicle"],
+  "answerValidation": {
+    "caseSensitive": false,
+    "trimWhitespace": true,
+    "collapseWhitespace": true,
+    "ignoreEndingPunctuation": true,
+    "matchMode": "normalized"
+  }
+}

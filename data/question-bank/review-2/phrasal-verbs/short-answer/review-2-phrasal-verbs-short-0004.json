@@ -1,0 +1,25 @@
+{
+  "id": "review-2-phrasal-verbs-short-0004",
+  "type": "short-answer",
+  "unitId": "review-2",
+  "topicId": "phrasal-verbs",
+  "contentLocale": "en",
+  "difficulty": "medium",
+  "prompt": "You should ______ ______ words you don't know in a dictionary. (find information about them, starts with 'l')",
+  "explanation": "Look up means to search for information in a reference source such as a dictionary.",
+  "tags": ["phrasal-verbs"],
+  "skills": ["grammar", "writing"],
+  "source": { "type": "original", "reference": null },
+  "status": "published",
+  "version": 1,
+  "createdAt": "2026-07-21T00:00:00.000Z",
+  "updatedAt": "2026-07-21T00:00:00.000Z",
+  "acceptedAnswers": ["look up"],
+  "answerValidation": {
+    "caseSensitive": false,
+    "trimWhitespace": true,
+    "collapseWhitespace": true,
+    "ignoreEndingPunctuation": true,
+    "matchMode": "normalized"
+  }
+}

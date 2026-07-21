@@ -1,0 +1,28 @@
+{
+  "id": "unit-9-phrasal-verbs-match-0001",
+  "type": "matching",
+  "unitId": "unit-9",
+  "topicId": "phrasal-verbs",
+  "contentLocale": "en",
+  "difficulty": "medium",
+  "prompt": "Match the two halves of the sentences.",
+  "explanation": "Each pair completes a phrasal verb from this unit: take off, get in, get on, go away, set off, go back, get off, get out.",
+  "tags": ["phrasal-verbs", "sentence-matching"],
+  "skills": ["vocabulary", "grammar"],
+  "source": { "type": "original", "reference": null },
+  "status": "published",
+  "version": 1,
+  "createdAt": "2026-07-21T00:00:00.000Z",
+  "updatedAt": "2026-07-21T00:00:00.000Z",
+  "pairs": [
+    { "id": "pair-1", "left": "As the plane took", "right": "off, I held my mum's hand tightly." },
+    { "id": "pair-2", "left": "The door is open, so you can get", "right": "in the car, if you like." },
+    { "id": "pair-3", "left": "We were in a hurry and when we got", "right": "on the bus, I realised I didn't have a ticket." },
+    { "id": "pair-4", "left": "The man selling the tickets told us to go", "right": "away and come back again later." },
+    { "id": "pair-5", "left": "It was raining when we set", "right": "off on our walk, but it soon stopped." },
+    { "id": "pair-6", "left": "We loved the hotel so we went", "right": "back there the following year." },
+    { "id": "pair-7", "left": "Ray fell as he was getting", "right": "off the bus and couldn't walk properly." },
+    { "id": "pair-8", "left": "The taxi driver asked us to get", "right": "out on the right because it was safer." }
+  ],
+  "shuffleRightItems": true
+}

@@ -1,0 +1,25 @@
+{
+  "id": "unit-7-will-mcq-0006",
+  "type": "multiple-choice",
+  "unitId": "unit-7",
+  "topicId": "will",
+  "contentLocale": "en",
+  "difficulty": "medium",
+  "prompt": "\"We're moving house tomorrow.\" \"Really? ___ you with the furniture.\"",
+  "explanation": "An offer made on the spot uses will: I'll help.",
+  "tags": ["will", "offers"],
+  "skills": ["grammar"],
+  "source": { "type": "original", "reference": null },
+  "status": "published",
+  "version": 1,
+  "createdAt": "2026-07-21T00:00:00.000Z",
+  "updatedAt": "2026-07-21T00:00:00.000Z",
+  "options": [
+    { "id": "a", "text": "I help" },
+    { "id": "b", "text": "I'm helping" },
+    { "id": "c", "text": "I'll help" }
+  ],
+  "correctOptionIds": ["c"],
+  "selectionMode": "single",
+  "shuffleOptions": true
+}

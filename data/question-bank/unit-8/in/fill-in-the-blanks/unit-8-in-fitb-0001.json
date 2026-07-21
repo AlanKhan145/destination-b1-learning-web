@@ -1,0 +1,28 @@
+{
+  "id": "unit-8-in-fitb-0001",
+  "type": "fill-in-the-blanks",
+  "unitId": "unit-8",
+  "topicId": "in",
+  "contentLocale": "en",
+  "difficulty": "medium",
+  "prompt": "If the bold preposition in each sentence is correct, write \"tick\". If it is wrong, write the correct preposition.",
+  "explanation": "Years and months use in (1, 4). Dates use on (2). Clock times use at (3). Days use on (5). \"In the morning\" but no preposition needed with a specific day part unless it follows a day name (6). Holiday periods use at (7). A specific day like Christmas Day uses on (8).",
+  "tags": ["prepositions", "error-correction"],
+  "skills": ["grammar"],
+  "source": { "type": "original", "reference": null },
+  "status": "published",
+  "version": 1,
+  "createdAt": "2026-07-21T00:00:00.000Z",
+  "updatedAt": "2026-07-21T00:00:00.000Z",
+  "passageTemplate": "1. I first visited China in 2006. {{blank-1}}\n2. My birthday is at the second of July. {{blank-2}}\n3. Let's meet on five o'clock, shall we? {{blank-3}}\n4. School starts again in September. {{blank-4}}\n5. There's a party at Emily's at Saturday. {{blank-5}}\n6. What do you want to do on the morning? {{blank-6}}\n7. Let's go and see Grandma on Easter. {{blank-7}}\n8. Where do you usually go in Christmas Day? {{blank-8}}",
+  "blanks": [
+    { "id": "blank-1", "acceptedAnswers": ["tick", "correct", "✓"] },
+    { "id": "blank-2", "acceptedAnswers": ["on"] },
+    { "id": "blank-3", "acceptedAnswers": ["at"] },
+    { "id": "blank-4", "acceptedAnswers": ["tick", "correct", "✓"] },
+    { "id": "blank-5", "acceptedAnswers": ["on"] },
+    { "id": "blank-6", "acceptedAnswers": ["in"] },
+    { "id": "blank-7", "acceptedAnswers": ["at"] },
+    { "id": "blank-8", "acceptedAnswers": ["on"] }
+  ]
+}

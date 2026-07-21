@@ -1,0 +1,24 @@
+{
+  "id": "unit-7-will-mcq-0004",
+  "type": "multiple-choice",
+  "unitId": "unit-7",
+  "topicId": "will",
+  "contentLocale": "en",
+  "difficulty": "medium",
+  "prompt": "I'm sure you ___ your driving test. Don't worry.",
+  "explanation": "A prediction without direct evidence, just the speaker's opinion, uses will: will pass.",
+  "tags": ["will", "predictions"],
+  "skills": ["grammar"],
+  "source": { "type": "original", "reference": null },
+  "status": "published",
+  "version": 1,
+  "createdAt": "2026-07-21T00:00:00.000Z",
+  "updatedAt": "2026-07-21T00:00:00.000Z",
+  "options": [
+    { "id": "a", "text": "are passing" },
+    { "id": "b", "text": "will pass" }
+  ],
+  "correctOptionIds": ["b"],
+  "selectionMode": "single",
+  "shuffleOptions": true
+}

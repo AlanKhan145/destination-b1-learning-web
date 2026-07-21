@@ -1,0 +1,25 @@
+{
+  "id": "unit-9-topic-vocabulary-short-0009",
+  "type": "short-answer",
+  "unitId": "unit-9",
+  "topicId": "topic-vocabulary",
+  "contentLocale": "en",
+  "difficulty": "easy",
+  "prompt": "Unscramble the letters to complete the sentence: Look out! We're going to ___ if you're not careful! (H A C S R)",
+  "explanation": "To crash means to hit something violently, causing damage.",
+  "tags": ["topic-vocabulary", "anagram"],
+  "skills": ["vocabulary"],
+  "source": { "type": "original", "reference": null },
+  "status": "published",
+  "version": 1,
+  "createdAt": "2026-07-21T00:00:00.000Z",
+  "updatedAt": "2026-07-21T00:00:00.000Z",
+  "acceptedAnswers": ["crash"],
+  "answerValidation": {
+    "caseSensitive": false,
+    "trimWhitespace": true,
+    "collapseWhitespace": true,
+    "ignoreEndingPunctuation": true,
+    "matchMode": "normalized"
+  }
+}

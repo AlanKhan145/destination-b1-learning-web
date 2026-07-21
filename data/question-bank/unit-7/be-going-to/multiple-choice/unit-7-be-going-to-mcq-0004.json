@@ -1,0 +1,25 @@
+{
+  "id": "unit-7-be-going-to-mcq-0004",
+  "type": "multiple-choice",
+  "unitId": "unit-7",
+  "topicId": "be-going-to",
+  "contentLocale": "en",
+  "difficulty": "medium",
+  "prompt": "\"The weather has been terrible, hasn't it?\" \"Yes, I think ___ again later.\"",
+  "explanation": "A prediction based on visible evidence (the bad weather already) uses be going to: it's going to rain.",
+  "tags": ["be-going-to", "predictions"],
+  "skills": ["grammar"],
+  "source": { "type": "original", "reference": null },
+  "status": "published",
+  "version": 1,
+  "createdAt": "2026-07-21T00:00:00.000Z",
+  "updatedAt": "2026-07-21T00:00:00.000Z",
+  "options": [
+    { "id": "a", "text": "it's going to rain" },
+    { "id": "b", "text": "it's raining" },
+    { "id": "c", "text": "it rains" }
+  ],
+  "correctOptionIds": ["a"],
+  "selectionMode": "single",
+  "shuffleOptions": true
+}

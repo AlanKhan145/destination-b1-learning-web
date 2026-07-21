@@ -1,0 +1,26 @@
+{
+  "id": "review-2-grammar-tenses-mcq-0005",
+  "type": "multiple-choice",
+  "unitId": "review-2",
+  "topicId": "grammar-tenses",
+  "contentLocale": "en",
+  "difficulty": "easy",
+  "prompt": "Clare hasn't finished her homework ____.",
+  "explanation": "\"Yet\" is used with the present perfect in negative sentences to say something hasn't happened up to now.",
+  "tags": ["grammar-tenses", "present-perfect-simple"],
+  "skills": ["grammar"],
+  "source": { "type": "original", "reference": null },
+  "status": "published",
+  "version": 1,
+  "createdAt": "2026-07-21T00:00:00.000Z",
+  "updatedAt": "2026-07-21T00:00:00.000Z",
+  "options": [
+    { "id": "a", "text": "already" },
+    { "id": "b", "text": "yet" },
+    { "id": "c", "text": "just" },
+    { "id": "d", "text": "ever" }
+  ],
+  "correctOptionIds": ["b"],
+  "selectionMode": "single",
+  "shuffleOptions": true
+}

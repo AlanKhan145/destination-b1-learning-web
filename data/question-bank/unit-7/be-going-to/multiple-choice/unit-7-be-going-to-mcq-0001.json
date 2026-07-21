@@ -1,0 +1,24 @@
+{
+  "id": "unit-7-be-going-to-mcq-0001",
+  "type": "multiple-choice",
+  "unitId": "unit-7",
+  "topicId": "be-going-to",
+  "contentLocale": "en",
+  "difficulty": "medium",
+  "prompt": "___ this evening?",
+  "explanation": "Asking about someone's intention for the evening uses be going to: are you going to do.",
+  "tags": ["be-going-to", "present-simple-contrast"],
+  "skills": ["grammar"],
+  "source": { "type": "original", "reference": null },
+  "status": "published",
+  "version": 1,
+  "createdAt": "2026-07-21T00:00:00.000Z",
+  "updatedAt": "2026-07-21T00:00:00.000Z",
+  "options": [
+    { "id": "a", "text": "What are you going to do" },
+    { "id": "b", "text": "What do you do" }
+  ],
+  "correctOptionIds": ["a"],
+  "selectionMode": "single",
+  "shuffleOptions": true
+}

@@ -1,0 +1,257 @@
+{
+  "id": "unit-7",
+  "unitNumber": 7,
+  "category": "Grammar",
+  "title": "Present continuous, will, be going to, present simple",
+  "description": "Learn how to use the present continuous, will, be going to, and present simple to talk about future time.",
+  "previousLessonId": "unit-6",
+  "nextLessonId": "unit-8",
+  "review": {
+    "reviewId": "unit-7-review",
+    "enabled": true,
+    "displayMode": "side-panel",
+    "position": "right",
+    "defaultOpen": false
+  },
+  "topics": [
+    {
+      "id": "present-continuous",
+      "number": 1,
+      "title": "Present continuous",
+      "status": "available",
+      "review": {
+        "enabled": true,
+        "questionFilter": {
+          "unitId": "unit-7",
+          "topicIds": ["present-continuous"],
+          "status": ["published"]
+        }
+      },
+      "description": "Used for future arrangements: plans that have already been made, usually with another person, often including a time or place.",
+      "formula": "am/is/are + verb-ing",
+      "forms": {
+        "columns": [],
+        "rows": []
+      },
+      "uses": [
+        {
+          "usage": "Arrangements",
+          "example": "We're driving to Berlin this weekend."
+        }
+      ],
+      "notes": [
+        {
+          "type": "helpful-hint",
+          "content": "For the full statement, negative and question forms, see Unit 1.",
+          "examples": [],
+          "highlightWords": []
+        },
+        {
+          "type": "watch-out",
+          "content": "Things we want to do in the future but have not arranged are called \"intentions\". We do not use the present continuous for intentions. We use be going to instead.",
+          "examples": [
+            "Incorrect: I'm becoming an explorer when I grow up.",
+            "Correct: I'm going to become an explorer when I grow up."
+          ],
+          "highlightWords": [
+            "I'm becoming",
+            "I'm going to become"
+          ]
+        },
+        {
+          "type": "watch-out",
+          "content": "We do not use the present continuous for predictions. We use will or be going to instead.",
+          "examples": [
+            "Incorrect: Do you think you're enjoying your trip to Berlin next week?",
+            "Correct: Do you think you'll enjoy your trip to Berlin next week?"
+          ],
+          "highlightWords": [
+            "you're enjoying",
+            "you'll enjoy"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "will",
+      "number": 2,
+      "title": "Will",
+      "status": "available",
+      "review": {
+        "enabled": true,
+        "questionFilter": {
+          "unitId": "unit-7",
+          "topicIds": ["will"],
+          "status": ["published"]
+        }
+      },
+      "description": "Used for facts about the future, predictions, offers and requests, and decisions made at the moment of speaking.",
+      "formula": "will + bare infinitive",
+      "forms": {
+        "columns": [
+          "I / you / he / she / it / we / they"
+        ],
+        "rows": [
+          {
+            "label": "Statement",
+            "cells": [
+              "I/You/He/She/It/We/They will ('ll) go ..."
+            ]
+          },
+          {
+            "label": "Negative",
+            "cells": [
+              "I/You/He/She/It/We/They will not (won't) go ..."
+            ]
+          },
+          {
+            "label": "Question",
+            "cells": [
+              "Will I/you/he/she/it/we/they go ...?"
+            ]
+          }
+        ]
+      },
+      "uses": [
+        {
+          "usage": "Facts about the future",
+          "example": "The new airport will be the biggest in Europe."
+        },
+        {
+          "usage": "Predictions",
+          "example": "You'll have a great time in the Bahamas."
+        },
+        {
+          "usage": "Offers and requests",
+          "example": "We'll help you get ready for your holiday."
+        },
+        {
+          "usage": "Decisions made now",
+          "example": "I know! I'll go to China this summer."
+        }
+      ],
+      "notes": [
+        {
+          "type": "helpful-hint",
+          "content": "With offers which are questions, we use Shall with I and we.",
+          "examples": [
+            "Shall I drive you to the airport?"
+          ],
+          "highlightWords": [
+            "Shall I"
+          ]
+        },
+        {
+          "type": "watch-out",
+          "content": "We do not use will for arrangements.",
+          "examples": [
+            "Incorrect: We'll visit my grandma this weekend.",
+            "Correct: We're visiting my grandma this weekend."
+          ],
+          "highlightWords": [
+            "We'll visit",
+            "We're visiting"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "be-going-to",
+      "number": 3,
+      "title": "Be going to",
+      "status": "available",
+      "review": {
+        "enabled": true,
+        "questionFilter": {
+          "unitId": "unit-7",
+          "topicIds": ["be-going-to"],
+          "status": ["published"]
+        }
+      },
+      "description": "Used for intentions, predictions often made with evidence we can see now, and facts about the future.",
+      "formula": "be going to + bare infinitive",
+      "forms": {
+        "columns": [
+          "I",
+          "He / she / it",
+          "You / we / they"
+        ],
+        "rows": [
+          {
+            "label": "Statement",
+            "cells": [
+              "I am ('m) going to travel ...",
+              "He/She/It is ('s) going to travel ...",
+              "You/We/They are ('re) going to travel ..."
+            ]
+          },
+          {
+            "label": "Negative",
+            "cells": [
+              "I am not ('m not) going to travel ...",
+              "He/She/It is not (isn't / 's not) going to travel ...",
+              "You/We/They are not (aren't / 're not) going to travel ..."
+            ]
+          },
+          {
+            "label": "Question",
+            "cells": [
+              "Am I going to travel ...?",
+              "Is he/she/it going to travel ...?",
+              "Are you/we/they going to travel ...?"
+            ]
+          }
+        ]
+      },
+      "uses": [
+        {
+          "usage": "Intentions",
+          "example": "I'm going to become an explorer when I grow up."
+        },
+        {
+          "usage": "Predictions, often with evidence we can see",
+          "example": "It's going to rain, so take an umbrella."
+        },
+        {
+          "usage": "Facts about the future",
+          "example": "The new airport is going to be the biggest in Europe."
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "present-simple",
+      "number": 4,
+      "title": "Present simple",
+      "status": "available",
+      "review": {
+        "enabled": true,
+        "questionFilter": {
+          "unitId": "unit-7",
+          "topicIds": ["present-simple"],
+          "status": ["published"]
+        }
+      },
+      "description": "Used for fixed timetables and schedules, such as transport and events.",
+      "formula": null,
+      "forms": {
+        "columns": [],
+        "rows": []
+      },
+      "uses": [
+        {
+          "usage": "Timetables",
+          "example": "My plane leaves at six."
+        }
+      ],
+      "notes": [
+        {
+          "type": "helpful-hint",
+          "content": "For the full statement, negative and question forms, see Unit 1.",
+          "examples": [],
+          "highlightWords": []
+        }
+      ]
+    }
+  ]
+}

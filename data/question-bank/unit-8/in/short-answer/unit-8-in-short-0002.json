@@ -1,0 +1,26 @@
+{
+  "id": "unit-8-in-short-0002",
+  "type": "short-answer",
+  "unitId": "unit-8",
+  "topicId": "in",
+  "contentLocale": "en",
+  "difficulty": "easy",
+  "prompt": "Look at the picture and complete the sentence: She's ___ the sea.",
+  "explanation": "Being inside water uses in: in the sea.",
+  "tags": ["prepositions", "picture"],
+  "skills": ["grammar"],
+  "media": { "image": "assets/question-bank/unit-8/at-in-on-place/03-sea.png", "alt": "A person swimming and waving in the sea, with a small boat in the background." },
+  "source": { "type": "original", "reference": null },
+  "status": "published",
+  "version": 1,
+  "createdAt": "2026-07-21T00:00:00.000Z",
+  "updatedAt": "2026-07-21T00:00:00.000Z",
+  "acceptedAnswers": ["in"],
+  "answerValidation": {
+    "caseSensitive": false,
+    "trimWhitespace": true,
+    "collapseWhitespace": true,
+    "ignoreEndingPunctuation": true,
+    "matchMode": "normalized"
+  }
+}

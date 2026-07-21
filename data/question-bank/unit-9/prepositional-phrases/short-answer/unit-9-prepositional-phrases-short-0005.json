@@ -1,0 +1,25 @@
+{
+  "id": "unit-9-prepositional-phrases-short-0005",
+  "type": "short-answer",
+  "unitId": "unit-9",
+  "topicId": "prepositional-phrases",
+  "contentLocale": "en",
+  "difficulty": "medium",
+  "prompt": "Complete using a word from the box plus any other words you need: The cowboys got off their horses and went the rest of the way ___. (board, bus, coast, foot, holiday, schedule)",
+  "explanation": "On foot means walking, not using any form of transport.",
+  "tags": ["prepositional-phrases", "word-box"],
+  "skills": ["vocabulary"],
+  "source": { "type": "original", "reference": null },
+  "status": "published",
+  "version": 1,
+  "createdAt": "2026-07-21T00:00:00.000Z",
+  "updatedAt": "2026-07-21T00:00:00.000Z",
+  "acceptedAnswers": ["on foot"],
+  "answerValidation": {
+    "caseSensitive": false,
+    "trimWhitespace": true,
+    "collapseWhitespace": true,
+    "ignoreEndingPunctuation": true,
+    "matchMode": "normalized"
+  }
+}

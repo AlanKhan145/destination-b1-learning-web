@@ -1,0 +1,79 @@
+{
+  "id": "review-2",
+  "unitId": "review-2",
+  "title": "Units 4-6 Review",
+  "description": "A cumulative test covering topic vocabulary, phrasal verbs, word formation, perfect tenses, and open cloze from Units 4, 5 and 6.",
+  "passingScore": 70,
+  "contentLocale": "en",
+  "attemptSettings": {
+    "allowRetry": true,
+    "showCorrectAnswer": "after-submit",
+    "showExplanation": "after-submit",
+    "saveProgress": true
+  },
+  "sections": [
+    {
+      "id": "vocabulary",
+      "type": "fill-in-the-blanks",
+      "title": "Topic vocabulary",
+      "instructions": "Complete using the words in the box: exam, fact, favour, heart, instance, mark, progress, skill.",
+      "selectionMode": "fixed",
+      "shuffleQuestions": false,
+      "questionIds": ["review-2-vocabulary-fitb-0001"]
+    },
+    {
+      "id": "phrasal-verbs",
+      "type": "short-answer",
+      "title": "Phrasal verbs",
+      "instructions": "Write a phrasal verb in the correct form to replace the words in bold.",
+      "selectionMode": "fixed",
+      "shuffleQuestions": true,
+      "questionIds": [
+        "review-2-phrasal-verbs-short-0001",
+        "review-2-phrasal-verbs-short-0002",
+        "review-2-phrasal-verbs-short-0003",
+        "review-2-phrasal-verbs-short-0004",
+        "review-2-phrasal-verbs-short-0005",
+        "review-2-phrasal-verbs-short-0006",
+        "review-2-phrasal-verbs-short-0007"
+      ]
+    },
+    {
+      "id": "word-formation",
+      "type": "fill-in-the-blanks",
+      "title": "Word formation",
+      "instructions": "Complete by changing the form of the word in capitals.",
+      "selectionMode": "fixed",
+      "shuffleQuestions": false,
+      "questionIds": ["review-2-word-formation-fitb-0001"]
+    },
+    {
+      "id": "grammar-tenses",
+      "type": "multiple-choice",
+      "title": "Multiple choice",
+      "instructions": "Choose the correct answer.",
+      "selectionMode": "fixed",
+      "shuffleQuestions": true,
+      "shuffleOptions": true,
+      "questionIds": [
+        "review-2-grammar-tenses-mcq-0001",
+        "review-2-grammar-tenses-mcq-0002",
+        "review-2-grammar-tenses-mcq-0003",
+        "review-2-grammar-tenses-mcq-0004",
+        "review-2-grammar-tenses-mcq-0005",
+        "review-2-grammar-tenses-mcq-0006",
+        "review-2-grammar-tenses-mcq-0007",
+        "review-2-grammar-tenses-mcq-0008"
+      ]
+    },
+    {
+      "id": "open-cloze",
+      "type": "fill-in-the-blanks",
+      "title": "Open cloze",
+      "instructions": "Write one word in each gap.",
+      "selectionMode": "fixed",
+      "shuffleQuestions": false,
+      "questionIds": ["review-2-open-cloze-fitb-0001"]
+    }
+  ]
+}

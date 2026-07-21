@@ -1,0 +1,24 @@
+{
+  "id": "unit-7-present-continuous-mcq-0002",
+  "type": "multiple-choice",
+  "unitId": "unit-7",
+  "topicId": "present-continuous",
+  "contentLocale": "en",
+  "difficulty": "medium",
+  "prompt": "I have to revise tonight because we ___ an exam tomorrow.",
+  "explanation": "A scheduled event already arranged uses the present continuous: are having.",
+  "tags": ["present-continuous", "will-contrast"],
+  "skills": ["grammar"],
+  "source": { "type": "original", "reference": null },
+  "status": "published",
+  "version": 1,
+  "createdAt": "2026-07-21T00:00:00.000Z",
+  "updatedAt": "2026-07-21T00:00:00.000Z",
+  "options": [
+    { "id": "a", "text": "are having" },
+    { "id": "b", "text": "will have" }
+  ],
+  "correctOptionIds": ["a"],
+  "selectionMode": "single",
+  "shuffleOptions": true
+}

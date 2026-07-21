@@ -1,0 +1,30 @@
+{
+  "id": "unit-9-word-formation-fitb-0001",
+  "type": "fill-in-the-blanks",
+  "unitId": "unit-9",
+  "topicId": "word-formation",
+  "contentLocale": "en",
+  "difficulty": "medium",
+  "prompt": "Use the word given in capitals to form a word that fits in the gap.",
+  "explanation": "Each gap needs a different word form of the given root word (verb tense, adjective, plural noun, or adverb) to fit the sentence grammatically.",
+  "tags": ["word-formation"],
+  "skills": ["vocabulary", "grammar"],
+  "source": { "type": "original", "reference": null },
+  "status": "published",
+  "version": 1,
+  "createdAt": "2026-07-21T00:00:00.000Z",
+  "updatedAt": "2026-07-21T00:00:00.000Z",
+  "passageTemplate": "Up until the 1960s, not many British people had {{blank-1}} abroad for their holidays. FLY\n\nAlthough the idea was {{blank-2}}, flying was still too expensive for most people. ATTRACT\n\nThe only {{blank-3}} people had was to go to British resorts. CHOOSE\n\nInstead of flying, families {{blank-4}} to the British coast. DRIVE\n\nPlaces like Blackpool and Brighton had millions of {{blank-5}} every year. VISIT\n\nDuring the 60s and 70s, prices dropped and {{blank-6}} began to visit places like Spain. TRAVEL\n\nAt first, hotels were {{blank-7}}, but they slowly got better. COMFORT\n\nThese days, the {{blank-8}} lounges at airports are full and people travel {{blank-9}} and forwards across the world for work and on holiday. DEPART / BACK\n\nEvery summer, tourists go in all {{blank-10}} in search of the perfect beach and the perfect resort. DIRECT",
+  "blanks": [
+    { "id": "blank-1", "acceptedAnswers": ["flown"] },
+    { "id": "blank-2", "acceptedAnswers": ["attractive"] },
+    { "id": "blank-3", "acceptedAnswers": ["choice"] },
+    { "id": "blank-4", "acceptedAnswers": ["drove"] },
+    { "id": "blank-5", "acceptedAnswers": ["visitors"] },
+    { "id": "blank-6", "acceptedAnswers": ["travellers", "travelers"] },
+    { "id": "blank-7", "acceptedAnswers": ["uncomfortable"] },
+    { "id": "blank-8", "acceptedAnswers": ["departure"] },
+    { "id": "blank-9", "acceptedAnswers": ["backwards"] },
+    { "id": "blank-10", "acceptedAnswers": ["directions"] }
+  ]
+}

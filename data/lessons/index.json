@@ -58,6 +58,39 @@
       "description": "Vocabulary for talking about studying, exams, skills and school life.",
       "status": "available",
       "vocabularyReview": true
+    },
+    {
+      "id": "review-2",
+      "unitNumber": "4–6",
+      "category": "Review",
+      "title": "Units 4-6 Review",
+      "description": "A cumulative test covering the vocabulary and grammar from Units 4, 5 and 6.",
+      "status": "available"
+    },
+    {
+      "id": "unit-7",
+      "unitNumber": 7,
+      "category": "Grammar",
+      "title": "Present continuous, will, be going to, present simple",
+      "description": "Learn how to use the present continuous, will, be going to, and present simple to talk about future time.",
+      "status": "available"
+    },
+    {
+      "id": "unit-8",
+      "unitNumber": 8,
+      "category": "Grammar",
+      "title": "In, on, at",
+      "description": "Learn how to use the prepositions in, on and at for time and place.",
+      "status": "available"
+    },
+    {
+      "id": "unit-9",
+      "unitNumber": 9,
+      "category": "Vocabulary",
+      "title": "Coming and Going",
+      "description": "Vocabulary for talking about travel, transport and journeys.",
+      "status": "available",
+      "vocabularyReview": true
     }
   ]
 }

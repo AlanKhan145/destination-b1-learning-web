@@ -1,0 +1,26 @@
+{
+  "id": "review-2-grammar-tenses-mcq-0008",
+  "type": "multiple-choice",
+  "unitId": "review-2",
+  "topicId": "grammar-tenses",
+  "contentLocale": "en",
+  "difficulty": "medium",
+  "prompt": "Had you been learning French ____ several years before you took your first exam?",
+  "explanation": "\"For\" introduces a length of time, which fits with the past perfect continuous here.",
+  "tags": ["grammar-tenses", "past-perfect-continuous"],
+  "skills": ["grammar"],
+  "source": { "type": "original", "reference": null },
+  "status": "published",
+  "version": 1,
+  "createdAt": "2026-07-21T00:00:00.000Z",
+  "updatedAt": "2026-07-21T00:00:00.000Z",
+  "options": [
+    { "id": "a", "text": "for" },
+    { "id": "b", "text": "from" },
+    { "id": "c", "text": "since" },
+    { "id": "d", "text": "when" }
+  ],
+  "correctOptionIds": ["a"],
+  "selectionMode": "single",
+  "shuffleOptions": true
+}

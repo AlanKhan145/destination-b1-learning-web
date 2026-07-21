@@ -1,0 +1,26 @@
+{
+  "id": "review-2-grammar-tenses-mcq-0002",
+  "type": "multiple-choice",
+  "unitId": "review-2",
+  "topicId": "grammar-tenses",
+  "contentLocale": "en",
+  "difficulty": "medium",
+  "prompt": "The exam ____ when Jimmy finally found the right room.",
+  "explanation": "The past perfect (had already started) describes an action completed before another past action (found).",
+  "tags": ["grammar-tenses", "past-perfect-simple"],
+  "skills": ["grammar"],
+  "source": { "type": "original", "reference": null },
+  "status": "published",
+  "version": 1,
+  "createdAt": "2026-07-21T00:00:00.000Z",
+  "updatedAt": "2026-07-21T00:00:00.000Z",
+  "options": [
+    { "id": "a", "text": "has already started" },
+    { "id": "b", "text": "already started" },
+    { "id": "c", "text": "had already started" },
+    { "id": "d", "text": "already starts" }
+  ],
+  "correctOptionIds": ["c"],
+  "selectionMode": "single",
+  "shuffleOptions": true
+}

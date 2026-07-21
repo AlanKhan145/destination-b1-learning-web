@@ -1,0 +1,25 @@
+{
+  "id": "unit-7-be-going-to-mcq-0003",
+  "type": "multiple-choice",
+  "unitId": "unit-7",
+  "topicId": "be-going-to",
+  "contentLocale": "en",
+  "difficulty": "medium",
+  "prompt": "\"What do you want to be when you grow up, Stevie?\" \"___ a scientist. That's what I want to do, anyway.\"",
+  "explanation": "An intention already decided uses be going to: I'm going to be.",
+  "tags": ["be-going-to", "intentions"],
+  "skills": ["grammar"],
+  "source": { "type": "original", "reference": null },
+  "status": "published",
+  "version": 1,
+  "createdAt": "2026-07-21T00:00:00.000Z",
+  "updatedAt": "2026-07-21T00:00:00.000Z",
+  "options": [
+    { "id": "a", "text": "I be" },
+    { "id": "b", "text": "I'm going to be" },
+    { "id": "c", "text": "I'm being" }
+  ],
+  "correctOptionIds": ["b"],
+  "selectionMode": "single",
+  "shuffleOptions": true
+}

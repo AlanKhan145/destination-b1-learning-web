@@ -447,6 +447,16 @@ button:focus-visible {
   transition: width 0.2s ease;
 }
 
+.review-question-image {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  max-height: 220px;
+  object-fit: contain;
+  border-radius: var(--radius-small);
+  margin-bottom: var(--space-sm);
+}
+
 .review-question-prompt {
   font-weight: 600;
   color: var(--color-text);

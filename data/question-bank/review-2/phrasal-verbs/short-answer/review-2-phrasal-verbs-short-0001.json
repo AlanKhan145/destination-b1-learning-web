@@ -1,0 +1,25 @@
+{
+  "id": "review-2-phrasal-verbs-short-0001",
+  "type": "short-answer",
+  "unitId": "review-2",
+  "topicId": "phrasal-verbs",
+  "contentLocale": "en",
+  "difficulty": "medium",
+  "prompt": "Simon ______ ______ the wrong answer and wrote the right one. (removed it with a rubber, starts with 'r')",
+  "explanation": "Rub out means to remove pencil marks with a rubber/eraser.",
+  "tags": ["phrasal-verbs"],
+  "skills": ["grammar", "writing"],
+  "source": { "type": "original", "reference": null },
+  "status": "published",
+  "version": 1,
+  "createdAt": "2026-07-21T00:00:00.000Z",
+  "updatedAt": "2026-07-21T00:00:00.000Z",
+  "acceptedAnswers": ["rubbed out"],
+  "answerValidation": {
+    "caseSensitive": false,
+    "trimWhitespace": true,
+    "collapseWhitespace": true,
+    "ignoreEndingPunctuation": true,
+    "matchMode": "normalized"
+  }
+}

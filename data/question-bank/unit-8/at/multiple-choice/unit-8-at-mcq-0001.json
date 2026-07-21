@@ -1,0 +1,24 @@
+{
+  "id": "unit-8-at-mcq-0001",
+  "type": "multiple-choice",
+  "unitId": "unit-8",
+  "topicId": "at",
+  "contentLocale": "en",
+  "difficulty": "medium",
+  "prompt": "I'm meeting Andy ___ the cinema in an hour.",
+  "explanation": "A building where an activity happens uses at: at the cinema.",
+  "tags": ["prepositions"],
+  "skills": ["grammar"],
+  "source": { "type": "original", "reference": null },
+  "status": "published",
+  "version": 1,
+  "createdAt": "2026-07-21T00:00:00.000Z",
+  "updatedAt": "2026-07-21T00:00:00.000Z",
+  "options": [
+    { "id": "a", "text": "at" },
+    { "id": "b", "text": "on" }
+  ],
+  "correctOptionIds": ["a"],
+  "selectionMode": "single",
+  "shuffleOptions": true
+}

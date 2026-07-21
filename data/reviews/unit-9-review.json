@@ -1,0 +1,132 @@
+{
+  "id": "unit-9-review",
+  "unitId": "unit-9",
+  "title": "Unit 9 Review",
+  "description": "Review the vocabulary, phrasal verbs, prepositional phrases, word formation, and word patterns from Coming and Going.",
+  "passingScore": 70,
+  "contentLocale": "en",
+  "attemptSettings": {
+    "allowRetry": true,
+    "showCorrectAnswer": "after-submit",
+    "showExplanation": "after-submit",
+    "saveProgress": true
+  },
+  "sections": [
+    {
+      "id": "vocabulary-anagram",
+      "type": "short-answer",
+      "title": "Topic vocabulary",
+      "instructions": "Complete using a word formed from the letters given.",
+      "selectionMode": "fixed",
+      "shuffleQuestions": false,
+      "questionIds": [
+        "unit-9-topic-vocabulary-short-0001",
+        "unit-9-topic-vocabulary-short-0002",
+        "unit-9-topic-vocabulary-short-0003",
+        "unit-9-topic-vocabulary-short-0004",
+        "unit-9-topic-vocabulary-short-0005",
+        "unit-9-topic-vocabulary-short-0006",
+        "unit-9-topic-vocabulary-short-0007",
+        "unit-9-topic-vocabulary-short-0008",
+        "unit-9-topic-vocabulary-short-0009",
+        "unit-9-topic-vocabulary-short-0010",
+        "unit-9-topic-vocabulary-short-0011",
+        "unit-9-topic-vocabulary-short-0012"
+      ]
+    },
+    {
+      "id": "circle-correct",
+      "type": "multiple-choice",
+      "title": "Circle the correct word or phrase",
+      "instructions": "Choose the correct word or phrase.",
+      "selectionMode": "fixed",
+      "shuffleQuestions": true,
+      "shuffleOptions": true,
+      "questionIds": [
+        "unit-9-topic-vocabulary-mcq-0001",
+        "unit-9-topic-vocabulary-mcq-0002",
+        "unit-9-topic-vocabulary-mcq-0003",
+        "unit-9-topic-vocabulary-mcq-0004",
+        "unit-9-topic-vocabulary-mcq-0005",
+        "unit-9-topic-vocabulary-mcq-0006"
+      ]
+    },
+    {
+      "id": "vocabulary-verbs",
+      "type": "short-answer",
+      "title": "Topic vocabulary — verbs",
+      "instructions": "Complete using the correct form of the verbs in the box: book, cancel, catch, delay, pack, reach.",
+      "selectionMode": "fixed",
+      "shuffleQuestions": false,
+      "questionIds": [
+        "unit-9-topic-vocabulary-short-0013",
+        "unit-9-topic-vocabulary-short-0014",
+        "unit-9-topic-vocabulary-short-0015",
+        "unit-9-topic-vocabulary-short-0016",
+        "unit-9-topic-vocabulary-short-0017",
+        "unit-9-topic-vocabulary-short-0018"
+      ]
+    },
+    {
+      "id": "phrasal-verb-matching",
+      "type": "matching",
+      "title": "Match to make sentences",
+      "instructions": "Match the two halves of the sentences.",
+      "selectionMode": "fixed",
+      "shuffleQuestions": false,
+      "questionIds": ["unit-9-phrasal-verbs-match-0001"]
+    },
+    {
+      "id": "phrasal-verbs-complete",
+      "type": "short-answer",
+      "title": "Complete using the phrasal verbs",
+      "instructions": "Complete using the correct form of the phrasal verbs from the matching exercise.",
+      "selectionMode": "fixed",
+      "shuffleQuestions": true,
+      "questionIds": [
+        "unit-9-phrasal-verbs-short-0001",
+        "unit-9-phrasal-verbs-short-0002",
+        "unit-9-phrasal-verbs-short-0003",
+        "unit-9-phrasal-verbs-short-0004",
+        "unit-9-phrasal-verbs-short-0005",
+        "unit-9-phrasal-verbs-short-0006",
+        "unit-9-phrasal-verbs-short-0007",
+        "unit-9-phrasal-verbs-short-0008"
+      ]
+    },
+    {
+      "id": "prepositional-phrases",
+      "type": "short-answer",
+      "title": "Prepositional phrases",
+      "instructions": "Complete using the words in the box, adding any other words you need: board, bus, coast, foot, holiday, schedule.",
+      "selectionMode": "fixed",
+      "shuffleQuestions": true,
+      "questionIds": [
+        "unit-9-prepositional-phrases-short-0001",
+        "unit-9-prepositional-phrases-short-0002",
+        "unit-9-prepositional-phrases-short-0003",
+        "unit-9-prepositional-phrases-short-0004",
+        "unit-9-prepositional-phrases-short-0005",
+        "unit-9-prepositional-phrases-short-0006"
+      ]
+    },
+    {
+      "id": "word-formation",
+      "type": "fill-in-the-blanks",
+      "title": "Word formation",
+      "instructions": "Use the word given in capitals to form a word that fits in the gap.",
+      "selectionMode": "fixed",
+      "shuffleQuestions": false,
+      "questionIds": ["unit-9-word-formation-fitb-0001"]
+    },
+    {
+      "id": "word-patterns",
+      "type": "fill-in-the-blanks",
+      "title": "Word patterns",
+      "instructions": "Write one word in each gap.",
+      "selectionMode": "fixed",
+      "shuffleQuestions": false,
+      "questionIds": ["unit-9-word-patterns-fitb-0001"]
+    }
+  ]
+}

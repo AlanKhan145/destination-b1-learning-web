@@ -1,0 +1,24 @@
+{
+  "id": "unit-7-will-mcq-0003",
+  "type": "multiple-choice",
+  "unitId": "unit-7",
+  "topicId": "will",
+  "contentLocale": "en",
+  "difficulty": "medium",
+  "prompt": "I ___ this day for the rest of my life!",
+  "explanation": "Remember is a stative verb and this is a prediction about the future, so will is used: will remember.",
+  "tags": ["will", "stative-verbs"],
+  "skills": ["grammar"],
+  "source": { "type": "original", "reference": null },
+  "status": "published",
+  "version": 1,
+  "createdAt": "2026-07-21T00:00:00.000Z",
+  "updatedAt": "2026-07-21T00:00:00.000Z",
+  "options": [
+    { "id": "a", "text": "am remembering" },
+    { "id": "b", "text": "will remember" }
+  ],
+  "correctOptionIds": ["b"],
+  "selectionMode": "single",
+  "shuffleOptions": true
+}

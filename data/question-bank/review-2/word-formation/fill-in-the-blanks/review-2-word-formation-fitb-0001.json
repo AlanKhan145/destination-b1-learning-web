@@ -1,0 +1,30 @@
+{
+  "id": "review-2-word-formation-fitb-0001",
+  "type": "fill-in-the-blanks",
+  "unitId": "review-2",
+  "topicId": "word-formation",
+  "contentLocale": "en",
+  "difficulty": "medium",
+  "prompt": "Complete each sentence by changing the form of the word given in CAPITALS to fit the gap.",
+  "explanation": "Each gap needs a different word form of the given root word (noun, adjective, or verb) to fit the sentence grammatically; two gaps also need a negative prefix.",
+  "tags": ["word-formation"],
+  "skills": ["grammar", "word-formation"],
+  "source": { "type": "original", "reference": null },
+  "status": "published",
+  "version": 1,
+  "createdAt": "2026-07-21T00:00:00.000Z",
+  "updatedAt": "2026-07-21T00:00:00.000Z",
+  "passageTemplate": "1. What's the name of Dave's driving {{blank-1}}? INSTRUCT\n2. Dictionaries and encyclopaedias are examples of {{blank-2}} books. REFER\n3. I've only been learning Arabic for a few months, so I'm still a {{blank-3}}. BEGIN\n4. In maths, you have to learn to do addition, subtraction, multiplication and {{blank-4}}. DIVIDE\n5. Three of your answers were {{blank-5}}, so you got 17 out of 20. CORRECT\n6. Are you really going to take part in the singing competition? I admire your {{blank-6}}! BRAVE\n7. I think every child should get a good {{blank-7}}. EDUCATE\n8. There's a {{blank-8}} to Albert Einstein in the town square. MEMORY\n9. I want complete {{blank-9}}, so no talking at all! SILENT\n10. This maths problem is too difficult for you, so I'll {{blank-10}} it a little. SIMPLE",
+  "blanks": [
+    { "id": "blank-1", "acceptedAnswers": ["instructor"] },
+    { "id": "blank-2", "acceptedAnswers": ["reference"] },
+    { "id": "blank-3", "acceptedAnswers": ["beginner"] },
+    { "id": "blank-4", "acceptedAnswers": ["division"] },
+    { "id": "blank-5", "acceptedAnswers": ["incorrect"] },
+    { "id": "blank-6", "acceptedAnswers": ["bravery"] },
+    { "id": "blank-7", "acceptedAnswers": ["education"] },
+    { "id": "blank-8", "acceptedAnswers": ["memorial"] },
+    { "id": "blank-9", "acceptedAnswers": ["silence"] },
+    { "id": "blank-10", "acceptedAnswers": ["simplify"] }
+  ]
+}

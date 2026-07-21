@@ -1,0 +1,24 @@
+{
+  "id": "unit-7-present-continuous-mcq-0003",
+  "type": "multiple-choice",
+  "unitId": "unit-7",
+  "topicId": "present-continuous",
+  "contentLocale": "en",
+  "difficulty": "medium",
+  "prompt": "___ to Australia next Christmas?",
+  "explanation": "A future arrangement uses the present continuous: are you going.",
+  "tags": ["present-continuous", "present-simple-contrast"],
+  "skills": ["grammar"],
+  "source": { "type": "original", "reference": null },
+  "status": "published",
+  "version": 1,
+  "createdAt": "2026-07-21T00:00:00.000Z",
+  "updatedAt": "2026-07-21T00:00:00.000Z",
+  "options": [
+    { "id": "a", "text": "Do you go" },
+    { "id": "b", "text": "Are you going" }
+  ],
+  "correctOptionIds": ["b"],
+  "selectionMode": "single",
+  "shuffleOptions": true
+}

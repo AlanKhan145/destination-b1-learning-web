@@ -1,0 +1,24 @@
+{
+  "id": "unit-7-be-going-to-mcq-0002",
+  "type": "multiple-choice",
+  "unitId": "unit-7",
+  "topicId": "be-going-to",
+  "contentLocale": "en",
+  "difficulty": "medium",
+  "prompt": "My dad ___ a beard, but my mum doesn't like the idea.",
+  "explanation": "An intention that has already been decided uses be going to: is going to grow.",
+  "tags": ["be-going-to", "will-contrast"],
+  "skills": ["grammar"],
+  "source": { "type": "original", "reference": null },
+  "status": "published",
+  "version": 1,
+  "createdAt": "2026-07-21T00:00:00.000Z",
+  "updatedAt": "2026-07-21T00:00:00.000Z",
+  "options": [
+    { "id": "a", "text": "will grow" },
+    { "id": "b", "text": "is going to grow" }
+  ],
+  "correctOptionIds": ["b"],
+  "selectionMode": "single",
+  "shuffleOptions": true
+}

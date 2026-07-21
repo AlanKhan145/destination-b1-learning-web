@@ -1,0 +1,26 @@
+{
+  "id": "review-2-grammar-tenses-mcq-0001",
+  "type": "multiple-choice",
+  "unitId": "review-2",
+  "topicId": "grammar-tenses",
+  "contentLocale": "en",
+  "difficulty": "medium",
+  "prompt": "It's the first time ____ all the answers right in a test!",
+  "explanation": "\"It's the first time\" is followed by the present perfect simple to describe an achievement that has just happened for the first time.",
+  "tags": ["grammar-tenses", "present-perfect-simple"],
+  "skills": ["grammar"],
+  "source": { "type": "original", "reference": null },
+  "status": "published",
+  "version": 1,
+  "createdAt": "2026-07-21T00:00:00.000Z",
+  "updatedAt": "2026-07-21T00:00:00.000Z",
+  "options": [
+    { "id": "a", "text": "I've got" },
+    { "id": "b", "text": "I'd got" },
+    { "id": "c", "text": "I've been getting" },
+    { "id": "d", "text": "I'd been getting" }
+  ],
+  "correctOptionIds": ["a"],
+  "selectionMode": "single",
+  "shuffleOptions": true
+}

@@ -1,0 +1,26 @@
+{
+  "id": "review-2-grammar-tenses-mcq-0007",
+  "type": "multiple-choice",
+  "unitId": "review-2",
+  "topicId": "grammar-tenses",
+  "contentLocale": "en",
+  "difficulty": "medium",
+  "prompt": "Lizzie has been having dance classes ____ she was four years old.",
+  "explanation": "\"Since\" introduces the specific point in time when a present-perfect situation began.",
+  "tags": ["grammar-tenses", "present-perfect-continuous"],
+  "skills": ["grammar"],
+  "source": { "type": "original", "reference": null },
+  "status": "published",
+  "version": 1,
+  "createdAt": "2026-07-21T00:00:00.000Z",
+  "updatedAt": "2026-07-21T00:00:00.000Z",
+  "options": [
+    { "id": "a", "text": "for" },
+    { "id": "b", "text": "from" },
+    { "id": "c", "text": "since" },
+    { "id": "d", "text": "when" }
+  ],
+  "correctOptionIds": ["c"],
+  "selectionMode": "single",
+  "shuffleOptions": true
+}

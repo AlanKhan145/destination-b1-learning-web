@@ -1,0 +1,25 @@
+{
+  "id": "unit-7-will-mcq-0007",
+  "type": "multiple-choice",
+  "unitId": "unit-7",
+  "topicId": "will",
+  "contentLocale": "en",
+  "difficulty": "medium",
+  "prompt": "\"Do you need this paintbrush?\" \"Ah, yes. ___ it to me, please?\"",
+  "explanation": "A request uses Will you...? — will you pass.",
+  "tags": ["will", "requests"],
+  "skills": ["grammar"],
+  "source": { "type": "original", "reference": null },
+  "status": "published",
+  "version": 1,
+  "createdAt": "2026-07-21T00:00:00.000Z",
+  "updatedAt": "2026-07-21T00:00:00.000Z",
+  "options": [
+    { "id": "a", "text": "Do you pass" },
+    { "id": "b", "text": "Will you pass" },
+    { "id": "c", "text": "Are you passing" }
+  ],
+  "correctOptionIds": ["b"],
+  "selectionMode": "single",
+  "shuffleOptions": true
+}

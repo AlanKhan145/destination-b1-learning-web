@@ -1,0 +1,25 @@
+{
+  "id": "unit-7-present-continuous-mcq-0004",
+  "type": "multiple-choice",
+  "unitId": "unit-7",
+  "topicId": "present-continuous",
+  "contentLocale": "en",
+  "difficulty": "medium",
+  "prompt": "\"Have you made plans for the summer?\" \"Yes. I ___ to Spain.\"",
+  "explanation": "Since plans have already been made, this is an arrangement, so the present continuous is used: We're going.",
+  "tags": ["present-continuous", "arrangements"],
+  "skills": ["grammar"],
+  "source": { "type": "original", "reference": null },
+  "status": "published",
+  "version": 1,
+  "createdAt": "2026-07-21T00:00:00.000Z",
+  "updatedAt": "2026-07-21T00:00:00.000Z",
+  "options": [
+    { "id": "a", "text": "We'll go" },
+    { "id": "b", "text": "We're going" },
+    { "id": "c", "text": "We go" }
+  ],
+  "correctOptionIds": ["b"],
+  "selectionMode": "single",
+  "shuffleOptions": true
+}

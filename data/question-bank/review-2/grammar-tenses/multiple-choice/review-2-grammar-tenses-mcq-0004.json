@@ -1,0 +1,26 @@
+{
+  "id": "review-2-grammar-tenses-mcq-0004",
+  "type": "multiple-choice",
+  "unitId": "review-2",
+  "topicId": "grammar-tenses",
+  "contentLocale": "en",
+  "difficulty": "medium",
+  "prompt": "When they let us go in, we ____ outside the exam room for over half an hour.",
+  "explanation": "The past perfect continuous (had been standing) describes an action that had been continuing up to a specific point in the past.",
+  "tags": ["grammar-tenses", "past-perfect-continuous"],
+  "skills": ["grammar"],
+  "source": { "type": "original", "reference": null },
+  "status": "published",
+  "version": 1,
+  "createdAt": "2026-07-21T00:00:00.000Z",
+  "updatedAt": "2026-07-21T00:00:00.000Z",
+  "options": [
+    { "id": "a", "text": "have stood" },
+    { "id": "b", "text": "had been standing" },
+    { "id": "c", "text": "have been standing" },
+    { "id": "d", "text": "are standing" }
+  ],
+  "correctOptionIds": ["b"],
+  "selectionMode": "single",
+  "shuffleOptions": true
+}

@@ -1,0 +1,26 @@
+{
+  "id": "unit-8-on-short-0003",
+  "type": "short-answer",
+  "unitId": "unit-8",
+  "topicId": "on",
+  "contentLocale": "en",
+  "difficulty": "easy",
+  "prompt": "Look at the picture and complete the sentence: It's ___ the mountain.",
+  "explanation": "Being on top of a surface uses on: on the mountain.",
+  "tags": ["prepositions", "picture"],
+  "skills": ["grammar"],
+  "media": { "image": "assets/question-bank/unit-8/at-in-on-place/07-mountain.png", "alt": "A wild goat standing on top of a rocky mountain peak." },
+  "source": { "type": "original", "reference": null },
+  "status": "published",
+  "version": 1,
+  "createdAt": "2026-07-21T00:00:00.000Z",
+  "updatedAt": "2026-07-21T00:00:00.000Z",
+  "acceptedAnswers": ["on"],
+  "answerValidation": {
+    "caseSensitive": false,
+    "trimWhitespace": true,
+    "collapseWhitespace": true,
+    "ignoreEndingPunctuation": true,
+    "matchMode": "normalized"
+  }
+}
